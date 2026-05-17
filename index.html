@@ -98,7 +98,7 @@ function render() {
   const grid = document.getElementById('grid');
   grid.innerHTML = slice.map(p => {
     const isStock = p.in_stock !== false;
-    const imgUrl = `https://static.massimodutti.net/3/photos/2026/V/0/2/p/${p.ref.split('/')[0]}/${p.ref.split('/')[1]}/800/${p.ref.split('/')[0]}${p.ref.split('/')[1]}800_1_1_3.jpg`;
+    const imgUrl = p.image || `https://static.massimodutti.net/3/photos/2026/V/0/2/p/${p.ref.split('/')[0]}/${p.ref.split('/')[1]}/800/${p.ref.split('/')[0]}${p.ref.split('/')[1]}800_1_1_3.jpg`;
     const sale = p.price_old_rub ? `<span class="badge-sale">-${Math.round((1-p.price_rub/p.price_old_rub)*100)}%</span>` : '';
     return `<div class="card${isStock?'':' out-of-stock'}">
       <img class="card-img" src="${imgUrl}" alt="${p.name}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22280%22 height=%22320%22><rect fill=%22%23222%22 width=%22280%22 height=%22320%22/><text x=%22140%22 y=%22160%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2214%22>${encodeURIComponent(p.name.slice(0,30))}</text></svg>'">
