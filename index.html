@@ -670,19 +670,9 @@ function setFamily(family) {
   goCatalog();
 }
 
+// Парсер отдаёт фото уже в официальном порядке галереи MD (модель первой).
 function imagesFor(p) {
-  const imgs = (p.images && p.images.length ? p.images : [p.image]).filter(Boolean);
-  const ordered = [...imgs].sort((a, b) => imagePriority(a) - imagePriority(b));
-  return ordered.length ? ordered : [`https://static.massimodutti.net/3/photos/2026/V/0/2/p/${p.ref.split('/')[0]}/${p.ref.split('/')[1]}/800/${p.ref.replace('/','')}800_2_1_3.jpg`];
-}
-
-// Полный кадр товара первым; обрезанные кропы — в конец.
-function imagePriority(url) {
-  if (/_1_1_3\.jpg/.test(url)) return 1;
-  if (/_5_1_3\.jpg/.test(url)) return 2;
-  if (/_2_2_3\.jpg/.test(url)) return 3;
-  if (/_2_1_3\.jpg/.test(url)) return 4;
-  return 9;
+  return (p.images && p.images.length ? p.images : [p.image]).filter(Boolean);
 }
 
 function render() {
@@ -702,11 +692,6 @@ function render() {
   else filtered.sort((a,b) => (a._idx || 0) - (b._idx || 0));
   byId('status').textContent = `${sectionLabel(activeSection)}${activeFamily ? ' · ' + familyLabel(activeFamily) : ''} · ${filtered.length} товаров`;
   byId('grid').innerHTML = filtered.length ? filtered.map(cardHtml).join('') : '<div class="empty">Ничего не найдено</div>';
-}
-
-function productPriority(p) {
-  const familyIndex = familyOrder.includes(p.family) ? familyOrder.indexOf(p.family) : familyOrder.length;
-  return familyIndex * 10 + imagePriority(imagesFor(p)[0]);
 }
 
 function cardHtml(p) {
