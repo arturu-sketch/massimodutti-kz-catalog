@@ -49,7 +49,12 @@ button { background: none; border: 0; color: inherit; cursor: pointer; }
 .card:hover .card-img { opacity: .86; }
 .image-wrap { position: relative; background: var(--wash); aspect-ratio: 1; overflow: hidden; }
 .card-img { width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity .2s; }
-.image-count { position: absolute; left: 12px; bottom: 11px; min-width: 28px; height: 18px; padding: 0 7px; background: rgba(255,255,255,.84); color: #777; display: inline-flex; align-items: center; justify-content: center; font-size: 10px; }
+.image-count { position: absolute; left: 12px; bottom: 11px; min-width: 34px; height: 18px; padding: 0 7px; background: rgba(255,255,255,.84); color: #777; display: inline-flex; align-items: center; justify-content: center; font-size: 10px; }
+.carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); width: 34px; height: 46px; background: rgba(255,255,255,.78); color: #444; font-size: 22px; opacity: 0; transition: opacity .2s, background .2s; }
+.carousel-btn.prev { left: 0; }
+.carousel-btn.next { right: 0; }
+.image-wrap:hover .carousel-btn { opacity: 1; }
+.carousel-btn:hover { background: rgba(255,255,255,.94); }
 .card-body { min-height: 168px; padding: 14px 16px 18px; }
 .card h3 { font-size: 12px; line-height: 1.35; font-weight: 400; min-height: 34px; color: #333; text-transform: uppercase; letter-spacing: .05em; }
 .meta { margin-top: 9px; font-size: 10px; color: #aaa; letter-spacing: .1em; text-transform: uppercase; line-height: 1.5; }
@@ -174,13 +179,54 @@ let activeFamily = '';
 let currentProduct = null;
 let currentSize = '';
 let cart = JSON.parse(localStorage.getItem('md_cart') || '[]');
+let imageIndexes = {};
 
 const rub = new Intl.NumberFormat('ru-RU');
 const byId = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]));
+const sectionNames = { WOMEN: 'Женщины', MEN: 'Мужчины', GIRL: 'Девочки', BOY: 'Мальчики' };
+const familyNames = {
+  ACCESSORIES: 'Аксессуары',
+  'BAGS AND BACKPACKS': 'Сумки и рюкзаки',
+  'BALLET FLATS': 'Балетки',
+  BELTS: 'Ремни',
+  BLAZER: 'Жакеты',
+  'BOMBER JACKET': 'Бомберы',
+  'CAP/HAT': 'Кепки и шляпы',
+  CARDIGAN: 'Кардиганы',
+  COATS: 'Верхняя одежда',
+  DRESS: 'Платья',
+  'EAU DE PARFUM': 'Парфюм',
+  'FLAT ANKLE BOOT': 'Ботильоны без каблука',
+  'FLAT BOOT': 'Сапоги без каблука',
+  'FLAT SANDAL': 'Сандалии без каблука',
+  GLOVES: 'Перчатки',
+  'HEEL SHOES': 'Туфли на каблуке',
+  'HEELED ANKLE BOOT': 'Ботильоны на каблуке',
+  'HEELED SANDAL': 'Босоножки на каблуке',
+  JEWELRY: 'Украшения',
+  LOAFER: 'Лоферы',
+  SCARF: 'Шарфы',
+  SHIRTS: 'Рубашки',
+  SKIRT: 'Юбки',
+  SNEAKERS: 'Кроссовки',
+  SOCKS: 'Носки',
+  SUIT: 'Костюмы',
+  SWEATERS: 'Свитеры',
+  'T-SHIRT': 'Футболки',
+  'SMALL LEATHER GOODS': 'Кожгалантерея',
+  POLO: 'Поло',
+  TROUSERS: 'Брюки',
+  UNDERWEAR: 'Белье',
+  SHOES: 'Обувь',
+  SUNGLASSES: 'Солнцезащитные очки',
+  OTHER: 'Другое'
+};
+const sectionLabel = value => sectionNames[value] || value || '';
+const familyLabel = value => familyNames[value] || value || '';
 
 fetch('products.json').then(r => r.json()).then(data => {
-  products = data.map((p, index) => ({ ...p, _id: `${p.ref}-${p.color || ''}-${index}` }));
+  products = data.map((p, index) => ({ ...p, _idx: index, _id: `${p.ref}-${p.color || ''}-${index}` }));
   sections = [...new Set(products.map(p => p.section).filter(Boolean))].sort((a, b) => {
     const order = { WOMEN: 1, MEN: 2, GIRL: 3, BOY: 4 };
     return (order[a] || 99) - (order[b] || 99);
@@ -212,10 +258,10 @@ function buildFamilies() {
   const counts = familyCounts(activeSection);
   const families = Object.keys(counts).sort();
   byId('cat-count').textContent = families.length;
-  byId('category-title').textContent = activeSection || 'Категории';
+  byId('category-title').textContent = sectionLabel(activeSection) || 'Категории';
   byId('family-list').innerHTML = [
-    `<button class="family-btn ${!activeFamily ? 'active' : ''}" onclick="setFamily('')"><span>All</span><span class="family-count">${products.filter(p => p.section === activeSection).length}</span></button>`,
-    ...families.map(family => `<button class="family-btn ${family === activeFamily ? 'active' : ''}" onclick="setFamily('${esc(family)}')"><span>${esc(family)}</span><span class="family-count">${counts[family]}</span></button>`)
+    `<button class="family-btn ${!activeFamily ? 'active' : ''}" onclick="setFamily('')"><span>Все</span><span class="family-count">${products.filter(p => p.section === activeSection).length}</span></button>`,
+    ...families.map(family => `<button class="family-btn ${family === activeFamily ? 'active' : ''}" onclick="setFamily('${esc(family)}')"><span>${esc(familyLabel(family))}</span><span class="family-count">${counts[family]}</span></button>`)
   ].join('');
 }
 
@@ -235,7 +281,16 @@ function setFamily(family) {
 
 function imagesFor(p) {
   const imgs = (p.images && p.images.length ? p.images : [p.image]).filter(Boolean);
-  return imgs.length ? imgs : [`https://static.massimodutti.net/3/photos/2026/V/0/2/p/${p.ref.split('/')[0]}/${p.ref.split('/')[1]}/800/${p.ref.replace('/','')}800_1_1_3.jpg`];
+  const ordered = [...imgs].sort((a, b) => imagePriority(a) - imagePriority(b));
+  return ordered.length ? ordered : [`https://static.massimodutti.net/3/photos/2026/V/0/2/p/${p.ref.split('/')[0]}/${p.ref.split('/')[1]}/800/${p.ref.replace('/','')}800_2_1_3.jpg`];
+}
+
+function imagePriority(url) {
+  if (/_2_1_3\.jpg/.test(url)) return 1;
+  if (/_2_2_3\.jpg/.test(url)) return 2;
+  if (/_1_1_3\.jpg/.test(url)) return 3;
+  if (/_5_1_3\.jpg/.test(url)) return 4;
+  return 9;
 }
 
 function render() {
@@ -254,21 +309,24 @@ function render() {
   else if (sort === 'expensive') filtered.sort((a,b) => (b.price_rub || 0) - (a.price_rub || 0));
   else filtered.sort((a,b) => (b.ref || '').localeCompare(a.ref || ''));
 
-  byId('status').textContent = `${activeSection}${activeFamily ? ' · ' + activeFamily : ''} · ${filtered.length} товаров`;
+  byId('status').textContent = `${sectionLabel(activeSection)}${activeFamily ? ' · ' + familyLabel(activeFamily) : ''} · ${filtered.length} товаров`;
   byId('grid').innerHTML = filtered.length ? filtered.map(cardHtml).join('') : '<div class="empty">Ничего не найдено</div>';
 }
 
 function cardHtml(p) {
   const imgs = imagesFor(p);
+  const imgIndex = imageIndexes[p._idx] || 0;
+  const imgSrc = imgs[imgIndex] || imgs[0];
   const sale = p.price_old_rub ? `<span class="old">${rub.format(p.price_old_rub)} ₽</span>` : '';
   return `<article class="card ${p.in_stock === false ? 'out-of-stock' : ''}" onclick="openProduct('${esc(p._id)}')">
     <div class="image-wrap">
-      <img class="card-img" src="${esc(imgs[0])}" alt="${esc(p.name)}" loading="lazy">
-      <span class="image-count">${imgs.length}</span>
+      <img class="card-img" id="card-img-${p._idx}" src="${esc(imgSrc)}" alt="${esc(p.name)}" loading="lazy">
+      ${imgs.length > 1 ? `<button class="carousel-btn prev" onclick="changeCardImage(event, ${p._idx}, -1)">‹</button><button class="carousel-btn next" onclick="changeCardImage(event, ${p._idx}, 1)">›</button>` : ''}
+      <span class="image-count" id="image-count-${p._idx}">${imgIndex + 1}/${imgs.length}</span>
     </div>
     <div class="card-body">
       <h3>${esc(p.name)}</h3>
-      <div class="meta">${esc(p.section || '')}${p.family ? ' · ' + esc(p.family) : ''}</div>
+      <div class="meta">${esc(sectionLabel(p.section))}${p.family ? ' · ' + esc(familyLabel(p.family)) : ''}</div>
       <div class="price">
         <div class="rub">${p.price_rub ? rub.format(p.price_rub) + ' ₽' : 'по запросу'} ${sale}</div>
         <div class="kzt">${p.price_kzt ? rub.format(p.price_kzt) + ' ₸ в Казахстане' : ''}</div>
@@ -277,6 +335,20 @@ function cardHtml(p) {
       <button class="quick-add" onclick="event.stopPropagation(); addToCart('${esc(p._id)}')">В корзину</button>
     </div>
   </article>`;
+}
+
+function changeCardImage(event, idx, delta) {
+  event.stopPropagation();
+  const product = products.find(p => p._idx === idx);
+  if (!product) return;
+  const imgs = imagesFor(product);
+  if (imgs.length < 2) return;
+  const next = ((imageIndexes[idx] || 0) + delta + imgs.length) % imgs.length;
+  imageIndexes[idx] = next;
+  const img = byId(`card-img-${idx}`);
+  const count = byId(`image-count-${idx}`);
+  if (img) img.src = imgs[next];
+  if (count) count.textContent = `${next + 1}/${imgs.length}`;
 }
 
 function openProduct(id) {
@@ -293,7 +365,7 @@ function openProduct(id) {
       ${imgs.map(src => `<img class="gallery-img" src="${esc(src)}" alt="${esc(currentProduct.name)}">`).join('')}
     </div>
     <div class="modal-info">
-      <div class="label">${esc(currentProduct.section || '')} · ${esc(currentProduct.family || '')}</div>
+      <div class="label">${esc(sectionLabel(currentProduct.section))} · ${esc(familyLabel(currentProduct.family))}</div>
       <h2>${esc(currentProduct.name)}</h2>
       <div class="modal-price">
         <div class="rub">${currentProduct.price_rub ? rub.format(currentProduct.price_rub) + ' ₽' : 'по запросу'}</div>
