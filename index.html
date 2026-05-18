@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Massimo Dutti KZ - байер-сервис в Екатеринбург и РФ</title>
+<title>ЗАРАЕКБ — байер-сервис Inditex: Zara, Massimo Dutti, Oysho и др. Доставка в РФ</title>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
@@ -70,6 +70,7 @@ input, select { border-radius: 0; }
   letter-spacing: .22em;
   text-transform: uppercase;
   white-space: nowrap;
+  cursor: pointer;
 }
 .top-actions { justify-self: end; display: flex; gap: 18px; align-items: center; }
 .text-action { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #555; }
@@ -122,6 +123,31 @@ input, select { border-radius: 0; }
 }
 .primary { background: #111; color: #fff; }
 .secondary { background: #fff; color: #111; }
+.brand-grid {
+  margin-top: 38px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 470px;
+}
+.brand-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  height: 74px;
+  padding: 0 20px;
+  border: 1px solid #111;
+  background: #fff;
+  text-align: left;
+  transition: background .15s ease, color .15s ease;
+}
+.brand-card:hover:not(.disabled) { background: #111; color: #fff; }
+.brand-card strong { font-size: 13px; font-weight: 600; letter-spacing: .13em; text-transform: uppercase; }
+.brand-card span { font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: #999; }
+.brand-card:hover:not(.disabled) span { color: #bbb; }
+.brand-card.disabled { border-color: var(--line); cursor: default; }
+.brand-card.disabled strong { color: #bbb; }
 .home-visual {
   position: relative;
   min-height: 540px;
@@ -313,6 +339,7 @@ input, select { border-radius: 0; }
 .panel-section { margin-bottom: 28px; }
 .panel-section h3 { margin-bottom: 12px; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; font-weight: 400; }
 .panel-link { display: flex; justify-content: space-between; width: 100%; padding: 10px 0; border-bottom: 1px solid var(--line); color: #444; text-align: left; }
+.panel-link[disabled] { color: #bbb; cursor: default; }
 .form-grid { display: grid; gap: 12px; }
 .form-grid label { display: grid; gap: 7px; color: #666; font-size: 12px; }
 .form-grid input {
@@ -340,6 +367,8 @@ input, select { border-radius: 0; }
 .check input { width: 16px; height: 16px; margin-top: 2px; }
 .legal-note { color: #777; font-size: 12px; line-height: 1.5; }
 .cart-list { display: grid; align-content: start; gap: 14px; }
+.cart-brand { color: #999; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; }
+.cart-brand:not(:first-child) { margin-top: 10px; }
 .cart-item { display: grid; grid-template-columns: 82px 1fr auto; gap: 13px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
 .cart-item img { width: 82px; height: 104px; object-fit: cover; background: var(--wash); }
 .cart-item h3 { font-size: 12px; font-weight: 400; line-height: 1.35; text-transform: uppercase; }
@@ -452,14 +481,14 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
 <body>
 <div class="splash" id="splash">
   <div class="splash-brand">
-    <strong>Massimo Dutti</strong>
+    <strong>ЗАРАЕКБ</strong>
     <span>Екатеринбург / Россия</span>
   </div>
 </div>
 
 <header class="topbar">
   <nav class="section-nav" id="section-nav"></nav>
-  <div class="brand">Massimo Dutti</div>
+  <div class="brand" id="header-brand" onclick="goHome()">ЗАРАЕКБ</div>
   <div class="top-actions">
     <button type="button" class="text-action" onclick="openAccount()">Аккаунт</button>
     <button type="button" class="text-action" onclick="openCart()">Корзина <span class="cart-count" id="cart-count">0</span></button>
@@ -469,20 +498,17 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
 <section class="home" id="home">
   <div class="home-copy">
     <div class="eyebrow">Независимый байер-сервис · Екатеринбург</div>
-    <h1>Massimo Dutti</h1>
-    <div class="home-slogan">Доставка в Россию<br>от 3-х дней</div>
-    <p>Заказывайте вещи из новой коллекции — мы выкупаем и доставляем напрямую к вам.</p>
-    <div class="hero-actions">
-      <button type="button" class="primary" onclick="goCatalog()">Смотреть каталог</button>
-      <button type="button" class="secondary" onclick="openMenu()">Разделы</button>
-    </div>
+    <h1>ЗАРАЕКБ</h1>
+    <div class="home-slogan">Доставка в РФ<br>от 3-х дней</div>
+    <p>Полный ассортимент брендов Inditex из Казахстана. Выбирайте бренд — мы выкупаем и доставляем напрямую к вам.</p>
+    <div class="brand-grid" id="brand-grid"></div>
   </div>
-  <div class="home-visual" id="home-visual"><img id="home-hero-img" alt="Massimo Dutti — новая коллекция"></div>
+  <div class="home-visual" id="home-visual"><img id="home-hero-img" alt="ЗАРАЕКБ — новая коллекция"></div>
 </section>
 
-<section id="catalog">
+<section id="catalog" style="display:none">
   <div class="catalog-head">
-    <div class="catalog-title">Каталог</div>
+    <div class="catalog-title" id="catalog-title">Каталог</div>
     <div class="utility" id="search-panel">
       <input type="text" id="search" placeholder="Поиск по названию или артикулу" oninput="render()">
       <select id="sort" title="Сортировка" aria-label="Сортировка" onchange="render()">
@@ -504,7 +530,7 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
   </main>
 </section>
 
-<footer>Независимый байер-сервис. Не является официальным магазином или партнером бренда Massimo Dutti.</footer>
+<footer>Независимый байер-сервис ЗАРАЕКБ (г. Екатеринбург). Не является официальным магазином или партнёром представленных брендов.</footer>
 
 <nav class="bottom-nav">
   <button type="button" class="nav-btn" onclick="goHome()"><span>⌂</span>Домой</button>
@@ -522,6 +548,10 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
 
 <script>
 const ORDER_ENDPOINT = 'https://md-orders.2692888.workers.dev';
+let brands = [];
+let activeBrand = null;
+let productsByBrand = {};
+let productsById = {};
 let products = [];
 let sections = [];
 let activeSection = '';
@@ -538,6 +568,7 @@ let colorVariantCount = {};
 const rub = new Intl.NumberFormat('ru-RU');
 const byId = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]));
+const brandName = id => (brands.find(b => b.id === id) || {}).name || id || '';
 const sectionNames = { WOMEN: 'Женщины', MEN: 'Мужчины', GIRL: 'Девочки', BOY: 'Мальчики' };
 const familyNames = {
   ACCESSORIES: 'Аксессуары',
@@ -578,14 +609,6 @@ const familyNames = {
 };
 const sectionLabel = value => sectionNames[value] || value || '';
 const familyLabel = value => familyNames[value] || value || '';
-const familyOrder = [
-  'COATS', 'BOMBER JACKET', 'BLAZER', 'SUIT', 'DRESS', 'SHIRTS', 'T-SHIRT', 'POLO',
-  'SWEATERS', 'CARDIGAN', 'TROUSERS', 'SKIRT', 'SHOES', 'LOAFER', 'SNEAKERS',
-  'HEEL SHOES', 'HEELED SANDAL', 'FLAT SANDAL', 'FLAT BOOT', 'FLAT ANKLE BOOT',
-  'HEELED ANKLE BOOT', 'BAGS AND BACKPACKS', 'BELTS', 'SCARF', 'GLOVES',
-  'JEWELRY', 'SUNGLASSES', 'SMALL LEATHER GOODS', 'SOCKS', 'UNDERWEAR', 'EAU DE PARFUM',
-  'ACCESSORIES', 'OTHER'
-];
 const messengerIcons = {
   WhatsApp: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a9.9 9.9 0 0 0-8.5 15l-1.4 5.1 5.2-1.4A10 10 0 1 0 12 2zm0 2a8 8 0 0 1 0 16 8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 0 1 12 4zm-3 3.4c-.2 0-.4.1-.6.3-.3.3-.8.8-.8 2s.8 2.3 1 2.5c.1.2 1.7 2.7 4.2 3.7 2 .8 2.5.7 2.9.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.7-.8c-.2-.1-.4-.1-.6.1l-.7.9c-.1.2-.3.2-.5.1-.7-.3-1.4-.6-2.3-1.6-.7-.8-1.1-1.7-1.2-2-.1-.2 0-.4.1-.5l.4-.5c.1-.1.2-.3.2-.4 0-.2 0-.3-.1-.4l-.8-1.8c-.2-.4-.3-.4-.5-.4z"/></svg>',
   MAX: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.5 2 2 6.1 2 11.2c0 2.9 1.5 5.5 3.8 7.2V23l4-2.2c.7.1 1.5.2 2.2.2 5.5 0 10-4.1 10-9.2S17.5 2 12 2zm-3.5 12.4H6.6V9.1h2.1l1.5 3.3 1.5-3.3h2.1v5.3h-1.9v-2.9l-1.2 2.6h-1l-1.2-2.6v2.9zm9.8 0h-2.2l-.9-1.6-.9 1.6h-2.2l1.9-2.8-1.8-2.5h2.2l.8 1.4.8-1.4h2.2l-1.8 2.5 1.9 2.8z"/></svg>',
@@ -594,20 +617,84 @@ const messengerIcons = {
 
 window.addEventListener('load', () => setTimeout(() => byId('splash').classList.add('hidden'), 850));
 
-fetch('products.json').then(r => r.json()).then(data => {
-  products = data.map((p, index) => ({ ...p, _idx: index, _id: `${p.ref}-${p.color || ''}-${index}` }));
-  sections = [...new Set(products.map(p => p.section).filter(Boolean))].sort((a, b) => {
-    const order = { WOMEN: 1, MEN: 2, GIRL: 3, BOY: 4 };
-    return (order[a] || 99) - (order[b] || 99);
-  });
-  activeSection = sections[0] || '';
-  buildVariantIndex();
-  setHeroImage();
-  buildSections();
-  buildFamilies();
+fetch('brands.json').then(r => r.json()).then(data => {
+  brands = data;
+  buildBrandPicker();
   updateCartCount();
-  render();
+  preloadCartBrands();
+  const first = brands.find(b => b.available);
+  if (first) loadBrand(first.id).then(setHeroImage).catch(() => {});
 });
+
+// Лениво загружает каталог бренда: products-<brand>.json, размечает товары brand/_idx/_id.
+function loadBrand(brandId) {
+  if (productsByBrand[brandId]) return Promise.resolve(productsByBrand[brandId]);
+  const brand = brands.find(b => b.id === brandId);
+  if (!brand) return Promise.reject(new Error('unknown brand ' + brandId));
+  return fetch(brand.file).then(r => r.json()).then(data => {
+    const list = data.map((p, index) => ({
+      ...p,
+      brand: brandId,
+      _idx: index,
+      _id: `${brandId}-${p.ref}-${p.color || ''}-${index}`
+    }));
+    productsByBrand[brandId] = list;
+    list.forEach(p => { productsById[p._id] = p; });
+    return list;
+  });
+}
+
+// Подгружает каталоги брендов, товары которых уже лежат в корзине (после перезагрузки).
+function preloadCartBrands() {
+  [...new Set(cart.map(i => i.brand).filter(Boolean))].forEach(id => {
+    if (brands.some(b => b.id === id)) loadBrand(id).catch(() => {});
+  });
+}
+
+function buildBrandPicker() {
+  byId('brand-grid').innerHTML = brands.map(b => (
+    `<button type="button" class="brand-card ${b.available ? '' : 'disabled'}" ${b.available ? `onclick="openBrand('${esc(b.id)}')"` : ''}>
+      <strong>${esc(b.name)}</strong>
+      <span>${b.available ? 'Открыть каталог' : 'Скоро'}</span>
+    </button>`
+  )).join('');
+}
+
+function openBrand(brandId) {
+  const brand = brands.find(b => b.id === brandId);
+  if (!brand || !brand.available) return toast('Каталог скоро появится');
+  loadBrand(brandId).then(list => {
+    activeBrand = brandId;
+    products = list;
+    activeFamily = '';
+    imageIndexes = {};
+    byId('search').value = '';
+    byId('sort').value = 'new';
+    sections = [...new Set(products.map(p => p.section).filter(Boolean))].sort((a, b) => {
+      const order = { WOMEN: 1, MEN: 2, GIRL: 3, BOY: 4 };
+      return (order[a] || 99) - (order[b] || 99);
+    });
+    activeSection = sections[0] || '';
+    buildVariantIndex();
+    buildSections();
+    buildFamilies();
+    setHeaderBrand(brand.name);
+    byId('catalog-title').textContent = brand.name;
+    render();
+    showScreen('catalog');
+  }).catch(() => toast('Не удалось загрузить каталог'));
+}
+
+function setHeaderBrand(name) {
+  byId('header-brand').textContent = name;
+}
+
+function showScreen(name) {
+  byId('home').style.display = name === 'home' ? '' : 'none';
+  byId('catalog').style.display = name === 'catalog' ? '' : 'none';
+  byId('section-nav').style.display = name === 'catalog' ? '' : 'none';
+  window.scrollTo(0, 0);
+}
 
 // Цветовые варианты товара: записи с одинаковыми section+name — это один товар в разных цветах.
 function buildVariantIndex() {
@@ -632,24 +719,25 @@ function colorVariantsOf(p) {
   return out;
 }
 
-function setHeroImage() {
+function setHeroImage(list) {
   const img = byId('home-hero-img');
-  const hero = pickHeroImage('WOMEN', ['DRESS', 'COATS', 'SKIRT', 'BLAZER']);
+  const hero = pickHeroImage('WOMEN', ['DRESS', 'COATS', 'SKIRT', 'BLAZER'], list);
   img.onerror = () => {
     img.onerror = null;
-    const alt = products.find(p => p.in_stock !== false && imagesFor(p)[0]);
+    const alt = list.find(p => p.in_stock !== false && imagesFor(p)[0]);
     if (alt) img.src = imagesFor(alt)[0];
   };
   if (hero) img.src = hero;
 }
 
 // Подбирает реальное фото модели из каталога (приоритет — образы в полный рост).
-function pickHeroImage(section, families) {
+function pickHeroImage(section, families, list) {
+  list = list || products;
   for (const family of families) {
-    const p = products.find(x => x.section === section && x.family === family && (x.images || []).length);
+    const p = list.find(x => x.section === section && x.family === family && (x.images || []).length);
     if (p) return imagesFor(p)[0];
   }
-  const fallback = products.find(x => x.section === section && (x.images || []).length) || products.find(x => (x.images || []).length);
+  const fallback = list.find(x => x.section === section && (x.images || []).length) || list.find(x => (x.images || []).length);
   return fallback ? imagesFor(fallback)[0] : '';
 }
 
@@ -694,7 +782,7 @@ function setFamily(family) {
   goCatalog();
 }
 
-// Парсер отдаёт фото уже в официальном порядке галереи MD (модель первой).
+// Парсер отдаёт фото уже в официальном порядке галереи (модель первой).
 function imagesFor(p) {
   return (p.images && p.images.length ? p.images : [p.image]).filter(Boolean);
 }
@@ -756,7 +844,7 @@ function changeCardImage(event, idx, delta) {
 }
 
 function openProduct(id) {
-  currentProduct = products.find(p => p._id === id);
+  currentProduct = productsById[id] || products.find(p => p._id === id);
   currentSize = '';
   if (!currentProduct) return;
   const imgs = imagesFor(currentProduct);
@@ -772,7 +860,7 @@ function openProduct(id) {
     <button class="close" onclick="closeAll()">×</button>
     <div class="modal-gallery">${imgs.map(src => `<img class="gallery-img" src="${esc(src)}" alt="${esc(currentProduct.name)}">`).join('')}</div>
     <div class="modal-info">
-      <div class="label">${esc(sectionLabel(currentProduct.section))} · ${esc(familyLabel(currentProduct.family))}</div>
+      <div class="label">${esc(brandName(currentProduct.brand))} · ${esc(sectionLabel(currentProduct.section))} · ${esc(familyLabel(currentProduct.family))}</div>
       <h2>${esc(currentProduct.name)}</h2>
       <div class="modal-price">
         <div class="rub">${currentProduct.price_rub ? rub.format(currentProduct.price_rub) + ' ₽' : 'по запросу'}</div>
@@ -801,13 +889,13 @@ function selectSize(button, size) {
 }
 
 function addToCart(id, size = '') {
-  const product = products.find(p => p._id === id);
+  const product = productsById[id];
   if (!product) return;
   if ((product.sizes || []).length && !size) return toast('Выбери размер');
   const key = `${id}|${size}`;
   const existing = cart.find(item => item.key === key);
   if (existing) existing.qty += 1;
-  else cart.push({ key, id, size, qty: 1 });
+  else cart.push({ key, id, size, qty: 1, brand: product.brand });
   saveCart();
   toast('Добавлено в корзину');
 }
@@ -825,26 +913,43 @@ function openCart() {
   closeModalOnly();
   byId('shade').classList.add('open');
   byId('drawer').classList.add('open');
-  renderCart();
+  const needed = [...new Set(cart.map(i => i.brand).filter(b => b && !productsByBrand[b]))];
+  if (needed.length) {
+    byId('drawer').innerHTML = `<div class="cart-drawer">
+      <div class="cart-head"><h2>Корзина</h2><button class="close" onclick="closeAll()">×</button></div>
+      <div class="cart-list"><div class="empty">Загрузка…</div></div>
+    </div>`;
+    Promise.all(needed.map(id => loadBrand(id).catch(() => {}))).then(renderCart);
+  } else {
+    renderCart();
+  }
 }
 
 function renderCart() {
-  const rows = cart.map(item => {
-    const p = products.find(product => product._id === item.id);
-    if (!p) return '';
-    return `<div class="cart-item">
-      <img src="${esc(imagesFor(p)[0])}" alt="${esc(p.name)}">
-      <div>
-        <h3>${esc(p.name)}</h3>
-        <p>${esc(p.ref)}${p.color ? ' · ' + esc(p.color) : ''}${item.size ? ' · размер ' + esc(item.size) : ''}</p>
-        <p>${p.price_rub ? rub.format(p.price_rub) + ' ₽' : 'по запросу'}</p>
-        <div class="qty"><button onclick="changeQty('${esc(item.key)}', -1)">−</button><span>${item.qty}</span><button onclick="changeQty('${esc(item.key)}', 1)">+</button></div>
-      </div>
-      <button class="remove" onclick="removeItem('${esc(item.key)}')">×</button>
-    </div>`;
-  }).join('');
+  const groups = {};
+  cart.forEach(item => {
+    const p = productsById[item.id];
+    if (!p) return;
+    (groups[p.brand] = groups[p.brand] || []).push({ item, p });
+  });
+  let rows = '';
+  Object.keys(groups).forEach(bid => {
+    rows += `<div class="cart-brand">${esc(brandName(bid))}</div>`;
+    groups[bid].forEach(({ item, p }) => {
+      rows += `<div class="cart-item">
+        <img src="${esc(imagesFor(p)[0])}" alt="${esc(p.name)}">
+        <div>
+          <h3>${esc(p.name)}</h3>
+          <p>${esc(p.ref)}${p.color ? ' · ' + esc(p.color) : ''}${item.size ? ' · размер ' + esc(item.size) : ''}</p>
+          <p>${p.price_rub ? rub.format(p.price_rub) + ' ₽' : 'по запросу'}</p>
+          <div class="qty"><button onclick="changeQty('${esc(item.key)}', -1)">−</button><span>${item.qty}</span><button onclick="changeQty('${esc(item.key)}', 1)">+</button></div>
+        </div>
+        <button class="remove" onclick="removeItem('${esc(item.key)}')">×</button>
+      </div>`;
+    });
+  });
   const total = cart.reduce((sum, item) => {
-    const p = products.find(product => product._id === item.id);
+    const p = productsById[item.id];
     return sum + ((p && p.price_rub) ? p.price_rub * item.qty : 0);
   }, 0);
   byId('drawer').innerHTML = `<div class="cart-drawer">
@@ -886,11 +991,12 @@ async function submitOrder() {
 }
 
 function buildOrder() {
-  const lines = ['Новая заявка Massimo Dutti KZ', '', `Клиент: ${customer.lastName} ${customer.firstName}`, `Город: ${customer.city}`, `Телефон: ${customer.phone}`, `Email: ${customer.email}`, `Мессенджер: ${customer.messenger}`, '', 'Позиции:'];
+  const lines = ['Новая заявка ЗАРАЕКБ', '', `Клиент: ${customer.lastName} ${customer.firstName}`, `Город: ${customer.city}`, `Телефон: ${customer.phone}`, `Email: ${customer.email}`, `Мессенджер: ${customer.messenger}`, '', 'Позиции:'];
   cart.forEach((item, index) => {
-    const p = products.find(product => product._id === item.id);
+    const p = productsById[item.id];
     if (!p) return;
     lines.push(`${index + 1}. ${p.name}`);
+    lines.push(`   Бренд: ${brandName(p.brand)}`);
     lines.push(`   Артикул: ${p.ref}`);
     lines.push(`   Цвет: ${p.color || 'уточнить'} / размер: ${item.size || 'уточнить'} / ${item.qty} шт.`);
     lines.push(`   Цена: ${p.price_rub ? rub.format(p.price_rub) + ' ₽' : 'по запросу'}`);
@@ -919,7 +1025,7 @@ function openAccount(fromCheckout = false) {
           <div class="messengers">
             ${['WhatsApp','MAX','Telegram'].map(m => `<button type="button" class="messenger ${selectedMessenger === m ? 'active' : ''}" onclick="setMessenger(this, '${m}')">${messengerIcons[m]}<span>${m}</span></button>`).join('')}
           </div>
-          <label class="check"><input id="agree" type="checkbox"><span>Я ознакомлен(а) и принимаю <button type="button" class="link-inline" onclick="openLegal()">условия сервиса, агентский договор и согласие на обработку персональных данных</button>. Подтверждаю, что сервис оказывает услуги байера (выкуп и доставку товара по поручению клиента) и не является официальным магазином, представителем или агентом бренда Massimo Dutti.</span></label>
+          <label class="check"><input id="agree" type="checkbox"><span>Я ознакомлен(а) и принимаю <button type="button" class="link-inline" onclick="openLegal()">условия сервиса, агентский договор и согласие на обработку персональных данных</button>. Подтверждаю, что сервис оказывает услуги байера (выкуп и доставку товара по поручению клиента) и не является официальным магазином, представителем или агентом ни одного из представленных брендов.</span></label>
           <button class="full-action dark" onclick="saveCustomer()">${customer ? 'Сохранить данные' : 'Зарегистрироваться'}</button>
         </div>
       </div>
@@ -958,9 +1064,20 @@ function openMenu() {
   closeModalOnly();
   byId('shade').classList.add('open');
   byId('drawer').classList.add('open');
+  if (!activeBrand) {
+    byId('drawer').innerHTML = `<div class="side-panel">
+      <div class="panel-head"><h2>Бренды</h2><button type="button" class="close" onclick="closeAll()">×</button></div>
+      <div class="panel-body">
+        <div class="panel-section">
+          ${brands.map(b => `<button class="panel-link" ${b.available ? `onclick="closeAll(); openBrand('${esc(b.id)}')"` : 'disabled'}><span>${esc(b.name)}</span><span>${b.available ? '' : 'скоро'}</span></button>`).join('')}
+        </div>
+      </div>
+    </div>`;
+    return;
+  }
   const menuHero = pickHeroImage('WOMEN', ['DRESS', 'BLAZER', 'SHIRTS', 'COATS']);
   byId('drawer').innerHTML = `<div class="side-panel">
-    <div class="panel-head"><h2>Меню</h2><button type="button" class="close" onclick="closeAll()">×</button></div>
+    <div class="panel-head"><h2>${esc(brandName(activeBrand))}</h2><button type="button" class="close" onclick="closeAll()">×</button></div>
     <div class="panel-body">
       ${menuHero ? `<div class="menu-hero"><img src="${esc(menuHero)}" alt="Новая коллекция" loading="lazy"><span>Новая коллекция · 2026</span></div>` : ''}
       ${sections.map(section => {
@@ -971,6 +1088,9 @@ function openMenu() {
           ${families.map(family => `<button class="panel-link" onclick="closeAll(); activeSection='${esc(section)}'; setFamily('${esc(family)}')"><span>${esc(familyLabel(family))}</span><span>${counts[family]}</span></button>`).join('')}
         </div>`;
       }).join('')}
+      <div class="panel-section">
+        <button class="panel-link" onclick="closeAll(); goHome()"><span>← Все бренды</span><span></span></button>
+      </div>
     </div>
   </div>`;
 }
@@ -998,16 +1118,21 @@ function clearCart() {
 
 function goHome() {
   closeAll();
-  byId('home').scrollIntoView({ behavior: 'smooth' });
+  activeBrand = null;
+  setHeaderBrand('ЗАРАЕКБ');
+  byId('section-nav').innerHTML = '';
+  showScreen('home');
 }
 
 function goCatalog() {
-  byId('catalog').scrollIntoView({ behavior: 'smooth' });
+  if (!activeBrand) return goHome();
+  showScreen('catalog');
 }
 
 function focusSearch() {
   closeAll();
-  goCatalog();
+  if (!activeBrand) { showScreen('home'); return toast('Сначала выберите бренд'); }
+  showScreen('catalog');
   setTimeout(() => byId('search').focus(), 250);
 }
 
@@ -1033,7 +1158,7 @@ function openLegal() {
     <h2>Условия сервиса, агентский договор и обработка персональных данных</h2>
     <p>Документы подготовлены в соответствии с законодательством Российской Федерации, в том числе с Гражданским кодексом РФ и Федеральным законом от 27.07.2006 № 152-ФЗ «О персональных данных».</p>
     <h3>1. О сервисе</h3>
-    <p>Сайт представляет независимый байер-сервис (г. Екатеринбург). По поручению клиента сервис осуществляет подбор, выкуп и организацию доставки товаров. Сервис не является официальным магазином, представителем, дистрибьютором или агентом бренда Massimo Dutti; товарные знаки принадлежат их правообладателям.</p>
+    <p>Сайт представляет независимый байер-сервис ЗАРАЕКБ (г. Екатеринбург). По поручению клиента сервис осуществляет подбор, выкуп и организацию доставки товаров. Сервис не является официальным магазином, представителем, дистрибьютором или агентом брендов Zara, Massimo Dutti, Oysho, Zara Home, Stradivarius, Bershka и иных представленных брендов; все товарные знаки и наименования принадлежат их правообладателям.</p>
     <h3>2. Агентский договор (поручение на байер-услугу)</h3>
     <p>Принимая настоящие условия, клиент (Принципал) поручает сервису (Агенту) совершить за вознаграждение и за счёт Принципала действия по приобретению выбранного товара и организации его доставки на территории РФ. Отношения сторон регулируются главой 52 Гражданского кодекса РФ.</p>
     <p>2.1. Агент по заявке Принципала выкупает товар в розничном магазине и организует доставку. 2.2. Принципал возмещает Агенту стоимость товара и расходы на доставку и выплачивает агентское вознаграждение; их размер согласовывается до выкупа. 2.3. Договор считается заключённым с момента, когда менеджер подтвердил наличие, цену и условия, а Принципал подтвердил согласие. 2.4. Агент не отвечает за ассортиментную политику, качество и характеристики товара производителя. 2.5. Возврат и обмен возможны в соответствии с законодательством РФ и условиями, согласованными с менеджером.</p>
