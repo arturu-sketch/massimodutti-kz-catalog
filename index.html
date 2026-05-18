@@ -376,6 +376,13 @@ input, select { border-radius: 0; }
 .auth-tab { flex: 1; padding: 12px 0; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: #999; border-bottom: 2px solid transparent; }
 .auth-tab.active { color: #111; border-color: #111; }
 .auth-link { margin-top: 4px; font-size: 12px; color: #777; text-align: center; }
+.order-card { padding: 14px 0; border-bottom: 1px solid var(--line); }
+.order-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.order-date { color: #999; font-size: 11px; letter-spacing: .08em; }
+.order-badge { font-size: 10px; letter-spacing: .08em; text-transform: uppercase; padding: 3px 8px; border: 1px solid #111; white-space: nowrap; }
+.order-badge.pay { border-color: var(--line); color: #777; }
+.order-line { margin-top: 8px; color: #555; font-size: 12px; line-height: 1.5; }
+.order-total { margin-top: 8px; font-size: 13px; }
 .cart-list { display: grid; align-content: start; gap: 14px; }
 .cart-brand { color: #999; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; }
 .cart-brand:not(:first-child) { margin-top: 10px; }
@@ -582,9 +589,18 @@ const rub = new Intl.NumberFormat('ru-RU');
 const byId = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]));
 const brandName = id => (brands.find(b => b.id === id) || {}).name || id || '';
-const sectionNames = { WOMEN: 'Женщины', MEN: 'Мужчины', GIRL: 'Девочки', BOY: 'Мальчики' };
+const sectionNames = {
+  WOMEN: 'Женщины', MEN: 'Мужчины', GIRL: 'Девочки', BOY: 'Мальчики', KIDS: 'Дети',
+  GOLF: 'Гольф', TRENDS: 'Тренды', 'CULINARY STORIES': 'Кухня', 'SUMMER MEMORIES': 'Лето'
+};
 const familyNames = {
   ACCESSORY: 'Аксессуары',
+  'ANKLE BOOT': 'Ботильоны',
+  'TOPS AND OTHERS': 'Топы и другое',
+  GOLF: 'Гольф',
+  TRENDS: 'Тренды',
+  'CULINARY STORIES': 'Кухня',
+  'SUMMER MEMORIES': 'Лето',
   BAG: 'Сумки',
   'BIKINI BRA': 'Лиф бикини',
   'BIKINI PANTS': 'Плавки бикини',
@@ -1149,8 +1165,34 @@ async function submitCheckout() {
   setTimeout(submitOrder, 300);
 }
 
+function cartTotal() {
+  return cart.reduce((sum, item) => {
+    const p = productsById[item.id];
+    return sum + ((p && p.price_rub) ? p.price_rub * item.qty : 0);
+  }, 0);
+}
+
+function orderItems() {
+  return cart.map(item => {
+    const p = productsById[item.id] || {};
+    return {
+      name: p.name || '', ref: p.ref || '', brand: brandName(p.brand),
+      color: p.color || '', size: item.size || '', qty: item.qty, price_rub: p.price_rub || null
+    };
+  });
+}
+
 async function submitOrder() {
   const order = buildOrder();
+  // заказ зарегистрированного клиента сохраняется в личный кабинет
+  if (authUser && sb) {
+    try {
+      await sb.from('orders').insert({
+        items: orderItems(), total: cartTotal(),
+        status: 'Новая', payment_status: 'Ожидает счёта'
+      });
+    } catch (err) { console.warn('order save', err); }
+  }
   if (ORDER_ENDPOINT) {
     try {
       const res = await fetch(ORDER_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(order) });
@@ -1163,7 +1205,7 @@ async function submitOrder() {
       console.warn(err);
     }
   }
-  navigator.clipboard.writeText(order.text).then(() => toast('Заявка скопирована. Подключим Telegram-отправку через backend.'));
+  navigator.clipboard.writeText(order.text).then(() => toast('Заявка скопирована, отправьте её менеджеру'));
 }
 
 function buildOrder() {
@@ -1216,17 +1258,56 @@ function openAccount(fromCheckout = false) {
 function renderProfile() {
   const m = (authUser && authUser.user_metadata) || {};
   byId('drawer').innerHTML = `<div class="side-panel">
-    <div class="panel-head"><h2>Аккаунт</h2><button class="close" onclick="closeAll()">×</button></div>
-    <div class="panel-body"><div class="panel-section">
-      <h3>${esc((m.firstName || '') + ' ' + (m.lastName || ''))}</h3>
-      <div class="details" style="margin-top:14px">
-        <div>Email: ${esc(authUser.email || '')}</div>
-        <div>Телефон: ${esc(m.phone || 'не указан')}</div>
-        <div>Город: ${esc(m.city || 'не указан')}</div>
-        <div>Мессенджер: ${esc(m.messenger || 'не указан')}</div>
+    <div class="panel-head"><h2>Личный кабинет</h2><button class="close" onclick="closeAll()">×</button></div>
+    <div class="panel-body">
+      <div class="panel-section">
+        <h3>${esc((m.firstName || '') + ' ' + (m.lastName || ''))}</h3>
+        <div class="details" style="margin-top:14px">
+          <div>Email: ${esc(authUser.email || '')}</div>
+          <div>Телефон: ${esc(m.phone || 'не указан')}</div>
+          <div>Город: ${esc(m.city || 'не указан')}</div>
+          <div>Мессенджер: ${esc(m.messenger || 'не указан')}</div>
+        </div>
       </div>
-      <button class="full-action" style="margin-top:24px" onclick="doLogout()">Выйти</button>
-    </div></div>
+      <div class="panel-section">
+        <h3>Мои заказы</h3>
+        <div id="my-orders"><p class="legal-note">Загрузка…</p></div>
+      </div>
+      <button class="full-action" onclick="doLogout()">Выйти</button>
+    </div>
+  </div>`;
+  loadMyOrders();
+}
+
+async function loadMyOrders() {
+  const box = byId('my-orders');
+  if (!box) return;
+  if (!sb) { box.innerHTML = '<p class="legal-note">Заказы недоступны.</p>'; return; }
+  const { data, error } = await sb.from('orders').select('*').order('created_at', { ascending: false });
+  if (error) {
+    box.innerHTML = '<p class="legal-note">История заказов появится здесь после оформления первой заявки.</p>';
+    return;
+  }
+  if (!data || !data.length) {
+    box.innerHTML = '<p class="legal-note">Заказов пока нет.</p>';
+    return;
+  }
+  box.innerHTML = data.map(orderCard).join('');
+}
+
+function orderCard(o) {
+  const date = o.created_at ? new Date(o.created_at).toLocaleDateString('ru-RU') : '';
+  const items = Array.isArray(o.items) ? o.items : [];
+  const lines = items.map(it => `${esc(it.name || '')} · ${esc(it.brand || '')}${it.size ? ' · р. ' + esc(it.size) : ''} × ${it.qty || 1}`).join('<br>');
+  return `<div class="order-card">
+    <div class="order-top">
+      <span class="order-date">Заявка от ${esc(date)}</span>
+      <span class="order-badge">${esc(o.status || 'Новая')}</span>
+    </div>
+    <div class="order-line">${lines || '—'}</div>
+    <div class="order-total">Сумма: ${o.total ? rub.format(o.total) + ' ₽' : 'по запросу'}
+      <span class="order-badge pay">Оплата: ${esc(o.payment_status || 'ожидает счёта')}</span>
+    </div>
   </div>`;
 }
 
