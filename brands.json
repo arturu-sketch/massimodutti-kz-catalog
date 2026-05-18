@@ -16,14 +16,14 @@
   {
     "id": "oysho",
     "name": "Oysho",
-    "available": false,
+    "available": true,
     "file": "products-oysho.json",
     "accent": "#000000"
   },
   {
     "id": "zarahome",
     "name": "Zara Home",
-    "available": false,
+    "available": true,
     "file": "products-zarahome.json",
     "accent": "#000000"
   },
