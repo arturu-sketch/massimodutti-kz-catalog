@@ -1,58 +1,55 @@
 # Подключение отправки заявок в Telegram
 
-Сайт статический (GitHub Pages), поэтому токен бота нельзя держать в коде.
-Заявки уходят через защищённый бэкенд — Supabase Edge Function.
+Сайт статический (GitHub Pages), токен бота нельзя держать в коде.
+Заявки уходят через защищённый бэкенд. Рекомендуемый вариант — **Cloudflare Worker**
+(бесплатный, стабильный). Альтернатива — Supabase Edge Function (см. ниже).
 
-## 1. Создать Telegram-бота и группу
+Бот и группа уже готовы:
+- Бот: `@hermes19821_bot`
+- Группа менеджеров: «Massimo Dutti — заявки», chat id `-1003600865564`
 
-1. В Telegram открыть **@BotFather** → `/newbot` → получить **токен бота**.
-2. Создать группу менеджеров, добавить туда бота.
-3. Узнать **chat id группы**: временно добавить в группу **@getmyid_bot** или
-   открыть `https://api.telegram.org/bot<ТОКЕН>/getUpdates` после сообщения в группе.
-   Id группы — отрицательное число вида `-1001234567890`.
+---
 
-## 2. Развернуть Edge Function
+## Вариант A — Cloudflare Worker (рекомендуется)
+
+1. Зайти на **dash.cloudflare.com** (создать бесплатный аккаунт, если нет).
+2. **Workers & Pages → Create → Worker** → дать имя (напр. `md-orders`) → **Deploy**.
+3. **Edit code** → вставить содержимое файла `cloudflare-worker.js` из этого репозитория → **Deploy**.
+4. **Settings → Variables and Secrets** → добавить две переменные:
+   - `BOT_TOKEN` — токен бота от @BotFather
+   - `CHAT_ID` — `-1003600865564`
+5. Скопировать URL воркера (вида `https://md-orders.<аккаунт>.workers.dev`).
+6. В `index.html` вписать его в строку:
+   ```js
+   const ORDER_ENDPOINT = 'https://md-orders.<аккаунт>.workers.dev';
+   ```
+
+## Вариант B — Supabase Edge Function
+
+Файл функции: `supabase/functions/submit-order/index.ts`.
 
 ```bash
-# установить Supabase CLI: https://supabase.com/docs/guides/cli
 supabase login
 supabase link --project-ref <project-ref>
-
-# секреты (хранятся только на сервере)
 supabase secrets set TELEGRAM_BOT_TOKEN=<токен_бота>
-supabase secrets set TELEGRAM_CHAT_ID=<-100...>
-
-# деплой публичного endpoint (без проверки JWT)
+supabase secrets set TELEGRAM_CHAT_ID=-1003600865564
 supabase functions deploy submit-order --no-verify-jwt
 ```
 
-Функция станет доступна по адресу:
-`https://<project-ref>.supabase.co/functions/v1/submit-order`
+URL функции: `https://<project-ref>.supabase.co/functions/v1/submit-order` —
+вписать его в `ORDER_ENDPOINT` в `index.html`.
 
-## 3. Прописать endpoint в сайте
+---
 
-В `index.html` найти строку:
-
-```js
-const ORDER_ENDPOINT = '';
-```
-
-и подставить URL функции:
-
-```js
-const ORDER_ENDPOINT = 'https://<project-ref>.supabase.co/functions/v1/submit-order';
-```
-
-После этого заявка с кнопки «Оформить заявку» автоматически уходит в группу менеджеров.
-Если endpoint пустой или недоступен — сайт переключается на запасной режим
-(копирование заявки в буфер обмена), клиент не теряет данные.
-
-## 4. Проверка
+## Проверка
 
 ```bash
-curl -X POST 'https://<project-ref>.supabase.co/functions/v1/submit-order' \
+curl -X POST '<URL_бэкенда>' \
   -H 'Content-Type: application/json' \
   -d '{"text":"Тестовая заявка с сайта"}'
 ```
 
-В группе менеджеров должно появиться сообщение.
+В группе менеджеров появится сообщение.
+
+Если `ORDER_ENDPOINT` пустой или бэкенд недоступен — сайт не теряет заявку:
+переключается на запасной режим (копирование заявки в буфер обмена).
