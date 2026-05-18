@@ -214,6 +214,9 @@ input, select { border-radius: 0; }
   text-transform: uppercase;
 }
 .family-list { display: grid; gap: 2px; }
+.cat-group { margin: 20px 0 8px; color: #b3b3b3; font-size: 10px; letter-spacing: .18em; text-transform: uppercase; }
+.cat-group:first-child { margin-top: 0; }
+.family-btn.section-row { font-weight: 600; color: #222; }
 .family-btn {
   width: 100%;
   display: flex;
@@ -369,6 +372,10 @@ input, select { border-radius: 0; }
 .check { display: flex !important; grid-template-columns: auto 1fr; gap: 10px !important; align-items: flex-start; line-height: 1.35; }
 .check input { width: 16px; height: 16px; margin-top: 2px; }
 .legal-note { color: #777; font-size: 12px; line-height: 1.5; }
+.auth-tabs { display: flex; margin-bottom: 22px; border-bottom: 1px solid var(--line); }
+.auth-tab { flex: 1; padding: 12px 0; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: #999; border-bottom: 2px solid transparent; }
+.auth-tab.active { color: #111; border-color: #111; }
+.auth-link { margin-top: 4px; font-size: 12px; color: #777; text-align: center; }
 .cart-list { display: grid; align-content: start; gap: 14px; }
 .cart-brand { color: #999; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; }
 .cart-brand:not(:first-child) { margin-top: 10px; }
@@ -549,8 +556,13 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
 <div class="legal-modal" id="legal-modal"></div>
 <div class="toast" id="toast"></div>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 const ORDER_ENDPOINT = 'https://md-orders.2692888.workers.dev';
+const SUPABASE_URL = 'https://njqwbfarecdkdyasinzb.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_Ys4XC9ytD3aLGwMZra09zg_t8p2KUjU';
+let sb = null;
+let authUser = null;
 let brands = [];
 let activeBrand = null;
 let productsByBrand = {};
@@ -726,6 +738,7 @@ const messengerIcons = {
 };
 
 window.addEventListener('load', () => setTimeout(() => byId('splash').classList.add('hidden'), 850));
+initAuth();
 
 fetch('brands.json').then(r => r.json()).then(data => {
   brands = data;
@@ -851,9 +864,8 @@ function pickHeroImage(section, families, list) {
 }
 
 function buildSections() {
-  byId('section-nav').innerHTML = sections.map(section => (
-    `<button class="section-btn ${section === activeSection ? 'active' : ''}" onclick="setSection('${esc(section)}')">${esc(sectionLabel(section))}</button>`
-  )).join('');
+  // разделы переехали в левый сайдбар (см. buildFamilies)
+  byId('section-nav').innerHTML = '';
 }
 
 function familyCounts(section) {
@@ -868,11 +880,16 @@ function familyCounts(section) {
 function buildFamilies() {
   const counts = familyCounts(activeSection);
   const families = Object.keys(counts).sort((a, b) => familyLabel(a).localeCompare(familyLabel(b), 'ru'));
-  byId('category-title').textContent = sectionLabel(activeSection) || 'Категории';
-  byId('family-list').innerHTML = [
-    `<button class="family-btn ${!activeFamily ? 'active' : ''}" onclick="setFamily('')"><span>Все</span><span class="family-count">${products.filter(p => p.section === activeSection).length}</span></button>`,
-    ...families.map(family => `<button class="family-btn ${family === activeFamily ? 'active' : ''}" onclick="setFamily('${esc(family)}')"><span>${esc(familyLabel(family))}</span><span class="family-count">${counts[family]}</span></button>`)
-  ].join('');
+  byId('category-title').textContent = '';
+  let html = '';
+  if (sections.length > 1) {
+    html += '<div class="cat-group">Разделы</div>';
+    html += sections.map(s => `<button class="family-btn section-row ${s === activeSection ? 'active' : ''}" onclick="setSection('${esc(s)}')"><span>${esc(sectionLabel(s))}</span><span class="family-count">${products.filter(p => p.section === s).length}</span></button>`).join('');
+  }
+  html += `<div class="cat-group">${esc(sectionLabel(activeSection) || 'Категории')}</div>`;
+  html += `<button class="family-btn ${!activeFamily ? 'active' : ''}" onclick="setFamily('')"><span>Все</span><span class="family-count">${products.filter(p => p.section === activeSection).length}</span></button>`;
+  html += families.map(family => `<button class="family-btn ${family === activeFamily ? 'active' : ''}" onclick="setFamily('${esc(family)}')"><span>${esc(familyLabel(family))}</span><span class="family-count">${counts[family]}</span></button>`).join('');
+  byId('family-list').innerHTML = html;
 }
 
 function setSection(section) {
@@ -1113,32 +1130,89 @@ function buildOrder() {
   return { customer, cart, text: lines.join('\n'), createdAt: new Date().toISOString() };
 }
 
+function initAuth() {
+  if (!window.supabase || !window.supabase.createClient) return;
+  sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+  sb.auth.getSession().then(({ data }) => {
+    setAuthUser(data && data.session ? data.session.user : null);
+  });
+  sb.auth.onAuthStateChange((_event, session) => {
+    setAuthUser(session ? session.user : null);
+  });
+}
+
+function setAuthUser(user) {
+  authUser = user;
+  if (user) {
+    const m = user.user_metadata || {};
+    customer = {
+      lastName: m.lastName || '', firstName: m.firstName || '',
+      city: m.city || '', email: user.email || m.email || '',
+      phone: m.phone || '', messenger: m.messenger || 'Telegram'
+    };
+    localStorage.setItem('md_customer', JSON.stringify(customer));
+  }
+}
+
 function openAccount(fromCheckout = false) {
   checkoutAfterRegister = fromCheckout;
   closeModalOnly();
   byId('shade').classList.add('open');
   byId('drawer').classList.add('open');
-  selectedMessenger = customer?.messenger || selectedMessenger || 'Telegram';
+  if (authUser) { renderProfile(); return; }
+  renderAuth(fromCheckout ? 'register' : 'login');
+}
+
+function renderProfile() {
+  const m = (authUser && authUser.user_metadata) || {};
   byId('drawer').innerHTML = `<div class="side-panel">
     <div class="panel-head"><h2>Аккаунт</h2><button class="close" onclick="closeAll()">×</button></div>
-    <div class="panel-body">
-      <div class="panel-section">
-        <h3>${customer ? 'Данные клиента' : 'Регистрация для заявки'}</h3>
-        <div class="form-grid">
-          <label>Фамилия<input id="lastName" value="${esc(customer?.lastName || '')}" autocomplete="family-name"></label>
-          <label>Имя<input id="firstName" value="${esc(customer?.firstName || '')}" autocomplete="given-name"></label>
-          <label>Город<input id="city" value="${esc(customer?.city || '')}" autocomplete="address-level2"></label>
-          <label>Email<input id="email" type="email" value="${esc(customer?.email || '')}" autocomplete="email"></label>
-          <label>Телефон<input id="phone" value="${esc(customer?.phone || '')}" autocomplete="tel"></label>
-          <label>Мессенджер для связи</label>
-          <div class="messengers">
-            ${['WhatsApp','MAX','Telegram'].map(m => `<button type="button" class="messenger ${selectedMessenger === m ? 'active' : ''}" onclick="setMessenger(this, '${m}')">${messengerIcons[m]}<span>${m}</span></button>`).join('')}
-          </div>
-          <label class="check"><input id="agree" type="checkbox"><span>Я ознакомлен(а) и принимаю <button type="button" class="link-inline" onclick="openLegal()">условия сервиса, агентский договор и согласие на обработку персональных данных</button>. Подтверждаю, что сервис оказывает услуги байера (выкуп и доставку товара по поручению клиента) и не является официальным магазином, представителем или агентом ни одного из представленных брендов.</span></label>
-          <button class="full-action dark" onclick="saveCustomer()">${customer ? 'Сохранить данные' : 'Зарегистрироваться'}</button>
-        </div>
+    <div class="panel-body"><div class="panel-section">
+      <h3>${esc((m.firstName || '') + ' ' + (m.lastName || ''))}</h3>
+      <div class="details" style="margin-top:14px">
+        <div>Email: ${esc(authUser.email || '')}</div>
+        <div>Телефон: ${esc(m.phone || 'не указан')}</div>
+        <div>Город: ${esc(m.city || 'не указан')}</div>
+        <div>Мессенджер: ${esc(m.messenger || 'не указан')}</div>
       </div>
-    </div>
+      <button class="full-action" style="margin-top:24px" onclick="doLogout()">Выйти</button>
+    </div></div>
+  </div>`;
+}
+
+function renderAuth(mode) {
+  selectedMessenger = selectedMessenger || 'Telegram';
+  const tabs = `<div class="auth-tabs">
+    <button class="auth-tab ${mode === 'login' ? 'active' : ''}" onclick="renderAuth('login')">Вход</button>
+    <button class="auth-tab ${mode === 'register' ? 'active' : ''}" onclick="renderAuth('register')">Регистрация</button>
+  </div>`;
+  let body;
+  if (mode === 'login') {
+    body = `<div class="form-grid">
+      <label>Email<input id="au-email" type="email" autocomplete="email"></label>
+      <label>Пароль<input id="au-pass" type="password" autocomplete="current-password"></label>
+      <button class="full-action dark" onclick="doLogin()">Войти</button>
+      <button type="button" class="link-inline" onclick="doReset()">Забыли пароль?</button>
+    </div>`;
+  } else {
+    body = `<div class="form-grid">
+      <label>Фамилия<input id="au-last" autocomplete="family-name"></label>
+      <label>Имя<input id="au-first" autocomplete="given-name"></label>
+      <label>Город<input id="au-city" autocomplete="address-level2"></label>
+      <label>Email<input id="au-email" type="email" autocomplete="email"></label>
+      <label>Телефон<input id="au-phone" autocomplete="tel"></label>
+      <label>Пароль (минимум 6 символов)<input id="au-pass" type="password" autocomplete="new-password"></label>
+      <label>Мессенджер для связи</label>
+      <div class="messengers">
+        ${['WhatsApp','MAX','Telegram'].map(m => `<button type="button" class="messenger ${selectedMessenger === m ? 'active' : ''}" onclick="setMessenger(this, '${m}')">${messengerIcons[m]}<span>${m}</span></button>`).join('')}
+      </div>
+      <label class="check"><input id="au-agree" type="checkbox"><span>Я ознакомлен(а) и принимаю <button type="button" class="link-inline" onclick="openLegal()">условия сервиса, агентский договор и согласие на обработку персональных данных</button>. Подтверждаю, что сервис оказывает услуги байера и не является официальным магазином, представителем или агентом ни одного из представленных брендов.</span></label>
+      <button class="full-action dark" onclick="doRegister()">Зарегистрироваться</button>
+    </div>`;
+  }
+  byId('drawer').innerHTML = `<div class="side-panel">
+    <div class="panel-head"><h2>Аккаунт</h2><button class="close" onclick="closeAll()">×</button></div>
+    <div class="panel-body"><div class="panel-section">${tabs}${body}</div></div>
   </div>`;
 }
 
@@ -1148,25 +1222,56 @@ function setMessenger(button, messenger) {
   button.classList.add('active');
 }
 
-function saveCustomer() {
-  const data = {
-    lastName: byId('lastName').value.trim(),
-    firstName: byId('firstName').value.trim(),
-    city: byId('city').value.trim(),
-    email: byId('email').value.trim(),
-    phone: byId('phone').value.trim(),
+async function doRegister() {
+  if (!sb) return toast('Авторизация недоступна');
+  const d = {
+    lastName: byId('au-last').value.trim(),
+    firstName: byId('au-first').value.trim(),
+    city: byId('au-city').value.trim(),
+    email: byId('au-email').value.trim(),
+    phone: byId('au-phone').value.trim(),
     messenger: selectedMessenger
   };
-  if (!data.lastName || !data.firstName || !data.city || !data.email || !data.phone || !data.messenger) return toast('Заполни все поля');
-  if (!byId('agree').checked) return toast('Нужно принять условия');
-  customer = data;
+  const pass = byId('au-pass').value;
+  if (!d.lastName || !d.firstName || !d.city || !d.email || !d.phone || !pass) return toast('Заполни все поля');
+  if (pass.length < 6) return toast('Пароль минимум 6 символов');
+  if (!byId('au-agree').checked) return toast('Нужно принять условия');
+  const { error } = await sb.auth.signUp({
+    email: d.email, password: pass,
+    options: { data: d, emailRedirectTo: location.origin }
+  });
+  if (error) return toast(error.message);
+  customer = d;
   localStorage.setItem('md_customer', JSON.stringify(customer));
-  toast('Данные сохранены');
-  if (checkoutAfterRegister) {
-    checkoutAfterRegister = false;
-    openCart();
-    setTimeout(submitOrder, 250);
-  }
+  toast('Аккаунт создан. Подтвердите email по ссылке из письма.');
+  if (checkoutAfterRegister) { checkoutAfterRegister = false; openCart(); setTimeout(submitOrder, 300); }
+  else openAccount();
+}
+
+async function doLogin() {
+  if (!sb) return toast('Авторизация недоступна');
+  const email = byId('au-email').value.trim();
+  const pass = byId('au-pass').value;
+  if (!email || !pass) return toast('Введите email и пароль');
+  const { error } = await sb.auth.signInWithPassword({ email, password: pass });
+  if (error) return toast('Неверный email или пароль');
+  toast('Вы вошли');
+  if (checkoutAfterRegister) { checkoutAfterRegister = false; openCart(); setTimeout(submitOrder, 300); }
+  else openAccount();
+}
+
+async function doReset() {
+  if (!sb) return toast('Авторизация недоступна');
+  const email = byId('au-email').value.trim();
+  if (!email) return toast('Введите email для сброса пароля');
+  const { error } = await sb.auth.resetPasswordForEmail(email, { redirectTo: location.origin });
+  toast(error ? error.message : 'Письмо для сброса пароля отправлено на ' + email);
+}
+
+async function doLogout() {
+  if (sb) await sb.auth.signOut();
+  authUser = null;
+  renderAuth('login');
 }
 
 function openMenu() {
