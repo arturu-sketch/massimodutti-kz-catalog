@@ -177,6 +177,8 @@ input, select { border-radius: 0; }
   text-transform: uppercase;
   color: #777;
 }
+.back-home { width: 100%; text-align: left; cursor: pointer; }
+.back-home:hover { color: #111; }
 .utility {
   display: flex;
   justify-content: center;
@@ -508,7 +510,7 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
 
 <section id="catalog" style="display:none">
   <div class="catalog-head">
-    <div class="catalog-title" id="catalog-title">Каталог</div>
+    <button type="button" class="catalog-title back-home" id="catalog-title" onclick="goHome()">‹ Все бренды</button>
     <div class="utility" id="search-panel">
       <input type="text" id="search" placeholder="Поиск по названию или артикулу" oninput="render()">
       <select id="sort" title="Сортировка" aria-label="Сортировка" onchange="render()">
@@ -710,7 +712,6 @@ function openBrand(brandId) {
     buildSections();
     buildFamilies();
     setHeaderBrand(brand.name);
-    byId('catalog-title').textContent = brand.name;
     render();
     showScreen('catalog');
   }).catch(() => toast('Не удалось загрузить каталог'));
