@@ -51,6 +51,7 @@ input, select { border-radius: 0; }
   padding: 0 36px;
   background: rgba(255,255,255,.96);
   border-bottom: 1px solid var(--line);
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
 }
 .section-nav { display: flex; gap: 28px; align-items: center; }
@@ -311,12 +312,18 @@ input, select { border-radius: 0; }
 }
 .messengers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
 .messenger {
-  height: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 66px;
   border: 1px solid var(--line);
   color: #555;
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: .04em;
 }
+.messenger svg { width: 22px; height: 22px; }
 .messenger.active { border-color: #111; background: #111; color: #fff; }
 .check { display: flex !important; grid-template-columns: auto 1fr; gap: 10px !important; align-items: flex-start; line-height: 1.35; }
 .check input { width: 16px; height: 16px; margin-top: 2px; }
@@ -344,6 +351,7 @@ input, select { border-radius: 0; }
   grid-template-columns: repeat(5, 1fr);
   border-top: 1px solid var(--line);
   background: rgba(255,255,255,.96);
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
 }
 .nav-btn { display: grid; place-items: center; align-content: center; gap: 4px; color: #555; font-size: 10px; letter-spacing: .06em; text-transform: uppercase; }
@@ -351,6 +359,62 @@ input, select { border-radius: 0; }
 .toast { position: fixed; left: 50%; bottom: 88px; z-index: 130; display: none; transform: translateX(-50%); background: #111; color: #fff; padding: 12px 16px; font-size: 12px; }
 .toast.show { display: block; }
 footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-size: 11px; text-align: center; }
+.home-slogan {
+  margin-top: 24px;
+  font-size: clamp(15px, 1.6vw, 20px);
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: #111;
+}
+.home-slogan::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 1px;
+  margin-bottom: 18px;
+  background: #111;
+}
+.menu-hero {
+  position: relative;
+  margin: -20px -20px 24px;
+  height: 210px;
+  overflow: hidden;
+  background: var(--wash);
+}
+.menu-hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.menu-hero span {
+  position: absolute;
+  left: 20px;
+  bottom: 16px;
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 8px rgba(0,0,0,.55);
+}
+.link-inline { color: #111; text-decoration: underline; cursor: pointer; }
+.legal-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 110;
+  display: none;
+  overflow-y: auto;
+  background: rgba(0,0,0,.4);
+}
+.legal-modal.open { display: block; }
+.legal-sheet {
+  max-width: 680px;
+  margin: 40px auto;
+  padding: 40px 38px 48px;
+  background: #fff;
+  border: 1px solid var(--line);
+}
+.legal-sheet h2 { font-size: 16px; letter-spacing: .1em; text-transform: uppercase; font-weight: 600; }
+.legal-sheet h3 { margin-top: 24px; font-size: 13px; letter-spacing: .04em; }
+.legal-sheet p { margin-top: 10px; color: #555; font-size: 13px; line-height: 1.6; }
+.legal-sheet .close-legal { float: right; font-size: 24px; margin-top: -6px; }
 @media (max-width: 1180px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 900px) {
   .topbar { grid-template-columns: 1fr auto; padding: 0 18px; }
@@ -386,19 +450,20 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
   <nav class="section-nav" id="section-nav"></nav>
   <div class="brand">Massimo Dutti</div>
   <div class="top-actions">
-    <button class="text-action" onclick="openAccount()">Аккаунт</button>
-    <button class="text-action" onclick="openCart()">Корзина <span class="cart-count" id="cart-count">0</span></button>
+    <button type="button" class="text-action" onclick="openAccount()">Аккаунт</button>
+    <button type="button" class="text-action" onclick="openCart()">Корзина <span class="cart-count" id="cart-count">0</span></button>
   </div>
 </header>
 
 <section class="home" id="home">
   <div class="home-copy">
-    <div class="eyebrow">Независимый байер-сервис</div>
-    <h1>Massimo Dutti Казахстан</h1>
-    <p>Заказ с официального сайта Казахстана. Доставка в Россию от 3-х дней после выкупа и отправки.</p>
+    <div class="eyebrow">Независимый байер-сервис · Екатеринбург</div>
+    <h1>Massimo Dutti</h1>
+    <div class="home-slogan">Доставка в Россию<br>от 3-х дней</div>
+    <p>Заказывайте вещи из новой коллекции — мы выкупаем и доставляем напрямую к вам.</p>
     <div class="hero-actions">
-      <button class="primary" onclick="goCatalog()">Смотреть каталог</button>
-      <button class="secondary" onclick="openMenu()">Разделы</button>
+      <button type="button" class="primary" onclick="goCatalog()">Смотреть каталог</button>
+      <button type="button" class="secondary" onclick="openMenu()">Разделы</button>
     </div>
   </div>
   <div class="home-visual" id="home-visual"></div>
@@ -409,7 +474,7 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
     <div class="catalog-title">Каталог</div>
     <div class="utility" id="search-panel">
       <input type="text" id="search" placeholder="Поиск по названию или артикулу" oninput="render()">
-      <select id="sort" onchange="render()">
+      <select id="sort" title="Сортировка" aria-label="Сортировка" onchange="render()">
         <option value="new">Сначала новые</option>
         <option value="cheap">Сначала дешевле</option>
         <option value="expensive">Сначала дороже</option>
@@ -431,16 +496,17 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
 <footer>Независимый байер-сервис. Не является официальным магазином или партнером бренда Massimo Dutti.</footer>
 
 <nav class="bottom-nav">
-  <button class="nav-btn" onclick="goHome()"><span>⌂</span>Домой</button>
-  <button class="nav-btn" onclick="focusSearch()"><span>⌕</span>Поиск</button>
-  <button class="nav-btn" onclick="openMenu()"><span>☰</span>Меню</button>
-  <button class="nav-btn" onclick="openCart()"><span>▣</span>Корзина</button>
-  <button class="nav-btn" onclick="openAccount()"><span>◌</span>Аккаунт</button>
+  <button type="button" class="nav-btn" onclick="goHome()"><span>⌂</span>Домой</button>
+  <button type="button" class="nav-btn" onclick="focusSearch()"><span>⌕</span>Поиск</button>
+  <button type="button" class="nav-btn" onclick="openMenu()"><span>☰</span>Меню</button>
+  <button type="button" class="nav-btn" onclick="openCart()"><span>▣</span>Корзина</button>
+  <button type="button" class="nav-btn" onclick="openAccount()"><span>◌</span>Аккаунт</button>
 </nav>
 
 <div class="shade" id="shade" onclick="closeAll()"></div>
 <div class="modal" id="modal"></div>
 <div class="drawer" id="drawer"></div>
+<div class="legal-modal" id="legal-modal"></div>
 <div class="toast" id="toast"></div>
 
 <script>
@@ -508,6 +574,11 @@ const familyOrder = [
   'JEWELRY', 'SUNGLASSES', 'SMALL LEATHER GOODS', 'SOCKS', 'UNDERWEAR', 'EAU DE PARFUM',
   'ACCESSORIES', 'OTHER'
 ];
+const messengerIcons = {
+  WhatsApp: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a9.9 9.9 0 0 0-8.5 15l-1.4 5.1 5.2-1.4A10 10 0 1 0 12 2zm0 2a8 8 0 0 1 0 16 8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 0 1 12 4zm-3 3.4c-.2 0-.4.1-.6.3-.3.3-.8.8-.8 2s.8 2.3 1 2.5c.1.2 1.7 2.7 4.2 3.7 2 .8 2.5.7 2.9.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.7-.8c-.2-.1-.4-.1-.6.1l-.7.9c-.1.2-.3.2-.5.1-.7-.3-1.4-.6-2.3-1.6-.7-.8-1.1-1.7-1.2-2-.1-.2 0-.4.1-.5l.4-.5c.1-.1.2-.3.2-.4 0-.2 0-.3-.1-.4l-.8-1.8c-.2-.4-.3-.4-.5-.4z"/></svg>',
+  MAX: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.5 2 2 6.1 2 11.2c0 2.9 1.5 5.5 3.8 7.2V23l4-2.2c.7.1 1.5.2 2.2.2 5.5 0 10-4.1 10-9.2S17.5 2 12 2zm-3.5 12.4H6.6V9.1h2.1l1.5 3.3 1.5-3.3h2.1v5.3h-1.9v-2.9l-1.2 2.6h-1l-1.2-2.6v2.9zm9.8 0h-2.2l-.9-1.6-.9 1.6h-2.2l1.9-2.8-1.8-2.5h2.2l.8 1.4.8-1.4h2.2l-1.8 2.5 1.9 2.8z"/></svg>',
+  Telegram: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.9 4.3 2.4 11.8c-1.1.4-1 1.1-.2 1.4l5 1.5 1.9 5.9c.2.6.1.9.8.9.5 0 .7-.2 1-.5l2.4-2.3 5 3.7c.9.5 1.6.2 1.8-.8l3.3-15.5c.3-1.3-.4-1.8-1.3-1.4zM6.9 13.4 17.2 6.9c.5-.3.9-.1.6.2l-8.8 8-.3 3.6-1.8-5.3z"/></svg>'
+};
 
 window.addEventListener('load', () => setTimeout(() => byId('splash').classList.add('hidden'), 850));
 
@@ -526,8 +597,18 @@ fetch('products.json').then(r => r.json()).then(data => {
 });
 
 function setHeroImage() {
-  const heroProduct = products.find(p => p.section === 'WOMEN' && (p.images || []).length) || products.find(p => (p.images || []).length);
-  if (heroProduct) byId('home-visual').style.backgroundImage = `url("${imagesFor(heroProduct)[0]}")`;
+  const hero = pickHeroImage('WOMEN', ['DRESS', 'COATS', 'SKIRT', 'BLAZER']);
+  if (hero) byId('home-visual').style.backgroundImage = `url("${hero}")`;
+}
+
+// Подбирает реальное фото модели из каталога (приоритет — образы в полный рост).
+function pickHeroImage(section, families) {
+  for (const family of families) {
+    const p = products.find(x => x.section === section && x.family === family && (x.images || []).length);
+    if (p) return imagesFor(p)[0];
+  }
+  const fallback = products.find(x => x.section === section && (x.images || []).length) || products.find(x => (x.images || []).length);
+  return fallback ? imagesFor(fallback)[0] : '';
 }
 
 function buildSections() {
@@ -625,7 +706,7 @@ function cardHtml(p) {
       <div class="meta">${esc(sectionLabel(p.section))}${p.family ? ' · ' + esc(familyLabel(p.family)) : ''}</div>
       <div class="price">
         <div class="rub">${p.price_rub ? rub.format(p.price_rub) + ' ₽' : 'по запросу'} ${sale}</div>
-        <div class="kzt">${p.price_kzt ? rub.format(p.price_kzt) + ' ₸ в Казахстане' : ''}</div>
+        <div class="kzt">${p.price_kzt ? rub.format(p.price_kzt) + ' ₸' : ''}</div>
       </div>
       <div class="ref">${esc(p.ref)}</div>
       <button class="quick-add" onclick="event.stopPropagation(); openProduct('${esc(p._id)}')">Выбрать</button>
@@ -662,7 +743,7 @@ function openProduct(id) {
       <h2>${esc(currentProduct.name)}</h2>
       <div class="modal-price">
         <div class="rub">${currentProduct.price_rub ? rub.format(currentProduct.price_rub) + ' ₽' : 'по запросу'}</div>
-        <div class="kzt">${currentProduct.price_kzt ? rub.format(currentProduct.price_kzt) + ' ₸ в Казахстане' : ''}</div>
+        <div class="kzt">${currentProduct.price_kzt ? rub.format(currentProduct.price_kzt) + ' ₸' : ''}</div>
       </div>
       <div class="details">
         <div>Артикул: ${esc(currentProduct.ref)}</div>
@@ -801,10 +882,9 @@ function openAccount(fromCheckout = false) {
           <label>Телефон<input id="phone" value="${esc(customer?.phone || '')}" autocomplete="tel"></label>
           <label>Мессенджер для связи</label>
           <div class="messengers">
-            ${['WhatsApp','MAX','Telegram'].map(m => `<button class="messenger ${selectedMessenger === m ? 'active' : ''}" onclick="setMessenger(this, '${m}')">${m}</button>`).join('')}
+            ${['WhatsApp','MAX','Telegram'].map(m => `<button type="button" class="messenger ${selectedMessenger === m ? 'active' : ''}" onclick="setMessenger(this, '${m}')">${messengerIcons[m]}<span>${m}</span></button>`).join('')}
           </div>
-          <label class="check"><input id="agree" type="checkbox"><span>Я принимаю условия байерского сервиса, согласен с обработкой персональных данных и понимаю, что сервис не является официальным магазином или агентом бренда Massimo Dutti.</span></label>
-          <p class="legal-note">Юридические тексты нужно вынести в отдельные страницы: пользовательское соглашение, согласие на обработку персональных данных и политика конфиденциальности. Сейчас это рабочий интерфейс для приема заявок, финальные формулировки лучше проверить у юриста.</p>
+          <label class="check"><input id="agree" type="checkbox"><span>Я ознакомлен(а) и принимаю <button type="button" class="link-inline" onclick="openLegal()">условия сервиса и согласие на обработку персональных данных</button>. Подтверждаю, что сервис оказывает услуги байера (выкуп и доставку товара по поручению клиента) и не является официальным магазином, представителем или агентом бренда Massimo Dutti.</span></label>
           <button class="full-action dark" onclick="saveCustomer()">${customer ? 'Сохранить данные' : 'Зарегистрироваться'}</button>
         </div>
       </div>
@@ -843,9 +923,11 @@ function openMenu() {
   closeModalOnly();
   byId('shade').classList.add('open');
   byId('drawer').classList.add('open');
+  const menuHero = pickHeroImage('WOMEN', ['DRESS', 'BLAZER', 'SHIRTS', 'COATS']);
   byId('drawer').innerHTML = `<div class="side-panel">
-    <div class="panel-head"><h2>Меню</h2><button class="close" onclick="closeAll()">×</button></div>
+    <div class="panel-head"><h2>Меню</h2><button type="button" class="close" onclick="closeAll()">×</button></div>
     <div class="panel-body">
+      ${menuHero ? `<div class="menu-hero"><img src="${esc(menuHero)}" alt="Новая коллекция" loading="lazy"><span>Новая коллекция · 2026</span></div>` : ''}
       ${sections.map(section => {
         const counts = familyCounts(section);
         const families = Object.keys(counts).sort((a, b) => familyLabel(a).localeCompare(familyLabel(b), 'ru'));
@@ -908,6 +990,29 @@ function toast(text) {
   byId('toast').textContent = text;
   byId('toast').classList.add('show');
   setTimeout(() => byId('toast').classList.remove('show'), 2100);
+}
+
+function openLegal() {
+  byId('legal-modal').innerHTML = `<div class="legal-sheet">
+    <button type="button" class="close close-legal" onclick="closeLegal()">×</button>
+    <h2>Условия сервиса и обработка персональных данных</h2>
+    <p>Документ подготовлен в соответствии с законодательством Российской Федерации, в том числе с Федеральным законом от 27.07.2006 № 152-ФЗ «О персональных данных».</p>
+    <h3>1. О сервисе</h3>
+    <p>Сайт представляет независимый байер-сервис (г. Екатеринбург). По поручению клиента сервис осуществляет подбор, выкуп и организацию доставки товаров. Сервис не является официальным магазином, представителем, дистрибьютором или агентом бренда Massimo Dutti; товарные знаки принадлежат их правообладателям.</p>
+    <h3>2. Характер заявки</h3>
+    <p>Оформление заявки на сайте не является договором купли-продажи и публичной офертой. Заявка — это обращение клиента с просьбой о выкупе товара. Наличие, итоговую стоимость, сроки и условия доставки менеджер подтверждает индивидуально до начала выкупа.</p>
+    <h3>3. Согласие на обработку персональных данных</h3>
+    <p>Отправляя заявку, клиент свободно, своей волей и в своём интересе даёт согласие на обработку своих персональных данных: фамилия, имя, город, адрес электронной почты, номер телефона, выбранный мессенджер для связи.</p>
+    <p>Цель обработки: приём и обработка заявки, связь с клиентом, организация выкупа и доставки товара. Обработка включает сбор, запись, систематизацию, хранение, использование и передачу данных менеджерам сервиса. Данные не передаются третьим лицам, кроме случаев, необходимых для исполнения заявки (например, служба доставки), или случаев, предусмотренных законом.</p>
+    <p>Согласие действует до его отзыва. Клиент вправе отозвать согласие и запросить удаление своих данных, направив обращение по контактам сервиса. Срок хранения данных не превышает срока, необходимого для целей обработки.</p>
+    <h3>4. Контакты</h3>
+    <p>По вопросам обработки персональных данных и работы сервиса: Telegram @massimodutti_ekb.</p>
+  </div>`;
+  byId('legal-modal').classList.add('open');
+}
+
+function closeLegal() {
+  byId('legal-modal').classList.remove('open');
 }
 </script>
 </body>
