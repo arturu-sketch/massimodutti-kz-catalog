@@ -477,9 +477,7 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
   .catalog-title { border-right: 0; }
   .utility { display: grid; grid-template-columns: 1fr; }
   .utility input { width: 100%; }
-  .category-panel { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); padding: 18px; }
-  .family-list { display: flex; gap: 18px; overflow-x: auto; }
-  .family-btn { width: auto; white-space: nowrap; border: 0; }
+  .category-panel { position: static; height: auto; max-height: 230px; overflow-y: auto; border-right: 0; border-bottom: 1px solid var(--line); padding: 14px 18px; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); border-left: 0; }
   .product-modal { inset: 0; grid-template-columns: 1fr; overflow-y: auto; }
   .modal-gallery { grid-template-columns: 1fr; overflow: visible; }
@@ -1091,12 +1089,64 @@ function renderCart() {
 
 function checkout() {
   if (!cart.length) return toast('Корзина пуста');
-  if (!customer) {
-    checkoutAfterRegister = true;
-    openAccount(true);
-    return;
-  }
+  if (!customer) { openCheckoutForm(); return; }
   submitOrder();
+}
+
+// Форма оформления заявки. Регистрация — по желанию (галочка), не обязательна.
+function openCheckoutForm() {
+  closeModalOnly();
+  byId('shade').classList.add('open');
+  byId('drawer').classList.add('open');
+  selectedMessenger = selectedMessenger || 'Telegram';
+  byId('drawer').innerHTML = `<div class="side-panel">
+    <div class="panel-head"><h2>Оформление заявки</h2><button class="close" onclick="closeAll()">×</button></div>
+    <div class="panel-body"><div class="panel-section">
+      <div class="form-grid">
+        <label>Фамилия<input id="co-last" autocomplete="family-name"></label>
+        <label>Имя<input id="co-first" autocomplete="given-name"></label>
+        <label>Город<input id="co-city" autocomplete="address-level2"></label>
+        <label>Email<input id="co-email" type="email" autocomplete="email"></label>
+        <label>Телефон<input id="co-phone" autocomplete="tel"></label>
+        <label>Мессенджер для связи</label>
+        <div class="messengers">
+          ${['WhatsApp','MAX','Telegram'].map(m => `<button type="button" class="messenger ${selectedMessenger === m ? 'active' : ''}" onclick="setMessenger(this, '${m}')">${messengerIcons[m]}<span>${m}</span></button>`).join('')}
+        </div>
+        <label class="check"><input id="co-acc" type="checkbox" onchange="byId('co-pass-row').style.display=this.checked?'grid':'none'"><span>Создать аккаунт (по желанию) — чтобы входить позже и не вводить данные заново</span></label>
+        <label id="co-pass-row" style="display:none">Пароль для аккаунта (минимум 6 символов)<input id="co-pass" type="password" autocomplete="new-password"></label>
+        <label class="check"><input id="co-agree" type="checkbox"><span>Я ознакомлен(а) и принимаю <button type="button" class="link-inline" onclick="openLegal()">условия сервиса, агентский договор и согласие на обработку персональных данных</button>. Сервис оказывает услуги байера и не является официальным магазином или агентом представленных брендов.</span></label>
+        <button class="full-action dark" onclick="submitCheckout()">Отправить заявку</button>
+      </div>
+    </div></div>
+  </div>`;
+}
+
+async function submitCheckout() {
+  const d = {
+    lastName: byId('co-last').value.trim(),
+    firstName: byId('co-first').value.trim(),
+    city: byId('co-city').value.trim(),
+    email: byId('co-email').value.trim(),
+    phone: byId('co-phone').value.trim(),
+    messenger: selectedMessenger
+  };
+  if (!d.lastName || !d.firstName || !d.city || !d.email || !d.phone) return toast('Заполни все поля');
+  if (!byId('co-agree').checked) return toast('Нужно принять условия');
+  customer = d;
+  localStorage.setItem('md_customer', JSON.stringify(customer));
+  // регистрация — только если клиент сам поставил галочку
+  if (byId('co-acc').checked && sb) {
+    const pass = byId('co-pass').value;
+    if (pass.length < 6) return toast('Пароль для аккаунта — минимум 6 символов');
+    const { error } = await sb.auth.signUp({
+      email: d.email, password: pass,
+      options: { data: d, emailRedirectTo: location.origin }
+    });
+    if (error) toast('Аккаунт не создан: ' + error.message);
+    else toast('Аккаунт создан, подтвердите email');
+  }
+  openCart();
+  setTimeout(submitOrder, 300);
 }
 
 async function submitOrder() {
