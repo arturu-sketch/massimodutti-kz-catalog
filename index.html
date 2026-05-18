@@ -6,37 +6,39 @@
 <title>Massimo Dutti KZ — Каталог | @massimodutti_ekb</title>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f0f0f; color: #fff; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #222; }
 .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
-header { text-align: center; padding: 40px 20px; background: linear-gradient(180deg, #1a1a1a 0%, #0f0f0f 100%); }
-header h1 { font-size: 28px; font-weight: 600; letter-spacing: 2px; }
-header p { color: #888; margin-top: 8px; font-size: 14px; }
-header .price-note { color: #4ade80; font-size: 13px; margin-top: 4px; }
-.stats { display: flex; justify-content: center; gap: 30px; margin-top: 16px; font-size: 13px; color: #666; }
-.stats span { color: #fff; font-weight: 600; }
+header { text-align: center; padding: 40px 20px; background: linear-gradient(180deg, #fff 0%, #f5f5f5 100%); border-bottom: 1px solid #e0e0e0; }
+header h1 { font-size: 28px; font-weight: 600; letter-spacing: 2px; color: #222; }
+header p { color: #666; margin-top: 8px; font-size: 14px; }
+header .price-note { color: #16a34a; font-size: 13px; margin-top: 4px; }
+.stats { display: flex; justify-content: center; gap: 30px; margin-top: 16px; font-size: 13px; color: #888; }
+.stats span { color: #222; font-weight: 600; }
 .filters { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; padding: 20px 0; }
-.filters input { background: #1a1a1a; border: 1px solid #333; color: #fff; padding: 10px 16px; border-radius: 8px; width: 280px; font-size: 14px; }
-.filters select { background: #1a1a1a; border: 1px solid #333; color: #fff; padding: 10px 16px; border-radius: 8px; font-size: 14px; }
+.filters input { background: #fff; border: 1px solid #ddd; color: #222; padding: 10px 16px; border-radius: 8px; width: 280px; font-size: 14px; }
+.filters input::placeholder { color: #aaa; }
+.filters select { background: #fff; border: 1px solid #ddd; color: #222; padding: 10px 16px; border-radius: 8px; font-size: 14px; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; padding: 20px 0; }
-.card { background: #1a1a1a; border-radius: 12px; overflow: hidden; transition: transform .2s; border: 1px solid #222; }
-.card:hover { transform: translateY(-4px); border-color: #333; }
-.card-img { width: 100%; height: 320px; object-fit: cover; background: #222; }
+.card { background: #fff; border-radius: 12px; overflow: hidden; transition: transform .2s, box-shadow .2s; border: 1px solid #e0e0e0; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+.card-img { width: 100%; height: 320px; object-fit: cover; background: #f0f0f0; }
 .card-body { padding: 16px; }
-.card-body h3 { font-size: 14px; font-weight: 500; line-height: 1.3; min-height: 36px; }
-.card-body .category { font-size: 11px; color: #666; text-transform: uppercase; margin-top: 6px; letter-spacing: 1px; }
+.card-body h3 { font-size: 14px; font-weight: 500; line-height: 1.3; min-height: 36px; color: #222; }
+.card-body .category { font-size: 11px; color: #999; text-transform: uppercase; margin-top: 6px; letter-spacing: 1px; }
 .card-body .price { margin-top: 10px; }
 .card-body .price .kzt { font-size: 13px; color: #888; }
-.card-body .price .rub { font-size: 20px; font-weight: 700; color: #4ade80; }
-.card-body .price .old { text-decoration: line-through; color: #666; font-size: 14px; margin-left: 8px; }
+.card-body .price .rub { font-size: 20px; font-weight: 700; color: #16a34a; }
+.card-body .price .old { text-decoration: line-through; color: #aaa; font-size: 14px; margin-left: 8px; }
 .card-body .sizes { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px; }
-.card-body .sizes span { background: #222; padding: 2px 8px; border-radius: 4px; font-size: 11px; color: #888; }
-.card-body .ref { font-size: 11px; color: #444; margin-top: 8px; }
+.card-body .sizes span { background: #f0f0f0; padding: 2px 8px; border-radius: 4px; font-size: 11px; color: #666; }
+.card-body .ref { font-size: 11px; color: #bbb; margin-top: 8px; }
 .out-of-stock { opacity: 0.5; }
 .out-of-stock .card-img { filter: grayscale(1); }
 .badge-sale { background: #ef4444; color: #fff; font-size: 11px; padding: 2px 8px; border-radius: 4px; margin-left: 8px; }
-#load-more { display: block; margin: 30px auto; background: #222; border: 1px solid #333; color: #fff; padding: 12px 40px; border-radius: 8px; cursor: pointer; font-size: 14px; }
-#load-more:hover { background: #333; }
-footer { text-align: center; padding: 30px; color: #444; font-size: 12px; }
+#status { text-align: center; padding: 20px; color: #888; font-size: 14px; }
+#status button { background: #fff; border: 1px solid #ddd; color: #222; padding: 8px 20px; border-radius: 6px; cursor: pointer; font-size: 14px; }
+#status button:hover { background: #f0f0f0; }
+footer { text-align: center; padding: 30px; color: #bbb; font-size: 12px; }
 </style>
 </head>
 <body>
@@ -101,7 +103,7 @@ function render() {
     const imgUrl = p.image || `https://static.massimodutti.net/3/photos/2026/V/0/2/p/${p.ref.split('/')[0]}/${p.ref.split('/')[1]}/800/${p.ref.split('/')[0]}${p.ref.split('/')[1]}800_1_1_3.jpg`;
     const sale = p.price_old_rub ? `<span class="badge-sale">-${Math.round((1-p.price_rub/p.price_old_rub)*100)}%</span>` : '';
     return `<div class="card${isStock?'':' out-of-stock'}">
-      <img class="card-img" src="${imgUrl}" alt="${p.name}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22280%22 height=%22320%22><rect fill=%22%23222%22 width=%22280%22 height=%22320%22/><text x=%22140%22 y=%22160%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2214%22>${encodeURIComponent(p.name.slice(0,30))}</text></svg>'">
+      <img class="card-img" src="${imgUrl}" alt="${p.name}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22280%22 height=%22320%22><rect fill=%22%23f0f0f0%22 width=%22280%22 height=%22320%22/><text x=%22140%22 y=%22160%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2214%22>${encodeURIComponent(p.name.slice(0,30))}</text></svg>'">
       <div class="card-body">
         <h3>${p.name}</h3>
         <div class="category">${p.section||''} ${p.family ? '· '+p.family : ''}</div>
@@ -116,8 +118,8 @@ function render() {
     </div>`;
   }).join('');
   
-  document.getElementById('status').textContent = slice.length < filtered.length
-    ? `Показано ${slice.length} из ${filtered.length} · <button onclick="shown+=24;render()" style="background:none;border:1px solid #333;color:#fff;padding:8px 20px;border-radius:6px;cursor:pointer">Показать ещё</button>`
+  document.getElementById('status').innerHTML = slice.length < filtered.length
+    ? `Показано ${slice.length} из ${filtered.length} · <button onclick="shown+=24;render()">Показать ещё</button>`
     : `Все ${filtered.length} товаров`;
 }
 </script>
