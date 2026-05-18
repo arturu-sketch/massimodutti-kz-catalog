@@ -54,7 +54,8 @@ input, select { border-radius: 0; }
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
 }
-.section-nav { display: flex; gap: 28px; align-items: center; }
+.section-nav { display: flex; gap: 26px; align-items: center; overflow-x: auto; max-width: 100%; scrollbar-width: none; }
+.section-nav::-webkit-scrollbar { display: none; }
 .section-btn {
   height: 64px;
   border-bottom: 2px solid transparent;
