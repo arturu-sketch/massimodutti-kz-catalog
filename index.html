@@ -533,6 +533,7 @@ let checkoutAfterRegister = false;
 let cart = JSON.parse(localStorage.getItem('md_cart') || '[]');
 let customer = JSON.parse(localStorage.getItem('md_customer') || 'null');
 let imageIndexes = {};
+let colorVariantCount = {};
 
 const rub = new Intl.NumberFormat('ru-RU');
 const byId = id => document.getElementById(id);
@@ -608,8 +609,14 @@ fetch('products.json').then(r => r.json()).then(data => {
 });
 
 function setHeroImage() {
+  const img = byId('home-hero-img');
   const hero = pickHeroImage('WOMEN', ['DRESS', 'COATS', 'SKIRT', 'BLAZER']);
-  if (hero) byId('home-hero-img').src = hero;
+  img.onerror = () => {
+    img.onerror = null;
+    const alt = products.find(p => p.in_stock !== false && imagesFor(p)[0]);
+    if (alt) img.src = imagesFor(alt)[0];
+  };
+  if (hero) img.src = hero;
 }
 
 // Подбирает реальное фото модели из каталога (приоритет — образы в полный рост).
@@ -669,11 +676,12 @@ function imagesFor(p) {
   return ordered.length ? ordered : [`https://static.massimodutti.net/3/photos/2026/V/0/2/p/${p.ref.split('/')[0]}/${p.ref.split('/')[1]}/800/${p.ref.replace('/','')}800_2_1_3.jpg`];
 }
 
+// Полный кадр товара первым; обрезанные кропы — в конец.
 function imagePriority(url) {
-  if (/_2_1_3\.jpg/.test(url)) return 1;
-  if (/_2_2_3\.jpg/.test(url)) return 2;
-  if (/_1_1_3\.jpg/.test(url)) return 3;
-  if (/_5_1_3\.jpg/.test(url)) return 4;
+  if (/_1_1_3\.jpg/.test(url)) return 1;
+  if (/_5_1_3\.jpg/.test(url)) return 2;
+  if (/_2_2_3\.jpg/.test(url)) return 3;
+  if (/_2_1_3\.jpg/.test(url)) return 4;
   return 9;
 }
 
