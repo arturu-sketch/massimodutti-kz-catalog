@@ -30,7 +30,7 @@
   {
     "id": "stradivarius",
     "name": "Stradivarius",
-    "available": false,
+    "available": true,
     "file": "products-stradivarius.json",
     "accent": "#000000"
   },
