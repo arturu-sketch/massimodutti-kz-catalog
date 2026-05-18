@@ -601,12 +601,36 @@ fetch('products.json').then(r => r.json()).then(data => {
     return (order[a] || 99) - (order[b] || 99);
   });
   activeSection = sections[0] || '';
+  buildVariantIndex();
   setHeroImage();
   buildSections();
   buildFamilies();
   updateCartCount();
   render();
 });
+
+// Цветовые варианты товара: записи с одинаковыми section+name — это один товар в разных цветах.
+function buildVariantIndex() {
+  colorVariantCount = {};
+  const colorSets = {};
+  products.forEach(p => {
+    const key = p.section + '||' + p.name;
+    (colorSets[key] = colorSets[key] || new Set()).add(p.color || '');
+  });
+  Object.keys(colorSets).forEach(k => { colorVariantCount[k] = colorSets[k].size; });
+}
+
+function colorVariantsOf(p) {
+  const seen = new Set();
+  const out = [];
+  products.forEach(x => {
+    if (x.section === p.section && x.name === p.name && !seen.has(x.color)) {
+      seen.add(x.color);
+      out.push(x);
+    }
+  });
+  return out;
+}
 
 function setHeroImage() {
   const img = byId('home-hero-img');
@@ -707,7 +731,7 @@ function cardHtml(p) {
     </div>
     <div class="card-body">
       <h3>${esc(p.name)}</h3>
-      <div class="meta">${esc(sectionLabel(p.section))}${p.family ? ' · ' + esc(familyLabel(p.family)) : ''}</div>
+      <div class="meta">${esc(sectionLabel(p.section))}${p.family ? ' · ' + esc(familyLabel(p.family)) : ''}${(colorVariantCount[p.section + '||' + p.name] || 1) > 1 ? ' · ' + colorVariantCount[p.section + '||' + p.name] + ' цв.' : ''}</div>
       <div class="price">
         <div class="rub">${p.price_rub ? rub.format(p.price_rub) + ' ₽' : 'по запросу'} ${sale}</div>
         <div class="kzt">${p.price_kzt ? rub.format(p.price_kzt) + ' ₸' : ''}</div>
@@ -737,6 +761,11 @@ function openProduct(id) {
   if (!currentProduct) return;
   const imgs = imagesFor(currentProduct);
   const uniqueSizes = [...new Set(currentProduct.sizes || [])];
+  const colorVariants = colorVariantsOf(currentProduct);
+  const colorRow = colorVariants.length > 1 ? `<div class="size-row">
+        <label>Цвет — ${esc(currentProduct.color || 'уточнить')}</label>
+        <div class="size-grid">${colorVariants.map(v => `<button type="button" class="size-btn ${v._id === currentProduct._id ? 'active' : ''}" onclick="openProduct('${esc(v._id)}')">${esc(v.color || 'уточнить')}</button>`).join('')}</div>
+      </div>` : '';
   byId('shade').classList.add('open');
   byId('modal').classList.add('open');
   byId('modal').innerHTML = `<div class="product-modal">
@@ -754,9 +783,10 @@ function openProduct(id) {
         <div>Цвет: ${esc(currentProduct.color || 'уточнить')}</div>
         <div>Наличие, финальную цену и срок доставки менеджер проверит перед выкупом.</div>
       </div>
+      ${colorRow}
       <div class="size-row">
         <label>Размер</label>
-        <div class="size-grid">${uniqueSizes.length ? uniqueSizes.map(size => `<button class="size-btn" onclick="selectSize(this, '${esc(size)}')">${esc(size)}</button>`).join('') : '<button class="size-btn active">уточнить</button>'}</div>
+        <div class="size-grid">${uniqueSizes.length ? uniqueSizes.map(size => `<button type="button" class="size-btn" onclick="selectSize(this, '${esc(size)}')">${esc(size)}</button>`).join('') : '<button type="button" class="size-btn active">уточнить</button>'}</div>
       </div>
       <button class="add-modal" onclick="addToCart('${esc(currentProduct._id)}', currentSize)">Добавить в корзину</button>
     </div>
@@ -765,7 +795,8 @@ function openProduct(id) {
 
 function selectSize(button, size) {
   currentSize = size;
-  document.querySelectorAll('.size-btn').forEach(btn => btn.classList.remove('active'));
+  // снимаем выделение только внутри своей сетки, чтобы не сбросить выбор цвета
+  button.closest('.size-grid').querySelectorAll('.size-btn').forEach(btn => btn.classList.remove('active'));
   button.classList.add('active');
 }
 
