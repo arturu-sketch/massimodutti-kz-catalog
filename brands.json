@@ -2,7 +2,7 @@
   {
     "id": "zara",
     "name": "Zara",
-    "available": false,
+    "available": true,
     "file": "products-zara.json",
     "accent": "#000000"
   },
