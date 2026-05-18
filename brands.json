@@ -1,8 +1,44 @@
 [
-  { "id": "zara",         "name": "Zara",          "available": false, "file": "products-zara.json",         "accent": "#000000" },
-  { "id": "massimodutti", "name": "Massimo Dutti",  "available": true,  "file": "products-massimodutti.json", "accent": "#1a1a1a" },
-  { "id": "oysho",        "name": "Oysho",          "available": false, "file": "products-oysho.json",        "accent": "#000000" },
-  { "id": "zarahome",     "name": "Zara Home",      "available": false, "file": "products-zarahome.json",     "accent": "#000000" },
-  { "id": "stradivarius", "name": "Stradivarius",   "available": false, "file": "products-stradivarius.json", "accent": "#000000" },
-  { "id": "bershka",      "name": "Bershka",        "available": false, "file": "products-bershka.json",      "accent": "#000000" }
+  {
+    "id": "zara",
+    "name": "Zara",
+    "available": false,
+    "file": "products-zara.json",
+    "accent": "#000000"
+  },
+  {
+    "id": "massimodutti",
+    "name": "Massimo Dutti",
+    "available": true,
+    "file": "products-massimodutti.json",
+    "accent": "#1a1a1a"
+  },
+  {
+    "id": "oysho",
+    "name": "Oysho",
+    "available": false,
+    "file": "products-oysho.json",
+    "accent": "#000000"
+  },
+  {
+    "id": "zarahome",
+    "name": "Zara Home",
+    "available": false,
+    "file": "products-zarahome.json",
+    "accent": "#000000"
+  },
+  {
+    "id": "stradivarius",
+    "name": "Stradivarius",
+    "available": false,
+    "file": "products-stradivarius.json",
+    "accent": "#000000"
+  },
+  {
+    "id": "bershka",
+    "name": "Bershka",
+    "available": true,
+    "file": "products-bershka.json",
+    "accent": "#000000"
+  }
 ]
