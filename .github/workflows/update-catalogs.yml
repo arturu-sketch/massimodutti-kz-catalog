@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: '0 3 * * 1'    # раз в неделю — понедельник 03:00 UTC
   workflow_dispatch:        # ручной запуск из вкладки Actions
+    inputs:
+      scope:
+        description: 'Что обновить'
+        required: true
+        default: 'zara'
+        type: choice
+        options:
+          - zara
+          - all
 
 permissions:
   contents: write
@@ -28,13 +37,20 @@ jobs:
         env:
           SF_KEY: ${{ secrets.SF_KEY }}
           OUT_DIR: ${{ github.workspace }}
+          UPDATE_SCOPE: ${{ github.event_name == 'workflow_dispatch' && inputs.scope || 'all' }}
+          ZARA_DETAIL_WORKERS: 16
         run: |
-          python scripts/inditex_parse.py massimodutti || true
-          python scripts/inditex_parse.py bershka || true
-          python scripts/inditex_parse.py stradivarius || true
-          python scripts/inditex_parse.py oysho || true
-          python scripts/inditex_parse.py zarahome --bycat || true
-          python scripts/zara_parse.py || true
+          echo "UPDATE_SCOPE=$UPDATE_SCOPE"
+          if [ "$UPDATE_SCOPE" = "all" ]; then
+            python scripts/inditex_parse.py massimodutti || true
+            python scripts/inditex_parse.py bershka || true
+            python scripts/inditex_parse.py stradivarius || true
+            python scripts/inditex_parse.py oysho || true
+            python scripts/inditex_parse.py zarahome --bycat || true
+          fi
+          if [ "$UPDATE_SCOPE" = "all" ] || [ "$UPDATE_SCOPE" = "zara" ]; then
+            python scripts/zara_parse.py || true
+          fi
 
       - name: Уведомление в Telegram
         env:
