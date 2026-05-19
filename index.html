@@ -563,6 +563,15 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
   }
   .sort-option { min-height: 52px; font-size: 15px; }
   .category-panel { position: static; height: auto; max-height: 230px; overflow-y: auto; border-right: 0; border-bottom: 1px solid var(--line); padding: 14px 18px; }
+  .section-children {
+    display: grid;
+    gap: 2px;
+    margin: 2px 0 18px;
+    padding: 8px 0 12px 14px;
+    border-left: 1px solid var(--line);
+  }
+  .section-children .family-btn { color: #666; }
+  .section-children .family-btn.active { color: #111; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); border-left: 0; }
   .product-modal {
     inset: 0;
@@ -1351,18 +1360,26 @@ function sectionCount(section) {
 
 function buildFamilies() {
   byId('category-title').textContent = '';
-  let html = '';
-  if (sections.length > 1) {
-    html += '<div class="cat-group">Разделы</div>';
-    html += sections.map(s => `<button class="family-btn section-row ${s === activeSection ? 'active' : ''}" onclick="setSection('${esc(s)}')"><span>${esc(sectionLabel(s))}</span><span class="family-count">${sectionCount(s)}</span></button>`).join('');
-  }
   const inSection = products.filter(p => p.section === activeSection);
   const groups = {};
   inSection.forEach(p => { const g = groupOf(p); groups[g] = (groups[g] || 0) + 1; });
   const gkeys = Object.keys(groups).sort((a, b) => a.localeCompare(b, 'ru'));
-  html += `<div class="cat-group">${esc(sectionLabel(activeSection) || 'Каталог')}</div>`;
-  html += `<button class="family-btn ${!activeGroup ? 'active' : ''}" onclick="setGroup('')"><span>Все товары</span><span class="family-count">${inSection.length}</span></button>`;
-  html += gkeys.map(g => `<button class="family-btn ${g === activeGroup ? 'active' : ''}" onclick="setGroup('${esc(g)}')"><span>${esc(g)}</span><span class="family-count">${groups[g]}</span></button>`).join('');
+  const groupButtons = `<button class="family-btn ${!activeGroup ? 'active' : ''}" onclick="setGroup('')"><span>Все товары</span><span class="family-count">${inSection.length}</span></button>` +
+    gkeys.map(g => `<button class="family-btn ${g === activeGroup ? 'active' : ''}" onclick="setGroup('${esc(g)}')"><span>${esc(g)}</span><span class="family-count">${groups[g]}</span></button>`).join('');
+  let html = '';
+  const isMobile = window.matchMedia('(max-width: 900px)').matches;
+  if (sections.length > 1) {
+    html += '<div class="cat-group">Разделы</div>';
+    html += sections.map(s => {
+      const row = `<button class="family-btn section-row ${s === activeSection ? 'active' : ''}" onclick="setSection('${esc(s)}')"><span>${esc(sectionLabel(s))}</span><span class="family-count">${sectionCount(s)}</span></button>`;
+      return isMobile && s === activeSection ? row + `<div class="section-children">${groupButtons}</div>` : row;
+    }).join('');
+  } else {
+    html += `<div class="cat-group">${esc(sectionLabel(activeSection) || 'Каталог')}</div>`;
+  }
+  if (!isMobile || sections.length <= 1) {
+    html += `<div class="cat-group">${esc(sectionLabel(activeSection) || 'Каталог')}</div>${groupButtons}`;
+  }
   byId('family-list').innerHTML = html;
   buildSubtypes();
 }
