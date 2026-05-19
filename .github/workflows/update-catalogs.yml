@@ -1,0 +1,51 @@
+name: Обновление каталогов ЗАРАЕКБ
+
+on:
+  schedule:
+    - cron: '0 6 */3 * *'   # каждые 3 дня, 06:00 UTC
+  workflow_dispatch:          # ручной запуск из вкладки Actions
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Получить репозиторий
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Зависимости
+        run: pip install requests
+
+      - name: Парсинг каталогов
+        env:
+          SF_KEY: ${{ secrets.SF_KEY }}
+          OUT_DIR: ${{ github.workspace }}
+        run: |
+          python scripts/inditex_parse.py massimodutti || true
+          python scripts/inditex_parse.py bershka || true
+          python scripts/inditex_parse.py stradivarius || true
+          python scripts/inditex_parse.py oysho || true
+          python scripts/inditex_parse.py zarahome --bycat || true
+          python scripts/zara_parse.py || true
+
+      - name: Уведомление в Telegram
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: python scripts/notify_changes.py
+
+      - name: Коммит обновлений
+        run: |
+          git config user.name "zaraekb-bot"
+          git config user.email "bot@ly-x.com"
+          git add products-*.json
+          git diff --cached --quiet || git commit -m "Авто-обновление каталогов $(date +%F)"
+          git push
