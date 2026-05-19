@@ -383,6 +383,11 @@ input, select { border-radius: 0; }
 .order-badge.pay { border-color: var(--line); color: #777; }
 .order-line { margin-top: 8px; color: #555; font-size: 12px; line-height: 1.5; }
 .order-total { margin-top: 8px; font-size: 13px; }
+.order-ok { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 40px 28px; text-align: center; }
+.order-ok-mark { width: 56px; height: 56px; display: grid; place-items: center; border-radius: 50%; background: #111; color: #fff; font-size: 26px; }
+.order-ok h3 { font-size: 16px; font-weight: 500; letter-spacing: .04em; }
+.order-ok p { color: #666; font-size: 13px; line-height: 1.5; max-width: 300px; }
+.order-ok .full-action { max-width: 260px; }
 .cart-list { display: grid; align-content: start; gap: 14px; }
 .cart-brand { color: #999; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; }
 .cart-brand:not(:first-child) { margin-top: 10px; }
@@ -497,7 +502,7 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
 <div class="splash" id="splash">
   <div class="splash-brand">
     <strong>ЗАРАЕКБ</strong>
-    <span>Екатеринбург / Россия</span>
+    <span>Ваш персональный байер-сервис</span>
   </div>
 </div>
 
@@ -512,7 +517,7 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
 
 <section class="home" id="home">
   <div class="home-copy">
-    <div class="eyebrow">Независимый байер-сервис · Екатеринбург</div>
+    <div class="eyebrow">Независимый байер-сервис</div>
     <h1>ЗАРАЕКБ</h1>
     <div class="home-slogan">Доставка в РФ<br>от 3-х дней</div>
     <p>Полный ассортимент брендов Inditex из Казахстана. Выбирайте бренд — мы выкупаем и доставляем напрямую к вам.</p>
@@ -848,12 +853,17 @@ function loadBrand(brandId) {
   const brand = brands.find(b => b.id === brandId);
   if (!brand) return Promise.reject(new Error('unknown brand ' + brandId));
   return fetch(brand.file).then(r => r.json()).then(data => {
-    const list = data.map((p, index) => ({
-      ...p,
-      brand: brandId,
-      _idx: index,
-      _id: `${brandId}-${p.ref}-${p.color || ''}-${index}`
-    }));
+    const list = data
+      .filter(p => {
+        const fam = (p.family || '').toUpperCase();
+        return fam !== 'GIFT CARD' && fam !== 'ПОДАРОЧНАЯ КАРТА';
+      })
+      .map((p, index) => ({
+        ...p,
+        brand: brandId,
+        _idx: index,
+        _id: `${brandId}-${p.ref}-${p.color || ''}-${index}`
+      }));
     productsByBrand[brandId] = list;
     list.forEach(p => { productsById[p._id] = p; });
     return list;
@@ -1041,7 +1051,6 @@ function cardHtml(p) {
       <div class="meta">${esc(sectionLabel(p.section))}${p.family ? ' · ' + esc(familyLabel(p.family)) : ''}${(colorVariantCount[p.section + '||' + p.name] || 1) > 1 ? ' · ' + colorVariantCount[p.section + '||' + p.name] + ' цв.' : ''}</div>
       <div class="price">
         <div class="rub">${p.price_rub ? rub.format(p.price_rub) + ' ₽' : 'по запросу'} ${sale}</div>
-        <div class="kzt">${p.price_kzt ? rub.format(p.price_kzt) + ' ₸' : ''}</div>
       </div>
       <div class="ref">${esc(p.ref)}</div>
       <button class="quick-add" onclick="event.stopPropagation(); openProduct('${esc(p._id)}')">Выбрать</button>
@@ -1083,7 +1092,6 @@ function openProduct(id) {
       <h2>${esc(currentProduct.name)}</h2>
       <div class="modal-price">
         <div class="rub">${currentProduct.price_rub ? rub.format(currentProduct.price_rub) + ' ₽' : 'по запросу'}</div>
-        <div class="kzt">${currentProduct.price_kzt ? rub.format(currentProduct.price_kzt) + ' ₸' : ''}</div>
       </div>
       <div class="details">
         <div>Артикул: ${esc(currentProduct.ref)}</div>
@@ -1278,13 +1286,27 @@ async function submitOrder() {
       if (!res.ok) throw new Error('send failed');
       cart = [];
       saveCart();
-      renderCart();
-      return toast('Заявка отправлена');
+      showOrderConfirmed();
+      return;
     } catch (err) {
       console.warn(err);
     }
   }
   navigator.clipboard.writeText(order.text).then(() => toast('Заявка скопирована, отправьте её менеджеру'));
+}
+
+function showOrderConfirmed() {
+  byId('shade').classList.add('open');
+  byId('drawer').classList.add('open');
+  byId('drawer').innerHTML = `<div class="cart-drawer">
+    <div class="cart-head"><h2>Заявка принята</h2><button class="close" onclick="closeAll()">×</button></div>
+    <div class="order-ok">
+      <div class="order-ok-mark">✓</div>
+      <h3>Ваша заявка принята</h3>
+      <p>В скором времени с вами свяжется наш менеджер для оформления заказа.</p>
+      <button class="full-action dark" onclick="closeAll()">Хорошо</button>
+    </div>
+  </div>`;
 }
 
 function buildOrder() {
