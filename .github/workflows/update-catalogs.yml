@@ -2,8 +2,8 @@ name: Обновление каталогов ЗАРАЕКБ
 
 on:
   schedule:
-    - cron: '0 6 */3 * *'   # каждые 3 дня, 06:00 UTC
-  workflow_dispatch:          # ручной запуск из вкладки Actions
+    - cron: '0 3 * * 1'    # раз в неделю — понедельник 03:00 UTC
+  workflow_dispatch:        # ручной запуск из вкладки Actions
 
 permissions:
   contents: write
