@@ -690,7 +690,7 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
   .menu-panel .panel-body {
     padding: 0 18px 92px;
   }
-  .menu-panel .panel-section, .menu-panel .menu-hero { display: none; }
+  .menu-panel .panel-section, .menu-panel .menu-hero, .menu-featured-row { display: none; }
   .mobile-menu-tabs {
     display: flex;
     gap: 30px;
@@ -746,7 +746,6 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
     line-height: 1;
   }
   .menu-featured-row {
-    display: flex;
     gap: 14px;
     overflow-x: auto;
     margin: 0 -18px 42px;
@@ -775,37 +774,75 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
   }
   .mobile-menu-list {
     display: grid;
-    gap: 32px;
+    gap: 0;
   }
   .mobile-menu-row {
     display: grid;
-    grid-template-columns: 78px 1fr;
+    grid-template-columns: 1fr auto;
     gap: 18px;
-    align-items: start;
+    align-items: center;
     width: 100%;
+    min-height: 58px;
+    border-bottom: 1px solid var(--line);
     text-align: left;
-  }
-  .mobile-menu-index {
-    color: #333;
-    font-size: 20px;
-    letter-spacing: .03em;
-    white-space: nowrap;
   }
   .mobile-menu-title {
     display: block;
     color: #111;
-    font-size: clamp(22px, 6.4vw, 31px);
+    font-size: 18px;
     font-weight: 600;
-    line-height: 1.06;
-    letter-spacing: .01em;
+    line-height: 1.2;
+    letter-spacing: .08em;
     text-transform: uppercase;
   }
   .mobile-menu-count {
     display: block;
-    margin-top: 6px;
+    margin-top: 4px;
     color: #999;
     font-size: 12px;
     letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+  .mobile-menu-chevron {
+    color: #777;
+    font-size: 22px;
+    line-height: 1;
+  }
+  .mobile-menu-children {
+    display: grid;
+    gap: 0;
+    padding: 10px 0 22px;
+    border-bottom: 1px solid #111;
+  }
+  .mobile-menu-child {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 14px;
+    align-items: center;
+    min-height: 46px;
+    width: 100%;
+    color: #555;
+    text-align: left;
+  }
+  .mobile-menu-child strong {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+  }
+  .mobile-menu-child span {
+    color: #aaa;
+    font-size: 12px;
+  }
+  .mobile-menu-back {
+    margin-top: 26px;
+    min-height: 48px;
+    width: 100%;
+    border-top: 1px solid var(--line);
+    color: #777;
+    font-size: 13px;
+    letter-spacing: .12em;
+    text-align: left;
     text-transform: uppercase;
   }
 }
@@ -911,6 +948,7 @@ let activeSection = '';
 let activeFamily = '';
 let activeGroup = '';
 let mobileOpenSection = '';
+let menuOpenSection = '';
 let currentProduct = null;
 let currentSize = '';
 let selectedMessenger = '';
@@ -925,6 +963,7 @@ const PAGE_SIZE = 80;
 const rub = new Intl.NumberFormat('ru-RU');
 const byId = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]));
+const js = value => JSON.stringify(String(value ?? ''));
 const brandName = id => (brands.find(b => b.id === id) || {}).name || id || '';
 const sortLabels = {
   new: 'Сначала новинки',
@@ -1279,6 +1318,7 @@ function openBrand(brandId) {
     activeFamily = '';
     activeGroup = '';
     mobileOpenSection = '';
+    menuOpenSection = '';
     visibleLimit = PAGE_SIZE;
     imageIndexes = {};
     byId('search').value = '';
@@ -1408,8 +1448,8 @@ function buildFamilies() {
     html += '<div class="cat-group">Разделы</div>';
     const sectionRows = sections.map(s => {
       const isOpen = isMobile && s === mobileOpenSection;
-      const action = isMobile ? `toggleMobileSection('${esc(s)}')` : `setSection('${esc(s)}')`;
-      const row = `<button class="family-btn section-row ${s === activeSection ? 'active' : ''}" onclick="${action}"><span>${esc(sectionLabel(s))}</span><span class="section-row-meta"><span class="family-count">${sectionCount(s)}</span><span class="section-chevron">${isOpen ? '⌃' : '⌄'}</span></span></button>`;
+      const action = isMobile ? `toggleMobileSection(${js(s)})` : `setSection(${js(s)})`;
+      const row = `<button class="family-btn section-row ${s === activeSection ? 'active' : ''}" onclick="${esc(action)}"><span>${esc(sectionLabel(s))}</span><span class="section-row-meta"><span class="family-count">${sectionCount(s)}</span><span class="section-chevron">${isOpen ? '⌃' : '⌄'}</span></span></button>`;
       return row;
     }).join('');
     html += sectionRows;
@@ -1461,6 +1501,7 @@ function setSection(section) {
       activeGroup = '';
       activeFamily = '';
       if (window.matchMedia('(max-width: 900px)').matches) mobileOpenSection = section;
+      menuOpenSection = section;
       visibleLimit = PAGE_SIZE;
       imageIndexes = {};
       buildVariantIndex();
@@ -1475,6 +1516,7 @@ function setSection(section) {
   activeGroup = '';
   activeFamily = '';
   if (window.matchMedia('(max-width: 900px)').matches) mobileOpenSection = section;
+  menuOpenSection = section;
   visibleLimit = PAGE_SIZE;
   buildSections();
   buildFamilies();
@@ -1498,6 +1540,7 @@ function openGroup(section, group) {
       activeSection = section;
       activeGroup = group;
       activeFamily = '';
+      menuOpenSection = section;
       visibleLimit = PAGE_SIZE;
       imageIndexes = {};
       buildVariantIndex();
@@ -1511,6 +1554,7 @@ function openGroup(section, group) {
   activeSection = section;
   activeGroup = group;
   activeFamily = '';
+  menuOpenSection = section;
   visibleLimit = PAGE_SIZE;
   buildSections();
   buildFamilies();
@@ -2084,63 +2128,39 @@ function openMenu() {
   if (!activeBrand) {
     byId('drawer').innerHTML = `<div class="side-panel menu-panel">
       <div class="panel-head"><h2>Бренды</h2><button type="button" class="close" onclick="closeAll()">×</button></div>
-      <div class="mobile-menu-tabs">
-        ${brands.map(b => `<button type="button" class="mobile-menu-tab" ${b.available ? `onclick="closeAll(); openBrand('${esc(b.id)}')"` : 'disabled'}>${esc(b.name)}</button>`).join('')}
-      </div>
       <div class="panel-body">
-        <div class="panel-section">
-          ${brands.map(b => `<button class="panel-link" ${b.available ? `onclick="closeAll(); openBrand('${esc(b.id)}')"` : 'disabled'}><span>${esc(b.name)}</span><span>${b.available ? '' : 'скоро'}</span></button>`).join('')}
-        </div>
         <div class="mobile-menu-list">
           ${brands.map((b, index) => `<button type="button" class="mobile-menu-row" ${b.available ? `onclick="closeAll(); openBrand('${esc(b.id)}')"` : 'disabled'}>
-            <span class="mobile-menu-index">| ${String(index + 1).padStart(2, '0')} |</span>
             <span><span class="mobile-menu-title">${esc(b.name)}</span><span class="mobile-menu-count">${b.available ? 'Открыть каталог' : 'Скоро'}</span></span>
+            <span class="mobile-menu-chevron">›</span>
           </button>`).join('')}
         </div>
       </div>
     </div>`;
     return;
   }
-  const menuHero = pickHeroImage('WOMEN', ['DRESS', 'BLAZER', 'SHIRTS', 'COATS']);
   const currentSection = activeSection || sections[0] || '';
-  const currentGroups = menuGroups(currentSection);
-  const featured = currentGroups.slice(0, 4).map(g => ({ ...g, image: menuGroupImage(currentSection, g.name) })).filter(g => g.image);
+  menuOpenSection = menuOpenSection || currentSection;
+  const openedSection = menuOpenSection;
+  const currentGroups = openedSection === currentSection ? menuGroups(openedSection) : [];
   byId('drawer').innerHTML = `<div class="side-panel menu-panel">
     <div class="panel-head"><h2>${esc(brandName(activeBrand))}</h2><button type="button" class="close" onclick="closeAll()">×</button></div>
-    <div class="mobile-menu-tabs">
-      ${sections.map(section => `<button type="button" class="mobile-menu-tab ${section === currentSection ? 'active' : ''}" onclick="switchMenuSection('${esc(section)}')">${esc(sectionLabel(section))}</button>`).join('')}
-    </div>
     <div class="mobile-menu-search">
       <input id="mobile-menu-query" type="search" placeholder="Поиск" autocomplete="off" onkeydown="if(event.key==='Enter') applyMobileMenuSearch()">
       <button type="button" onclick="applyMobileMenuSearch()" aria-label="Искать">⌕</button>
     </div>
     <div class="panel-body">
-      ${menuHero ? `<div class="menu-hero"><img src="${esc(menuHero)}" alt="Новая коллекция" loading="lazy"><span>Новая коллекция · 2026</span></div>` : ''}
-      ${featured.length ? `<div class="menu-featured-row">
-        ${featured.map(g => `<button type="button" class="menu-feature-card" onclick="closeAll(); openGroup('${esc(currentSection)}','${esc(g.name)}')"><img src="${esc(g.image)}" alt="${esc(g.name)}" loading="lazy"><span>${esc(g.name)}</span></button>`).join('')}
-      </div>` : ''}
       <div class="mobile-menu-list">
-        <button type="button" class="mobile-menu-row" onclick="closeAll(); setSection('${esc(currentSection)}')">
-          <span class="mobile-menu-index">| 01 |</span>
-          <span><span class="mobile-menu-title">Новинки</span><span class="mobile-menu-count">${sectionCount(currentSection)} товаров</span></span>
-        </button>
-        ${currentGroups.map((g, index) => `<button type="button" class="mobile-menu-row" onclick="closeAll(); openGroup('${esc(currentSection)}','${esc(g.name)}')">
-          <span class="mobile-menu-index">| ${String(index + 2).padStart(2, '0')} |</span>
-          <span><span class="mobile-menu-title">${esc(g.name)}</span><span class="mobile-menu-count">${g.count} товаров</span></span>
+        ${sections.map(section => `<button type="button" class="mobile-menu-row ${section === openedSection ? 'active' : ''}" onclick="${esc(`switchMenuSection(${js(section)})`)}">
+          <span><span class="mobile-menu-title">${esc(sectionLabel(section))}</span><span class="mobile-menu-count">${sectionCount(section)} товаров</span></span>
+          <span class="mobile-menu-chevron">${section === openedSection ? '⌃' : '⌄'}</span>
         </button>`).join('')}
       </div>
-      ${sections.map(section => {
-        const groups = {};
-        products.filter(p => p.section === section).forEach(p => { const g = groupOf(p); groups[g] = (groups[g] || 0) + 1; });
-        const gkeys = Object.keys(groups).sort((a, b) => a.localeCompare(b, 'ru'));
-        return `<div class="panel-section"><h3>${esc(sectionLabel(section))}</h3>
-          <button class="panel-link" onclick="closeAll(); setSection('${esc(section)}')"><span>Все</span><span>${products.filter(p => p.section === section).length}</span></button>
-          ${gkeys.map(g => `<button class="panel-link" onclick="closeAll(); openGroup('${esc(section)}','${esc(g)}')"><span>${esc(g)}</span><span>${groups[g]}</span></button>`).join('')}
-        </div>`;
-      }).join('')}
-      <div class="panel-section">
-        <button class="panel-link" onclick="closeAll(); goHome()"><span>← Все бренды</span><span></span></button>
+      <div class="mobile-menu-children">
+        <button type="button" class="mobile-menu-child" onclick="${esc(`closeAll(); setSection(${js(openedSection)})`)}"><strong>Все товары</strong><span>${sectionCount(openedSection)}</span></button>
+        ${currentGroups.map(g => `<button type="button" class="mobile-menu-child" onclick="${esc(`closeAll(); openGroup(${js(openedSection)}, ${js(g.name)})`)}"><strong>${esc(g.name)}</strong><span>${g.count}</span></button>`).join('')}
       </div>
+      <button type="button" class="mobile-menu-back" onclick="closeAll(); goHome()">‹ Все бренды</button>
     </div>
   </div>`;
 }
@@ -2160,12 +2180,14 @@ function menuGroupImage(section, group) {
 }
 
 function switchMenuSection(section) {
+  menuOpenSection = section;
   if (activeBrand && brandManifests[activeBrand]) {
     loadBrandSection(activeBrand, section).then(list => {
       products = list;
       activeSection = section;
       activeGroup = '';
       activeFamily = '';
+      mobileOpenSection = '';
       visibleLimit = PAGE_SIZE;
       imageIndexes = {};
       buildVariantIndex();
@@ -2179,6 +2201,7 @@ function switchMenuSection(section) {
   activeSection = section;
   activeGroup = '';
   activeFamily = '';
+  mobileOpenSection = '';
   visibleLimit = PAGE_SIZE;
   buildSections();
   buildFamilies();
