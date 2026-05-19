@@ -238,6 +238,17 @@ input, select { border-radius: 0; }
   color: #888;
   font-size: 12px;
 }
+.subtype-bar { display: flex; flex-wrap: wrap; gap: 8px; padding: 16px 22px; border-bottom: 1px solid var(--line); }
+.subtype-btn {
+  padding: 8px 15px;
+  border: 1px solid var(--line);
+  color: #555;
+  font-size: 11px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.subtype-btn.active { border-color: #111; background: #111; color: #fff; }
 .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-left: 1px solid var(--line); }
 .card { min-width: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: #fff; cursor: pointer; }
 .image-wrap { position: relative; aspect-ratio: 3 / 4; overflow: hidden; background: var(--wash); }
@@ -544,6 +555,7 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
       <div class="family-list" id="family-list"></div>
     </aside>
     <section>
+      <div class="subtype-bar" id="subtype-bar"></div>
       <div class="results-line" id="status"></div>
       <div class="grid" id="grid"></div>
     </section>
@@ -581,6 +593,7 @@ let products = [];
 let sections = [];
 let activeSection = '';
 let activeFamily = '';
+let activeGroup = '';
 let currentProduct = null;
 let currentSize = '';
 let selectedMessenger = '';
@@ -893,6 +906,7 @@ function openBrand(brandId) {
     activeBrand = brandId;
     products = list;
     activeFamily = '';
+    activeGroup = '';
     imageIndexes = {};
     byId('search').value = '';
     byId('sort').value = 'new';
@@ -971,6 +985,25 @@ function buildSections() {
   byId('section-nav').innerHTML = '';
 }
 
+// Группировка категорий в укрупнённые разделы каталога (как на офсайте).
+const familyGroups = {
+  'Обувь': ['SANDAL','FLAT SANDAL','HEELED SANDAL','BEACH SANDAL','BOOT','FLAT BOOT','RAIN BOOT','HEELED BOOT','ANKLE BOOT','FLAT ANKLE BOOT','HEELED ANKLE BOOT','BOOT AND ANKLE BOOTS','BOOTS AND ANKLE BOOTS','BOOTS','HEEL SHOES','HEELED SHOES','FLAT SHOES','SHOES','SHOE','SNEAKERS','TRAINERS','HIGH TOPS','RUNNING SHOES','SPORT SHOES','ATHLETIC FOOTWEAR','LOAFER','MOCCASINS','WEDGE','WEDGES','BALLET FLATS','FLATS','HOME SHOES','FOOTWEAR','FLIP FLOPS'],
+  'Платья и комбинезоны': ['DRESS','DRESSES','JUMPSUIT','JUMPSUITS','OVERALL','ENSEMBLE..SET','BIB OVERALL'],
+  'Верхняя одежда': ['COATS','COAT','3/4 COAT','BLAZER','BLAZERS','JACKET','JACKETS','BOMBER JACKET','ANORAK','TRENCH RAINCOAT','WIND-JACKET','SLEEVELESS PAD. JACKET','VESTS','WAISTCOAT','KNITTED WAISTCOAT'],
+  'Верх': ['SHIRTS','SHIRT','T-SHIRT','T-SHIRTS','SHORT-SLEEVED T-SHIRT','LONG SLEEVE TOP','TOP','TOPS','TANK TOP','TOPS AND OTHERS','POLO','POLO SHIRT','BODYSUIT','BODY','BODYSUITS','OVERSHIRT','KNITWEAR','CHUNKY KNITS','SWEATER','SWEATERS','CARDIGAN','SWEATSHIRT','SWEATSHIRTS'],
+  'Брюки и юбки': ['TROUSERS','PANTS','SKIRT','SKIRTS','SHORTS','BERMUDA','LEGGINGS'],
+  'Сумки': ['BAG','BAGS','BAGS AND BACKPACKS','HAND BAG-RUCKSACK','TOILETRY BAG'],
+  'Аксессуары': ['ACCESSORIES','ACCESSORY','BELT','BELTS','SCARF','SCARVES','SHAWL/FOULARD','GLOVES','HAT','CAP/HAT','CAP','BEANIES AND HATS','SUNGLASSES','GLASSES','JEWELRY','FASHION JEWELLERY','IMIT JEWELLER','HAIR ACCESSORY','WALLETS','PURSE WALLET','PURSES','SMALL LEATHER GOODS','TIE','BOW TIE/CUMMERBAND','SUSPENDERS','LEATHER'],
+  'Бельё и пляж': ['UNDERWEAR','BRA','BIKINI BRA','BIKINI PANTS','PANTY/UNDERPANT','SWIMSUIT','SWIMWEAR','SOCKS','SOCKS PACK','STOCKINGS-TIGHTS','NIGHTIE/PYJAMAS','BATHROBE/DRES.GOWN'],
+  'Парфюм и красота': ['EAU DE PARFUM','EAU DE TOILETTE','PERFUME','FRAGRANCES','BODY OIL','HAIR & BODY MIST'],
+  'Малыши': ['BABY ACCESORIES','BABY BERMUDAS','BABY BODY','BABY BONNET','BABY CARDIGAN','BABY DRESS','BABY JACKET/COAT','BABY LEGGINGS','BABY OUTFIT','BABY OVERALL','BABY PANTY/UNDERP.','BABY POLO SHIRT','BABY PYJAMA','BABY ROMPER SUIT','BABY SHIRT','BABY SKIRT','BABY SOCKS','BABY SWEATER','BABY SWIMSUIT','BABY T-SHIRT','BABY TRACKSUIT','BABY TROUSERS','BABY WAISTCOAT','BABY WIND-JACKET']
+};
+const familyGroupMap = {};
+Object.keys(familyGroups).forEach(g => familyGroups[g].forEach(f => { familyGroupMap[f] = g; }));
+function groupOf(p) {
+  return familyGroupMap[(p.family || '').toUpperCase()] || familyLabel(p.family) || 'Другое';
+}
+
 function familyCounts(section) {
   const counts = {};
   products.filter(p => p.section === section).forEach(p => {
@@ -981,22 +1014,59 @@ function familyCounts(section) {
 }
 
 function buildFamilies() {
-  const counts = familyCounts(activeSection);
-  const families = Object.keys(counts).sort((a, b) => familyLabel(a).localeCompare(familyLabel(b), 'ru'));
   byId('category-title').textContent = '';
   let html = '';
   if (sections.length > 1) {
     html += '<div class="cat-group">Разделы</div>';
     html += sections.map(s => `<button class="family-btn section-row ${s === activeSection ? 'active' : ''}" onclick="setSection('${esc(s)}')"><span>${esc(sectionLabel(s))}</span><span class="family-count">${products.filter(p => p.section === s).length}</span></button>`).join('');
   }
-  html += `<div class="cat-group">${esc(sectionLabel(activeSection) || 'Категории')}</div>`;
-  html += `<button class="family-btn ${!activeFamily ? 'active' : ''}" onclick="setFamily('')"><span>Все</span><span class="family-count">${products.filter(p => p.section === activeSection).length}</span></button>`;
-  html += families.map(family => `<button class="family-btn ${family === activeFamily ? 'active' : ''}" onclick="setFamily('${esc(family)}')"><span>${esc(familyLabel(family))}</span><span class="family-count">${counts[family]}</span></button>`).join('');
+  const inSection = products.filter(p => p.section === activeSection);
+  const groups = {};
+  inSection.forEach(p => { const g = groupOf(p); groups[g] = (groups[g] || 0) + 1; });
+  const gkeys = Object.keys(groups).sort((a, b) => a.localeCompare(b, 'ru'));
+  html += `<div class="cat-group">${esc(sectionLabel(activeSection) || 'Каталог')}</div>`;
+  html += `<button class="family-btn ${!activeGroup ? 'active' : ''}" onclick="setGroup('')"><span>Все товары</span><span class="family-count">${inSection.length}</span></button>`;
+  html += gkeys.map(g => `<button class="family-btn ${g === activeGroup ? 'active' : ''}" onclick="setGroup('${esc(g)}')"><span>${esc(g)}</span><span class="family-count">${groups[g]}</span></button>`).join('');
   byId('family-list').innerHTML = html;
+  buildSubtypes();
+}
+
+// Кнопки-подразделы сверху каталога — типы товаров внутри выбранной группы.
+function buildSubtypes() {
+  const bar = byId('subtype-bar');
+  if (!bar) return;
+  if (!activeGroup) { bar.innerHTML = ''; bar.style.display = 'none'; return; }
+  const fams = {};
+  products.filter(p => p.section === activeSection && groupOf(p) === activeGroup)
+    .forEach(p => { const f = p.family || 'OTHER'; fams[f] = (fams[f] || 0) + 1; });
+  const fkeys = Object.keys(fams).sort((a, b) => familyLabel(a).localeCompare(familyLabel(b), 'ru'));
+  if (fkeys.length < 2) { bar.innerHTML = ''; bar.style.display = 'none'; return; }
+  bar.style.display = '';
+  bar.innerHTML = `<button class="subtype-btn ${!activeFamily ? 'active' : ''}" onclick="setFamily('')">Все</button>` +
+    fkeys.map(f => `<button class="subtype-btn ${f === activeFamily ? 'active' : ''}" onclick="setFamily('${esc(f)}')">${esc(familyLabel(f))}</button>`).join('');
 }
 
 function setSection(section) {
   activeSection = section;
+  activeGroup = '';
+  activeFamily = '';
+  buildSections();
+  buildFamilies();
+  render();
+  goCatalog();
+}
+
+function setGroup(group) {
+  activeGroup = group;
+  activeFamily = '';
+  buildFamilies();
+  render();
+  goCatalog();
+}
+
+function openGroup(section, group) {
+  activeSection = section;
+  activeGroup = group;
   activeFamily = '';
   buildSections();
   buildFamilies();
@@ -1006,7 +1076,7 @@ function setSection(section) {
 
 function setFamily(family) {
   activeFamily = family;
-  buildFamilies();
+  buildSubtypes();
   render();
   goCatalog();
 }
@@ -1021,6 +1091,7 @@ function render() {
   const sort = byId('sort').value;
   let filtered = products.filter(p => {
     if (activeSection && p.section !== activeSection) return false;
+    if (activeGroup && groupOf(p) !== activeGroup) return false;
     if (activeFamily && p.family !== activeFamily) return false;
     if (q) {
       const haystack = [p.name, p.ref, p.family, p.subfamily, p.color].join(' ').toLowerCase();
@@ -1031,7 +1102,7 @@ function render() {
   if (sort === 'cheap') filtered.sort((a,b) => (a.price_rub || 99999999) - (b.price_rub || 99999999));
   else if (sort === 'expensive') filtered.sort((a,b) => (b.price_rub || 0) - (a.price_rub || 0));
   else filtered.sort((a,b) => (a._idx || 0) - (b._idx || 0));
-  byId('status').textContent = `${sectionLabel(activeSection)}${activeFamily ? ' · ' + familyLabel(activeFamily) : ''} · ${filtered.length} товаров`;
+  byId('status').textContent = `${sectionLabel(activeSection)}${activeGroup ? ' · ' + activeGroup : ''}${activeFamily ? ' · ' + familyLabel(activeFamily) : ''} · ${filtered.length} товаров`;
   byId('grid').innerHTML = filtered.length ? filtered.map(cardHtml).join('') : '<div class="empty">Ничего не найдено</div>';
 }
 
@@ -1527,11 +1598,12 @@ function openMenu() {
     <div class="panel-body">
       ${menuHero ? `<div class="menu-hero"><img src="${esc(menuHero)}" alt="Новая коллекция" loading="lazy"><span>Новая коллекция · 2026</span></div>` : ''}
       ${sections.map(section => {
-        const counts = familyCounts(section);
-        const families = Object.keys(counts).sort((a, b) => familyLabel(a).localeCompare(familyLabel(b), 'ru'));
+        const groups = {};
+        products.filter(p => p.section === section).forEach(p => { const g = groupOf(p); groups[g] = (groups[g] || 0) + 1; });
+        const gkeys = Object.keys(groups).sort((a, b) => a.localeCompare(b, 'ru'));
         return `<div class="panel-section"><h3>${esc(sectionLabel(section))}</h3>
           <button class="panel-link" onclick="closeAll(); setSection('${esc(section)}')"><span>Все</span><span>${products.filter(p => p.section === section).length}</span></button>
-          ${families.map(family => `<button class="panel-link" onclick="closeAll(); activeSection='${esc(section)}'; setFamily('${esc(family)}')"><span>${esc(familyLabel(family))}</span><span>${counts[family]}</span></button>`).join('')}
+          ${gkeys.map(g => `<button class="panel-link" onclick="closeAll(); openGroup('${esc(section)}','${esc(g)}')"><span>${esc(g)}</span><span>${groups[g]}</span></button>`).join('')}
         </div>`;
       }).join('')}
       <div class="panel-section">
