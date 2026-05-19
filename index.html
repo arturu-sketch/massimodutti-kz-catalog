@@ -196,6 +196,47 @@ input, select { border-radius: 0; }
   outline: none;
 }
 .utility input { width: min(440px, 48vw); }
+#sort { display: none; }
+.sort-dropdown {
+  position: relative;
+  min-width: 220px;
+}
+.sort-trigger {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  border: 1px solid var(--line);
+  background: #fff;
+  padding: 0 14px;
+  color: #333;
+  text-align: left;
+}
+.sort-icon { font-size: 20px; line-height: 1; }
+.sort-options {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 6px);
+  z-index: 40;
+  display: none;
+  border: 1px solid var(--line);
+  background: #fff;
+  box-shadow: 0 10px 26px rgba(0,0,0,.08);
+}
+.sort-dropdown.open .sort-options { display: block; }
+.sort-option {
+  width: 100%;
+  min-height: 44px;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+  color: #555;
+  text-align: left;
+}
+.sort-option:last-child { border-bottom: 0; }
+.sort-option.active { color: #111; font-weight: 600; }
 .shop-layout { display: grid; grid-template-columns: 250px 1fr; align-items: start; }
 .category-panel {
   position: sticky;
@@ -501,6 +542,14 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
   .catalog-title { border-right: 0; }
   .utility { display: grid; grid-template-columns: 1fr; }
   .utility input { width: 100%; }
+  .sort-dropdown { min-width: 0; width: 100%; }
+  .sort-trigger { height: 54px; padding: 0 16px; font-size: 16px; }
+  .sort-options {
+    position: static;
+    margin-top: -1px;
+    box-shadow: none;
+  }
+  .sort-option { min-height: 52px; font-size: 15px; }
   .category-panel { position: static; height: auto; max-height: 230px; overflow-y: auto; border-right: 0; border-bottom: 1px solid var(--line); padding: 14px 18px; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); border-left: 0; }
   .product-modal { inset: 0; grid-template-columns: 1fr; overflow-y: auto; }
@@ -680,11 +729,22 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
     <button type="button" class="catalog-title back-home" id="catalog-title" onclick="goHome()">‹ Все бренды</button>
     <div class="utility" id="search-panel">
       <input type="text" id="search" placeholder="Поиск по названию или артикулу" oninput="render()">
-      <select id="sort" title="Сортировка" aria-label="Сортировка" onchange="render()">
+      <select id="sort" title="Сортировка" aria-label="Сортировка" onchange="syncSortDropdown(); render()">
         <option value="new">Сначала новинки</option>
         <option value="cheap">Сначала дешевле</option>
         <option value="expensive">Сначала дороже</option>
       </select>
+      <div class="sort-dropdown" id="sort-dropdown">
+        <button type="button" class="sort-trigger" onclick="toggleSortDropdown(event)" aria-haspopup="listbox" aria-expanded="false">
+          <span id="sort-label">Сначала новинки</span>
+          <span class="sort-icon">⌄</span>
+        </button>
+        <div class="sort-options" role="listbox" aria-label="Сортировка">
+          <button type="button" class="sort-option active" data-sort="new" onclick="setSort('new')">Сначала новинки</button>
+          <button type="button" class="sort-option" data-sort="cheap" onclick="setSort('cheap')">Сначала дешевле</button>
+          <button type="button" class="sort-option" data-sort="expensive" onclick="setSort('expensive')">Сначала дороже</button>
+        </div>
+      </div>
     </div>
   </div>
   <main class="shop-layout">
@@ -745,6 +805,11 @@ const rub = new Intl.NumberFormat('ru-RU');
 const byId = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]));
 const brandName = id => (brands.find(b => b.id === id) || {}).name || id || '';
+const sortLabels = {
+  new: 'Сначала новинки',
+  cheap: 'Сначала дешевле',
+  expensive: 'Сначала дороже'
+};
 const sectionNames = {
   WOMEN: 'Женщины', MEN: 'Мужчины', GIRL: 'Девочки', BOY: 'Мальчики', KIDS: 'Дети',
   GOLF: 'Гольф', TRENDS: 'Тренды', 'CULINARY STORIES': 'Кухня', 'SUMMER MEMORIES': 'Лето'
@@ -1047,6 +1112,7 @@ function openBrand(brandId) {
     imageIndexes = {};
     byId('search').value = '';
     byId('sort').value = 'new';
+    syncSortDropdown();
     sections = [...new Set(products.map(p => p.section).filter(Boolean))].sort((a, b) => {
       const order = { WOMEN: 1, MEN: 2, GIRL: 3, BOY: 4 };
       return (order[a] || 99) - (order[b] || 99);
@@ -1243,6 +1309,41 @@ function render() {
   byId('status').textContent = `${sectionLabel(activeSection)}${activeGroup ? ' · ' + activeGroup : ''}${activeFamily ? ' · ' + familyLabel(activeFamily) : ''} · ${filtered.length} товаров`;
   byId('grid').innerHTML = filtered.length ? filtered.map(cardHtml).join('') : '<div class="empty">Ничего не найдено</div>';
 }
+
+function syncSortDropdown() {
+  const value = byId('sort').value;
+  const label = byId('sort-label');
+  const dropdown = byId('sort-dropdown');
+  if (label) label.textContent = sortLabels[value] || sortLabels.new;
+  if (!dropdown) return;
+  dropdown.querySelectorAll('.sort-option').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.sort === value);
+  });
+}
+
+function toggleSortDropdown(event) {
+  event.stopPropagation();
+  const dropdown = byId('sort-dropdown');
+  const next = !dropdown.classList.contains('open');
+  dropdown.classList.toggle('open', next);
+  dropdown.querySelector('.sort-trigger').setAttribute('aria-expanded', String(next));
+}
+
+function closeSortDropdown() {
+  const dropdown = byId('sort-dropdown');
+  if (!dropdown) return;
+  dropdown.classList.remove('open');
+  dropdown.querySelector('.sort-trigger').setAttribute('aria-expanded', 'false');
+}
+
+function setSort(value) {
+  byId('sort').value = value;
+  syncSortDropdown();
+  closeSortDropdown();
+  render();
+}
+
+document.addEventListener('click', closeSortDropdown);
 
 function cardHtml(p) {
   const imgs = imagesFor(p);
