@@ -994,8 +994,7 @@ fetch('brands.json').then(r => r.json()).then(data => {
   buildBrandPicker();
   updateCartCount();
   preloadCartBrands();
-  const first = brands.find(b => b.available);
-  if (first) loadBrand(first.id).then(setHeroImage).catch(() => {});
+  setHeroImage();
 });
 
 // Лениво загружает каталог бренда: products-<brand>.json, размечает товары brand/_idx/_id.
