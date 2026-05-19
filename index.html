@@ -352,6 +352,18 @@ input, select { border-radius: 0; }
 }
 .quick-add:hover { background: #111; color: #fff; }
 .empty { grid-column: 1 / -1; padding: 80px 20px; text-align: center; color: #888; }
+.load-more {
+  grid-column: 1 / -1;
+  min-height: 54px;
+  margin: 22px auto 38px;
+  padding: 0 34px;
+  border: 1px solid #111;
+  color: #111;
+  font-size: 12px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.load-more:hover { background: #111; color: #fff; }
 .shade, .modal, .drawer { position: fixed; inset: 0; z-index: 70; display: none; }
 .shade { background: rgba(0,0,0,.32); }
 .shade.open, .modal.open, .drawer.open { display: block; }
@@ -728,7 +740,7 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
   <div class="catalog-head">
     <button type="button" class="catalog-title back-home" id="catalog-title" onclick="goHome()">‹ Все бренды</button>
     <div class="utility" id="search-panel">
-      <input type="text" id="search" placeholder="Поиск по названию или артикулу" oninput="render()">
+      <input type="text" id="search" placeholder="Поиск по названию или артикулу" oninput="handleSearchInput()">
       <select id="sort" title="Сортировка" aria-label="Сортировка" onchange="syncSortDropdown(); render()">
         <option value="new">Сначала новинки</option>
         <option value="cheap">Сначала дешевле</option>
@@ -786,6 +798,8 @@ let authUser = null;
 let brands = [];
 let activeBrand = null;
 let productsByBrand = {};
+let productsByBrandSection = {};
+let brandManifests = {};
 let productsById = {};
 let products = [];
 let sections = [];
@@ -800,6 +814,8 @@ let cart = JSON.parse(localStorage.getItem('md_cart') || '[]');
 let customer = JSON.parse(localStorage.getItem('md_customer') || 'null');
 let imageIndexes = {};
 let colorVariantCount = {};
+let visibleLimit = 80;
+const PAGE_SIZE = 80;
 
 const rub = new Intl.NumberFormat('ru-RU');
 const byId = id => document.getElementById(id);
@@ -1062,25 +1078,73 @@ fetch('brands.json').then(r => r.json()).then(data => {
   setHeroImage();
 });
 
-// Лениво загружает каталог бренда: products-<brand>.json, размечает товары brand/_idx/_id.
-function loadBrand(brandId) {
-  if (productsByBrand[brandId]) return Promise.resolve(productsByBrand[brandId]);
+function sectionOrder(a, b) {
+  const order = { WOMEN: 1, MEN: 2, GIRL: 3, BOY: 4, KIDS: 5 };
+  return (order[a] || 99) - (order[b] || 99);
+}
+
+function normalizeProducts(brandId, data, keyPrefix = 'all') {
+  return data
+    .filter(p => {
+      const fam = (p.family || '').toUpperCase();
+      return fam !== 'GIFT CARD' && fam !== 'ПОДАРОЧНАЯ КАРТА';
+    })
+    .map((p, index) => ({
+      ...p,
+      brand: brandId,
+      _idx: `${keyPrefix}-${index}`,
+      _order: index,
+      _id: `${brandId}-${keyPrefix}-${p.ref}-${p.color || ''}-${index}`
+    }));
+}
+
+function rememberProducts(brandId, section, list) {
+  productsByBrandSection[brandId] = productsByBrandSection[brandId] || {};
+  productsByBrandSection[brandId][section || 'ALL'] = list;
+  productsByBrand[brandId] = Object.values(productsByBrandSection[brandId]).flat();
+  list.forEach(p => { productsById[p._id] = p; });
+}
+
+function loadBrandManifest(brand) {
+  if (!brand.manifest) return Promise.resolve(null);
+  if (brandManifests[brand.id]) return Promise.resolve(brandManifests[brand.id]);
+  return fetch(brand.manifest).then(r => r.json()).then(data => {
+    brandManifests[brand.id] = data;
+    return data;
+  });
+}
+
+function loadBrandSection(brandId, section) {
   const brand = brands.find(b => b.id === brandId);
   if (!brand) return Promise.reject(new Error('unknown brand ' + brandId));
+  return loadBrandManifest(brand).then(manifest => {
+    if (!manifest) return loadBrand(brandId);
+    const meta = (manifest.sections || []).find(s => s.id === section) || (manifest.sections || [])[0];
+    if (!meta) return Promise.resolve([]);
+    const cached = productsByBrandSection[brandId] && productsByBrandSection[brandId][meta.id];
+    if (cached) return cached;
+    return fetch(meta.file).then(r => r.json()).then(data => {
+      const list = normalizeProducts(brandId, data, meta.id);
+      rememberProducts(brandId, meta.id, list);
+      return list;
+    });
+  });
+}
+
+// Лениво загружает каталог бренда: обычные бренды целиком, Zara — только первый раздел.
+function loadBrand(brandId) {
+  const brand = brands.find(b => b.id === brandId);
+  if (!brand) return Promise.reject(new Error('unknown brand ' + brandId));
+  if (brand.manifest) {
+    return loadBrandManifest(brand).then(manifest => {
+      const first = (manifest.sections || []).slice().sort((a, b) => sectionOrder(a.id, b.id))[0];
+      return first ? loadBrandSection(brandId, first.id) : [];
+    });
+  }
+  if (productsByBrand[brandId]) return Promise.resolve(productsByBrand[brandId]);
   return fetch(brand.file).then(r => r.json()).then(data => {
-    const list = data
-      .filter(p => {
-        const fam = (p.family || '').toUpperCase();
-        return fam !== 'GIFT CARD' && fam !== 'ПОДАРОЧНАЯ КАРТА';
-      })
-      .map((p, index) => ({
-        ...p,
-        brand: brandId,
-        _idx: index,
-        _id: `${brandId}-${p.ref}-${p.color || ''}-${index}`
-      }));
-    productsByBrand[brandId] = list;
-    list.forEach(p => { productsById[p._id] = p; });
+    const list = normalizeProducts(brandId, data);
+    rememberProducts(brandId, 'ALL', list);
     return list;
   });
 }
@@ -1109,14 +1173,15 @@ function openBrand(brandId) {
     products = list;
     activeFamily = '';
     activeGroup = '';
+    visibleLimit = PAGE_SIZE;
     imageIndexes = {};
     byId('search').value = '';
     byId('sort').value = 'new';
     syncSortDropdown();
-    sections = [...new Set(products.map(p => p.section).filter(Boolean))].sort((a, b) => {
-      const order = { WOMEN: 1, MEN: 2, GIRL: 3, BOY: 4 };
-      return (order[a] || 99) - (order[b] || 99);
-    });
+    const manifest = brandManifests[brandId];
+    sections = manifest
+      ? (manifest.sections || []).map(s => s.id).sort(sectionOrder)
+      : [...new Set(products.map(p => p.section).filter(Boolean))].sort(sectionOrder);
     activeSection = sections[0] || '';
     buildVariantIndex();
     buildSections();
@@ -1217,12 +1282,18 @@ function familyCounts(section) {
   return counts;
 }
 
+function sectionCount(section) {
+  const manifest = activeBrand ? brandManifests[activeBrand] : null;
+  const meta = manifest && (manifest.sections || []).find(s => s.id === section);
+  return meta ? meta.count : products.filter(p => p.section === section).length;
+}
+
 function buildFamilies() {
   byId('category-title').textContent = '';
   let html = '';
   if (sections.length > 1) {
     html += '<div class="cat-group">Разделы</div>';
-    html += sections.map(s => `<button class="family-btn section-row ${s === activeSection ? 'active' : ''}" onclick="setSection('${esc(s)}')"><span>${esc(sectionLabel(s))}</span><span class="family-count">${products.filter(p => p.section === s).length}</span></button>`).join('');
+    html += sections.map(s => `<button class="family-btn section-row ${s === activeSection ? 'active' : ''}" onclick="setSection('${esc(s)}')"><span>${esc(sectionLabel(s))}</span><span class="family-count">${sectionCount(s)}</span></button>`).join('');
   }
   const inSection = products.filter(p => p.section === activeSection);
   const groups = {};
@@ -1251,9 +1322,26 @@ function buildSubtypes() {
 }
 
 function setSection(section) {
+  if (activeBrand && brandManifests[activeBrand]) {
+    loadBrandSection(activeBrand, section).then(list => {
+      products = list;
+      activeSection = section;
+      activeGroup = '';
+      activeFamily = '';
+      visibleLimit = PAGE_SIZE;
+      imageIndexes = {};
+      buildVariantIndex();
+      buildSections();
+      buildFamilies();
+      render();
+      goCatalog();
+    }).catch(() => toast('Не удалось загрузить раздел'));
+    return;
+  }
   activeSection = section;
   activeGroup = '';
   activeFamily = '';
+  visibleLimit = PAGE_SIZE;
   buildSections();
   buildFamilies();
   render();
@@ -1263,15 +1351,33 @@ function setSection(section) {
 function setGroup(group) {
   activeGroup = group;
   activeFamily = '';
+  visibleLimit = PAGE_SIZE;
   buildFamilies();
   render();
   goCatalog();
 }
 
 function openGroup(section, group) {
+  if (activeBrand && brandManifests[activeBrand]) {
+    loadBrandSection(activeBrand, section).then(list => {
+      products = list;
+      activeSection = section;
+      activeGroup = group;
+      activeFamily = '';
+      visibleLimit = PAGE_SIZE;
+      imageIndexes = {};
+      buildVariantIndex();
+      buildSections();
+      buildFamilies();
+      render();
+      goCatalog();
+    }).catch(() => toast('Не удалось загрузить раздел'));
+    return;
+  }
   activeSection = section;
   activeGroup = group;
   activeFamily = '';
+  visibleLimit = PAGE_SIZE;
   buildSections();
   buildFamilies();
   render();
@@ -1280,6 +1386,7 @@ function openGroup(section, group) {
 
 function setFamily(family) {
   activeFamily = family;
+  visibleLimit = PAGE_SIZE;
   buildSubtypes();
   render();
   goCatalog();
@@ -1305,9 +1412,12 @@ function render() {
   });
   if (sort === 'cheap') filtered.sort((a,b) => (a.price_rub || 99999999) - (b.price_rub || 99999999));
   else if (sort === 'expensive') filtered.sort((a,b) => (b.price_rub || 0) - (a.price_rub || 0));
-  else filtered.sort((a,b) => (a._idx || 0) - (b._idx || 0));
+  else filtered.sort((a,b) => (a._order || 0) - (b._order || 0));
+  const visible = filtered.slice(0, visibleLimit);
   byId('status').textContent = `${sectionLabel(activeSection)}${activeGroup ? ' · ' + activeGroup : ''}${activeFamily ? ' · ' + familyLabel(activeFamily) : ''} · ${filtered.length} товаров`;
-  byId('grid').innerHTML = filtered.length ? filtered.map(cardHtml).join('') : '<div class="empty">Ничего не найдено</div>';
+  byId('grid').innerHTML = filtered.length
+    ? visible.map(cardHtml).join('') + (visible.length < filtered.length ? `<button type="button" class="load-more" onclick="showMoreProducts()">Показать ещё ${Math.min(PAGE_SIZE, filtered.length - visible.length)}</button>` : '')
+    : '<div class="empty">Ничего не найдено</div>';
 }
 
 function syncSortDropdown() {
@@ -1338,6 +1448,7 @@ function closeSortDropdown() {
 
 function setSort(value) {
   byId('sort').value = value;
+  visibleLimit = PAGE_SIZE;
   syncSortDropdown();
   closeSortDropdown();
   render();
@@ -1345,15 +1456,26 @@ function setSort(value) {
 
 document.addEventListener('click', closeSortDropdown);
 
+function handleSearchInput() {
+  visibleLimit = PAGE_SIZE;
+  render();
+}
+
+function showMoreProducts() {
+  visibleLimit += PAGE_SIZE;
+  render();
+}
+
 function cardHtml(p) {
   const imgs = imagesFor(p);
   const imgIndex = imageIndexes[p._idx] || 0;
   const imgSrc = imgs[imgIndex] || imgs[0];
   const sale = p.price_old_rub ? `<span class="old">${rub.format(p.price_old_rub)} ₽</span>` : '';
+  const idxArg = JSON.stringify(p._idx);
   return `<article class="card" onclick="openProduct('${esc(p._id)}')">
     <div class="image-wrap">
       <img class="card-img" id="card-img-${p._idx}" src="${esc(imgSrc)}" alt="${esc(p.name)}" loading="lazy">
-      ${imgs.length > 1 ? `<button class="carousel-btn prev" onclick="changeCardImage(event, ${p._idx}, -1)">‹</button><button class="carousel-btn next" onclick="changeCardImage(event, ${p._idx}, 1)">›</button>` : ''}
+      ${imgs.length > 1 ? `<button class="carousel-btn prev" onclick="changeCardImage(event, ${esc(idxArg)}, -1)">‹</button><button class="carousel-btn next" onclick="changeCardImage(event, ${esc(idxArg)}, 1)">›</button>` : ''}
       <span class="image-count" id="image-count-${p._idx}">${imgIndex + 1}/${imgs.length}</span>
     </div>
     <div class="card-body">
@@ -1866,7 +1988,7 @@ function openMenu() {
       <div class="mobile-menu-list">
         <button type="button" class="mobile-menu-row" onclick="closeAll(); setSection('${esc(currentSection)}')">
           <span class="mobile-menu-index">| 01 |</span>
-          <span><span class="mobile-menu-title">Новинки</span><span class="mobile-menu-count">${products.filter(p => p.section === currentSection).length} товаров</span></span>
+          <span><span class="mobile-menu-title">Новинки</span><span class="mobile-menu-count">${sectionCount(currentSection)} товаров</span></span>
         </button>
         ${currentGroups.map((g, index) => `<button type="button" class="mobile-menu-row" onclick="closeAll(); openGroup('${esc(currentSection)}','${esc(g.name)}')">
           <span class="mobile-menu-index">| ${String(index + 2).padStart(2, '0')} |</span>
@@ -1904,9 +2026,26 @@ function menuGroupImage(section, group) {
 }
 
 function switchMenuSection(section) {
+  if (activeBrand && brandManifests[activeBrand]) {
+    loadBrandSection(activeBrand, section).then(list => {
+      products = list;
+      activeSection = section;
+      activeGroup = '';
+      activeFamily = '';
+      visibleLimit = PAGE_SIZE;
+      imageIndexes = {};
+      buildVariantIndex();
+      buildSections();
+      buildFamilies();
+      render();
+      openMenu();
+    }).catch(() => toast('Не удалось загрузить раздел'));
+    return;
+  }
   activeSection = section;
   activeGroup = '';
   activeFamily = '';
+  visibleLimit = PAGE_SIZE;
   buildSections();
   buildFamilies();
   render();
@@ -1918,6 +2057,7 @@ function applyMobileMenuSearch() {
   const query = input ? input.value.trim() : '';
   if (!query) return;
   byId('search').value = query;
+  visibleLimit = PAGE_SIZE;
   closeAll();
   showScreen('catalog');
   render();

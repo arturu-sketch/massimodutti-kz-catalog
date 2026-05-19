@@ -33,6 +33,11 @@ MARKUP = 1.35
 USD_TO_RUB = 5.4
 HERE = os.path.dirname(os.path.abspath(__file__))
 SECTION_FIX = {"WOMAN": "WOMEN", "MAN": "MEN", "KID": "KIDS", "KIDS": "KIDS"}
+SECTION_FILES = {
+    "WOMEN": "products-zara-women.json",
+    "MEN": "products-zara-men.json",
+    "KIDS": "products-zara-kids.json",
+}
 
 
 def fetch_url(url, tries=8, use_sf=True):
@@ -228,6 +233,33 @@ def products_in_category(cat_id):
     return out
 
 
+def write_outputs(out, dst_dir):
+    out = [
+        p for p in out
+        if (p.get("family") or "").upper() not in {"GIFT CARD", "ПОДАРОЧНАЯ КАРТА"}
+    ]
+    full = os.path.join(dst_dir, "products-zara.json")
+    with open(full, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
+
+    manifest = {"brand": "zara", "sections": []}
+    for section, filename in SECTION_FILES.items():
+        items = [p for p in out if p.get("section") == section]
+        if not items:
+            continue
+        with open(os.path.join(dst_dir, filename), "w", encoding="utf-8") as f:
+            json.dump(items, f, ensure_ascii=False, separators=(",", ":"))
+        manifest["sections"].append({
+            "id": section,
+            "label": section,
+            "count": len(items),
+            "file": filename,
+        })
+
+    with open(os.path.join(dst_dir, "products-zara-manifest.json"), "w", encoding="utf-8") as f:
+        json.dump(manifest, f, ensure_ascii=False, separators=(",", ":"))
+
+
 def main():
     t0 = time.time()
     print("[zara] дерево категорий ...", flush=True)
@@ -259,9 +291,8 @@ def main():
     if len(out) < 100:
         print(f"[zara] СБОЙ: получено {len(out)} товаров — файл не перезаписан", flush=True)
         sys.exit(1)
-    dst = os.path.join(os.environ.get("OUT_DIR", HERE), "products-zara.json")
-    with open(dst, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=1)
+    dst_dir = os.environ.get("OUT_DIR", HERE)
+    write_outputs(out, dst_dir)
     print(f"\n[zara] ГОТОВО за {time.time()-t0:.0f}с. Товаров: {len(out)}", flush=True)
 
 

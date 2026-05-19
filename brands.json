@@ -4,6 +4,7 @@
     "name": "Zara",
     "available": true,
     "file": "products-zara.json",
+    "manifest": "products-zara-manifest.json",
     "accent": "#000000"
   },
   {
