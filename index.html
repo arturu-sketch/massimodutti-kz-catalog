@@ -357,6 +357,7 @@ input, select { border-radius: 0; }
 .panel-section h3 { margin-bottom: 12px; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; font-weight: 400; }
 .panel-link { display: flex; justify-content: space-between; width: 100%; padding: 10px 0; border-bottom: 1px solid var(--line); color: #444; text-align: left; }
 .panel-link[disabled] { color: #bbb; cursor: default; }
+.mobile-menu-tabs, .mobile-menu-search, .menu-featured-row, .mobile-menu-list { display: none; }
 .form-grid { display: grid; gap: 12px; }
 .form-grid label { display: grid; gap: 7px; color: #666; font-size: 12px; }
 .form-grid input {
@@ -505,6 +506,143 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
   .product-modal { inset: 0; grid-template-columns: 1fr; overflow-y: auto; }
   .modal-gallery { grid-template-columns: 1fr; overflow: visible; }
   .modal-info { padding: 28px 20px 42px; }
+  .drawer.open { background: #fff; }
+  .drawer.open .menu-panel {
+    width: 100vw;
+    border-left: 0;
+  }
+  .menu-panel .panel-head {
+    height: 72px;
+    border-bottom: 0;
+    padding: 0 18px;
+  }
+  .menu-panel .panel-head h2 {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .2em;
+  }
+  .menu-panel .close { top: 19px; right: 18px; }
+  .menu-panel .panel-body {
+    padding: 0 18px 92px;
+  }
+  .menu-panel .panel-section, .menu-panel .menu-hero { display: none; }
+  .mobile-menu-tabs {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    padding: 22px 18px 16px;
+    scrollbar-width: none;
+  }
+  .mobile-menu-tabs::-webkit-scrollbar { display: none; }
+  .mobile-menu-tab {
+    position: relative;
+    flex: 0 0 auto;
+    padding-bottom: 14px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(30px, 10vw, 48px);
+    line-height: .92;
+    letter-spacing: -.02em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .mobile-menu-tab.active::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 7px;
+    height: 7px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #111;
+  }
+  .mobile-menu-search {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 12px;
+    align-items: center;
+    margin: 10px 18px 28px;
+    border-bottom: 1px solid #111;
+  }
+  .mobile-menu-search input {
+    min-width: 0;
+    height: 48px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+  }
+  .mobile-menu-search button {
+    width: 44px;
+    height: 48px;
+    font-size: 24px;
+    line-height: 1;
+  }
+  .menu-featured-row {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    margin: 0 -18px 42px;
+    padding: 0 18px 4px;
+    scrollbar-width: none;
+  }
+  .menu-featured-row::-webkit-scrollbar { display: none; }
+  .menu-feature-card {
+    flex: 0 0 42vw;
+    max-width: 180px;
+    text-align: left;
+  }
+  .menu-feature-card img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    display: block;
+    background: var(--wash);
+  }
+  .menu-feature-card span {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+  }
+  .mobile-menu-list {
+    display: grid;
+    gap: 32px;
+  }
+  .mobile-menu-row {
+    display: grid;
+    grid-template-columns: 78px 1fr;
+    gap: 18px;
+    align-items: start;
+    width: 100%;
+    text-align: left;
+  }
+  .mobile-menu-index {
+    color: #333;
+    font-size: 20px;
+    letter-spacing: .03em;
+    white-space: nowrap;
+  }
+  .mobile-menu-title {
+    display: block;
+    color: #111;
+    font-size: clamp(22px, 6.4vw, 31px);
+    font-weight: 600;
+    line-height: 1.06;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+  }
+  .mobile-menu-count {
+    display: block;
+    margin-top: 6px;
+    color: #999;
+    font-size: 12px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
 }
 @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }
 </style>
@@ -1588,21 +1726,53 @@ function openMenu() {
   byId('shade').classList.add('open');
   byId('drawer').classList.add('open');
   if (!activeBrand) {
-    byId('drawer').innerHTML = `<div class="side-panel">
+    byId('drawer').innerHTML = `<div class="side-panel menu-panel">
       <div class="panel-head"><h2>Бренды</h2><button type="button" class="close" onclick="closeAll()">×</button></div>
+      <div class="mobile-menu-tabs">
+        ${brands.map(b => `<button type="button" class="mobile-menu-tab" ${b.available ? `onclick="closeAll(); openBrand('${esc(b.id)}')"` : 'disabled'}>${esc(b.name)}</button>`).join('')}
+      </div>
       <div class="panel-body">
         <div class="panel-section">
           ${brands.map(b => `<button class="panel-link" ${b.available ? `onclick="closeAll(); openBrand('${esc(b.id)}')"` : 'disabled'}><span>${esc(b.name)}</span><span>${b.available ? '' : 'скоро'}</span></button>`).join('')}
+        </div>
+        <div class="mobile-menu-list">
+          ${brands.map((b, index) => `<button type="button" class="mobile-menu-row" ${b.available ? `onclick="closeAll(); openBrand('${esc(b.id)}')"` : 'disabled'}>
+            <span class="mobile-menu-index">| ${String(index + 1).padStart(2, '0')} |</span>
+            <span><span class="mobile-menu-title">${esc(b.name)}</span><span class="mobile-menu-count">${b.available ? 'Открыть каталог' : 'Скоро'}</span></span>
+          </button>`).join('')}
         </div>
       </div>
     </div>`;
     return;
   }
   const menuHero = pickHeroImage('WOMEN', ['DRESS', 'BLAZER', 'SHIRTS', 'COATS']);
-  byId('drawer').innerHTML = `<div class="side-panel">
+  const currentSection = activeSection || sections[0] || '';
+  const currentGroups = menuGroups(currentSection);
+  const featured = currentGroups.slice(0, 4).map(g => ({ ...g, image: menuGroupImage(currentSection, g.name) })).filter(g => g.image);
+  byId('drawer').innerHTML = `<div class="side-panel menu-panel">
     <div class="panel-head"><h2>${esc(brandName(activeBrand))}</h2><button type="button" class="close" onclick="closeAll()">×</button></div>
+    <div class="mobile-menu-tabs">
+      ${sections.map(section => `<button type="button" class="mobile-menu-tab ${section === currentSection ? 'active' : ''}" onclick="switchMenuSection('${esc(section)}')">${esc(sectionLabel(section))}</button>`).join('')}
+    </div>
+    <div class="mobile-menu-search">
+      <input id="mobile-menu-query" type="search" placeholder="Поиск" autocomplete="off" onkeydown="if(event.key==='Enter') applyMobileMenuSearch()">
+      <button type="button" onclick="applyMobileMenuSearch()" aria-label="Искать">⌕</button>
+    </div>
     <div class="panel-body">
       ${menuHero ? `<div class="menu-hero"><img src="${esc(menuHero)}" alt="Новая коллекция" loading="lazy"><span>Новая коллекция · 2026</span></div>` : ''}
+      ${featured.length ? `<div class="menu-featured-row">
+        ${featured.map(g => `<button type="button" class="menu-feature-card" onclick="closeAll(); openGroup('${esc(currentSection)}','${esc(g.name)}')"><img src="${esc(g.image)}" alt="${esc(g.name)}" loading="lazy"><span>${esc(g.name)}</span></button>`).join('')}
+      </div>` : ''}
+      <div class="mobile-menu-list">
+        <button type="button" class="mobile-menu-row" onclick="closeAll(); setSection('${esc(currentSection)}')">
+          <span class="mobile-menu-index">| 01 |</span>
+          <span><span class="mobile-menu-title">Новинки</span><span class="mobile-menu-count">${products.filter(p => p.section === currentSection).length} товаров</span></span>
+        </button>
+        ${currentGroups.map((g, index) => `<button type="button" class="mobile-menu-row" onclick="closeAll(); openGroup('${esc(currentSection)}','${esc(g.name)}')">
+          <span class="mobile-menu-index">| ${String(index + 2).padStart(2, '0')} |</span>
+          <span><span class="mobile-menu-title">${esc(g.name)}</span><span class="mobile-menu-count">${g.count} товаров</span></span>
+        </button>`).join('')}
+      </div>
       ${sections.map(section => {
         const groups = {};
         products.filter(p => p.section === section).forEach(p => { const g = groupOf(p); groups[g] = (groups[g] || 0) + 1; });
@@ -1617,6 +1787,40 @@ function openMenu() {
       </div>
     </div>
   </div>`;
+}
+
+function menuGroups(section) {
+  const groups = {};
+  products.filter(p => p.section === section).forEach(p => {
+    const g = groupOf(p);
+    groups[g] = (groups[g] || 0) + 1;
+  });
+  return Object.keys(groups).sort((a, b) => a.localeCompare(b, 'ru')).map(name => ({ name, count: groups[name] }));
+}
+
+function menuGroupImage(section, group) {
+  const item = products.find(p => p.section === section && groupOf(p) === group && imagesFor(p)[0]);
+  return item ? imagesFor(item)[0] : '';
+}
+
+function switchMenuSection(section) {
+  activeSection = section;
+  activeGroup = '';
+  activeFamily = '';
+  buildSections();
+  buildFamilies();
+  render();
+  openMenu();
+}
+
+function applyMobileMenuSearch() {
+  const input = byId('mobile-menu-query');
+  const query = input ? input.value.trim() : '';
+  if (!query) return;
+  byId('search').value = query;
+  closeAll();
+  showScreen('catalog');
+  render();
 }
 
 function changeQty(key, delta) {
@@ -1656,6 +1860,14 @@ function goCatalog() {
 function focusSearch() {
   closeAll();
   if (!activeBrand) { showScreen('home'); return toast('Сначала выберите бренд'); }
+  if (window.matchMedia('(max-width: 900px)').matches) {
+    openMenu();
+    setTimeout(() => {
+      const input = byId('mobile-menu-query');
+      if (input) input.focus();
+    }, 80);
+    return;
+  }
   showScreen('catalog');
   setTimeout(() => byId('search').focus(), 250);
 }
