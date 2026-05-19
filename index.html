@@ -1381,17 +1381,22 @@ function showOrderConfirmed() {
 }
 
 function buildOrder() {
-  const lines = ['Новая заявка ЗАРАЕКБ', '', `Клиент: ${customer.lastName} ${customer.firstName}`, `Город: ${customer.city}`, `Телефон: ${customer.phone}`, `Email: ${customer.email}`, `Мессенджер: ${customer.messenger}`, '', 'Позиции:'];
+  const lines = ['🛍 Новая заявка ЗАРАЕКБ', '', `Клиент: ${customer.lastName} ${customer.firstName}`, `Город: ${customer.city}`, `Телефон: ${customer.phone}`, `Email: ${customer.email}`, `Мессенджер: ${customer.messenger}`, '', 'Позиции:'];
+  const photos = [];
   cart.forEach((item, index) => {
     const p = productsById[item.id];
     if (!p) return;
+    const img = imagesFor(p)[0] || '';
+    if (img) photos.push(img);
     lines.push(`${index + 1}. ${p.name}`);
-    lines.push(`   Бренд: ${brandName(p.brand)}`);
-    lines.push(`   Артикул: ${p.ref}`);
+    lines.push(`   Бренд: ${brandName(p.brand)} · Артикул: ${p.ref}`);
     lines.push(`   Цвет: ${p.color || 'уточнить'} / размер: ${item.size || 'уточнить'} / ${item.qty} шт.`);
-    lines.push(`   Цена: ${p.price_rub ? rub.format(p.price_rub) + ' ₽' : 'по запросу'}`);
+    lines.push(`   Цена: ${p.price_rub ? rub.format(p.price_rub * item.qty) + ' ₽' : 'по запросу'}`);
+    if (img) lines.push(`   Фото: ${img}`);
   });
-  return { customer, cart, text: lines.join('\n'), createdAt: new Date().toISOString() };
+  lines.push('');
+  lines.push(`ИТОГО: ${rub.format(cartTotal())} ₽`);
+  return { customer, cart, text: lines.join('\n'), photos, createdAt: new Date().toISOString() };
 }
 
 function initAuth() {
