@@ -564,9 +564,70 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
   .sort-option { min-height: 52px; font-size: 15px; }
   .category-panel { position: static; height: auto; max-height: 230px; overflow-y: auto; border-right: 0; border-bottom: 1px solid var(--line); padding: 14px 18px; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); border-left: 0; }
-  .product-modal { inset: 0; grid-template-columns: 1fr; overflow-y: auto; }
-  .modal-gallery { grid-template-columns: 1fr; overflow: visible; }
-  .modal-info { padding: 28px 20px 42px; }
+  .product-modal {
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  .product-modal .close {
+    position: fixed;
+    top: max(14px, env(safe-area-inset-top));
+    right: 16px;
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--line);
+    background: rgba(255,255,255,.92);
+  }
+  .modal-gallery {
+    display: flex;
+    flex: 0 0 min(52vh, 480px);
+    grid-template-columns: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    background: #fff;
+  }
+  .gallery-img {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+    object-fit: contain;
+    scroll-snap-align: start;
+  }
+  .modal-info {
+    flex: 0 0 auto;
+    padding: 24px 20px calc(96px + env(safe-area-inset-bottom));
+    overflow: visible;
+    background: #fff;
+    border-top: 1px solid var(--line);
+  }
+  .modal-info h2 {
+    margin-top: 16px;
+    font-size: 18px;
+  }
+  .details { margin-top: 18px; }
+  .size-row { margin-top: 22px; }
+  .size-grid { gap: 9px; }
+  .size-btn {
+    min-width: 52px;
+    height: 42px;
+    padding: 0 13px;
+    background: #fff;
+  }
+  .add-modal {
+    position: fixed;
+    left: 16px;
+    right: 16px;
+    bottom: calc(76px + env(safe-area-inset-bottom));
+    z-index: 120;
+    width: auto;
+    margin: 0;
+    height: 52px;
+  }
   .drawer.open { background: #fff; }
   .drawer.open .menu-panel {
     width: 100vw;
@@ -1525,17 +1586,17 @@ function openProduct(id) {
       <div class="modal-price">
         <div class="rub">${currentProduct.price_rub ? rub.format(currentProduct.price_rub) + ' ₽' : 'по запросу'}</div>
       </div>
-      <div class="details">
-        <div>Артикул: ${esc(currentProduct.ref)}</div>
-        <div>Цвет: ${esc(currentProduct.color || 'уточнить')}</div>
-        <div>Наличие, финальную цену и срок доставки менеджер проверит перед выкупом.</div>
-      </div>
       ${colorRow}
       <div class="size-row">
         <label>Размер</label>
         <div class="size-grid">${uniqueSizes.length ? uniqueSizes.map(size => `<button type="button" class="size-btn" onclick="selectSize(this, '${esc(size)}')">${esc(size)}</button>`).join('') : '<button type="button" class="size-btn active">уточнить</button>'}</div>
       </div>
       <button class="add-modal" onclick="addToCart('${esc(currentProduct._id)}', currentSize)">Добавить в корзину</button>
+      <div class="details">
+        <div>Артикул: ${esc(currentProduct.ref)}</div>
+        <div>Цвет: ${esc(currentProduct.color || 'уточнить')}</div>
+        <div>Наличие, финальную цену и срок доставки менеджер проверит перед выкупом.</div>
+      </div>
     </div>
   </div>`;
 }
