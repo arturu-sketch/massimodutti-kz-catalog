@@ -273,6 +273,8 @@ input, select { border-radius: 0; }
 }
 .family-btn.active, .family-btn:hover { color: #111; border-color: #111; }
 .family-count { color: #aaa; font-size: 11px; letter-spacing: 0; }
+.section-row-meta { display: inline-flex; align-items: center; gap: 10px; }
+.section-chevron { display: none; color: #777; font-size: 18px; line-height: 1; }
 .results-line {
   padding: 18px 22px;
   border-bottom: 1px solid var(--line);
@@ -562,16 +564,48 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
     box-shadow: none;
   }
   .sort-option { min-height: 52px; font-size: 15px; }
-  .category-panel { position: static; height: auto; max-height: 230px; overflow-y: auto; border-right: 0; border-bottom: 1px solid var(--line); padding: 14px 18px; }
+  .category-panel {
+    position: static;
+    height: auto;
+    max-height: 44vh;
+    overflow-y: auto;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    padding: 20px 38px 16px;
+  }
+  .family-list { gap: 0; }
+  .cat-group { margin: 18px 0 14px; font-size: 12px; }
+  .family-btn.section-row {
+    min-height: 52px;
+    padding: 14px 0;
+    border-bottom-color: var(--line);
+    font-size: 14px;
+    letter-spacing: .08em;
+  }
+  .family-btn.section-row.active { border-bottom-color: #111; }
+  .section-row-meta { gap: 12px; }
+  .section-chevron { display: inline-block; }
   .section-children {
     display: grid;
-    gap: 2px;
-    margin: 2px 0 18px;
-    padding: 8px 0 12px 14px;
-    border-left: 1px solid var(--line);
+    gap: 0;
+    margin: 0;
+    padding: 8px 0 14px;
+    border-bottom: 1px solid var(--line);
   }
-  .section-children .family-btn { color: #666; }
-  .section-children .family-btn.active { color: #111; }
+  .section-children .family-btn {
+    min-height: 44px;
+    padding: 11px 0;
+    border-bottom-color: transparent;
+    color: #777;
+    font-size: 14px;
+    letter-spacing: .04em;
+  }
+  .section-children .family-btn.active,
+  .section-children .family-btn:hover {
+    border-bottom-color: transparent;
+    color: #111;
+    font-weight: 600;
+  }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); border-left: 0; }
   .product-modal {
     inset: 0;
@@ -876,6 +910,7 @@ let sections = [];
 let activeSection = '';
 let activeFamily = '';
 let activeGroup = '';
+let mobileOpenSection = '';
 let currentProduct = null;
 let currentSize = '';
 let selectedMessenger = '';
@@ -1243,6 +1278,7 @@ function openBrand(brandId) {
     products = list;
     activeFamily = '';
     activeGroup = '';
+    mobileOpenSection = '';
     visibleLimit = PAGE_SIZE;
     imageIndexes = {};
     byId('search').value = '';
@@ -1370,10 +1406,14 @@ function buildFamilies() {
   const isMobile = window.matchMedia('(max-width: 900px)').matches;
   if (sections.length > 1) {
     html += '<div class="cat-group">Разделы</div>';
-    html += sections.map(s => {
-      const row = `<button class="family-btn section-row ${s === activeSection ? 'active' : ''}" onclick="setSection('${esc(s)}')"><span>${esc(sectionLabel(s))}</span><span class="family-count">${sectionCount(s)}</span></button>`;
-      return isMobile && s === activeSection ? row + `<div class="section-children">${groupButtons}</div>` : row;
+    const sectionRows = sections.map(s => {
+      const isOpen = isMobile && s === mobileOpenSection;
+      const action = isMobile ? `toggleMobileSection('${esc(s)}')` : `setSection('${esc(s)}')`;
+      const row = `<button class="family-btn section-row ${s === activeSection ? 'active' : ''}" onclick="${action}"><span>${esc(sectionLabel(s))}</span><span class="section-row-meta"><span class="family-count">${sectionCount(s)}</span><span class="section-chevron">${isOpen ? '⌃' : '⌄'}</span></span></button>`;
+      return row;
     }).join('');
+    html += sectionRows;
+    if (isMobile && mobileOpenSection) html += `<div class="section-children">${groupButtons}</div>`;
   } else {
     html += `<div class="cat-group">${esc(sectionLabel(activeSection) || 'Каталог')}</div>`;
   }
@@ -1382,6 +1422,20 @@ function buildFamilies() {
   }
   byId('family-list').innerHTML = html;
   buildSubtypes();
+}
+
+function toggleMobileSection(section) {
+  if (mobileOpenSection === section) {
+    mobileOpenSection = '';
+    buildFamilies();
+    return;
+  }
+  mobileOpenSection = section;
+  if (section === activeSection) {
+    buildFamilies();
+    return;
+  }
+  setSection(section);
 }
 
 // Кнопки-подразделы сверху каталога — типы товаров внутри выбранной группы.
@@ -1406,6 +1460,7 @@ function setSection(section) {
       activeSection = section;
       activeGroup = '';
       activeFamily = '';
+      if (window.matchMedia('(max-width: 900px)').matches) mobileOpenSection = section;
       visibleLimit = PAGE_SIZE;
       imageIndexes = {};
       buildVariantIndex();
@@ -1419,6 +1474,7 @@ function setSection(section) {
   activeSection = section;
   activeGroup = '';
   activeFamily = '';
+  if (window.matchMedia('(max-width: 900px)').matches) mobileOpenSection = section;
   visibleLimit = PAGE_SIZE;
   buildSections();
   buildFamilies();
