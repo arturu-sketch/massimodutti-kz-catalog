@@ -960,13 +960,14 @@ function colorVariantsOf(p) {
 
 function setHeroImage(list) {
   const img = byId('home-hero-img');
-  const hero = pickHeroImage('WOMEN', ['DRESS', 'COATS', 'SKIRT', 'BLAZER'], list);
+  // основное фото — файл hero.jpg в репозитории; если его нет — берём из каталога
   img.onerror = () => {
     img.onerror = null;
-    const alt = list.find(p => p.in_stock !== false && imagesFor(p)[0]);
-    if (alt) img.src = imagesFor(alt)[0];
+    const hero = pickHeroImage('WOMEN', ['DRESS', 'COATS', 'SKIRT', 'BLAZER'], list);
+    const alt = hero || (list.find(p => p.in_stock !== false && imagesFor(p)[0]) || {}).image;
+    if (alt) img.src = alt;
   };
-  if (hero) img.src = hero;
+  img.src = 'hero.jpg?v=1';
 }
 
 // Подбирает реальное фото модели из каталога (приоритет — образы в полный рост).
