@@ -47,5 +47,13 @@ jobs:
           git config user.name "zaraekb-bot"
           git config user.email "bot@ly-x.com"
           git add products-*.json
-          git diff --cached --quiet || git commit -m "Авто-обновление каталогов $(date +%F)"
-          git push
+          if git diff --cached --quiet; then
+            echo "Изменений в каталогах нет."
+            exit 0
+          fi
+          git commit -m "Авто-обновление каталогов $(date +%F)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main && git push && exit 0
+            echo "push retry $i..."; sleep 10
+          done
+          echo "push не удался"; exit 1
