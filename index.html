@@ -719,6 +719,7 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
     text-transform: uppercase;
     white-space: nowrap;
   }
+  .mobile-menu-tab[disabled] { color: #b8b8b8; }
   .mobile-menu-tab.active::after {
     content: "";
     position: absolute;
@@ -854,6 +855,18 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
     text-align: left;
     text-transform: uppercase;
   }
+  .home-menu .panel-head { border-bottom: 1px solid var(--line); }
+  .home-menu .mobile-menu-tabs {
+    padding-top: 28px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--line);
+  }
+  .home-menu .panel-body { padding-top: 24px; }
+  .home-menu .mobile-menu-list { gap: 0; }
+  .home-menu .mobile-menu-row {
+    min-height: 64px;
+    border-bottom: 1px solid var(--line);
+  }
 }
 @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }
 </style>
@@ -943,7 +956,7 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
 const ORDER_ENDPOINT = 'https://md-orders.2692888.workers.dev';
 const SUPABASE_URL = 'https://njqwbfarecdkdyasinzb.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_Ys4XC9ytD3aLGwMZra09zg_t8p2KUjU';
-const ZARA_DATA_VERSION = '20260520-sizes';
+const ZARA_DATA_VERSION = '20260520-sizes-v2';
 let sb = null;
 let authUser = null;
 let brands = [];
@@ -963,7 +976,7 @@ let currentProduct = null;
 let currentSize = '';
 let selectedMessenger = '';
 let checkoutAfterRegister = false;
-let cart = JSON.parse(localStorage.getItem('md_cart') || '[]');
+let cart = JSON.parse(localStorage.getItem('multibrand_cart') || localStorage.getItem('md_cart') || '[]');
 let customer = JSON.parse(localStorage.getItem('md_customer') || 'null');
 let imageIndexes = {};
 let colorVariantCount = {};
@@ -1768,7 +1781,8 @@ function addToCart(id, size = '') {
 }
 
 function saveCart() {
-  localStorage.setItem('md_cart', JSON.stringify(cart));
+  localStorage.setItem('multibrand_cart', JSON.stringify(cart));
+  localStorage.removeItem('md_cart');
   updateCartCount();
 }
 
@@ -2332,7 +2346,7 @@ function openLegal() {
     <p>Цель обработки: приём и обработка заявки, связь с клиентом, исполнение агентского договора — организация выкупа и доставки товара. Обработка включает сбор, запись, систематизацию, хранение, использование и передачу данных менеджерам сервиса. Данные не передаются третьим лицам, кроме случаев, необходимых для исполнения заявки (например, служба доставки), или случаев, предусмотренных законом.</p>
     <p>Согласие действует до его отзыва. Клиент вправе отозвать согласие и запросить удаление своих данных, направив обращение по контактам сервиса. Срок хранения данных не превышает срока, необходимого для целей обработки.</p>
     <h3>5. Контакты</h3>
-    <p>По вопросам обработки персональных данных и работы сервиса: Telegram @massimodutti_ekb.</p>
+    <p>По вопросам обработки персональных данных и работы сервиса: Telegram @zara_ekb.</p>
   </div>`;
   byId('legal-modal').classList.add('open');
 }
