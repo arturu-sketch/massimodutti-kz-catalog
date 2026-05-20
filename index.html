@@ -343,6 +343,15 @@ input, select { border-radius: 0; }
 .kzt { margin-top: 5px; color: #8d8d8d; font-size: 12px; }
 .old { margin-left: 6px; color: #aaa; text-decoration: line-through; }
 .ref { margin-top: 9px; color: #bbb; font-size: 11px; }
+.card-sizes {
+  margin-top: 10px;
+  min-height: 18px;
+  color: #555;
+  font-size: 11px;
+  line-height: 1.45;
+  letter-spacing: .04em;
+}
+.card-sizes span { color: #999; }
 .quick-add {
   margin-top: 13px;
   height: 32px;
@@ -1650,6 +1659,8 @@ function cardHtml(p) {
   const imgSrc = imgs[imgIndex] || imgs[0];
   const sale = p.price_old_rub ? `<span class="old">${rub.format(p.price_old_rub)} ₽</span>` : '';
   const idxArg = JSON.stringify(p._idx);
+  const sizes = p.brand === 'zara' ? sizeLabelsForProduct(p) : [];
+  const sizesHtml = sizes.length ? `<div class="card-sizes"><span>Размеры:</span> ${esc(sizes.join(', '))}</div>` : '';
   return `<article class="card" onclick="openProduct('${esc(p._id)}')">
     <div class="image-wrap">
       <img class="card-img" id="card-img-${p._idx}" src="${esc(imgSrc)}" alt="${esc(p.name)}" loading="lazy">
@@ -1663,9 +1674,17 @@ function cardHtml(p) {
         <div class="rub">${p.price_rub ? rub.format(p.price_rub) + ' ₽' : 'по запросу'} ${sale}</div>
       </div>
       <div class="ref">${esc(p.ref)}</div>
+      ${sizesHtml}
       <button class="quick-add" onclick="event.stopPropagation(); openProduct('${esc(p._id)}')">Выбрать</button>
     </div>
   </article>`;
+}
+
+function sizeLabelsForProduct(product) {
+  return [...new Set((product.sizes || [])
+    .map(size => String(size || '').trim())
+    .filter(Boolean)
+  )];
 }
 
 function changeCardImage(event, idx, delta) {
