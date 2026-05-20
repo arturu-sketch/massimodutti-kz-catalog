@@ -943,6 +943,7 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
 const ORDER_ENDPOINT = 'https://md-orders.2692888.workers.dev';
 const SUPABASE_URL = 'https://njqwbfarecdkdyasinzb.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_Ys4XC9ytD3aLGwMZra09zg_t8p2KUjU';
+const ZARA_DATA_VERSION = '20260520-sizes';
 let sb = null;
 let authUser = null;
 let brands = [];
@@ -1261,7 +1262,7 @@ function rememberProducts(brandId, section, list) {
 function loadBrandManifest(brand) {
   if (!brand.manifest) return Promise.resolve(null);
   if (brandManifests[brand.id]) return Promise.resolve(brandManifests[brand.id]);
-  return fetch(brand.manifest).then(r => r.json()).then(data => {
+  return fetch(catalogUrl(brand.id, brand.manifest)).then(r => r.json()).then(data => {
     brandManifests[brand.id] = data;
     return data;
   });
@@ -1276,7 +1277,7 @@ function loadBrandSection(brandId, section) {
     if (!meta) return Promise.resolve([]);
     const cached = productsByBrandSection[brandId] && productsByBrandSection[brandId][meta.id];
     if (cached) return cached;
-    return fetch(meta.file).then(r => r.json()).then(data => {
+    return fetch(catalogUrl(brandId, meta.file)).then(r => r.json()).then(data => {
       const list = normalizeProducts(brandId, data, meta.id);
       rememberProducts(brandId, meta.id, list);
       return list;
@@ -1295,11 +1296,17 @@ function loadBrand(brandId) {
     });
   }
   if (productsByBrand[brandId]) return Promise.resolve(productsByBrand[brandId]);
-  return fetch(brand.file).then(r => r.json()).then(data => {
+  return fetch(catalogUrl(brandId, brand.file)).then(r => r.json()).then(data => {
     const list = normalizeProducts(brandId, data);
     rememberProducts(brandId, 'ALL', list);
     return list;
   });
+}
+
+function catalogUrl(brandId, file) {
+  if (brandId !== 'zara') return file;
+  const sep = file.includes('?') ? '&' : '?';
+  return `${file}${sep}v=${ZARA_DATA_VERSION}`;
 }
 
 // Подгружает каталоги брендов, товары которых уже лежат в корзине (после перезагрузки).
@@ -1681,7 +1688,11 @@ function cardHtml(p) {
 }
 
 function sizeLabelsForProduct(product) {
-  return [...new Set((product.sizes || [])
+  let sizes = product.sizes || [];
+  if ((!sizes || !sizes.length) && product.brand === 'zara') {
+    sizes = colorVariantsOf(product).flatMap(p => p.sizes || []);
+  }
+  return [...new Set((sizes || [])
     .map(size => String(size || '').trim())
     .filter(Boolean)
   )];
@@ -1705,7 +1716,7 @@ function openProduct(id) {
   currentSize = '';
   if (!currentProduct) return;
   const imgs = imagesFor(currentProduct);
-  const uniqueSizes = [...new Set(currentProduct.sizes || [])];
+  const uniqueSizes = sizeLabelsForProduct(currentProduct);
   const colorVariants = colorVariantsOf(currentProduct);
   const colorRow = colorVariants.length > 1 ? `<div class="size-row">
         <label>Цвет — ${esc(currentProduct.color || 'уточнить')}</label>
@@ -1747,7 +1758,7 @@ function selectSize(button, size) {
 function addToCart(id, size = '') {
   const product = productsById[id];
   if (!product) return;
-  if ((product.sizes || []).length && !size) return toast('Выбери размер');
+  if (sizeLabelsForProduct(product).length && !size) return toast('Выбери размер');
   const key = `${id}|${size}`;
   const existing = cart.find(item => item.key === key);
   if (existing) existing.qty += 1;
