@@ -1,5 +1,5 @@
 // Supabase Edge Function: submit-order
-// Принимает заявку с сайта-каталога и пересылает её в Telegram-группу менеджеров.
+// Принимает заявку с мультибренд-витрины и пересылает её в Telegram-группу менеджеров.
 //
 // Секреты (Project Settings → Edge Functions → Secrets):
 //   TELEGRAM_BOT_TOKEN — токен бота от @BotFather
@@ -31,14 +31,28 @@ serve(async (req) => {
     const chatId = Deno.env.get("TELEGRAM_CHAT_ID");
     if (!token || !chatId) throw new Error("missing telegram secrets");
 
-    const tg = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+    const photos = Array.isArray(order?.photos) ? order.photos.filter(Boolean) : [];
+    const firstPhoto = photos[0] || "";
+    const keyboard = buildKeyboard(order);
+    const method = firstPhoto ? "sendPhoto" : "sendMessage";
+    const payload = firstPhoto
+      ? {
+          chat_id: chatId,
+          photo: firstPhoto,
+          caption: text.slice(0, 1000),
+          reply_markup: keyboard,
+        }
+      : {
+          chat_id: chatId,
+          text,
+          disable_web_page_preview: true,
+          reply_markup: keyboard,
+        };
+
+    const tg = await fetch(`https://api.telegram.org/bot${token}/${method}`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        chat_id: chatId,
-        text,
-        disable_web_page_preview: true,
-      }),
+      body: JSON.stringify(payload),
     });
     if (!tg.ok) {
       const detail = await tg.text();
@@ -55,3 +69,11 @@ serve(async (req) => {
     });
   }
 });
+
+function buildKeyboard(order: any) {
+  const buttons = [];
+  const firstItem = Array.isArray(order?.items) ? order.items[0] : null;
+  if (firstItem?.url) buttons.push([{ text: "Открыть товар", url: firstItem.url }]);
+  if (order?.sourceUrl) buttons.push([{ text: "Открыть сайт", url: order.sourceUrl }]);
+  return buttons.length ? { inline_keyboard: buttons.slice(0, 2) } : undefined;
+}

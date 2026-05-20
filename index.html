@@ -1916,9 +1916,11 @@ function cartTotal() {
 function orderItems() {
   return cart.map(item => {
     const p = productsById[item.id] || {};
+    const image = imagesFor(p)[0] || '';
     return {
       name: p.name || '', ref: p.ref || '', brand: brandName(p.brand),
-      color: p.color || '', size: item.size || '', qty: item.qty, price_rub: p.price_rub || null
+      color: p.color || '', size: item.size || '', qty: item.qty, price_rub: p.price_rub || null,
+      image, url: productUrl(p)
     };
   });
 }
@@ -1964,7 +1966,10 @@ function showOrderConfirmed() {
 }
 
 function buildOrder() {
-  const lines = ['🛍 Новая заявка ЗАРАЕКБ', '', `Клиент: ${customer.lastName} ${customer.firstName}`, `Город: ${customer.city}`, `Телефон: ${customer.phone}`, `Email: ${customer.email}`, `Мессенджер: ${customer.messenger}`, '', 'Позиции:'];
+  const items = orderItems();
+  const sourceUrl = location.href;
+  const source = Object.fromEntries(new URLSearchParams(location.search).entries());
+  const lines = ['🛍 Новая заявка @massimoduttiekb', '', `Клиент: ${customer.lastName} ${customer.firstName}`, `Город: ${customer.city}`, `Телефон: ${customer.phone}`, `Email: ${customer.email}`, `Мессенджер: ${customer.messenger}`, '', 'Позиции:'];
   const photos = [];
   cart.forEach((item, index) => {
     const p = productsById[item.id];
@@ -1979,7 +1984,18 @@ function buildOrder() {
   });
   lines.push('');
   lines.push(`ИТОГО: ${rub.format(cartTotal())} ₽`);
-  return { customer, cart, text: lines.join('\n'), photos, createdAt: new Date().toISOString() };
+  if (source.utm_source) lines.push(`Источник: ${source.utm_source}${source.utm_campaign ? ' / ' + source.utm_campaign : ''}`);
+  return { customer, cart, items, text: lines.join('\n'), photos, source, sourceUrl, createdAt: new Date().toISOString() };
+}
+
+function productUrl(product) {
+  if (!product || !product.ref) return location.origin + location.pathname;
+  const params = new URLSearchParams({
+    brand: product.brand || '',
+    ref: product.ref || '',
+    color: product.color || ''
+  });
+  return `${location.origin}${location.pathname}?${params.toString()}`;
 }
 
 function initAuth() {
