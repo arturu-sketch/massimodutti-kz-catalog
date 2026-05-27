@@ -12,6 +12,7 @@ on:
         default: 'changes'
         type: choice
         options:
+          - balance
           - changes
           - zara
           - all
@@ -56,6 +57,7 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Парсинг каталогов
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.scope != 'balance' }}
         env:
           SF_KEY: ${{ secrets.SF_KEY }}
           OUT_DIR: ${{ github.workspace }}
@@ -80,6 +82,7 @@ jobs:
           python scripts/generate_lite_catalogs.py
 
       - name: Уведомление в Telegram
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.scope != 'balance' }}
         env:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
@@ -87,6 +90,7 @@ jobs:
         run: python scripts/notify_changes.py
 
       - name: Коммит обновлений
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.scope != 'balance' }}
         run: |
           git config user.name "zaraekb-bot"
           git config user.email "bot@zaraekb.ru"
@@ -103,6 +107,7 @@ jobs:
           echo "push не удался"; exit 1
 
       - name: Синхронизация zaraekb.ru
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.scope != 'balance' }}
         env:
           DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
           DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
