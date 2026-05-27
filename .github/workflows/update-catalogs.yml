@@ -69,6 +69,11 @@ jobs:
           echo "UPDATE_SCOPE=$UPDATE_SCOPE"
           if [ "$UPDATE_SCOPE" = "changes" ]; then
             python scripts/zara_incremental_sync.py
+            python scripts/inditex_incremental_sync.py massimodutti
+            python scripts/inditex_incremental_sync.py bershka
+            python scripts/inditex_incremental_sync.py stradivarius
+            python scripts/inditex_incremental_sync.py oysho
+            python scripts/inditex_incremental_sync.py zarahome --bycat
           fi
           if [ "$UPDATE_SCOPE" = "all" ]; then
             python scripts/inditex_parse.py massimodutti

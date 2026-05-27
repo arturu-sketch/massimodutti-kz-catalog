@@ -229,6 +229,8 @@ def build_entry(prod):
     section = SECTION_FIX.get((item.get("sectionNameEN") or "").upper(),
                               item.get("sectionNameEN") or "")
     return {
+        "product_id": item.get("id"),
+        "color_id": c0.get("id"),
         "ref": det.get("displayReference") or str(item.get("id") or ""),
         "name": item.get("name") or "",
         "section": section,
