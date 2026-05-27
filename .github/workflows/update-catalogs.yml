@@ -3,14 +3,16 @@ name: Обновление каталогов ЗАРАЕКБ
 on:
   schedule:
     - cron: '0 3 * * 1'    # раз в неделю — понедельник 03:00 UTC
+    - cron: '0 4 * * *'    # ежедневно — быстрый поиск изменений Zara
   workflow_dispatch:        # ручной запуск из вкладки Actions
     inputs:
       scope:
         description: 'Что обновить'
         required: true
-        default: 'zara'
+        default: 'changes'
         type: choice
         options:
+          - changes
           - zara
           - all
 
@@ -33,24 +35,35 @@ jobs:
       - name: Зависимости
         run: pip install requests
 
+      - name: Проверка баланса ScrapingFish
+        env:
+          SF_KEY: ${{ secrets.SF_KEY }}
+          SF_MIN_LEFT: 100
+        run: python scripts/check_scrapingfish_balance.py
+
       - name: Парсинг каталогов
         env:
           SF_KEY: ${{ secrets.SF_KEY }}
           OUT_DIR: ${{ github.workspace }}
-          UPDATE_SCOPE: ${{ github.event_name == 'workflow_dispatch' && inputs.scope || 'all' }}
+          UPDATE_SCOPE: ${{ github.event_name == 'workflow_dispatch' && inputs.scope || (github.event.schedule == '0 3 * * 1' && 'all' || 'changes') }}
           ZARA_DETAIL_WORKERS: 16
         run: |
+          set -euo pipefail
           echo "UPDATE_SCOPE=$UPDATE_SCOPE"
+          if [ "$UPDATE_SCOPE" = "changes" ]; then
+            python scripts/zara_incremental_sync.py
+          fi
           if [ "$UPDATE_SCOPE" = "all" ]; then
-            python scripts/inditex_parse.py massimodutti || true
-            python scripts/inditex_parse.py bershka || true
-            python scripts/inditex_parse.py stradivarius || true
-            python scripts/inditex_parse.py oysho || true
-            python scripts/inditex_parse.py zarahome --bycat || true
+            python scripts/inditex_parse.py massimodutti
+            python scripts/inditex_parse.py bershka
+            python scripts/inditex_parse.py stradivarius
+            python scripts/inditex_parse.py oysho
+            python scripts/inditex_parse.py zarahome --bycat
           fi
           if [ "$UPDATE_SCOPE" = "all" ] || [ "$UPDATE_SCOPE" = "zara" ]; then
-            python scripts/zara_parse.py || true
+            python scripts/zara_parse.py
           fi
+          python scripts/generate_lite_catalogs.py
 
       - name: Уведомление в Telegram
         env:
@@ -61,8 +74,8 @@ jobs:
       - name: Коммит обновлений
         run: |
           git config user.name "zaraekb-bot"
-          git config user.email "bot@ly-x.com"
-          git add products-*.json
+          git config user.email "bot@zaraekb.ru"
+          git add products-*.json product-details
           if git diff --cached --quiet; then
             echo "Изменений в каталогах нет."
             exit 0
@@ -73,3 +86,22 @@ jobs:
             echo "push retry $i..."; sleep 10
           done
           echo "push не удался"; exit 1
+
+      - name: Синхронизация zaraekb.ru
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "${DEPLOY_HOST:-}" ] || [ -z "${DEPLOY_USER:-}" ] || [ -z "${DEPLOY_PATH:-}" ] || [ -z "${DEPLOY_SSH_KEY:-}" ]; then
+            echo "Деплой пропущен: добавьте DEPLOY_HOST, DEPLOY_USER, DEPLOY_PATH, DEPLOY_SSH_KEY в GitHub Secrets."
+            exit 0
+          fi
+          mkdir -p ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/zaraekb_deploy_key
+          chmod 600 ~/.ssh/zaraekb_deploy_key
+          rsync -az --delete -e "ssh -i ~/.ssh/zaraekb_deploy_key -o StrictHostKeyChecking=no" \
+            products-*.json product-details/ \
+            "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH/"
