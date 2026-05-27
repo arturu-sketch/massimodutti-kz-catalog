@@ -12,6 +12,7 @@ from threading import Lock
 
 API_KEY = os.environ.get("SF_KEY", "")
 SF_BASE = "https://api.scrapingfish.com/api/v1/"
+DIRECT_FIRST = os.environ.get("SF_DIRECT_FIRST", "1").lower() not in {"0", "false", "no"}
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15",
     "Accept": "application/json,text/plain,*/*",
@@ -20,6 +21,9 @@ BUYABLE_AVAILABILITY = {"in_stock", "low_on_stock", "few_items_left"}
 DETAIL_CACHE = {}
 DETAIL_LOCK = Lock()
 DETAIL_WORKERS = int(os.environ.get("ZARA_DETAIL_WORKERS", "8"))
+DIRECT_CALLS = 0
+SF_CALLS = 0
+SF_FALLBACKS = 0
 
 
 def clean(s):
@@ -41,11 +45,14 @@ SECTION_FILES = {
 
 
 def fetch_url(url, tries=8, use_sf=True):
+    global DIRECT_CALLS, SF_CALLS
     for t in range(tries):
         try:
             if use_sf and API_KEY:
+                SF_CALLS += 1
                 r = requests.get(SF_BASE, params={"api_key": API_KEY, "url": url}, timeout=240)
             else:
+                DIRECT_CALLS += 1
                 r = requests.get(url, headers=HEADERS, timeout=240)
             if r.status_code == 200:
                 return r.text
@@ -58,7 +65,20 @@ def fetch_url(url, tries=8, use_sf=True):
 
 
 def sf(url, tries=8):
+    global SF_FALLBACKS
+    if DIRECT_FIRST:
+        txt = fetch_url(url, tries=2, use_sf=False)
+        if txt:
+            return txt
+        SF_FALLBACKS += 1
     return fetch_url(url, tries=tries, use_sf=True)
+
+
+def print_fetch_stats(prefix="[zara]"):
+    print(
+        f"{prefix} запросы: direct={DIRECT_CALLS}, scrapingfish={SF_CALLS}, fallback={SF_FALLBACKS}",
+        flush=True,
+    )
 
 
 def get_leaf_categories():
@@ -293,6 +313,7 @@ def main():
         sys.exit(1)
     dst_dir = os.environ.get("OUT_DIR", HERE)
     write_outputs(out, dst_dir)
+    print_fetch_stats()
     print(f"\n[zara] ГОТОВО за {time.time()-t0:.0f}с. Товаров: {len(out)}", flush=True)
 
 

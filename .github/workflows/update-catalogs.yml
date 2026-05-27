@@ -3,7 +3,7 @@ name: Обновление каталогов ЗАРАЕКБ
 on:
   schedule:
     - cron: '0 3 1-7,15-21 * 1'  # полный парсинг — 1-й и 3-й понедельник месяца
-    - cron: '0 4 * * *'    # ежедневно — быстрый поиск изменений Zara
+    - cron: '0 4 * * 2,4,6' # вт/чт/сб — быстрый поиск изменений Zara
   workflow_dispatch:        # ручной запуск из вкладки Actions
     inputs:
       scope:
@@ -62,6 +62,7 @@ jobs:
           SF_KEY: ${{ secrets.SF_KEY }}
           OUT_DIR: ${{ github.workspace }}
           UPDATE_SCOPE: ${{ github.event_name == 'workflow_dispatch' && inputs.scope || (github.event.schedule == '0 3 1-7,15-21 * 1' && 'all' || 'changes') }}
+          SF_DIRECT_FIRST: 1
           ZARA_DETAIL_WORKERS: 16
         run: |
           set -euo pipefail

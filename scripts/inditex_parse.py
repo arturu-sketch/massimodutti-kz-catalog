@@ -16,6 +16,11 @@ import sys, os, json, time, requests
 
 API_KEY = os.environ.get("SF_KEY", "")
 SF_BASE = "https://api.scrapingfish.com/api/v1/"
+DIRECT_FIRST = os.environ.get("SF_DIRECT_FIRST", "1").lower() not in {"0", "false", "no"}
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15",
+    "Accept": "application/json,text/plain,*/*",
+}
 MARKUP = 1.35
 USD_TO_RUB = 5.4
 BATCH = 40
@@ -32,12 +37,32 @@ BRANDS = {
 SECTION_FIX = {"WOMAN": "WOMEN", "MAN": "MEN", "WOMEN": "WOMEN", "MEN": "MEN",
                "GIRL": "GIRL", "BOY": "BOY", "KIDS": "KIDS", "BABY": "KIDS",
                "HOME": "HOME", "BEAUTY": "BEAUTY"}
+DIRECT_CALLS = 0
+SF_CALLS = 0
+SF_FALLBACKS = 0
 
 
-def sf(url, tries=8):
-    """Запрос через ScrapingFish с ретраями."""
+def fetch_direct(url, tries=2):
+    global DIRECT_CALLS
     for t in range(tries):
         try:
+            DIRECT_CALLS += 1
+            r = requests.get(url, headers=HEADERS, timeout=240)
+            if r.status_code == 200:
+                return r.text
+            if r.status_code == 404 and "OBSOLETE" not in r.text and "category" in r.text.lower():
+                return None
+        except Exception as exc:
+            print(f"   direct error: {exc}", flush=True)
+        time.sleep(min(2 + t, 5))
+    return None
+
+
+def fetch_sf(url, tries=8):
+    global SF_CALLS
+    for t in range(tries):
+        try:
+            SF_CALLS += 1
             r = requests.get(SF_BASE,
                               params={"api_key": API_KEY, "url": url}, timeout=240)
             if r.status_code == 200:
@@ -48,6 +73,24 @@ def sf(url, tries=8):
             print(f"   sf error: {exc}", flush=True)
         time.sleep(min(3 + 2 * t, 20))
     return None
+
+
+def sf(url, tries=8):
+    """Прямой запрос к API бренда, ScrapingFish только как fallback."""
+    global SF_FALLBACKS
+    if DIRECT_FIRST:
+        txt = fetch_direct(url, tries=2)
+        if txt:
+            return txt
+        SF_FALLBACKS += 1
+    return fetch_sf(url, tries=tries)
+
+
+def print_fetch_stats(prefix):
+    print(
+        f"{prefix} запросы: direct={DIRECT_CALLS}, scrapingfish={SF_CALLS}, fallback={SF_FALLBACKS}",
+        flush=True,
+    )
 
 
 def api(b, path):
@@ -265,6 +308,7 @@ def main():
         sys.exit(1)
     with open(dst, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
+    print_fetch_stats(f"[{bid}]")
     print(f"\n[{bid}] ГОТОВО за {time.time()-t0:.0f}с. Товаров: {len(out)}. Файл: {dst}", flush=True)
 
 
