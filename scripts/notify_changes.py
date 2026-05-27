@@ -19,6 +19,7 @@ BRANDS = {
 }
 TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 CHAT = os.environ.get("TG_CHAT_ID", "")
+BALANCE_FILE = os.environ.get("SF_BALANCE_FILE", "scrapingfish-balance.json")
 
 
 def git_head(path):
@@ -62,8 +63,28 @@ def sample(items, limit=3):
     return out
 
 
+def balance_lines():
+    try:
+        with open(BALANCE_FILE, encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        return []
+    rows = [
+        "Баланс ScrapingFish:",
+        f"  осталось: {data.get('left')} из {data.get('total')} ({data.get('percent')}%)",
+    ]
+    packs = data.get("packs") or []
+    for pack in packs[:3]:
+        rows.append(f"  пакет: {pack.get('left')}/{pack.get('total')}, до {pack.get('expires')}")
+    return rows
+
+
 def main():
     lines = ["🔄 ЗАРАЕКБ — обновление каталогов", ""]
+    balance = balance_lines()
+    if balance:
+        lines.extend(balance)
+        lines.append("")
     any_change = False
     for bid, name in BRANDS.items():
         path = f"products-{bid}.json"

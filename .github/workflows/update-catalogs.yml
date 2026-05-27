@@ -39,7 +39,21 @@ jobs:
         env:
           SF_KEY: ${{ secrets.SF_KEY }}
           SF_MIN_LEFT: 100
-        run: python scripts/check_scrapingfish_balance.py
+          SF_BALANCE_FILE: scrapingfish-balance.json
+        run: |
+          python scripts/check_scrapingfish_balance.py
+          {
+            echo "### Баланс ScrapingFish перед парсингом"
+            python - <<'PY'
+          import json
+          with open("scrapingfish-balance.json", encoding="utf-8") as f:
+              data = json.load(f)
+          print(f"- Осталось: {data['left']} из {data['total']} ({data['percent']}%)")
+          print(f"- Использовано: {data['used']}")
+          for pack in data.get("packs", []):
+              print(f"- Пакет: {pack.get('left')}/{pack.get('total')}, действует до {pack.get('expires')}")
+          PY
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Парсинг каталогов
         env:
@@ -69,13 +83,14 @@ jobs:
         env:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          SF_BALANCE_FILE: scrapingfish-balance.json
         run: python scripts/notify_changes.py
 
       - name: Коммит обновлений
         run: |
           git config user.name "zaraekb-bot"
           git config user.email "bot@zaraekb.ru"
-          git add products-*.json product-details
+          git add products-*.json product-details scrapingfish-balance.json
           if git diff --cached --quiet; then
             echo "Изменений в каталогах нет."
             exit 0
