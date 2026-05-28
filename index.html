@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>ЗАРАЕКБ — байер-сервис Inditex: Zara, Massimo Dutti, Oysho и др. Доставка в РФ</title>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -956,7 +959,7 @@ footer { padding: 34px; border-top: 1px solid var(--line); color: #999; font-siz
 const ORDER_ENDPOINT = 'https://md-orders.2692888.workers.dev';
 const SUPABASE_URL = 'https://njqwbfarecdkdyasinzb.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_Ys4XC9ytD3aLGwMZra09zg_t8p2KUjU';
-const ZARA_DATA_VERSION = '20260520-sizes-v2';
+const DATA_VERSION = String(Date.now());
 let sb = null;
 let authUser = null;
 let brands = [];
@@ -982,6 +985,7 @@ let imageIndexes = {};
 let colorVariantCount = {};
 let visibleLimit = 80;
 const PAGE_SIZE = 80;
+let hiddenAt = 0;
 
 const rub = new Intl.NumberFormat('ru-RU');
 const byId = id => document.getElementById(id);
@@ -1235,9 +1239,21 @@ const messengerIcons = {
 };
 
 window.addEventListener('load', () => setTimeout(() => byId('splash').classList.add('hidden'), 850));
+window.addEventListener('pageshow', event => {
+  if (event.persisted) window.location.reload();
+});
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden') {
+    hiddenAt = Date.now();
+    return;
+  }
+  if (hiddenAt && Date.now() - hiddenAt > 5000) {
+    window.location.reload();
+  }
+});
 initAuth();
 
-fetch('brands.json').then(r => r.json()).then(data => {
+fetch(dataUrl('brands.json')).then(r => r.json()).then(data => {
   brands = data;
   buildBrandPicker();
   updateCartCount();
@@ -1275,7 +1291,7 @@ function rememberProducts(brandId, section, list) {
 function loadBrandManifest(brand) {
   if (!brand.manifest) return Promise.resolve(null);
   if (brandManifests[brand.id]) return Promise.resolve(brandManifests[brand.id]);
-  return fetch(catalogUrl(brand.id, brand.manifest)).then(r => r.json()).then(data => {
+  return fetch(dataUrl(brand.manifest)).then(r => r.json()).then(data => {
     brandManifests[brand.id] = data;
     return data;
   });
@@ -1290,7 +1306,7 @@ function loadBrandSection(brandId, section) {
     if (!meta) return Promise.resolve([]);
     const cached = productsByBrandSection[brandId] && productsByBrandSection[brandId][meta.id];
     if (cached) return cached;
-    return fetch(catalogUrl(brandId, meta.file)).then(r => r.json()).then(data => {
+    return fetch(dataUrl(meta.file)).then(r => r.json()).then(data => {
       const list = normalizeProducts(brandId, data, meta.id);
       rememberProducts(brandId, meta.id, list);
       return list;
@@ -1309,17 +1325,16 @@ function loadBrand(brandId) {
     });
   }
   if (productsByBrand[brandId]) return Promise.resolve(productsByBrand[brandId]);
-  return fetch(catalogUrl(brandId, brand.file)).then(r => r.json()).then(data => {
+  return fetch(dataUrl(brand.file)).then(r => r.json()).then(data => {
     const list = normalizeProducts(brandId, data);
     rememberProducts(brandId, 'ALL', list);
     return list;
   });
 }
 
-function catalogUrl(brandId, file) {
-  if (brandId !== 'zara') return file;
+function dataUrl(file) {
   const sep = file.includes('?') ? '&' : '?';
-  return `${file}${sep}v=${ZARA_DATA_VERSION}`;
+  return `${file}${sep}v=${DATA_VERSION}`;
 }
 
 // Подгружает каталоги брендов, товары которых уже лежат в корзине (после перезагрузки).
