@@ -96,9 +96,32 @@ def sizes(p):
     return set(str(s).strip() for s in (p.get("sizes") or []) if str(s).strip())
 
 
+def model_key(p):
+    ref = norm(p.get("ref"))
+    if ref:
+        return ref
+    return norm(p.get("name")) or str(p.get("product_id") or "")
+
+
+def unique_models(items):
+    seen = set()
+    out = []
+    for item in items:
+        key = model_key(item)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        out.append(item)
+    return out
+
+
+def model_count(items):
+    return len({model_key(item) for item in items if model_key(item)})
+
+
 def sample(items, limit=3):
     out = []
-    for p in items[:limit]:
+    for p in unique_models(items)[:limit]:
         name = p.get("name") or "товар"
         ref = p.get("ref") or ""
         color = p.get("color") or ""
@@ -155,9 +178,9 @@ def main():
                 size_added.append((after_item, appeared))
             if gone:
                 size_removed.append((after_item, gone))
-        block = [f"{name}: {len(new)} товаров"]
+        block = [f"{name}: {model_count(new)} товаров"]
         if added:
-            block.append(f"  🆕 новинок: {len(added)}")
+            block.append(f"  🆕 новинок: {model_count(added)}")
             block.extend(sample(added))
         if size_added:
             block.append(f"  ✅ размеры появились: {len(size_added)}")
@@ -172,7 +195,7 @@ def main():
             block.append(f"  ⛔ распродано: {len(sold_out)}")
             block.extend(sample(sold_out))
         if removed:
-            block.append(f"  ❌ снято с продажи: {len(removed)}")
+            block.append(f"  ❌ снято с продажи: {model_count(removed)}")
             block.extend(sample(removed))
         if added or size_added or size_removed or sales or sold_out or removed:
             any_change = True
