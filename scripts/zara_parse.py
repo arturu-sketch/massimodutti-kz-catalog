@@ -101,7 +101,7 @@ def get_leaf_categories():
 
 def parse_price(raw):
     from pricing import parse_price as parse_custom_price
-    return parse_custom_price(raw)
+    return parse_custom_price(raw, "zara")
 
 
 def buyable_sizes(sizes):

@@ -23,6 +23,7 @@ HEADERS = {
 }
 BATCH = 40
 HERE = os.path.dirname(os.path.abspath(__file__))
+CURRENT_BRAND = None
 
 BRANDS = {
     "massimodutti": {"store": "35009503", "catalog": "30359534", "host": "https://www.massimodutti.com"},
@@ -162,7 +163,7 @@ def get_products(b, id_batch):
 
 def parse_price(raw):
     from pricing import parse_price as parse_custom_price
-    return parse_custom_price(raw)
+    return parse_custom_price(raw, CURRENT_BRAND)
 
 
 def build_images(detail, color_code, limit=10):
@@ -241,10 +242,12 @@ def build_entry(prod):
 
 
 def main():
+    global CURRENT_BRAND
     if len(sys.argv) < 2 or sys.argv[1] not in BRANDS:
         print("Использование: python3 inditex_parse.py <" + "|".join(BRANDS) + ">")
         return
     bid = sys.argv[1]
+    CURRENT_BRAND = bid
     b = BRANDS[bid]
     bycat = "--bycat" in sys.argv  # раздел/категорию брать из дерева, а не из поля товара
     t0 = time.time()
