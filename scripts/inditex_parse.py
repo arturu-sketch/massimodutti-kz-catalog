@@ -21,8 +21,6 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15",
     "Accept": "application/json,text/plain,*/*",
 }
-MARKUP = 1.35
-USD_TO_RUB = 5.4
 BATCH = 40
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -163,14 +161,8 @@ def get_products(b, id_batch):
 
 
 def parse_price(raw):
-    if raw is None:
-        return None, None
-    try:
-        kzt = int(raw) / 100
-        rub = round(kzt * MARKUP / USD_TO_RUB)
-        return kzt, rub
-    except Exception:
-        return None, None
+    from pricing import parse_price as parse_custom_price
+    return parse_custom_price(raw)
 
 
 def build_images(detail, color_code, limit=10):

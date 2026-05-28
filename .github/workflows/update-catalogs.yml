@@ -85,6 +85,7 @@ jobs:
           if [ "$UPDATE_SCOPE" = "all" ] || [ "$UPDATE_SCOPE" = "zara" ]; then
             python scripts/zara_parse.py
           fi
+          python scripts/apply_price_table.py
           python scripts/generate_lite_catalogs.py
 
       - name: Уведомление в Telegram

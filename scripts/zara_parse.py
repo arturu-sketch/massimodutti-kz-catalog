@@ -33,8 +33,6 @@ def clean(s):
     s = s.replace('Â ', ' ').replace('\xa0', ' ').replace('Â', ' ')
     return re.sub(r'\s+', ' ', s).strip()
 HOST = "https://www.zara.com/kz/ru"
-MARKUP = 1.35
-USD_TO_RUB = 5.4
 HERE = os.path.dirname(os.path.abspath(__file__))
 SECTION_FIX = {"WOMAN": "WOMEN", "MAN": "MEN", "KID": "KIDS", "KIDS": "KIDS"}
 SECTION_FILES = {
@@ -102,13 +100,8 @@ def get_leaf_categories():
 
 
 def parse_price(raw):
-    if raw is None:
-        return None, None
-    try:
-        kzt = int(raw) / 100
-        return kzt, round(kzt * MARKUP / USD_TO_RUB)
-    except Exception:
-        return None, None
+    from pricing import parse_price as parse_custom_price
+    return parse_custom_price(raw)
 
 
 def buyable_sizes(sizes):
