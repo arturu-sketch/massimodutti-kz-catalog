@@ -27,12 +27,25 @@ def load_old(brand_id: str) -> list[dict]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def norm(value: object) -> str:
+    return " ".join(
+        str(value or "")
+        .replace("\u00c2", " ")
+        .replace("\u00a0", " ")
+        .split()
+    ).upper()
+
+
 def product_key(item: dict) -> tuple[str, str, str]:
     pid = item.get("product_id")
     cid = item.get("color_id")
     if pid and cid:
         return ("id", str(pid), str(cid))
-    return ("ref", str(item.get("ref") or ""), str(item.get("color") or ""))
+    return ref_key(item)
+
+
+def ref_key(item: dict) -> tuple[str, str, str]:
+    return ("ref", norm(item.get("ref")), norm(item.get("color")))
 
 
 def visible_signature(item: dict) -> dict:
@@ -73,7 +86,7 @@ def main() -> None:
 
     old = load_old(brand_id)
     old_by_id = {product_key(p): p for p in old if p.get("product_id") and p.get("color_id")}
-    old_by_ref = {("ref", str(p.get("ref") or ""), str(p.get("color") or "")): p for p in old}
+    old_by_ref = {ref_key(p): p for p in old}
     print(
         f"[{brand_id}-incremental] старых товаров: {len(old)}, "
         f"с product_id: {len(old_by_id)}",
@@ -130,8 +143,7 @@ def main() -> None:
             key = product_key(entry)
             if key in seen_output:
                 continue
-            ref_key = ("ref", str(entry.get("ref") or ""), str(entry.get("color") or ""))
-            old_item = old_by_id.get(key) or old_by_ref.get(ref_key)
+            old_item = old_by_id.get(key) or old_by_ref.get(ref_key(entry))
             if old_item and unchanged(old_item, entry):
                 merged = dict(old_item)
                 merged["product_id"] = entry.get("product_id")

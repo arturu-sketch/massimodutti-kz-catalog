@@ -41,12 +41,55 @@ def load(path):
         return []
 
 
-def key(p):
+def norm(value):
+    return " ".join(
+        str(value or "")
+        .replace("\u00c2", " ")
+        .replace("\u00a0", " ")
+        .split()
+    ).upper()
+
+
+def aliases(p):
+    rows = []
+    ref = norm(p.get("ref"))
+    color = norm(p.get("color"))
+    if ref:
+        rows.append(("ref", ref, color))
     pid = p.get("product_id")
     cid = p.get("color_id")
     if pid and cid:
-        return ("id", str(pid), str(cid))
-    return ("ref", p.get("ref"), p.get("color"))
+        rows.append(("id", str(pid), str(cid)))
+    return rows
+
+
+def match_catalogs(old, new):
+    old_aliases = {}
+    for idx, item in enumerate(old):
+        for alias in aliases(item):
+            old_aliases.setdefault(alias, []).append(idx)
+
+    matched_old = set()
+    matched_new = set()
+    pairs = []
+    for new_idx, item in enumerate(new):
+        old_idx = None
+        for alias in aliases(item):
+            for candidate in old_aliases.get(alias, []):
+                if candidate not in matched_old:
+                    old_idx = candidate
+                    break
+            if old_idx is not None:
+                break
+        if old_idx is None:
+            continue
+        matched_old.add(old_idx)
+        matched_new.add(new_idx)
+        pairs.append((old[old_idx], item))
+
+    added = [item for idx, item in enumerate(new) if idx not in matched_new]
+    removed = [item for idx, item in enumerate(old) if idx not in matched_old]
+    return pairs, added, removed
 
 
 def sizes(p):
@@ -59,7 +102,8 @@ def sample(items, limit=3):
         name = p.get("name") or "товар"
         ref = p.get("ref") or ""
         color = p.get("color") or ""
-        out.append(f"    • {name} · {ref} · {color}")
+        status = " · скоро в продаже" if not sizes(p) else ""
+        out.append(f"    • {name} · {ref} · {color}{status}")
     return out
 
 
@@ -92,25 +136,25 @@ def main():
         if not new:
             continue
         old = git_head(path)
-        o = {key(p): p for p in old}
-        n = {key(p): p for p in new}
-        added = [n[k] for k in n if k not in o]
-        removed = [o[k] for k in o if k not in n]
-        sold_out = [n[k] for k in n if k in o and o[k].get("in_stock") is not False and n[k].get("in_stock") is False]
-        sales = [n[k] for k in n if k in o
-                 and not o[k].get("price_old_rub") and n[k].get("price_old_rub")]
+        pairs, added, removed = match_catalogs(old, new)
+        sold_out = [
+            after for before, after in pairs
+            if before.get("in_stock") is not False and after.get("in_stock") is False
+        ]
+        sales = [
+            after for before, after in pairs
+            if not before.get("price_old_rub") and after.get("price_old_rub")
+        ]
         size_added, size_removed = [], []
-        for k in n:
-            if k not in o:
-                continue
-            before = sizes(o[k])
-            after = sizes(n[k])
+        for before_item, after_item in pairs:
+            before = sizes(before_item)
+            after = sizes(after_item)
             appeared = sorted(after - before)
             gone = sorted(before - after)
             if appeared:
-                size_added.append((n[k], appeared))
+                size_added.append((after_item, appeared))
             if gone:
-                size_removed.append((n[k], gone))
+                size_removed.append((after_item, gone))
         block = [f"{name}: {len(new)} товаров"]
         if added:
             block.append(f"  🆕 новинок: {len(added)}")
