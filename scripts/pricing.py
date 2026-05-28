@@ -1,8 +1,10 @@
 """ZARAEKB retail price rules.
 
-Exact KZT prices from price_table.json win for all brands. Missing prices
-between two known table rows are linearly interpolated and rounded to the
-nearest 10 rubles. Everything outside the known table keeps the legacy formula.
+Exact KZT prices from price_table.json win for all brands. For Massimo Dutti,
+prices from 70,000 KZT that are not in the table use: KZT plus 20%, divided
+by 4.5. Other missing prices between two known table rows are linearly
+interpolated and rounded to the nearest 10 rubles. Everything outside the
+known table keeps the legacy formula.
 """
 from __future__ import annotations
 
@@ -13,6 +15,9 @@ from pathlib import Path
 
 MARKUP = 1.35
 USD_TO_RUB = 5.4
+MASSIMO_HIGH_PRICE_FROM_KZT = 70000
+MASSIMO_HIGH_PRICE_MARKUP = 1.20
+MASSIMO_HIGH_PRICE_DIVISOR = 4.5
 ROOT = Path(__file__).resolve().parents[1]
 TABLE_PATH = ROOT / "price_table.json"
 
@@ -39,6 +44,14 @@ def formula_price(kzt: float) -> int:
     return round(kzt * MARKUP / USD_TO_RUB)
 
 
+def normalize_brand(brand: str | None) -> str:
+    return (brand or "").lower().replace("-", "").replace("_", "")
+
+
+def massimo_high_price(kzt: float) -> int:
+    return int(kzt * MASSIMO_HIGH_PRICE_MARKUP / MASSIMO_HIGH_PRICE_DIVISOR)
+
+
 def round_to_10(value: float) -> int:
     return int(round(value / 10.0) * 10)
 
@@ -49,6 +62,8 @@ def retail_price(kzt: float | int | None, brand: str | None = None) -> int | Non
     kzt_int = int(round(float(kzt)))
     if kzt_int in PRICE_TABLE:
         return PRICE_TABLE[kzt_int]
+    if normalize_brand(brand) == "massimodutti" and kzt_int >= MASSIMO_HIGH_PRICE_FROM_KZT:
+        return massimo_high_price(kzt_int)
     if len(PRICE_POINTS) >= 2:
         pos = bisect_left(PRICE_POINTS, kzt_int)
         if 0 < pos < len(PRICE_POINTS):
