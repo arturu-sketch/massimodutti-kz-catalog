@@ -168,6 +168,15 @@ input, select { border-radius: 0; }
   object-position: top center;
   display: block;
 }
+.home-hero-slide {
+  opacity: 0;
+  transform: scale(1.015);
+  transition: opacity 900ms ease, transform 1400ms ease;
+}
+.home-hero-slide.active {
+  opacity: 1;
+  transform: scale(1);
+}
 .catalog-head {
   display: grid;
   grid-template-columns: 250px 1fr;
@@ -967,6 +976,7 @@ let activeBrand = null;
 let productsByBrand = {};
 let productsByBrandSection = {};
 let brandManifests = {};
+let allBrandSectionsLoaded = {};
 let productsById = {};
 let products = [];
 let sections = [];
@@ -986,6 +996,8 @@ let colorVariantCount = {};
 let visibleLimit = 80;
 const PAGE_SIZE = 80;
 let hiddenAt = 0;
+let heroSlideIndex = 0;
+let heroSlideTimer = null;
 
 const rub = new Intl.NumberFormat('ru-RU');
 const byId = id => document.getElementById(id);
@@ -1314,6 +1326,23 @@ function loadBrandSection(brandId, section) {
   });
 }
 
+function loadAllBrandSections(brandId) {
+  const brand = brands.find(b => b.id === brandId);
+  if (!brand || !brand.manifest) return loadBrand(brandId);
+  if (allBrandSectionsLoaded[brandId] && productsByBrand[brandId]) {
+    return Promise.resolve(productsByBrand[brandId]);
+  }
+  return loadBrandManifest(brand).then(manifest => {
+    const sectionsToLoad = (manifest.sections || []).map(s => s.id);
+    return Promise.all(sectionsToLoad.map(section => loadBrandSection(brandId, section).catch(() => [])));
+  }).then(lists => {
+    const merged = lists.flat();
+    productsByBrand[brandId] = merged;
+    allBrandSectionsLoaded[brandId] = true;
+    return merged;
+  });
+}
+
 // Лениво загружает каталог бренда: обычные бренды целиком, Zara — только первый раздел.
 function loadBrand(brandId) {
   const brand = brands.find(b => b.id === brandId);
@@ -1418,6 +1447,13 @@ function colorVariantsOf(p) {
 
 function setHeroImage(list) {
   const img = byId('home-hero-img');
+  fetch(dataUrl('hero-slides.json'))
+    .then(r => r.ok ? r.json() : [])
+    .then(slides => {
+      const urls = (slides || []).map(s => s.image || s).filter(Boolean).slice(0, 5);
+      if (urls.length) startHeroSlider(urls);
+    })
+    .catch(() => {});
   // основное фото — файл hero.jpg в репозитории; если его нет — берём из каталога
   img.onerror = () => {
     img.onerror = null;
@@ -1426,6 +1462,23 @@ function setHeroImage(list) {
     if (alt) img.src = alt;
   };
   img.src = 'hero.jpg?v=1';
+}
+
+function startHeroSlider(urls) {
+  const frame = byId('home-visual');
+  if (!frame || !urls.length) return;
+  if (heroSlideTimer) clearInterval(heroSlideTimer);
+  heroSlideIndex = 0;
+  frame.innerHTML = urls.map((url, index) => (
+    `<img class="home-hero-slide ${index === 0 ? 'active' : ''}" src="${esc(url)}" alt="ЗАРАЕКБ — новая коллекция ${index + 1}" loading="${index === 0 ? 'eager' : 'lazy'}">`
+  )).join('');
+  const slides = [...frame.querySelectorAll('.home-hero-slide')];
+  if (slides.length < 2) return;
+  heroSlideTimer = setInterval(() => {
+    slides[heroSlideIndex].classList.remove('active');
+    heroSlideIndex = (heroSlideIndex + 1) % slides.length;
+    slides[heroSlideIndex].classList.add('active');
+  }, 4500);
 }
 
 // Подбирает реальное фото модели из каталога (приоритет — образы в полный рост).
@@ -1619,24 +1672,59 @@ function imagesFor(p) {
   return (p.images && p.images.length ? p.images : [p.image]).filter(Boolean);
 }
 
+function onlyDigits(value) {
+  return String(value ?? '').replace(/\D/g, '');
+}
+
+function articleDigitKeys(p) {
+  return [
+    p.ref,
+    `${p.ref || ''}${p.color_id || ''}`,
+    p.product_id,
+    p.color_id,
+    p.url,
+    p.official_url,
+    p.image,
+    ...(p.images || [])
+  ].map(onlyDigits).filter(Boolean);
+}
+
+function isArticleSearch(query) {
+  return onlyDigits(query).length >= 3;
+}
+
+function matchesSearch(p, query) {
+  const q = query.trim().toLowerCase();
+  if (!q) return true;
+  const qDigits = onlyDigits(q);
+  if (qDigits.length >= 3) {
+    return articleDigitKeys(p).some(key => key.startsWith(qDigits) || key.includes(qDigits));
+  }
+  const haystack = [p.name, p.ref, p.family, p.subfamily, p.color, p.product_id, p.color_id].join(' ').toLowerCase();
+  return haystack.includes(q);
+}
+
 function render() {
   const q = byId('search').value.trim().toLowerCase();
   const sort = byId('sort').value;
-  let filtered = products.filter(p => {
-    if (activeSection && p.section !== activeSection) return false;
-    if (activeGroup && groupOf(p) !== activeGroup) return false;
-    if (activeFamily && p.family !== activeFamily) return false;
-    if (q) {
-      const haystack = [p.name, p.ref, p.family, p.subfamily, p.color].join(' ').toLowerCase();
-      if (!haystack.includes(q)) return false;
+  const articleSearch = isArticleSearch(q);
+  const sourceProducts = articleSearch && activeBrand ? (productsByBrand[activeBrand] || products) : products;
+  let filtered = sourceProducts.filter(p => {
+    if (!articleSearch) {
+      if (activeSection && p.section !== activeSection) return false;
+      if (activeGroup && groupOf(p) !== activeGroup) return false;
+      if (activeFamily && p.family !== activeFamily) return false;
     }
+    if (!matchesSearch(p, q)) return false;
     return true;
   });
   if (sort === 'cheap') filtered.sort((a,b) => (a.price_rub || 99999999) - (b.price_rub || 99999999));
   else if (sort === 'expensive') filtered.sort((a,b) => (b.price_rub || 0) - (a.price_rub || 0));
   else filtered.sort((a,b) => (a._order || 0) - (b._order || 0));
   const visible = filtered.slice(0, visibleLimit);
-  byId('status').textContent = `${sectionLabel(activeSection)}${activeGroup ? ' · ' + activeGroup : ''}${activeFamily ? ' · ' + familyLabel(activeFamily) : ''} · ${filtered.length} товаров`;
+  byId('status').textContent = articleSearch
+    ? `Поиск по артикулу · ${filtered.length} товаров`
+    : `${sectionLabel(activeSection)}${activeGroup ? ' · ' + activeGroup : ''}${activeFamily ? ' · ' + familyLabel(activeFamily) : ''} · ${filtered.length} товаров`;
   byId('grid').innerHTML = filtered.length
     ? visible.map(cardHtml).join('') + (visible.length < filtered.length ? `<button type="button" class="load-more" onclick="showMoreProducts()">Показать ещё ${Math.min(PAGE_SIZE, filtered.length - visible.length)}</button>` : '')
     : '<div class="empty">Ничего не найдено</div>';
@@ -1680,6 +1768,11 @@ document.addEventListener('click', closeSortDropdown);
 
 function handleSearchInput() {
   visibleLimit = PAGE_SIZE;
+  const query = byId('search').value.trim();
+  if (activeBrand && isArticleSearch(query) && brandManifests[activeBrand] && !allBrandSectionsLoaded[activeBrand]) {
+    loadAllBrandSections(activeBrand).then(() => render()).catch(() => render());
+    return;
+  }
   render();
 }
 
@@ -2292,7 +2385,7 @@ function applyMobileMenuSearch() {
   visibleLimit = PAGE_SIZE;
   closeAll();
   showScreen('catalog');
-  render();
+  handleSearchInput();
 }
 
 function changeQty(key, delta) {

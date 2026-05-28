@@ -87,6 +87,7 @@ jobs:
           fi
           python scripts/apply_price_table.py
           python scripts/generate_lite_catalogs.py
+          python scripts/update_hero_slides.py
 
       - name: Уведомление в Telegram
         if: ${{ github.event_name != 'workflow_dispatch' || inputs.scope != 'balance' }}
@@ -101,7 +102,7 @@ jobs:
         run: |
           git config user.name "zaraekb-bot"
           git config user.email "bot@zaraekb.ru"
-          git add products-*.json product-details scrapingfish-balance.json
+          git add products-*.json product-details hero-slides.json scrapingfish-balance.json
           if git diff --cached --quiet; then
             echo "Изменений в каталогах нет."
             exit 0
@@ -130,5 +131,5 @@ jobs:
           printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/zaraekb_deploy_key
           chmod 600 ~/.ssh/zaraekb_deploy_key
           rsync -az --delete -e "ssh -i ~/.ssh/zaraekb_deploy_key -o StrictHostKeyChecking=no" \
-            products-*.json product-details/ \
+            products-*.json hero-slides.json product-details/ \
             "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH/"
