@@ -1,7 +1,7 @@
 """ZARAEKB retail price rules.
 
 Exact KZT prices from price_table.json win for all brands. For Massimo Dutti,
-prices from 70,000 KZT that are not in the table use: KZT plus 20%, divided
+prices above 165,990 KZT that are not in the table use: KZT plus 20%, divided
 by 4.5. Other missing prices between two known table rows are linearly
 interpolated and rounded to the nearest 10 rubles. Everything outside the
 known table keeps the legacy formula.
@@ -15,7 +15,7 @@ from pathlib import Path
 
 MARKUP = 1.35
 USD_TO_RUB = 5.4
-MASSIMO_HIGH_PRICE_FROM_KZT = 70000
+MASSIMO_HIGH_PRICE_FROM_KZT = 165990
 MASSIMO_HIGH_PRICE_MARKUP = 1.20
 MASSIMO_HIGH_PRICE_DIVISOR = 4.5
 ROOT = Path(__file__).resolve().parents[1]
@@ -62,7 +62,7 @@ def retail_price(kzt: float | int | None, brand: str | None = None) -> int | Non
     kzt_int = int(round(float(kzt)))
     if kzt_int in PRICE_TABLE:
         return PRICE_TABLE[kzt_int]
-    if normalize_brand(brand) == "massimodutti" and kzt_int >= MASSIMO_HIGH_PRICE_FROM_KZT:
+    if normalize_brand(brand) == "massimodutti" and kzt_int > MASSIMO_HIGH_PRICE_FROM_KZT:
         return massimo_high_price(kzt_int)
     if len(PRICE_POINTS) >= 2:
         pos = bisect_left(PRICE_POINTS, kzt_int)
