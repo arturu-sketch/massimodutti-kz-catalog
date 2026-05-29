@@ -2056,13 +2056,8 @@ function hydrateCartSnapshots() {
 }
 
 function ensureCartProductsLoaded() {
-  const needed = [...new Set(cart
-    .filter(item => !cartProduct(item))
-    .map(item => item.brand)
-    .filter(Boolean))];
-  if (!needed.length) return Promise.resolve();
-  return Promise.all(needed.map(id => loadAllBrandSections(id).catch(() => loadBrand(id).catch(() => {}))))
-    .then(() => hydrateCartSnapshots());
+  hydrateCartSnapshots();
+  return Promise.resolve();
 }
 
 function saveCart() {
@@ -2079,16 +2074,8 @@ function openCart() {
   closeModalOnly();
   byId('shade').classList.add('open');
   byId('drawer').classList.add('open');
-  const needed = [...new Set(cart.map(i => i.brand).filter(b => b && !cartProduct(i)))];
-  if (needed.length) {
-    byId('drawer').innerHTML = `<div class="cart-drawer">
-      <div class="cart-head"><h2>Корзина</h2><button class="close" onclick="closeAll()">×</button></div>
-      <div class="cart-list"><div class="empty">Загрузка…</div></div>
-    </div>`;
-    ensureCartProductsLoaded().then(renderCart);
-  } else {
-    renderCart();
-  }
+  hydrateCartSnapshots();
+  renderCart();
 }
 
 function renderCart() {
