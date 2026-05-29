@@ -1973,16 +1973,79 @@ function orderProductSnapshot(p) {
   };
 }
 
-function cartProduct(item) {
-  const current = productsById[item.id];
-  if (current) return current;
+const EMPTY_CART_IMAGE = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="96" height="120" viewBox="0 0 96 120"%3E%3Crect width="96" height="120" fill="%23f6f5f3"/%3E%3Cpath d="M28 44h40v44H28z" fill="none" stroke="%23b7b3ae" stroke-width="2"/%3E%3Cpath d="M36 44c0-9 5-14 12-14s12 5 12 14" fill="none" stroke="%23b7b3ae" stroke-width="2"/%3E%3C/svg%3E';
+
+function cartItemTokens(item) {
+  const source = [item.id, item.key, item.brand, item.product?.ref, item.snapshot?.ref, item.product?.color, item.snapshot?.color, item.product?.product_id, item.snapshot?.product_id, item.product?.color_id, item.snapshot?.color_id]
+    .filter(Boolean).join(' ');
+  const slashRef = source.match(/(\d{4})\/(\d{3})/);
+  const compactRef = source.match(/(?:^|\D)(\d{7})(?:\D|$)/);
+  const ref = slashRef ? `${slashRef[1]}/${slashRef[2]}` : (compactRef ? `${compactRef[1].slice(0, 4)}/${compactRef[1].slice(4, 7)}` : '');
+  return {
+    ref,
+    digits: onlyDigits(source),
+    color: item.product?.color || item.snapshot?.color || '',
+    colorId: item.product?.color_id || item.snapshot?.color_id || '',
+    productId: item.product?.product_id || item.snapshot?.product_id || ''
+  };
+}
+
+function findProductForCartItem(item) {
+  if (!item) return null;
+  if (productsById[item.id]) return productsById[item.id];
+  const list = productsByBrand[item.brand] || Object.values(productsByBrandSection[item.brand] || {}).flat();
+  if (!list || !list.length) return item.product || item.snapshot || null;
+  const tokens = cartItemTokens(item);
+  const byId = list.find(p => p._id === item.id || p._id === item.key);
+  if (byId) return byId;
+  if (tokens.productId) {
+    const byProductId = list.find(p => String(p.product_id || '') === String(tokens.productId));
+    if (byProductId) return byProductId;
+  }
+  if (tokens.ref) {
+    const sameRef = list.filter(p => String(p.ref || '') === tokens.ref);
+    if (sameRef.length === 1) return sameRef[0];
+    const sameColor = sameRef.find(p =>
+      (tokens.colorId && String(p.color_id || '') === String(tokens.colorId)) ||
+      (tokens.color && String(p.color || '').toLowerCase() === String(tokens.color).toLowerCase())
+    );
+    if (sameColor) return sameColor;
+    if (sameRef.length) return sameRef[0];
+  }
+  if (tokens.digits.length >= 7) {
+    const byDigits = list.find(p => articleDigitKeys(p).some(key => tokens.digits.includes(key.slice(0, 7)) || key.includes(tokens.digits.slice(0, 7))));
+    if (byDigits) return byDigits;
+  }
   return item.product || item.snapshot || null;
+}
+
+function fallbackCartProduct(item, index = 0) {
+  const saved = item.product || item.snapshot || {};
+  const tokens = cartItemTokens(item);
+  return {
+    ...saved,
+    brand: saved.brand || item.brand || '',
+    name: saved.name || `Товар из корзины ${index + 1}`,
+    ref: saved.ref || tokens.ref || '',
+    color: saved.color || tokens.color || 'уточнить',
+    price_rub: saved.price_rub || null,
+    image: saved.image || '',
+    images: saved.images || []
+  };
+}
+
+function cartImage(p) {
+  return imagesFor(p)[0] || EMPTY_CART_IMAGE;
+}
+
+function cartProduct(item) {
+  return findProductForCartItem(item);
 }
 
 function hydrateCartSnapshots() {
   let changed = false;
   cart.forEach(item => {
-    const p = productsById[item.id];
+    const p = findProductForCartItem(item);
     if (p && (!item.product || !item.product.name || !item.product.ref)) {
       item.product = orderProductSnapshot(p);
       item.brand = item.brand || p.brand;
@@ -2030,9 +2093,8 @@ function openCart() {
 
 function renderCart() {
   const groups = {};
-  cart.forEach(item => {
-    const p = cartProduct(item);
-    if (!p) return;
+  cart.forEach((item, index) => {
+    const p = cartProduct(item) || fallbackCartProduct(item, index);
     const bid = p.brand || item.brand || 'other';
     (groups[bid] = groups[bid] || []).push({ item, p });
   });
@@ -2041,7 +2103,7 @@ function renderCart() {
     rows += `<div class="cart-brand">${esc(brandName(bid))}</div>`;
     groups[bid].forEach(({ item, p }) => {
       rows += `<div class="cart-item">
-        <img src="${esc(imagesFor(p)[0])}" alt="${esc(p.name)}">
+        <img src="${esc(cartImage(p))}" alt="${esc(p.name)}">
         <div>
           <h3>${esc(p.name)}</h3>
           <p>${esc(p.ref)}${p.color ? ' · ' + esc(p.color) : ''}${item.size ? ' · размер ' + esc(item.size) : ''}</p>
@@ -2128,15 +2190,15 @@ async function submitCheckout() {
 
 function cartTotal() {
   return cart.reduce((sum, item) => {
-    const p = cartProduct(item);
+    const p = cartProduct(item) || fallbackCartProduct(item);
     return sum + ((p && p.price_rub) ? p.price_rub * item.qty : 0);
   }, 0);
 }
 
 function orderItems() {
   return cart.map((item, index) => {
-    const p = cartProduct(item) || {};
-    const image = imagesFor(p)[0] || '';
+    const p = cartProduct(item) || fallbackCartProduct(item, index);
+    const image = cartImage(p) === EMPTY_CART_IMAGE ? '' : cartImage(p);
     const brand = p.brand || item.brand || '';
     const qty = Number(item.qty || 1);
     const price = Number(p.price_rub || 0);
