@@ -1271,6 +1271,7 @@ fetch(dataUrl('brands.json')).then(r => r.json()).then(data => {
   updateCartCount();
   preloadCartBrands();
   setHeroImage();
+  handleProductDeepLink();
 });
 
 function sectionOrder(a, b) {
@@ -1298,6 +1299,7 @@ function rememberProducts(brandId, section, list) {
   productsByBrandSection[brandId][section || 'ALL'] = list;
   productsByBrand[brandId] = Object.values(productsByBrandSection[brandId]).flat();
   list.forEach(p => { productsById[p._id] = p; });
+  hydrateCartSnapshots();
 }
 
 function loadBrandManifest(brand) {
@@ -1409,6 +1411,69 @@ function openBrand(brandId) {
     render();
     showScreen('catalog');
   }).catch(() => toast('Не удалось загрузить каталог'));
+}
+
+function openBrandCatalog(brandId) {
+  const brand = brands.find(b => b.id === brandId);
+  if (!brand || !brand.available) return Promise.reject(new Error('brand unavailable'));
+  return loadBrand(brandId).then(list => {
+    activeBrand = brandId;
+    products = list;
+    activeFamily = '';
+    activeGroup = '';
+    mobileOpenSection = '';
+    menuOpenSection = '';
+    visibleLimit = PAGE_SIZE;
+    imageIndexes = {};
+    byId('search').value = '';
+    byId('sort').value = 'new';
+    syncSortDropdown();
+    const manifest = brandManifests[brandId];
+    sections = manifest
+      ? (manifest.sections || []).map(s => s.id).sort(sectionOrder)
+      : [...new Set(products.map(p => p.section).filter(Boolean))].sort(sectionOrder);
+    activeSection = sections[0] || '';
+    buildVariantIndex();
+    buildSections();
+    buildFamilies();
+    setHeaderBrand(brand.name);
+    render();
+    showScreen('catalog');
+    return list;
+  });
+}
+
+function handleProductDeepLink() {
+  const params = new URLSearchParams(location.search);
+  const brandId = params.get('brand');
+  const ref = params.get('ref');
+  const pid = params.get('pid');
+  if (!brandId || (!ref && !pid)) return;
+  openBrandCatalog(brandId)
+    .then(() => loadAllBrandSections(brandId))
+    .then(list => {
+      const color = params.get('color') || '';
+      const cid = params.get('cid') || '';
+      const found = list.find(p => (
+        (pid && String(p.product_id || '') === String(pid)) ||
+        (ref && String(p.ref || '') === String(ref))
+      ) && (
+        !cid || String(p.color_id || '') === String(cid)
+      ) && (
+        !color || String(p.color || '') === String(color) || String(p.color_id || '') === String(color)
+      )) || list.find(p => ref && String(p.ref || '') === String(ref)) || list.find(p => pid && String(p.product_id || '') === String(pid));
+      if (!found) return;
+      products = productsByBrandSection[brandId]?.[found.section] || products;
+      activeSection = found.section || activeSection;
+      activeGroup = '';
+      activeFamily = '';
+      buildVariantIndex();
+      buildSections();
+      buildFamilies();
+      render();
+      setTimeout(() => openProduct(found._id), 120);
+    })
+    .catch(() => {});
 }
 
 function setHeaderBrand(name) {
@@ -1883,9 +1948,58 @@ function addToCart(id, size = '') {
   const key = `${id}|${size}`;
   const existing = cart.find(item => item.key === key);
   if (existing) existing.qty += 1;
-  else cart.push({ key, id, size, qty: 1, brand: product.brand });
+  else cart.push({ key, id, size, qty: 1, brand: product.brand, product: orderProductSnapshot(product) });
   saveCart();
   toast('Добавлено в корзину');
+}
+
+function orderProductSnapshot(p) {
+  if (!p) return null;
+  return {
+    _id: p._id,
+    brand: p.brand,
+    product_id: p.product_id,
+    color_id: p.color_id,
+    ref: p.ref,
+    name: p.name,
+    section: p.section,
+    family: p.family,
+    subfamily: p.subfamily,
+    color: p.color,
+    price_rub: p.price_rub,
+    price_old_rub: p.price_old_rub,
+    image: p.image,
+    images: imagesFor(p).slice(0, 6),
+  };
+}
+
+function cartProduct(item) {
+  const current = productsById[item.id];
+  if (current) return current;
+  return item.product || item.snapshot || null;
+}
+
+function hydrateCartSnapshots() {
+  let changed = false;
+  cart.forEach(item => {
+    const p = productsById[item.id];
+    if (p && (!item.product || !item.product.name || !item.product.ref)) {
+      item.product = orderProductSnapshot(p);
+      item.brand = item.brand || p.brand;
+      changed = true;
+    }
+  });
+  if (changed) saveCart();
+}
+
+function ensureCartProductsLoaded() {
+  const needed = [...new Set(cart
+    .filter(item => !cartProduct(item))
+    .map(item => item.brand)
+    .filter(Boolean))];
+  if (!needed.length) return Promise.resolve();
+  return Promise.all(needed.map(id => loadAllBrandSections(id).catch(() => loadBrand(id).catch(() => {}))))
+    .then(() => hydrateCartSnapshots());
 }
 
 function saveCart() {
@@ -1902,13 +2016,13 @@ function openCart() {
   closeModalOnly();
   byId('shade').classList.add('open');
   byId('drawer').classList.add('open');
-  const needed = [...new Set(cart.map(i => i.brand).filter(b => b && !productsByBrand[b]))];
+  const needed = [...new Set(cart.map(i => i.brand).filter(b => b && !cartProduct(i)))];
   if (needed.length) {
     byId('drawer').innerHTML = `<div class="cart-drawer">
       <div class="cart-head"><h2>Корзина</h2><button class="close" onclick="closeAll()">×</button></div>
       <div class="cart-list"><div class="empty">Загрузка…</div></div>
     </div>`;
-    Promise.all(needed.map(id => loadBrand(id).catch(() => {}))).then(renderCart);
+    ensureCartProductsLoaded().then(renderCart);
   } else {
     renderCart();
   }
@@ -1917,9 +2031,10 @@ function openCart() {
 function renderCart() {
   const groups = {};
   cart.forEach(item => {
-    const p = productsById[item.id];
+    const p = cartProduct(item);
     if (!p) return;
-    (groups[p.brand] = groups[p.brand] || []).push({ item, p });
+    const bid = p.brand || item.brand || 'other';
+    (groups[bid] = groups[bid] || []).push({ item, p });
   });
   let rows = '';
   Object.keys(groups).forEach(bid => {
@@ -1937,10 +2052,7 @@ function renderCart() {
       </div>`;
     });
   });
-  const total = cart.reduce((sum, item) => {
-    const p = productsById[item.id];
-    return sum + ((p && p.price_rub) ? p.price_rub * item.qty : 0);
-  }, 0);
+  const total = cartTotal();
   byId('drawer').innerHTML = `<div class="cart-drawer">
     <div class="cart-head"><h2>Корзина</h2><button class="close" onclick="closeAll()">×</button></div>
     <div class="cart-list">${rows || '<div class="empty">Корзина пуста</div>'}</div>
@@ -2016,24 +2128,37 @@ async function submitCheckout() {
 
 function cartTotal() {
   return cart.reduce((sum, item) => {
-    const p = productsById[item.id];
+    const p = cartProduct(item);
     return sum + ((p && p.price_rub) ? p.price_rub * item.qty : 0);
   }, 0);
 }
 
 function orderItems() {
-  return cart.map(item => {
-    const p = productsById[item.id] || {};
+  return cart.map((item, index) => {
+    const p = cartProduct(item) || {};
     const image = imagesFor(p)[0] || '';
+    const brand = p.brand || item.brand || '';
+    const qty = Number(item.qty || 1);
+    const price = Number(p.price_rub || 0);
     return {
-      name: p.name || '', ref: p.ref || '', brand: brandName(p.brand),
-      color: p.color || '', size: item.size || '', qty: item.qty, price_rub: p.price_rub || null,
-      image, url: productUrl(p)
+      name: p.name || `Товар ${index + 1}`,
+      ref: p.ref || '',
+      brand: brandName(brand),
+      brand_id: brand,
+      color: p.color || 'уточнить',
+      size: item.size || 'уточнить',
+      qty,
+      price_rub: price || null,
+      line_total: price ? price * qty : null,
+      image,
+      official_url: officialProductUrl(p),
+      url: productUrl(p)
     };
   });
 }
 
 async function submitOrder() {
+  await ensureCartProductsLoaded();
   const order = buildOrder();
   // заказ зарегистрированного клиента сохраняется в личный кабинет
   if (authUser && sb) {
@@ -2046,8 +2171,7 @@ async function submitOrder() {
   }
   if (ORDER_ENDPOINT) {
     try {
-      const res = await fetch(ORDER_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(order) });
-      if (!res.ok) throw new Error('send failed');
+      await sendOrderToEndpoint(order);
       cart = [];
       saveCart();
       showOrderConfirmed();
@@ -2057,6 +2181,38 @@ async function submitOrder() {
     }
   }
   navigator.clipboard.writeText(order.text).then(() => toast('Заявка скопирована, отправьте её менеджеру'));
+}
+
+async function sendOrderToEndpoint(order) {
+  const chunks = splitTelegramText(order.text, 3400);
+  for (let i = 0; i < chunks.length; i += 1) {
+    const chunkOrder = {
+      ...order,
+      text: chunks.length > 1 ? `${chunks[i]}\n\nЧасть ${i + 1}/${chunks.length}` : chunks[i],
+      photos: [],
+      items: i === 0 ? order.items : [],
+    };
+    const res = await fetch(ORDER_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(chunkOrder)
+    });
+    if (!res.ok) throw new Error('send failed');
+  }
+}
+
+function splitTelegramText(text, limit) {
+  const chunks = [];
+  let rest = String(text || '').trim();
+  while (rest.length > limit) {
+    let cut = rest.lastIndexOf('\n\n', limit);
+    if (cut < limit * 0.5) cut = rest.lastIndexOf('\n', limit);
+    if (cut < limit * 0.5) cut = limit;
+    chunks.push(rest.slice(0, cut).trim());
+    rest = rest.slice(cut).trim();
+  }
+  if (rest) chunks.push(rest);
+  return chunks;
 }
 
 function showOrderConfirmed() {
@@ -2077,18 +2233,17 @@ function buildOrder() {
   const items = orderItems();
   const sourceUrl = location.href;
   const source = Object.fromEntries(new URLSearchParams(location.search).entries());
-  const lines = ['🛍 Новая заявка @massimoduttiekb', '', `Клиент: ${customer.lastName} ${customer.firstName}`, `Город: ${customer.city}`, `Телефон: ${customer.phone}`, `Email: ${customer.email}`, `Мессенджер: ${customer.messenger}`, '', 'Позиции:'];
+  const lines = ['🛍 Новая заявка ЗАРАЕКБ', '', `Клиент: ${customer.lastName} ${customer.firstName}`, `Город: ${customer.city}`, `Телефон: ${customer.phone}`, `Email: ${customer.email}`, `Мессенджер: ${customer.messenger}`, '', `Позиции: ${items.length} ${pluralRu(items.length, 'товар', 'товара', 'товаров')}`];
   const photos = [];
-  cart.forEach((item, index) => {
-    const p = productsById[item.id];
-    if (!p) return;
-    const img = imagesFor(p)[0] || '';
-    if (img) photos.push(img);
-    lines.push(`${index + 1}. ${p.name}`);
-    lines.push(`   Бренд: ${brandName(p.brand)} · Артикул: ${p.ref}`);
-    lines.push(`   Цвет: ${p.color || 'уточнить'} / размер: ${item.size || 'уточнить'} / ${item.qty} шт.`);
-    lines.push(`   Цена: ${p.price_rub ? rub.format(p.price_rub * item.qty) + ' ₽' : 'по запросу'}`);
-    if (img) lines.push(`   Фото: ${img}`);
+  items.forEach((item, index) => {
+    lines.push('');
+    lines.push(`— ТОВАР ${index + 1}/${items.length} —`);
+    lines.push(`${item.name}`);
+    lines.push(`${item.brand} · Артикул: ${item.ref || 'уточнить'}`);
+    lines.push(`Цвет: ${item.color || 'уточнить'} · Размер: ${item.size || 'уточнить'} · ${item.qty} шт.`);
+    lines.push(`Цена: ${item.line_total ? rub.format(item.line_total) + ' ₽' : 'по запросу'}`);
+    if (item.official_url) lines.push(`Официальный магазин: ${item.official_url}`);
+    lines.push(`ЗАРАЕКБ: ${item.url}`);
   });
   lines.push('');
   lines.push(`ИТОГО: ${rub.format(cartTotal())} ₽`);
@@ -2101,9 +2256,37 @@ function productUrl(product) {
   const params = new URLSearchParams({
     brand: product.brand || '',
     ref: product.ref || '',
-    color: product.color || ''
+    color: product.color || '',
+    pid: product.product_id || '',
+    cid: product.color_id || ''
   });
   return `${location.origin}${location.pathname}?${params.toString()}`;
+}
+
+function officialProductUrl(product) {
+  if (!product || !product.product_id || !product.brand) return '';
+  const id = String(product.product_id);
+  const brand = String(product.brand).toLowerCase();
+  const hosts = {
+    zara: 'https://www.zara.com/kz/ru',
+    massimodutti: 'https://www.massimodutti.com/kz/ru',
+    oysho: 'https://www.oysho.com/kz/ru',
+    zarahome: 'https://www.zarahome.com/kz/ru',
+    stradivarius: 'https://www.stradivarius.com/kz/ru',
+    bershka: 'https://www.bershka.com/kz/ru'
+  };
+  const host = hosts[brand];
+  if (!host) return '';
+  return `${host}/product-p${encodeURIComponent(id)}.html?v1=${encodeURIComponent(id)}`;
+}
+
+function pluralRu(count, one, few, many) {
+  const n = Math.abs(Number(count)) % 100;
+  const n1 = n % 10;
+  if (n > 10 && n < 20) return many;
+  if (n1 > 1 && n1 < 5) return few;
+  if (n1 === 1) return one;
+  return many;
 }
 
 function initAuth() {
