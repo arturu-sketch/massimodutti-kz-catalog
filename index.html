@@ -991,6 +991,8 @@ let selectedMessenger = '';
 let checkoutAfterRegister = false;
 let cart = JSON.parse(localStorage.getItem('multibrand_cart') || localStorage.getItem('md_cart') || '[]');
 let customer = JSON.parse(localStorage.getItem('md_customer') || 'null');
+let localOrders = JSON.parse(localStorage.getItem('zaraekb_orders') || '[]');
+let orderSubmitting = false;
 let imageIndexes = {};
 let colorVariantCount = {};
 let visibleLimit = 80;
@@ -2070,6 +2072,10 @@ function updateCartCount() {
   byId('cart-count').textContent = cart.reduce((sum, item) => sum + item.qty, 0);
 }
 
+function customerComplete(data = customer) {
+  return !!(data && data.lastName && data.firstName && data.city && data.email && data.phone && data.messenger);
+}
+
 function openCart() {
   closeModalOnly();
   byId('shade').classList.add('open');
@@ -2115,7 +2121,7 @@ function renderCart() {
 
 function checkout() {
   if (!cart.length) return toast('Корзина пуста');
-  if (!customer) { openCheckoutForm(); return; }
+  if (!customerComplete()) { openCheckoutForm(); return; }
   submitOrder();
 }
 
@@ -2207,29 +2213,68 @@ function orderItems() {
 }
 
 async function submitOrder() {
+  if (orderSubmitting) return toast('Заявка уже отправляется');
+  if (!cart.length) return toast('Корзина пуста');
+  if (!customerComplete()) { openCheckoutForm(); return; }
+  orderSubmitting = true;
   await ensureCartProductsLoaded();
   const order = buildOrder();
-  // заказ зарегистрированного клиента сохраняется в личный кабинет
-  if (authUser && sb) {
-    try {
-      await sb.from('orders').insert({
-        items: orderItems(), total: cartTotal(),
-        status: 'Новая', payment_status: 'Ожидает счёта'
-      });
-    } catch (err) { console.warn('order save', err); }
+  try {
+    if (!ORDER_ENDPOINT) throw new Error('order endpoint is not configured');
+    await sendOrderToEndpoint(order);
+    const savedOrder = saveLocalOrder(order);
+    saveOrderToAccount(savedOrder).catch(err => console.warn('order save', err));
+    cart = [];
+    saveCart();
+    showOrderConfirmed();
+  } catch (err) {
+    console.warn(err);
+    navigator.clipboard.writeText(order.text).then(() => toast('Не удалось отправить автоматически. Заявка скопирована, отправьте её менеджеру.'));
+  } finally {
+    orderSubmitting = false;
   }
-  if (ORDER_ENDPOINT) {
-    try {
-      await sendOrderToEndpoint(order);
-      cart = [];
-      saveCart();
-      showOrderConfirmed();
-      return;
-    } catch (err) {
-      console.warn(err);
-    }
+}
+
+function saveLocalOrder(order) {
+  const saved = {
+    id: `local-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+    created_at: order.createdAt || new Date().toISOString(),
+    customer_email: order.customer?.email || '',
+    customer_phone: order.customer?.phone || '',
+    items: order.items || [],
+    total: cartTotal(),
+    status: 'Новая',
+    payment_status: 'Ожидает счёта',
+    source_url: order.sourceUrl || '',
+    text: order.text || '',
+    account_synced: false
+  };
+  localOrders = [saved, ...localOrders].slice(0, 100);
+  localStorage.setItem('zaraekb_orders', JSON.stringify(localOrders));
+  return saved;
+}
+
+async function saveOrderToAccount(savedOrder) {
+  if (!authUser || !sb) return;
+  const payload = {
+    items: savedOrder.items,
+    total: savedOrder.total,
+    status: savedOrder.status,
+    payment_status: savedOrder.payment_status
+  };
+  let result = await sb.from('orders').insert({
+    ...payload,
+    user_id: authUser.id,
+    customer_email: savedOrder.customer_email,
+    customer_phone: savedOrder.customer_phone
+  });
+  if (result.error && /column|schema|user_id|customer_/i.test(result.error.message || '')) {
+    result = await sb.from('orders').insert(payload);
   }
-  navigator.clipboard.writeText(order.text).then(() => toast('Заявка скопирована, отправьте её менеджеру'));
+  if (result.error) throw result.error;
+  savedOrder.account_synced = true;
+  localOrders = localOrders.map(o => o.id === savedOrder.id ? savedOrder : o);
+  localStorage.setItem('zaraekb_orders', JSON.stringify(localOrders));
 }
 
 async function sendOrderToEndpoint(order) {
@@ -2359,7 +2404,16 @@ function setAuthUser(user) {
       phone: m.phone || '', messenger: m.messenger || 'Telegram'
     };
     localStorage.setItem('md_customer', JSON.stringify(customer));
+    syncVisibleLocalOrdersToAccount();
   }
+}
+
+function syncVisibleLocalOrdersToAccount() {
+  if (!authUser || !sb) return;
+  visibleLocalOrders()
+    .filter(o => !o.account_synced)
+    .slice(0, 20)
+    .forEach(o => saveOrderToAccount(o).catch(err => console.warn('order sync', err)));
 }
 
 function openAccount(fromCheckout = false) {
@@ -2398,17 +2452,44 @@ function renderProfile() {
 async function loadMyOrders() {
   const box = byId('my-orders');
   if (!box) return;
-  if (!sb) { box.innerHTML = '<p class="legal-note">Заказы недоступны.</p>'; return; }
-  const { data, error } = await sb.from('orders').select('*').order('created_at', { ascending: false });
-  if (error) {
-    box.innerHTML = '<p class="legal-note">История заказов появится здесь после оформления первой заявки.</p>';
-    return;
+  const local = visibleLocalOrders();
+  let remote = [];
+  if (sb && authUser) {
+    const { data, error } = await sb.from('orders').select('*').order('created_at', { ascending: false });
+    if (!error && Array.isArray(data)) remote = data;
   }
-  if (!data || !data.length) {
+  const data = mergeOrders(remote, local);
+  if (!data.length) {
     box.innerHTML = '<p class="legal-note">Заказов пока нет.</p>';
     return;
   }
   box.innerHTML = data.map(orderCard).join('');
+}
+
+function visibleLocalOrders() {
+  const email = String((authUser && authUser.email) || (customer && customer.email) || '').toLowerCase();
+  return localOrders.filter(o => !email || String(o.customer_email || '').toLowerCase() === email);
+}
+
+function orderSignature(o) {
+  const items = Array.isArray(o.items) ? o.items : [];
+  return [
+    Math.round(new Date(o.created_at || 0).getTime() / 60000),
+    o.total || 0,
+    items.map(it => [it.ref, it.size, it.color, it.qty].join(':')).join('|')
+  ].join('|');
+}
+
+function mergeOrders(remote, local) {
+  const seen = new Set();
+  return [...remote, ...local]
+    .filter(o => {
+      const sig = orderSignature(o);
+      if (seen.has(sig)) return false;
+      seen.add(sig);
+      return true;
+    })
+    .sort((a, b) => new Date(b.created_at || 0) - new Date(a.created_at || 0));
 }
 
 function orderCard(o) {
