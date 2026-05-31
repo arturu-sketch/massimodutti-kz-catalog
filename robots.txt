@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /product-details/
+Disallow: /*.json$
+
+Sitemap: https://zaraekb.ru/sitemap.xml
+Host: https://zaraekb.ru

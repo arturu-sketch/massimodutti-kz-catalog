@@ -131,5 +131,5 @@ jobs:
           printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/zaraekb_deploy_key
           chmod 600 ~/.ssh/zaraekb_deploy_key
           rsync -az -e "ssh -i ~/.ssh/zaraekb_deploy_key -o StrictHostKeyChecking=no" \
-            index.html brands.json hero.jpg products-*.json hero-slides.json product-details/ \
+            index.html brands.json hero.jpg robots.txt sitemap.xml products-*.json hero-slides.json product-details/ \
             "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH/"
