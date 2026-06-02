@@ -37,41 +37,6 @@
   ]
  },
  {
-  "product_id": 223469510,
-  "color_id": "447",
-  "ref": "5409/979",
-  "name": "Футболка Boxy из смесового хлопка с короткими рукавами",
-  "section": "WOMEN",
-  "family": "SHORT-SLEEVED T-SHIRT",
-  "subfamily": "CIR-T-SHIRT MC",
-  "color": "СИНИЙ ЭЛЕКТРИК",
-  "price_kzt": 13990.0,
-  "price_old_kzt": null,
-  "price_rub": 3690,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.oysho.net/assets/public/10fb/8de8/0f4647359a32/8d432a22fa98/35409979447-p/35409979447-p.jpg?ts=1778752190583",
-  "images": [
-   "https://static.oysho.net/assets/public/10fb/8de8/0f4647359a32/8d432a22fa98/35409979447-p/35409979447-p.jpg?ts=1778752190583",
-   "https://static.oysho.net/assets/public/0834/c852/496d47828066/2677ecc7e92b/35409979447-a1/35409979447-a1.jpg?ts=1778752187903",
-   "https://static.oysho.net/assets/public/b0ae/3081/d0c842f4969e/79de7b2ab42b/35409979447-a2/35409979447-a2.jpg?ts=1778752188372",
-   "https://static.oysho.net/assets/public/5d8c/c2bf/73444d6eaefb/a8b9367f03e4/35409979447-a16/35409979447-a16.jpg?ts=1778752187565",
-   "https://static.oysho.net/assets/public/a436/0c1a/f90a43549fe8/9b8116a17129/35409979447-t/35409979447-t.jpg?ts=1778752190713",
-   "https://static.oysho.net/assets/public/e180/72fb/9bf7484a8edb/ec7d57483dfe/35409979447-m1/35409979447-m1.jpg?ts=1778752187819",
-   "https://static.oysho.net/assets/public/0320/478a/116c496c93a0/71fc12a6ba0a/35409979447-m2/35409979447-m2.jpg?ts=1778752187530",
-   "https://static.oysho.net/assets/public/7d8a/976a/9ee049dabd80/34e8674979a0/35409979447-r/35409979447-r.jpg?ts=1778752189336",
-   "https://static.oysho.net/assets/public/d6b4/6f46/d67a4a4890bd/be768f37dd22/35409979447-m10/35409979447-m10.jpg?ts=1778752186412",
-   "https://static.oysho.net/assets/public/e7ed/7e6c/a2b44d8ea0a5/6325eb550f15/35409979447-k1/35409979447-k1.jpg?ts=1778759768747"
-  ]
- },
- {
   "product_id": 223468037,
   "color_id": "408",
   "ref": "5564/624",
@@ -473,7 +438,7 @@
   "product_id": 223450249,
   "color_id": "036",
   "ref": "1216/226",
-  "name": "Легинсы до щиколотки Comfortlux с завышенной талией",
+  "name": "Легинсы Comfortlux до щиколотки с высокой посадкой",
   "section": "WOMEN",
   "family": "LEGGINGS",
   "subfamily": "ACT-LONG LEGGINGS",
@@ -638,7 +603,7 @@
   "product_id": 223451894,
   "color_id": "036",
   "ref": "1243/226",
-  "name": "Легинсы Hot pants Comfortlux High rise 10 см",
+  "name": "Легинсы Hot pants Comfortlux с высокой посадкой, 10 см",
   "section": "WOMEN",
   "family": "LEGGINGS",
   "subfamily": "ACT-SHORT LEGGINGS",
@@ -845,6 +810,41 @@
    "https://static.oysho.net/assets/public/d5cb/1fe3/290d4a8e9794/807f1d816427/35146116408-m2/35146116408-m2.jpg?ts=1778079887521",
    "https://static.oysho.net/assets/public/4e8d/ca69/4c7849d6aa2c/3e91e36b081b/35146116408-k1/35146116408-k1.jpg?ts=1778079259641",
    "https://static.oysho.net/assets/public/49c5/b1ee/6e73427c9ccc/2aaf0c9188c8/35146116408-k2/35146116408-k2.jpg?ts=1778079260043"
+  ]
+ },
+ {
+  "product_id": 206569189,
+  "color_id": "737",
+  "ref": "2959/290",
+  "name": "Майка с молнией",
+  "section": "WOMEN",
+  "family": "TANK TOP",
+  "subfamily": "ACT-SLEEVELESS SHIRT",
+  "color": "КОРИЧНЕВЫЙ",
+  "price_kzt": 16990.0,
+  "price_old_kzt": null,
+  "price_rub": 4290,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.oysho.net/assets/public/ac9f/4b8b/d09a478d8af9/193ab1deb0c2/32959290737-p/32959290737-p.jpg?ts=1771234761721",
+  "images": [
+   "https://static.oysho.net/assets/public/ac9f/4b8b/d09a478d8af9/193ab1deb0c2/32959290737-p/32959290737-p.jpg?ts=1771234761721",
+   "https://static.oysho.net/assets/public/6932/ab27/5be541ccb0a0/2f0c8e0a5842/32959290737-a13/32959290737-a13.jpg?ts=1771234765719",
+   "https://static.oysho.net/assets/public/5c73/62d1/44b3483bb318/6eaea9028d33/32959290737-a1/32959290737-a1.jpg?ts=1771234765290",
+   "https://static.oysho.net/assets/public/7f3f/a459/a91542e4ae22/e9b88ce2bda1/32959290737-a2/32959290737-a2.jpg?ts=1771234762987",
+   "https://static.oysho.net/assets/public/9405/3b5c/cb5646bcbcf7/84ef0d735e51/32959290737-a3/32959290737-a3.jpg?ts=1771234762983",
+   "https://static.oysho.net/assets/public/5c97/b054/c057456ab592/9ea6271044d3/32959290737-a4/32959290737-a4.jpg?ts=1771234761638",
+   "https://static.oysho.net/assets/public/c844/95a9/291a434bbb8a/e838ce4743e1/32959290737-a16/32959290737-a16.jpg?ts=1771234761594",
+   "https://static.oysho.net/assets/public/1b4d/63ef/63ad481691a8/cb4872d6eda1/32959290737-a17/32959290737-a17.jpg?ts=1771234761536",
+   "https://static.oysho.net/assets/public/e7e4/664c/39724358a319/a6bf2009dbb3/32959290737-t/32959290737-t.jpg?ts=1771234764717",
+   "https://static.oysho.net/assets/public/c1b1/768b/710a4df08903/d91b7c78ea0f/32959290737-m1/32959290737-m1.jpg?ts=1771234761118"
   ]
  },
  {
@@ -1180,7 +1180,7 @@
   "product_id": 223473242,
   "color_id": "716",
   "ref": "5408/065",
-  "name": "Приталенное поло из пике",
+  "name": "Приталенное поло с короткими рукавами из хлопкового пике",
   "section": "WOMEN",
   "family": "SHORT-SLEEVED T-SHIRT",
   "subfamily": "ACT-SHORT SLEEVE SHIRT",
@@ -1215,7 +1215,7 @@
   "product_id": 223832185,
   "color_id": "691",
   "ref": "5408/065",
-  "name": "Поло с коротким рукавом из пике, приталенный крой",
+  "name": "Приталенное поло с короткими рукавами из хлопкового пике",
   "section": "WOMEN",
   "family": "SHORT-SLEEVED T-SHIRT",
   "subfamily": "ACT-SHORT SLEEVE SHIRT",
@@ -1314,14 +1314,14 @@
   ]
  },
  {
-  "product_id": 206035272,
-  "color_id": "498",
-  "ref": "5230/134",
-  "name": "Брюки-бананы из 100%-го льна",
+  "product_id": 203647919,
+  "color_id": "679",
+  "ref": "4114/134",
+  "name": "Брюки Balloon из 100%-го льна",
   "section": "WOMEN",
   "family": "PANTS",
   "subfamily": "PL-PANTS+FD",
-  "color": "АКВАМАРИН",
+  "color": "КОРАЛЛОВЫЙ",
   "price_kzt": 39990.0,
   "price_old_kzt": null,
   "price_rub": 9990,
@@ -1334,18 +1334,18 @@
    "XL"
   ],
   "in_stock": true,
-  "image": "https://static.oysho.net/assets/public/3969/139f/c0d4497dbb59/b2f28522e0e4/35230134498-p/35230134498-p.jpg?ts=1776157420766",
+  "image": "https://static.oysho.net/assets/public/fe4e/bb6d/8c5249e0bd97/fdc3dc285ccd/34114134679-p/34114134679-p.jpg?ts=1771926412817",
   "images": [
-   "https://static.oysho.net/assets/public/3969/139f/c0d4497dbb59/b2f28522e0e4/35230134498-p/35230134498-p.jpg?ts=1776157420766",
-   "https://static.oysho.net/assets/public/5506/5999/165b4174b881/e2ce8670d874/35230134498-a1/35230134498-a1.jpg?ts=1776157420946",
-   "https://static.oysho.net/assets/public/6587/862f/e8684e15a386/412dea59587a/35230134498-a2/35230134498-a2.jpg?ts=1776157420930",
-   "https://static.oysho.net/assets/public/57be/6a28/29c34b0eae22/98607c2cbdf7/35230134498-a3/35230134498-a3.jpg?ts=1776157420847",
-   "https://static.oysho.net/assets/public/c995/8243/e0ff46da8df0/53bedeaf569a/35230134498-a16/35230134498-a16.jpg?ts=1776157421538",
-   "https://static.oysho.net/assets/public/23ef/34d9/dec84f99a56f/5647d2003b96/35230134498-a17/35230134498-a17.jpg?ts=1776157420840",
-   "https://static.oysho.net/assets/public/180e/af9b/c0fc46c4bfe5/84330bbb7a85/35230134498-t/35230134498-t.jpg?ts=1776157422637",
-   "https://static.oysho.net/assets/public/a871/108d/c6c444fa9052/da61aa653b8d/35230134498-m1/35230134498-m1.jpg?ts=1776157420094",
-   "https://static.oysho.net/assets/public/e38a/3982/84b248baa08f/00a12cda1b34/35230134498-m2/35230134498-m2.jpg?ts=1776157420171",
-   "https://static.oysho.net/assets/public/c874/f741/ed874f129855/fbda94ba0f77/35230134498-r/35230134498-r.jpg?ts=1776157417156"
+   "https://static.oysho.net/assets/public/fe4e/bb6d/8c5249e0bd97/fdc3dc285ccd/34114134679-p/34114134679-p.jpg?ts=1771926412817",
+   "https://static.oysho.net/assets/public/b250/5124/176645ef8d5b/a314f4f78b23/34114134679-a1/34114134679-a1.jpg?ts=1771926408329",
+   "https://static.oysho.net/assets/public/ec5e/8263/452a410cafcb/0e2488e77144/34114134679-a3/34114134679-a3.jpg?ts=1771926409056",
+   "https://static.oysho.net/assets/public/d48f/55c1/f56f4265a101/0510afbf2d09/34114134679-a4/34114134679-a4.jpg?ts=1771926408323",
+   "https://static.oysho.net/assets/public/8a94/0b9a/7b7844029452/d9fd6bb575c6/34114134679-a16/34114134679-a16.jpg?ts=1771926408177",
+   "https://static.oysho.net/assets/public/fb13/efbb/6c0c4e949906/ef1fcab66d09/34114134679-a17/34114134679-a17.jpg?ts=1771926407848",
+   "https://static.oysho.net/assets/public/8900/b4fb/090e455c8643/9ac63e6343ca/34114134679-t/34114134679-t.jpg?ts=1771926400568",
+   "https://static.oysho.net/assets/public/b5b9/a2d3/045845a582c3/eaba89442c7e/34114134679-m1/34114134679-m1.jpg?ts=1771926408992",
+   "https://static.oysho.net/assets/public/70d2/13d8/179c40af9bb2/761213a553ca/34114134679-m2/34114134679-m2.jpg?ts=1771926410548",
+   "https://static.oysho.net/assets/public/e7df/a987/ad8346139ac9/40283d3ddc88/34114134679-a15/34114134679-a15.jpg?ts=1771589857488"
   ]
  },
  {
@@ -1627,7 +1627,7 @@
   "product_id": 223451894,
   "color_id": "381",
   "ref": "1243/226",
-  "name": "Легинсы Hot pants Comfortlux High rise 10 см",
+  "name": "Легинсы Hot pants Comfortlux с высокой посадкой, 10 см",
   "section": "WOMEN",
   "family": "LEGGINGS",
   "subfamily": "ACT-SHORT LEGGINGS",
@@ -1939,7 +1939,7 @@
   "price_rub": 6990,
   "price_old_rub": null,
   "sizes": [
-   "3XL",
+   "07",
    "XXS",
    "XXS",
    "XXS",
@@ -1987,11 +1987,11 @@
    "XXL",
    "XXL",
    "XXL",
-   "3XL",
-   "3XL",
-   "3XL",
-   "3XL",
-   "3XL"
+   "07",
+   "07",
+   "07",
+   "07",
+   "07"
   ],
   "in_stock": true,
   "image": "https://static.oysho.net/assets/public/4477/a7ee/a7a6457c891b/9ee9c95c26c4/31999222800-p/31999222800-p.jpg?ts=1770640085689",
@@ -3242,34 +3242,34 @@
   ]
  },
  {
-  "product_id": 204558652,
-  "color_id": "057",
-  "ref": "4174/580",
-  "name": "Регулируемое полотенце для коврика",
+  "product_id": 207427914,
+  "color_id": "676",
+  "ref": "4905/197",
+  "name": "Кепка из 100%-го хлопка с эффектом стирки и шнуровкой",
   "section": "WOMEN",
-  "family": "ACCESSORY",
-  "subfamily": "SPORTS ACCESSORIES",
-  "color": "ЦВЕТ МАЛЬВЫ",
-  "price_kzt": 15990.0,
+  "family": "CAP",
+  "subfamily": "",
+  "color": "СВЕТЛО-РОЗОВЫЙ",
+  "price_kzt": 9990.0,
   "price_old_kzt": null,
-  "price_rub": 4080,
+  "price_rub": 2390,
   "price_old_rub": null,
   "sizes": [
    "M"
   ],
   "in_stock": true,
-  "image": "https://static.oysho.net/assets/public/5706/ff81/62db48deb358/353a449c70e4/14174580057-p/14174580057-p.jpg?ts=1770757129419",
+  "image": "https://static.oysho.net/assets/public/1af6/4174/40894c379c0c/a61dd033f363/34905197676-p/34905197676-p.jpg?ts=1777969240923",
   "images": [
-   "https://static.oysho.net/assets/public/5706/ff81/62db48deb358/353a449c70e4/14174580057-p/14174580057-p.jpg?ts=1770757129419",
-   "https://static.oysho.net/assets/public/12a7/8534/2c514a0b9475/bb3842dce12b/14174580057-a1/14174580057-a1.jpg?ts=1770757129244",
-   "https://static.oysho.net/assets/public/7fff/6239/5d034a42a9de/ac3fffeb5fd8/14174580057-a2/14174580057-a2.jpg?ts=1770757129486",
-   "https://static.oysho.net/assets/public/aab4/3eb2/cedc4e91b445/e3932a53a2ac/14174580057-a3/14174580057-a3.jpg?ts=1770757129496",
-   "https://static.oysho.net/assets/public/1808/3ced/89e24fcda1fe/e5fed9e58d7e/14174580057-a4/14174580057-a4.jpg?ts=1740747556639",
-   "https://static.oysho.net/assets/public/7d41/7bf9/08254b15a8aa/52fb5dddc732/14174580057-a5/14174580057-a5.jpg?ts=1770757129179",
-   "https://static.oysho.net/assets/public/6b4f/f7cc/f9e44365a383/e40226a7093e/14174580057-t/14174580057-t.jpg?ts=1770757129997",
-   "https://static.oysho.net/assets/public/9904/142d/c2224e9db544/74815fe75022/14174580057-k7/14174580057-k7.jpg?ts=1750421867477",
-   "https://static.oysho.net/assets/public/84d9/f850/8f1f44a393be/57b91035c6fe/14174580057-r/14174580057-r.jpg?ts=1757412007500",
-   "https://static.oysho.net/assets/public/2140/4c94/f94d4846bde6/72ad6bb1a3c6/14174580057-k6/14174580057-k6.jpg?ts=1758100973503"
+   "https://static.oysho.net/assets/public/1af6/4174/40894c379c0c/a61dd033f363/34905197676-p/34905197676-p.jpg?ts=1777969240923",
+   "https://static.oysho.net/assets/public/6417/f034/6ae54702a079/ab898818499e/34905197676-a1/34905197676-a1.jpg?ts=1774282287862",
+   "https://static.oysho.net/assets/public/b57e/8dc0/e8e34194adab/92384e5fc6ea/34905197676-a2/34905197676-a2.jpg?ts=1776260070566",
+   "https://static.oysho.net/assets/public/3d46/97fa/33c8443ea874/b357761a745a/34905197676-a3/34905197676-a3.jpg?ts=1774282290257",
+   "https://static.oysho.net/assets/public/712f/b227/614a4b5cae7f/053ff74b7556/34905197676-m1/34905197676-m1.jpg?ts=1777969239935",
+   "https://static.oysho.net/assets/public/53df/f585/b5914b5db180/0554f2c9bc2e/34905197676-m2/34905197676-m2.jpg?ts=1777969240714",
+   "https://static.oysho.net/assets/public/ab0f/5bf5/b9a34c1cb667/ba234c818414/34905197676-k11/34905197676-k11.jpg?ts=1773670550413",
+   "https://static.oysho.net/assets/public/fa00/eef3/f9d44782a76c/e7ea36923780/34905197676-f1/34905197676-f1.jpg?ts=1773675502555",
+   "https://static.oysho.net/assets/public/edbc/2b24/69ac4f4e9e69/6a73e0220558/34905197676-d1/34905197676-d1.jpg?ts=1774282299560",
+   "https://static.oysho.net/assets/public/6735/a63c/88de42848eeb/4119db0815cd/34905197676-x1/34905197676-x1.jpg?ts=1774282300267"
   ]
  },
  {
@@ -3429,13 +3429,13 @@
  },
  {
   "product_id": 203650976,
-  "color_id": "863",
+  "color_id": "800",
   "ref": "3081/994",
   "name": "Тренировочные перчатки",
   "section": "WOMEN",
   "family": "GLOVES",
   "subfamily": "",
-  "color": "СРЕДНИЙ СЕРО-КОРИЧНЕВЫЙ",
+  "color": "ЧЕРНЫЙ",
   "price_kzt": 15990.0,
   "price_old_kzt": null,
   "price_rub": 4080,
@@ -3445,18 +3445,18 @@
    "M/L"
   ],
   "in_stock": true,
-  "image": "https://static.oysho.net/assets/public/ecae/2c68/359146b68699/bf05f15fae75/33081994863-p/33081994863-p.jpg?ts=1774953981183",
+  "image": "https://static.oysho.net/assets/public/8056/f3b4/7a8d4687b910/8a421ab3d360/33081994800-p/33081994800-p.jpg?ts=1772553838277",
   "images": [
-   "https://static.oysho.net/assets/public/ecae/2c68/359146b68699/bf05f15fae75/33081994863-p/33081994863-p.jpg?ts=1774953981183",
-   "https://static.oysho.net/assets/public/efde/228b/675a4b839f3d/c2ee9904d5d3/33081994863-a1/33081994863-a1.jpg?ts=1774953977850",
-   "https://static.oysho.net/assets/public/a426/ad59/a80745178f19/6b30c63d0287/33081994863-a2/33081994863-a2.jpg?ts=1774953979195",
-   "https://static.oysho.net/assets/public/a8ae/d221/dd0049eeba10/21c8644eb6fb/33081994863-m1/33081994863-m1.jpg?ts=1774953977913",
-   "https://static.oysho.net/assets/public/1105/f11d/f190439d86b9/6d237c6202cf/33081994863-m2/33081994863-m2.jpg?ts=1774953978430",
-   "https://static.oysho.net/assets/public/ce52/d017/0bba4b68bb59/4317b3b671c7/33081994863-m3/33081994863-m3.jpg?ts=1774953979755",
-   "https://static.oysho.net/assets/public/0d3c/2f31/994e41d6b0f8/a030fbf88ac3/33081994863-m4/33081994863-m4.jpg?ts=1774953978769",
-   "https://static.oysho.net/assets/public/cdf2/bfc5/ad154bf2afc2/d742a55ca55d/33081994863-m5/33081994863-m5.jpg?ts=1774953978415",
-   "https://static.oysho.net/assets/public/8e95/90b2/8f7d40e387af/d1461c8e5beb/33081994863-m6/33081994863-m6.jpg?ts=1774953979163",
-   "https://static.oysho.net/assets/public/2f19/938c/75d943f2ba0b/268ff0e03a07/33081994863-k4/33081994863-k4.jpg?ts=1774436169404"
+   "https://static.oysho.net/assets/public/8056/f3b4/7a8d4687b910/8a421ab3d360/33081994800-p/33081994800-p.jpg?ts=1772553838277",
+   "https://static.oysho.net/assets/public/fec6/afd9/a49e42b095b8/3157d611e979/33081994800-a13/33081994800-a13.jpg?ts=1772554824481",
+   "https://static.oysho.net/assets/public/9968/8701/9a324c12bf3e/10872a20792a/33081994800-a1/33081994800-a1.jpg?ts=1772553833365",
+   "https://static.oysho.net/assets/public/f5e4/a35e/86e94de29597/5894c3384cb3/33081994800-a2/33081994800-a2.jpg?ts=1772553835485",
+   "https://static.oysho.net/assets/public/dcef/7ddf/f7ca4e548c1b/0446eae55fa7/33081994800-a3/33081994800-a3.jpg?ts=1772553833351",
+   "https://static.oysho.net/assets/public/4a0e/629a/c9c84663aec7/6d86a2bd87df/33081994800-m1/33081994800-m1.jpg?ts=1772553833140",
+   "https://static.oysho.net/assets/public/57a9/c3bb/f1f749fdacc8/9a4b160ce691/33081994800-m2/33081994800-m2.jpg?ts=1772553832767",
+   "https://static.oysho.net/assets/public/05aa/dae3/75fc492fa620/d1fd766a81fb/33081994800-m3/33081994800-m3.jpg?ts=1772553833350",
+   "https://static.oysho.net/assets/public/47a4/e3c5/010447fcb89f/8ca72f495440/33081994800-m4/33081994800-m4.jpg?ts=1772553832806",
+   "https://static.oysho.net/assets/public/ac9f/e943/aa2f44b5bce2/29e754f70d7b/33081994800-m5/33081994800-m5.jpg?ts=1772553832894"
   ]
  },
  {
@@ -4772,6 +4772,41 @@
   ]
  },
  {
+  "product_id": 207823861,
+  "color_id": "800",
+  "ref": "3117/106",
+  "name": "Рубашка на запáх с завязками, 100% лен",
+  "section": "WOMEN",
+  "family": "TOP",
+  "subfamily": "PL-TOPS+T-SHIRT",
+  "color": "ЧЕРНЫЙ",
+  "price_kzt": 35990.0,
+  "price_old_kzt": null,
+  "price_rub": 8990,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.oysho.net/assets/public/0110/688c/6a1d4d378715/f6b06d236a30/33117106800-p/33117106800-p.jpg?ts=1773826132859",
+  "images": [
+   "https://static.oysho.net/assets/public/0110/688c/6a1d4d378715/f6b06d236a30/33117106800-p/33117106800-p.jpg?ts=1773826132859",
+   "https://static.oysho.net/assets/public/d92a/7859/50e747178d44/ae35a169f2ea/33117106800-a1/33117106800-a1.jpg?ts=1773826132683",
+   "https://static.oysho.net/assets/public/da18/c309/08cf48bfa777/522eb8b95864/33117106800-a2/33117106800-a2.jpg?ts=1773826132410",
+   "https://static.oysho.net/assets/public/8fe8/8b08/4dae451fbc35/c294b2644784/33117106800-a3/33117106800-a3.jpg?ts=1773826132523",
+   "https://static.oysho.net/assets/public/a8bc/504e/f2b6439b9e9f/8cefe43d0fe5/33117106800-a16/33117106800-a16.jpg?ts=1773826131951",
+   "https://static.oysho.net/assets/public/14dd/c6c2/19d44fa4bf8b/859b9a9f083f/33117106800-a17/33117106800-a17.jpg?ts=1773826132888",
+   "https://static.oysho.net/assets/public/d585/91b6/7ecc4270b3ce/ce461283e41b/33117106800-t/33117106800-t.jpg?ts=1773826131953",
+   "https://static.oysho.net/assets/public/4d53/baea/d2774a04acc1/59c0526d2264/33117106800-m1/33117106800-m1.jpg?ts=1773826131664",
+   "https://static.oysho.net/assets/public/d885/ef98/1a264d5e82e2/fb72b2d879d8/33117106800-m2/33117106800-m2.jpg?ts=1773826131464",
+   "https://static.oysho.net/assets/public/4b4c/94dc/277043afb065/18951227e6af/33117106800-r/33117106800-r.jpg?ts=1772444374189"
+  ]
+ },
+ {
   "product_id": 223469735,
   "color_id": "800",
   "ref": "4971/296",
@@ -4800,37 +4835,6 @@
    "https://static.oysho.net/assets/public/db1a/0960/e002441e9fb5/567faa6c26bf/34971296800-k12/34971296800-k12.jpg?ts=1777890332111",
    "https://static.oysho.net/assets/public/a6ef/a81a/156f47ef86de/6b98f8f887a5/34971296800-r/34971296800-r.jpg?ts=1778051953353",
    "https://static.oysho.net/assets/public/2ba6/bdeb/85f640e7be45/31e7b5b765d6/34971296800-m10/34971296800-m10.jpg?ts=1778051952293"
-  ]
- },
- {
-  "product_id": 213352096,
-  "color_id": "318",
-  "ref": "4991/190",
-  "name": "Сумка через плечо с принтом в горошек",
-  "section": "WOMEN",
-  "family": "BAG",
-  "subfamily": "",
-  "color": "КРЕМОВЫЙ",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "M"
-  ],
-  "in_stock": true,
-  "image": "https://static.oysho.net/assets/public/4ec6/1207/509e4210992e/50e6d2808bb7/34991190318-p/34991190318-p.jpg?ts=1771406128703",
-  "images": [
-   "https://static.oysho.net/assets/public/4ec6/1207/509e4210992e/50e6d2808bb7/34991190318-p/34991190318-p.jpg?ts=1771406128703",
-   "https://static.oysho.net/assets/public/d1cd/8818/b7144ad08145/dc84405c21b4/34991190318-a16/34991190318-a16.jpg?ts=1778505605805",
-   "https://static.oysho.net/assets/public/7faf/1250/a92f4db78a25/5df7ec20214b/34991190318-m1/34991190318-m1.jpg?ts=1771406152787",
-   "https://static.oysho.net/assets/public/4dd5/54cc/e60a472c9edd/fe6c01745c8a/34991190318-m2/34991190318-m2.jpg?ts=1771406153211",
-   "https://static.oysho.net/assets/public/7a0c/9b61/b8604c7f8e0d/ecfaceefac0f/34991190318-m3/34991190318-m3.jpg?ts=1771406129082",
-   "https://static.oysho.net/assets/public/f647/f667/5b9748a8b0ea/05ce0a129f38/34991190318-r/34991190318-r.jpg?ts=1771406126796",
-   "https://static.oysho.net/assets/public/f35e/ec7d/ca87402d9a36/915e5b36dfb3/34991190318-m10/34991190318-m10.jpg?ts=1771406126993",
-   "https://static.oysho.net/assets/public/44e4/dd0f/e81c45d391a3/2de806ab1aef/34991190318-d1/34991190318-d1.jpg?ts=1771414154095",
-   "https://static.oysho.net/assets/public/9abd/23b2/001d43f8b1ca/3ee17338e960/34991190318-x1/34991190318-x1.jpg?ts=1771414154431",
-   "https://static.oysho.net/assets/public/bb98/bed7/0508435b8d9b/63f1af23b5ff/34991190318-k11/34991190318-k11.jpg?ts=1771414155517"
   ]
  },
  {
@@ -5095,7 +5099,7 @@
   "section": "WOMEN",
   "family": "SOCKS",
   "subfamily": "QUARTER FIT",
-  "color": "УЛЬТРАМАРИН",
+  "color": "МОРСКОЙ ЗЕЛЕНЫЙ",
   "price_kzt": 7990.0,
   "price_old_kzt": null,
   "price_rub": 1990,
@@ -6278,6 +6282,41 @@
   ]
  },
  {
+  "product_id": 223975506,
+  "color_id": "408",
+  "ref": "5975/979",
+  "name": "Футболка Boxy с воротником‑поло и короткими рукавами",
+  "section": "WOMEN",
+  "family": "SHORT-SLEEVED T-SHIRT",
+  "subfamily": "CIR-T-SHIRT MC",
+  "color": "ТЕМНО-СИНИЙ",
+  "price_kzt": 19990.0,
+  "price_old_kzt": null,
+  "price_rub": 4990,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.oysho.net/assets/public/38ec/7aed/d5774659888b/22eb819b6926/35975979408-p/35975979408-p.jpg?ts=1778490090435",
+  "images": [
+   "https://static.oysho.net/assets/public/38ec/7aed/d5774659888b/22eb819b6926/35975979408-p/35975979408-p.jpg?ts=1778490090435",
+   "https://static.oysho.net/assets/public/1503/238a/ea2747e0b232/2319224ddb98/35975979408-a1/35975979408-a1.jpg?ts=1778490090888",
+   "https://static.oysho.net/assets/public/091c/9d03/675349beaa1f/4852912618ef/35975979408-a2/35975979408-a2.jpg?ts=1778490092503",
+   "https://static.oysho.net/assets/public/35a2/b4e6/539c4fdea13a/7676600cdba1/35975979408-a3/35975979408-a3.jpg?ts=1778490089720",
+   "https://static.oysho.net/assets/public/2468/4ce1/6ff043a99f6e/f7460d5eb659/35975979408-a16/35975979408-a16.jpg?ts=1778490089397",
+   "https://static.oysho.net/assets/public/9687/bc4e/b1da43e496f0/009cba8e339d/35975979408-t/35975979408-t.jpg?ts=1778490091472",
+   "https://static.oysho.net/assets/public/c945/748d/2fbb47e890ab/684a150cb9b9/35975979408-m1/35975979408-m1.jpg?ts=1778490090323",
+   "https://static.oysho.net/assets/public/e508/8a4c/aeac4ffdaaf8/44d1e549eab3/35975979408-m2/35975979408-m2.jpg?ts=1778490088860",
+   "https://static.oysho.net/assets/public/1020/be09/a9c74b128ea0/3afb378c1837/35975979408-r/35975979408-r.jpg?ts=1778490086913",
+   "https://static.oysho.net/assets/public/0ba2/ad54/b928437e87d7/8af17f3be30b/35975979408-m10/35975979408-m10.jpg?ts=1778490087386"
+  ]
+ },
+ {
   "product_id": 209012869,
   "color_id": "711",
   "ref": "5439/169",
@@ -6345,41 +6384,6 @@
    "https://static.oysho.net/assets/public/16ca/d0dc/0c4040a28cb1/982511c9b70f/35416290691-t/35416290691-t.jpg?ts=1778684108196",
    "https://static.oysho.net/assets/public/53ee/e6b9/5a9a4826b148/cb7132ff0e4d/35416290691-m1/35416290691-m1.jpg?ts=1777373245552",
    "https://static.oysho.net/assets/public/e6aa/d1f7/f61d414fae7e/7916a7d14913/35416290691-m2/35416290691-m2.jpg?ts=1777373245389"
-  ]
- },
- {
-  "product_id": 206569189,
-  "color_id": "800",
-  "ref": "2959/290",
-  "name": "Майка с молнией",
-  "section": "WOMEN",
-  "family": "TANK TOP",
-  "subfamily": "ACT-SLEEVELESS SHIRT",
-  "color": "ЧЕРНЫЙ",
-  "price_kzt": 16990.0,
-  "price_old_kzt": null,
-  "price_rub": 4290,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.oysho.net/assets/public/f5d6/0fdd/04014cb7b27c/079e933b1e15/32959290800-p/32959290800-p.jpg?ts=1772122248420",
-  "images": [
-   "https://static.oysho.net/assets/public/f5d6/0fdd/04014cb7b27c/079e933b1e15/32959290800-p/32959290800-p.jpg?ts=1772122248420",
-   "https://static.oysho.net/assets/public/3c68/21ad/bd79421c8051/f2eec44a62ab/32959290800-a13/32959290800-a13.jpg?ts=1772122882850",
-   "https://static.oysho.net/assets/public/5f89/1b95/b91f4852b268/f818b61d2d30/32959290800-a1/32959290800-a1.jpg?ts=1772122247681",
-   "https://static.oysho.net/assets/public/28a1/4bd7/97824eac8697/091bd9734da4/32959290800-a2/32959290800-a2.jpg?ts=1772122248124",
-   "https://static.oysho.net/assets/public/7828/4ee5/5ead435cba3e/64a69d3b89c9/32959290800-a4/32959290800-a4.jpg?ts=1772185788992",
-   "https://static.oysho.net/assets/public/f143/3572/e0654d089255/dff3d955e0c6/32959290800-a5/32959290800-a5.jpg?ts=1772185789158",
-   "https://static.oysho.net/assets/public/8c36/7d09/00bc4c40aa5f/b823cb76af2e/32959290800-a16/32959290800-a16.jpg?ts=1772185788914",
-   "https://static.oysho.net/assets/public/a63b/9a97/709d42af90f6/0406847f22b9/32959290800-t/32959290800-t.jpg?ts=1772122247673",
-   "https://static.oysho.net/assets/public/ad9d/7250/a4ad4fff8b48/9969c4fce24a/32959290800-m1/32959290800-m1.jpg?ts=1772122247706",
-   "https://static.oysho.net/assets/public/f351/cbbe/0c71465991c7/638eaa8a5514/32959290800-m2/32959290800-m2.jpg?ts=1772122247339"
   ]
  },
  {
@@ -6490,6 +6494,41 @@
    "https://static.oysho.net/assets/public/4a4a/015c/037e4a9b878a/25175fe42fc6/32440520390-m2/32440520390-m2.jpg?ts=1779371925367",
    "https://static.oysho.net/assets/public/cc27/dcd4/b3e4492da28b/7e97097759df/32440520390-d1/32440520390-d1.jpg?ts=1779371615232",
    "https://static.oysho.net/assets/public/0222/5cd0/720140eba426/b8c04d4863d1/32440520390-x2/32440520390-x2.jpg?ts=1779371625531"
+  ]
+ },
+ {
+  "product_id": 223463462,
+  "color_id": "571",
+  "ref": "0712/502",
+  "name": "Топ бикини из пике с треугольными чашками",
+  "section": "WOMEN",
+  "family": "BIKINI BRA",
+  "subfamily": "BKN-TRIANGLE",
+  "color": "СВЕТЛО-ИЗУМРУДНЫЙ",
+  "price_kzt": 19990.0,
+  "price_old_kzt": null,
+  "price_rub": 4990,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.oysho.net/assets/public/f099/3470/050d484cb880/12743e9cdac1/30712502571-p/30712502571-p.jpg?ts=1779276561668",
+  "images": [
+   "https://static.oysho.net/assets/public/f099/3470/050d484cb880/12743e9cdac1/30712502571-p/30712502571-p.jpg?ts=1779276561668",
+   "https://static.oysho.net/assets/public/15d5/2fa3/71f746c8839f/8b507dda2283/30712502571-a1/30712502571-a1.jpg?ts=1779276561351",
+   "https://static.oysho.net/assets/public/a54c/d31f/f36d4e69abf5/288c66fd8d1a/30712502571-a2/30712502571-a2.jpg?ts=1779276561802",
+   "https://static.oysho.net/assets/public/9703/97f2/a6444ead9a83/95708bad3f21/30712502571-a3/30712502571-a3.jpg?ts=1779276560601",
+   "https://static.oysho.net/assets/public/8476/0e69/2d594704a631/c07ae8b15f6a/30712502571-a16/30712502571-a16.jpg?ts=1779276559970",
+   "https://static.oysho.net/assets/public/4618/bd0c/6b27432498a3/6ca034c387fb/30712502571-t/30712502571-t.jpg?ts=1779276560053",
+   "https://static.oysho.net/assets/public/b5ba/eff8/41fa48ad93a5/13416232fe91/30712502571-m1/30712502571-m1.jpg?ts=1779276560619",
+   "https://static.oysho.net/assets/public/bc8d/db47/63bd4883bf6e/b85f4d0126f5/30712502571-m2/30712502571-m2.jpg?ts=1779276559819",
+   "https://static.oysho.net/assets/public/effd/e390/2ddf4ac8996d/8cb825b4418e/30712502571-k2/30712502571-k2.jpg?ts=1778742552476",
+   "https://static.oysho.net/assets/public/f886/8e6e/8d234e389070/60e66c510b81/30712502571-k1/30712502571-k1.jpg?ts=1778742551441"
   ]
  },
  {
@@ -6624,9 +6663,43 @@
    "https://static.oysho.net/assets/public/f9e0/f133/acf34b158fbe/f99bcf07b576/32458541716-t/32458541716-t.jpg?ts=1777298022708",
    "https://static.oysho.net/assets/public/a843/52d8/fb0b4c439f70/c2d0df689d70/32458541716-m1/32458541716-m1.jpg?ts=1776954795781",
    "https://static.oysho.net/assets/public/8a96/923e/eec54706a089/959c55000e0c/32458541716-m2/32458541716-m2.jpg?ts=1776954795099",
-   "https://static.oysho.net/assets/public/3d9f/1ff6/b47a42e49518/32f65894268d/32458541716-o3/32458541716-o3.jpg?ts=1776942404336",
    "https://static.oysho.net/assets/public/afed/0ebd/d0a0484faad7/943a7d197eac/32458541716-m10/32458541716-m10.jpg?ts=1776954795015",
-   "https://static.oysho.net/assets/public/f904/c43f/2db94982b8ad/239c66e0fc4d/32458541716-r/32458541716-r.jpg?ts=1776954795671"
+   "https://static.oysho.net/assets/public/f904/c43f/2db94982b8ad/239c66e0fc4d/32458541716-r/32458541716-r.jpg?ts=1776954795671",
+   "https://static.oysho.net/assets/public/c0f1/2ce2/c28e47588d12/2655ef63e1a1/32458541716-d1/32458541716-d1.jpg?ts=1777028022326"
+  ]
+ },
+ {
+  "product_id": 220422351,
+  "color_id": "599",
+  "ref": "0720/409",
+  "name": "Полуоткрытые плавки бикини на завязках из ткани Waffle",
+  "section": "WOMEN",
+  "family": "BIKINI PANTS",
+  "subfamily": "BKN-MEDIUM BRIEF",
+  "color": "ЯРКО-КРАСНЫЙ",
+  "price_kzt": 15990.0,
+  "price_old_kzt": null,
+  "price_rub": 4080,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L"
+  ],
+  "in_stock": true,
+  "image": "https://static.oysho.net/assets/public/f191/aee2/79fe4690951d/0c7d3167129c/30720409599-p/30720409599-p.jpg?ts=1775722605092",
+  "images": [
+   "https://static.oysho.net/assets/public/f191/aee2/79fe4690951d/0c7d3167129c/30720409599-p/30720409599-p.jpg?ts=1775722605092",
+   "https://static.oysho.net/assets/public/d14b/7be2/001043dcb9e6/15f2d20a72ed/30720409599-a1/30720409599-a1.jpg?ts=1775722604706",
+   "https://static.oysho.net/assets/public/c7ac/ef24/94204d8ab620/b9eb4ef4497b/30720409599-a2/30720409599-a2.jpg?ts=1775722604968",
+   "https://static.oysho.net/assets/public/ea86/1a6b/6a674236a0c8/c0468e928d42/30720409599-a3/30720409599-a3.jpg?ts=1775722604913",
+   "https://static.oysho.net/assets/public/87e7/4a28/8b6148989bc2/3484bdef42a7/30720409599-a16/30720409599-a16.jpg?ts=1775722604701",
+   "https://static.oysho.net/assets/public/cb33/0a88/19364d19b7b0/45f79a74c3b2/30720409599-t/30720409599-t.jpg?ts=1775722604783",
+   "https://static.oysho.net/assets/public/3734/4007/6af643748286/7e1fcb791e6c/30720409599-m1/30720409599-m1.jpg?ts=1775722604345",
+   "https://static.oysho.net/assets/public/7177/0200/90c84729b663/1aaff5981ee0/30720409599-m2/30720409599-m2.jpg?ts=1775722604357",
+   "https://static.oysho.net/assets/public/1e53/205e/7c064e59a1f2/e938a53e5c7b/30720409599-d1/30720409599-d1.jpg?ts=1775719229730",
+   "https://static.oysho.net/assets/public/e404/dc73/7c53447fa7ec/e8b35cb62fc6/30720409599-x2/30720409599-x2.jpg?ts=1775719237569"
   ]
  },
  {
@@ -6670,14 +6743,48 @@
   ]
  },
  {
-  "product_id": 222464376,
+  "product_id": 222464387,
   "color_id": "411",
-  "ref": "0727/462",
-  "name": "Шорты-плавки бикини с поясом в полоску",
+  "ref": "0720/462",
+  "name": "Полуоткрытые плавки бикини на завязках в полоску",
   "section": "WOMEN",
   "family": "BIKINI PANTS",
-  "subfamily": "BKN-CLASSICAL BRIEF",
+  "subfamily": "BKN-MEDIUM BRIEF",
   "color": "ЛИНЯЛЫЙ НЕБЕСНО-ГОЛУБОЙ",
+  "price_kzt": 15990.0,
+  "price_old_kzt": null,
+  "price_rub": 4080,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L"
+  ],
+  "in_stock": true,
+  "image": "https://static.oysho.net/assets/public/edd5/eee8/760043088e85/588fa24fb031/30720462411-p/30720462411-p.jpg?ts=1775660702463",
+  "images": [
+   "https://static.oysho.net/assets/public/edd5/eee8/760043088e85/588fa24fb031/30720462411-p/30720462411-p.jpg?ts=1775660702463",
+   "https://static.oysho.net/assets/public/de38/4e01/e67d490cbacd/d7612265bda4/30720462411-a1/30720462411-a1.jpg?ts=1775660698188",
+   "https://static.oysho.net/assets/public/e2ac/7968/6a1a4a629f96/9adf9cdece5d/30720462411-a2/30720462411-a2.jpg?ts=1775660698677",
+   "https://static.oysho.net/assets/public/67f9/c697/798b41e3878f/6f16a488163c/30720462411-a3/30720462411-a3.jpg?ts=1775660699107",
+   "https://static.oysho.net/assets/public/90f9/a201/89e84de9ac27/d6c263c62ce0/30720462411-a16/30720462411-a16.jpg?ts=1775660698100",
+   "https://static.oysho.net/assets/public/1cb5/a35d/6cfd421392a1/4ae157872094/30720462411-t/30720462411-t.jpg?ts=1775660704073",
+   "https://static.oysho.net/assets/public/43fd/f9b8/05484099bfbe/2057e993e52b/30720462411-m1/30720462411-m1.jpg?ts=1775660697390",
+   "https://static.oysho.net/assets/public/12e4/9ad8/eb7246bc8914/2f747fdbb65d/30720462411-m2/30720462411-m2.jpg?ts=1775660697636",
+   "https://static.oysho.net/assets/public/d2f7/8303/f7bf4d5b82b5/3c6b18864b2a/30720462411-m10/30720462411-m10.jpg?ts=1775660698618",
+   "https://static.oysho.net/assets/public/9510/fe3a/52ff45c1a606/a95b21549bbe/30720462411-r/30720462411-r.jpg?ts=1775660701053"
+  ]
+ },
+ {
+  "product_id": 208957706,
+  "color_id": "959",
+  "ref": "2440/241",
+  "name": "Топ бикини с треугольными чашками и контрастной окантовкой",
+  "section": "WOMEN",
+  "family": "BIKINI BRA",
+  "subfamily": "BKN-TRIANGLE",
+  "color": "СВЕТЛЫЙ ЭКРЮ",
   "price_kzt": 19990.0,
   "price_old_kzt": null,
   "price_rub": 4990,
@@ -6689,52 +6796,18 @@
    "L"
   ],
   "in_stock": true,
-  "image": "https://static.oysho.net/assets/public/d2e7/42b0/802841bc9e2c/72b793474f9f/30727462411-p/30727462411-p.jpg?ts=1775660720249",
+  "image": "https://static.oysho.net/assets/public/8a20/ba60/d0874bd28aa2/c15bbf9cad75/32440241959-p/32440241959-p.jpg?ts=1771857907565",
   "images": [
-   "https://static.oysho.net/assets/public/d2e7/42b0/802841bc9e2c/72b793474f9f/30727462411-p/30727462411-p.jpg?ts=1775660720249",
-   "https://static.oysho.net/assets/public/c792/4267/92e5459393c0/e79557d00636/30727462411-a1/30727462411-a1.jpg?ts=1775660704656",
-   "https://static.oysho.net/assets/public/6bc0/1732/77484d08a6a9/69b64dcf3999/30727462411-a2/30727462411-a2.jpg?ts=1775660705372",
-   "https://static.oysho.net/assets/public/fd25/5510/69474ac8a6fb/7d662abd9ca9/30727462411-a3/30727462411-a3.jpg?ts=1775660706857",
-   "https://static.oysho.net/assets/public/f558/7da0/3ff74aa9a281/7ed74c8c87b8/30727462411-a4/30727462411-a4.jpg?ts=1775660706740",
-   "https://static.oysho.net/assets/public/50f5/55e3/905d4fd385e4/079aa525914a/30727462411-a16/30727462411-a16.jpg?ts=1775660704988",
-   "https://static.oysho.net/assets/public/c871/5dfc/07184632955d/01984b7b6c92/30727462411-a17/30727462411-a17.jpg?ts=1775660705434",
-   "https://static.oysho.net/assets/public/acdb/92af/c3a74d308ecf/b9c405194429/30727462411-t/30727462411-t.jpg?ts=1775660721375",
-   "https://static.oysho.net/assets/public/95f7/8f72/a92143a791fe/4108063edca5/30727462411-m1/30727462411-m1.jpg?ts=1775660705901",
-   "https://static.oysho.net/assets/public/e6e9/008f/fa854b949970/85572d193760/30727462411-m2/30727462411-m2.jpg?ts=1775660709200"
-  ]
- },
- {
-  "product_id": 208461511,
-  "color_id": "959",
-  "ref": "2450/241",
-  "name": "Купальник с V-образным вырезом и контрастной окантовкой",
-  "section": "WOMEN",
-  "family": "SWIMSUIT",
-  "subfamily": "SWIMSUITS",
-  "color": "СВЕТЛЫЙ ЭКРЮ",
-  "price_kzt": 29990.0,
-  "price_old_kzt": null,
-  "price_rub": 7540,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.oysho.net/assets/public/e97a/e7d1/df3f4d7492fd/3541cfa4df8a/32450241959-p/32450241959-p.jpg?ts=1771931681145",
-  "images": [
-   "https://static.oysho.net/assets/public/e97a/e7d1/df3f4d7492fd/3541cfa4df8a/32450241959-p/32450241959-p.jpg?ts=1771931681145",
-   "https://static.oysho.net/assets/public/c7b0/6262/d6d140cab0db/633085aa0f39/32450241959-a1/32450241959-a1.jpg?ts=1771931682968",
-   "https://static.oysho.net/assets/public/e5b9/3b4d/0191454aa1b5/83c8d3681bd9/32450241959-a2/32450241959-a2.jpg?ts=1772116096338",
-   "https://static.oysho.net/assets/public/0410/5def/935340018218/9b16371571dd/32450241959-a3/32450241959-a3.jpg?ts=1771931681521",
-   "https://static.oysho.net/assets/public/f0f5/2b3c/95d7452589f4/21713e4e466a/32450241959-a5/32450241959-a5.jpg?ts=1771931681953",
-   "https://static.oysho.net/assets/public/4d35/63b6/4bfb42298465/2ed09d73bf12/32450241959-t/32450241959-t.jpg?ts=1771931681288",
-   "https://static.oysho.net/assets/public/3034/a62d/10cb4e3192eb/1ff951a52735/32450241959-m1/32450241959-m1.jpg?ts=1771931680172",
-   "https://static.oysho.net/assets/public/7cc6/3262/a87742cdae73/ad4996af9390/32450241959-m2/32450241959-m2.jpg?ts=1771931680111",
-   "https://static.oysho.net/assets/public/97b8/373d/c9e840428cee/33fb33292ec7/32450241959-d1/32450241959-d1.jpg?ts=1771863768390",
-   "https://static.oysho.net/assets/public/813d/fd2a/802e4beeaab9/c797159bbacd/32450241959-k5/32450241959-k5.jpg?ts=1771863777735"
+   "https://static.oysho.net/assets/public/8a20/ba60/d0874bd28aa2/c15bbf9cad75/32440241959-p/32440241959-p.jpg?ts=1771857907565",
+   "https://static.oysho.net/assets/public/7e5b/313e/951446629058/ffb082416244/32440241959-a1/32440241959-a1.jpg?ts=1771857900697",
+   "https://static.oysho.net/assets/public/bf25/80e9/b66e48cf962a/fe8e4de8d3f1/32440241959-a2/32440241959-a2.jpg?ts=1771857906722",
+   "https://static.oysho.net/assets/public/88e0/5af0/81574bf89d54/e1917df282c1/32440241959-a3/32440241959-a3.jpg?ts=1771857906892",
+   "https://static.oysho.net/assets/public/df89/ddac/fb7c47189def/1f7422f03ba8/32440241959-t/32440241959-t.jpg?ts=1771857907652",
+   "https://static.oysho.net/assets/public/a4b7/5087/802c4951a52e/07c3d8721271/32440241959-m1/32440241959-m1.jpg?ts=1771857905683",
+   "https://static.oysho.net/assets/public/f357/ac00/ee0b42c9ac41/a2703db23fd5/32440241959-m2/32440241959-m2.jpg?ts=1771857906120",
+   "https://static.oysho.net/assets/public/b945/2dee/78db40abb00b/a743630a451f/32440241959-d1/32440241959-d1.jpg?ts=1771857866269",
+   "https://static.oysho.net/assets/public/9116/1cd0/44a54c709b03/5b110e421313/32440241959-x2/32440241959-x2.jpg?ts=1771857869686",
+   "https://static.oysho.net/assets/public/5027/a6e1/128148f69b67/4719e6239e05/32440241959-k1/32440241959-k1.jpg?ts=1771857869981"
   ]
  },
  {
@@ -6772,38 +6845,88 @@
   ]
  },
  {
-  "product_id": 209591296,
-  "color_id": "124",
-  "ref": "0712/246",
-  "name": "Топ бикини с треугольными чашками из жаккардовой ткани",
+  "product_id": 207346710,
+  "color_id": "737",
+  "ref": "0747/347",
+  "name": "Купальник бандо из пике в горошек",
   "section": "WOMEN",
-  "family": "BIKINI BRA",
-  "subfamily": "BKN-TRIANGLE",
-  "color": "ВИШНЕВЫЙ",
-  "price_kzt": 19990.0,
+  "family": "SWIMSUIT",
+  "subfamily": "SWIMSUITS",
+  "color": "КОРИЧНЕВЫЙ",
+  "price_kzt": 29990.0,
   "price_old_kzt": null,
-  "price_rub": 4990,
+  "price_rub": 7540,
   "price_old_rub": null,
   "sizes": [
    "XS",
+   "XS",
+   "XS",
+   "S",
+   "S",
    "S",
    "M",
+   "M",
+   "M",
    "L",
+   "L",
+   "L",
+   "XL",
+   "XL",
    "XL"
   ],
   "in_stock": true,
-  "image": "https://static.oysho.net/assets/public/b68f/d2c8/c66e4865b12a/0d9650b9b9ba/30712246124-p/30712246124-p.jpg?ts=1773749812759",
+  "image": "https://static.oysho.net/assets/public/f691/8db9/869e4b158c90/30c19b1fda23/30747261737-p/30747261737-p.jpg?ts=1772552191637",
   "images": [
-   "https://static.oysho.net/assets/public/b68f/d2c8/c66e4865b12a/0d9650b9b9ba/30712246124-p/30712246124-p.jpg?ts=1773749812759",
-   "https://static.oysho.net/assets/public/96cc/9104/604e452d8af9/b29b511f904c/30712246124-a1/30712246124-a1.jpg?ts=1773749810585",
-   "https://static.oysho.net/assets/public/13cd/a913/08904d85a952/988f1d4b350f/30712246124-a2/30712246124-a2.jpg?ts=1773749812500",
-   "https://static.oysho.net/assets/public/0d7d/83c1/7f7d4ab3acc0/f76b79ecda8c/30712246124-a3/30712246124-a3.jpg?ts=1773749812456",
-   "https://static.oysho.net/assets/public/2181/d0b6/a1ff4d1b8503/50d753f61a70/30712246124-a16/30712246124-a16.jpg?ts=1773749810864",
-   "https://static.oysho.net/assets/public/e11b/b7e8/aab4414f95c4/fe8ea08b192b/30712246124-a17/30712246124-a17.jpg?ts=1773749811085",
-   "https://static.oysho.net/assets/public/fd4a/3d97/a12a4fb9974f/95dd43819c35/30712246124-t/30712246124-t.jpg?ts=1773749810784",
-   "https://static.oysho.net/assets/public/53e4/fbcb/c4fc45bc9219/b1d207ff1f78/30712246124-m1/30712246124-m1.jpg?ts=1773749808225",
-   "https://static.oysho.net/assets/public/5031/32b2/59ad41a29e23/8a08401114e4/30712246124-m2/30712246124-m2.jpg?ts=1773749808066",
-   "https://static.oysho.net/assets/public/7f2e/114b/b12c4fc5a0ed/90282a0d92bc/30712246124-o4/30712246124-o4.jpg?ts=1771612970735"
+   "https://static.oysho.net/assets/public/f691/8db9/869e4b158c90/30c19b1fda23/30747261737-p/30747261737-p.jpg?ts=1772552191637",
+   "https://static.oysho.net/assets/public/10fb/50ae/cc19422bbca2/93050604d888/30747261737-a1/30747261737-a1.jpg?ts=1772552187484",
+   "https://static.oysho.net/assets/public/9398/fe03/1fd44757b5f6/ca7175314823/30747261737-a2/30747261737-a2.jpg?ts=1772552188903",
+   "https://static.oysho.net/assets/public/4738/ef14/478540fb89ee/d20d59095684/30747261737-a3/30747261737-a3.jpg?ts=1772552188924",
+   "https://static.oysho.net/assets/public/53ca/80cc/957b4d7899a0/6af2465fa75d/30747261737-a4/30747261737-a4.jpg?ts=1772552188871",
+   "https://static.oysho.net/assets/public/58a3/9016/6d89403d84d5/3c5b6f226b26/30747261737-a5/30747261737-a5.jpg?ts=1772552188194",
+   "https://static.oysho.net/assets/public/58db/503e/cebd47879386/2f2c26abd5b1/30747261737-a16/30747261737-a16.jpg?ts=1772552188139",
+   "https://static.oysho.net/assets/public/89f6/311f/db8c4f02b77c/a6a9e3755f8d/30747261737-t/30747261737-t.jpg?ts=1772552191812",
+   "https://static.oysho.net/assets/public/8f2f/438a/2539450d966f/6aab4f67838d/30747261737-m1/30747261737-m1.jpg?ts=1772552186616",
+   "https://static.oysho.net/assets/public/48da/6db1/0b564abebff0/aa995c10bfe2/30747261737-m2/30747261737-m2.jpg?ts=1772552186441"
+  ]
+ },
+ {
+  "product_id": 209593270,
+  "color_id": "800",
+  "ref": "0723/345",
+  "name": "Классические плавки бикини с Piping",
+  "section": "WOMEN",
+  "family": "BIKINI PANTS",
+  "subfamily": "BKN-CLASSICAL BRIEF",
+  "color": "ЧЕРНЫЙ",
+  "price_kzt": 15990.0,
+  "price_old_kzt": null,
+  "price_rub": 4080,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "XS",
+   "S",
+   "S",
+   "M",
+   "M",
+   "L",
+   "L",
+   "XL",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.oysho.net/assets/public/7e91/b97f/ce184b738684/8ec63d4e6e2a/30723345800-p/30723345800-p.jpg?ts=1773328538897",
+  "images": [
+   "https://static.oysho.net/assets/public/7e91/b97f/ce184b738684/8ec63d4e6e2a/30723345800-p/30723345800-p.jpg?ts=1773328538897",
+   "https://static.oysho.net/assets/public/a8ee/ca51/60b448358445/bf852926dc6a/30723345800-a1/30723345800-a1.jpg?ts=1773328549621",
+   "https://static.oysho.net/assets/public/f3eb/06af/4c1640ae85d5/02cf8cc98fd6/30723345800-a2/30723345800-a2.jpg?ts=1773328539503",
+   "https://static.oysho.net/assets/public/f8b3/282a/84354708af97/80911b91e3c2/30723345800-a3/30723345800-a3.jpg?ts=1773328538990",
+   "https://static.oysho.net/assets/public/76b9/6512/78b943aa8356/134e365291b4/30723345800-a16/30723345800-a16.jpg?ts=1773328539221",
+   "https://static.oysho.net/assets/public/a54c/4bb2/f93247edb3d1/39fe9941ea36/30723345800-t/30723345800-t.jpg?ts=1773328539401",
+   "https://static.oysho.net/assets/public/7db0/b6f5/33324652b6dc/e24a0c579a34/30723345800-m1/30723345800-m1.jpg?ts=1773328536548",
+   "https://static.oysho.net/assets/public/1928/4941/16f34d93a717/a0e0f9c456f9/30723345800-m2/30723345800-m2.jpg?ts=1773328536952",
+   "https://static.oysho.net/assets/public/e9ba/53a7/ca5747c9b9ac/be2b253f64d2/30723345800-d1/30723345800-d1.jpg?ts=1773328366816",
+   "https://static.oysho.net/assets/public/e146/f132/735e4fd1b260/20d4804f34fb/30723345800-x2/30723345800-x2.jpg?ts=1773328378246"
   ]
  },
  {
@@ -6839,6 +6962,41 @@
    "https://static.oysho.net/assets/public/cb64/bc56/930948b98b6f/846a46467c68/30723246124-m2/30723246124-m2.jpg?ts=1773749934641",
    "https://static.oysho.net/assets/public/1599/36a3/b853427eb851/39f98125bb31/30723246124-a18/30723246124-a18.jpg?ts=1772529877390",
    "https://static.oysho.net/assets/public/ef34/e3af/71b344e9958c/94325a1b0a5c/30723246124-x2/30723246124-x2.jpg?ts=1773748324885"
+  ]
+ },
+ {
+  "product_id": 203652044,
+  "color_id": "800",
+  "ref": "0723/240",
+  "name": "Классические плавки бикини с контрастной окантовкой",
+  "section": "WOMEN",
+  "family": "BIKINI PANTS",
+  "subfamily": "BKN-CLASSICAL BRIEF",
+  "color": "ЧЕРНЫЙ",
+  "price_kzt": 15990.0,
+  "price_old_kzt": null,
+  "price_rub": 4080,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.oysho.net/assets/public/69a9/b36d/e0194ba7b763/3dace4b98fbd/30723240800-p/30723240800-p.jpg?ts=1772012198051",
+  "images": [
+   "https://static.oysho.net/assets/public/69a9/b36d/e0194ba7b763/3dace4b98fbd/30723240800-p/30723240800-p.jpg?ts=1772012198051",
+   "https://static.oysho.net/assets/public/b47e/6150/68864d51a0a2/444b05057046/30723240800-a1/30723240800-a1.jpg?ts=1772012200019",
+   "https://static.oysho.net/assets/public/290e/348f/74b44cc7b5ae/f878d9a1f306/30723240800-a2/30723240800-a2.jpg?ts=1772012199421",
+   "https://static.oysho.net/assets/public/af7e/2560/9eae4995a72f/e0503e3de14b/30723240800-a3/30723240800-a3.jpg?ts=1772012203789",
+   "https://static.oysho.net/assets/public/f866/2f7f/fcdd4ab7b67d/c2f5c73bb55b/30723240800-a4/30723240800-a4.jpg?ts=1772012198943",
+   "https://static.oysho.net/assets/public/bf44/3244/a5e84e3ca054/c9a5df411c7f/30723240800-a16/30723240800-a16.jpg?ts=1763039020381",
+   "https://static.oysho.net/assets/public/5acb/5dde/0b3448a7b3cd/1ba295a19261/30723240800-a17/30723240800-a17.jpg?ts=1772012198562",
+   "https://static.oysho.net/assets/public/b52d/daba/6e994a2daf11/b41180f857ff/30723240800-t/30723240800-t.jpg?ts=1772012198789",
+   "https://static.oysho.net/assets/public/6a9d/e822/3ab54fc18f01/18c0a5d75d10/30723240800-m1/30723240800-m1.jpg?ts=1772012198061",
+   "https://static.oysho.net/assets/public/cd21/577e/c9cf4fca9ef3/e5d663030726/30723240800-m2/30723240800-m2.jpg?ts=1772012197791"
   ]
  },
  {
@@ -6917,40 +7075,6 @@
    "https://static.oysho.net/assets/public/c302/917c/1aed4fb4a903/1338ade6dd17/30723212800-o4/30723212800-o4.jpg?ts=1772182330542",
    "https://static.oysho.net/assets/public/0085/7ccf/65d1446b9c10/5a0b9ae4967b/30723212800-a18/30723212800-a18.jpg?ts=1772529919700",
    "https://static.oysho.net/assets/public/6af1/f275/58ec4d5c8b6e/bbf1082d0f28/30723212800-o6/30723212800-o6.jpg?ts=1774857960018"
-  ]
- },
- {
-  "product_id": 208954357,
-  "color_id": "672",
-  "ref": "2440/268",
-  "name": "Топ бикини с контрастными бретельками",
-  "section": "WOMEN",
-  "family": "BIKINI BRA",
-  "subfamily": "BKN-TOP",
-  "color": "ТЕМНО-СЛИВОВЫЙ",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.oysho.net/assets/public/f4e1/6c01/f408417a9aed/02160fe51287/32440268672-p/32440268672-p.jpg?ts=1771931831914",
-  "images": [
-   "https://static.oysho.net/assets/public/f4e1/6c01/f408417a9aed/02160fe51287/32440268672-p/32440268672-p.jpg?ts=1771931831914",
-   "https://static.oysho.net/assets/public/4d8f/7337/50dd42c6bdac/64807977ceb5/32440268672-a1/32440268672-a1.jpg?ts=1771931831445",
-   "https://static.oysho.net/assets/public/9bd2/34ae/c6b24811804b/5ce4768d11fc/32440268672-a2/32440268672-a2.jpg?ts=1771931831369",
-   "https://static.oysho.net/assets/public/b3ca/9fbf/4ef84f32a9c5/33bc54ad150c/32440268672-a3/32440268672-a3.jpg?ts=1771931833452",
-   "https://static.oysho.net/assets/public/bdd8/ae11/b19441ea9ede/32c34b286bd1/32440268672-t/32440268672-t.jpg?ts=1771931831516",
-   "https://static.oysho.net/assets/public/d395/2ce2/783142c19cf0/e8695a089cfb/32440268672-m1/32440268672-m1.jpg?ts=1777301320798",
-   "https://static.oysho.net/assets/public/7efc/910e/680f4e63ba0a/f7bcf27235ff/32440268672-m2/32440268672-m2.jpg?ts=1777301320097",
-   "https://static.oysho.net/assets/public/ae92/7d96/124f4f9d89ed/4e3514761477/32440268672-k1/32440268672-k1.jpg?ts=1771863660102",
-   "https://static.oysho.net/assets/public/a47b/51a3/e87f42288086/130a980b58db/32440268672-x1/32440268672-x1.jpg?ts=1771863659922",
-   "https://static.oysho.net/assets/public/5002/0022/d05249a89afc/9ae1ffed3fd8/32440268672-k2/32440268672-k2.jpg?ts=1771863660829"
   ]
  },
  {
@@ -7055,6 +7179,41 @@
    "https://static.oysho.net/assets/public/c15d/ec24/5cc24695a2d3/72225d2b366d/30723251959-m2/30723251959-m2.jpg?ts=1771593383479",
    "https://static.oysho.net/assets/public/a244/85e1/a0984d6084b1/2cd731c09e71/30723251959-m10/30723251959-m10.jpg?ts=1771593381268",
    "https://static.oysho.net/assets/public/815d/4feb/6d0c4c5c924f/1f81459d9275/30723251959-f1/30723251959-f1.jpg?ts=1771593846454"
+  ]
+ },
+ {
+  "product_id": 203640746,
+  "color_id": "408",
+  "ref": "0712/239",
+  "name": "Топ бикини с треугольными чашками в рельефную полоску с окантовкой",
+  "section": "WOMEN",
+  "family": "BIKINI BRA",
+  "subfamily": "BKN-TRIANGLE",
+  "color": "ТЕМНО-СИНИЙ",
+  "price_kzt": 19990.0,
+  "price_old_kzt": null,
+  "price_rub": 4990,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.oysho.net/assets/public/5166/8c97/f0fb4447bb09/0d62425ad302/30712239408-p/30712239408-p.jpg?ts=1772011010174",
+  "images": [
+   "https://static.oysho.net/assets/public/5166/8c97/f0fb4447bb09/0d62425ad302/30712239408-p/30712239408-p.jpg?ts=1772011010174",
+   "https://static.oysho.net/assets/public/3db6/b83f/155a43a2add7/18ca729350f0/30712239408-a1/30712239408-a1.jpg?ts=1772011009402",
+   "https://static.oysho.net/assets/public/ade7/4312/ab1b4ed9b4d9/b6982e06726d/30712239408-a2/30712239408-a2.jpg?ts=1772011009673",
+   "https://static.oysho.net/assets/public/c6b5/0b07/43d1499ab2b4/a791a4d1c76e/30712239408-a3/30712239408-a3.jpg?ts=1772011010234",
+   "https://static.oysho.net/assets/public/c892/d8fa/da5a4aea8e39/b130c11951e8/30712239408-a16/30712239408-a16.jpg?ts=1772011009666",
+   "https://static.oysho.net/assets/public/31e8/8d50/5267405fbb01/d856739f3ff8/30712239408-t/30712239408-t.jpg?ts=1772011009627",
+   "https://static.oysho.net/assets/public/ace2/1cc8/c8fb45a7b8c2/ffbead70d924/30712239408-m1/30712239408-m1.jpg?ts=1772011009334",
+   "https://static.oysho.net/assets/public/f68b/0724/2b3647eeb686/b718e6b00c66/30712239408-m2/30712239408-m2.jpg?ts=1772011008259",
+   "https://static.oysho.net/assets/public/78d9/2517/73ba47cf8de8/16e5d88993e7/30712239408-k5/30712239408-k5.jpg?ts=1763037334279",
+   "https://static.oysho.net/assets/public/195c/5181/d9634e04b2fc/f0ff9f5f8121/30712239408-r/30712239408-r.jpg?ts=1772011005284"
   ]
  }
 ]

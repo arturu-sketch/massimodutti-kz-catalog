@@ -806,6 +806,34 @@
   ]
  },
  {
+  "product_id": 205462668,
+  "color_id": "700",
+  "ref": "0677/194",
+  "name": "Бандана с принтом",
+  "section": "WOMEN",
+  "family": "ACCESSORIES",
+  "subfamily": "FOULARDS & KNIT SCARVES",
+  "color": "Κоричневый",
+  "price_kzt": 7990.0,
+  "price_old_kzt": null,
+  "price_rub": 1990,
+  "price_old_rub": null,
+  "sizes": [
+   "M"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/7e2b/c457/99284a088310/b0e335d78e9b/00677194700-p/00677194700-p.jpg?ts=1769418066763",
+  "images": [
+   "https://static.bershka.net/assets/public/7e2b/c457/99284a088310/b0e335d78e9b/00677194700-p/00677194700-p.jpg?ts=1769418066763",
+   "https://static.bershka.net/assets/public/5308/235c/e42e4e52bfe8/81d29bb2a87b/00677194700-a1t/00677194700-a1t.jpg?ts=1763633129548",
+   "https://static.bershka.net/assets/public/f38a/2284/cba54481a6be/760137063c8e/00677194700-a2d/00677194700-a2d.jpg?ts=1769418066779",
+   "https://static.bershka.net/assets/public/415a/71bb/3c3140b0849a/c426e3b7f93a/00677194700-a4o/00677194700-a4o.jpg?ts=1769418064523",
+   "https://static.bershka.net/assets/public/bfa6/9171/477e49d2ac29/282930821ca2/00677194700-e/00677194700-e.jpg?ts=1764238791334",
+   "https://static.bershka.net/assets/public/d6bb/6927/631140398386/fe4df6d5ba6d/00677194700-r/00677194700-r.jpg?ts=1769418064110",
+   "https://static.bershka.net/assets/public/a205/229a/c355421e8c63/0c7cd4357b0d/00677194700-s/00677194700-s.jpg?ts=1769418064550"
+  ]
+ },
+ {
   "product_id": 209096530,
   "color_id": "250",
   "ref": "8962/196",
@@ -1059,6 +1087,33 @@
    "https://static.bershka.net/assets/public/91fe/e90e/5c494e91bc96/4d2d419094aa/00702668700-a4o/00702668700-a4o.jpg?ts=1768923677916",
    "https://static.bershka.net/assets/public/8a49/6ac8/5bbb42bab2a8/9f31495740db/00702668700-r/00702668700-r.jpg?ts=1768923677311",
    "https://static.bershka.net/assets/public/7978/80c0/6efc4339b0a2/5279de6db23d/00702668700-s/00702668700-s.jpg?ts=1768923677340"
+  ]
+ },
+ {
+  "product_id": 215879354,
+  "color_id": "909",
+  "ref": "0653/162",
+  "name": "Ремень-цепочка с камнями",
+  "section": "WOMEN",
+  "family": "ACCESSORIES",
+  "subfamily": "BELTS",
+  "color": "Серебряный",
+  "price_kzt": 12990.0,
+  "price_old_kzt": null,
+  "price_rub": 3590,
+  "price_old_rub": null,
+  "sizes": [
+   "85",
+   "95"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/91c9/07a1/32d04e1ba826/f1da89cae59a/00653486909-p/00653486909-p.jpg?ts=1776324305423",
+  "images": [
+   "https://static.bershka.net/assets/public/91c9/07a1/32d04e1ba826/f1da89cae59a/00653486909-p/00653486909-p.jpg?ts=1776324305423",
+   "https://static.bershka.net/assets/public/5ebb/934c/52ea4da7bdb1/416469cf4b78/00653486909-a2d/00653486909-a2d.jpg?ts=1776176899911",
+   "https://static.bershka.net/assets/public/4db8/fce3/fa3e4514a357/55e3d7b5bce5/00653486909-a4o/00653486909-a4o.jpg?ts=1776176900779",
+   "https://static.bershka.net/assets/public/e7eb/3e23/8da14322a5b8/4507fff34f6b/00653486909-r/00653486909-r.jpg?ts=1776176899104",
+   "https://static.bershka.net/assets/public/2ad9/3a59/2ecf40b3866e/6f3e7d0fbd82/00653486909-s/00653486909-s.jpg?ts=1776176899392"
   ]
  },
  {
@@ -2118,7 +2173,7 @@
   "product_id": 209096984,
   "color_id": "700",
   "ref": "9119/702",
-  "name": "Шарф с анималистическим принтом",
+  "name": "Шарф с принтом",
   "section": "WOMEN",
   "family": "ACCESSORIES",
   "subfamily": "SCARVES",
@@ -2455,7 +2510,7 @@
   "product_id": 209099923,
   "color_id": "711",
   "ref": "9137/702",
-  "name": "Митенки из искусственного меха",
+  "name": "Вязаные митенки из искусственного меха",
   "section": "WOMEN",
   "family": "ACCESSORIES",
   "subfamily": "GLOVES",
@@ -2532,6 +2587,32 @@
    "https://static.bershka.net/assets/public/c405/e0ab/50c34860a582/07619bf32b5e/00742196712-a4o/00742196712-a4o.jpg?ts=1774361782720",
    "https://static.bershka.net/assets/public/fd85/0726/5d194366a2f5/dccf833a2de3/00742196712-r/00742196712-r.jpg?ts=1774361783123",
    "https://static.bershka.net/assets/public/359d/c30e/7ddf450a83c7/544fd14001e0/00742196712-s/00742196712-s.jpg?ts=1774361783023"
+  ]
+ },
+ {
+  "product_id": 212163550,
+  "color_id": "712",
+  "ref": "0497/183",
+  "name": "Сумка на плечо из искусственной кожи",
+  "section": "WOMEN",
+  "family": "BAGS",
+  "subfamily": "BAGS",
+  "color": "Бежевый",
+  "price_kzt": 9990.0,
+  "price_old_kzt": null,
+  "price_rub": 2390,
+  "price_old_rub": null,
+  "sizes": [
+   "M"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/e749/6eb0/c51f486a93ad/679454d9f696/00497183712-p/00497183712-p.jpg?ts=1777383214567",
+  "images": [
+   "https://static.bershka.net/assets/public/e749/6eb0/c51f486a93ad/679454d9f696/00497183712-p/00497183712-p.jpg?ts=1777383214567",
+   "https://static.bershka.net/assets/public/6c78/cb4a/cf8744628bbd/de0a8ba2fac2/00497183712-a2d/00497183712-a2d.jpg?ts=1777292978401",
+   "https://static.bershka.net/assets/public/a138/9e19/7fb343e297c0/0a147ff95f83/00497183712-a4o/00497183712-a4o.jpg?ts=1777292978367",
+   "https://static.bershka.net/assets/public/8891/4bb8/06584bcf92d4/32d874c366c0/00497183712-r/00497183712-r.jpg?ts=1777292976462",
+   "https://static.bershka.net/assets/public/bab8/0567/933d459b9830/acabf42a3dd7/00497183712-s/00497183712-s.jpg?ts=1777292976914"
   ]
  },
  {
@@ -3616,33 +3697,6 @@
   ]
  },
  {
-  "product_id": 206791261,
-  "color_id": "800",
-  "ref": "1010/162",
-  "name": "Джинсовая сумка с вышивкой",
-  "section": "MEN",
-  "family": "BAGS",
-  "subfamily": "BAGS",
-  "color": "Черный",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "M"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/2adb/9fdb/11294046b643/8a8a465ce8c0/01010162800-p/01010162800-p.jpg?ts=1772724019479",
-  "images": [
-   "https://static.bershka.net/assets/public/2adb/9fdb/11294046b643/8a8a465ce8c0/01010162800-p/01010162800-p.jpg?ts=1772724019479",
-   "https://static.bershka.net/assets/public/8f37/e629/89af41db8454/2cbd551f56e9/01010162800-a2d/01010162800-a2d.jpg?ts=1772548362351",
-   "https://static.bershka.net/assets/public/c5f7/2b9c/74274f96adf8/d4d26f2b706b/01010162800-a4o/01010162800-a4o.jpg?ts=1772548362503",
-   "https://static.bershka.net/assets/public/4ebd/18f8/7bd246c8a867/6c8af65e7f4b/01010162800-s/01010162800-s.jpg?ts=1772548362120",
-   "https://static.bershka.net/assets/public/d0b4/54d1/06e743dca36d/59c744212da4/01010162800-r/01010162800-r.jpg?ts=1772548361921",
-   "https://static.bershka.net/assets/public/b685/bdc0/474b4687a916/26466a12b80b/01010162800-a7o/01010162800-a7o.jpg?ts=1773312780358"
-  ]
- },
- {
   "product_id": 204066251,
   "color_id": "800",
   "ref": "0033/162",
@@ -4439,6 +4493,36 @@
   ]
  },
  {
+  "product_id": 204067279,
+  "color_id": "403",
+  "ref": "0872/668",
+  "name": "Поляризованные солнцезащитные очки",
+  "section": "MEN",
+  "family": "ACCESSORIES",
+  "subfamily": "GLASSES",
+  "color": "Голубой",
+  "price_kzt": 12990.0,
+  "price_old_kzt": null,
+  "price_rub": 3590,
+  "price_old_rub": null,
+  "sizes": [
+   "M",
+   "M"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/82a2/0148/b01043de9087/172a37971847/00872669403-p/00872669403-p.jpg?ts=1779109585978",
+  "images": [
+   "https://static.bershka.net/assets/public/82a2/0148/b01043de9087/172a37971847/00872669403-p/00872669403-p.jpg?ts=1779109585978",
+   "https://static.bershka.net/assets/public/61fc/5aac/969e466ca6d2/aaa21e1b3ec6/00872668403-a2d/00872668403-a2d.jpg?ts=1767776085839",
+   "https://static.bershka.net/assets/public/e616/b0fe/cc6e49799c64/c05526a23388/00872668403-a4o/00872668403-a4o.jpg?ts=1767776086022",
+   "https://static.bershka.net/assets/public/800c/3d8b/e62147ef8745/b235a45c4277/00872668403-r/00872668403-r.jpg?ts=1767776085743",
+   "https://static.bershka.net/assets/public/ff5e/6f6f/ce1c4ff09635/3b09f1bbc43d/00872668403-s/00872668403-s.jpg?ts=1767776086048",
+   "https://static.bershka.net/assets/public/2623/7f3c/2e4a4d268e62/769c61f81435/00872668403-m1/00872668403-m1.jpg?ts=1768391103819",
+   "https://static.bershka.net/assets/public/cab4/d559/6b73420c952f/59f09692e1e9/00872668403-h3/master.m3u8?ts=1768493011718",
+   "https://static.bershka.net/assets/public/fe74/34ef/422b4f399616/837b11935e83/00872669403-a7o/00872669403-a7o.jpg?ts=1779282112515"
+  ]
+ },
+ {
   "product_id": 211092698,
   "color_id": "628",
   "ref": "1793/668",
@@ -4462,6 +4546,40 @@
    "https://static.bershka.net/assets/public/1881/43b5/d1354ffbbf46/ef9750a6118d/01793668628-a4o/01793668628-a4o.jpg?ts=1778769542470",
    "https://static.bershka.net/assets/public/46b7/f88d/27dd4fd4b993/39c28d8d966a/01793668628-r/01793668628-r.jpg?ts=1778769541468",
    "https://static.bershka.net/assets/public/3717/a321/3c924600826d/394fbccf6099/01793668628-s/01793668628-s.jpg?ts=1778769542535"
+  ]
+ },
+ {
+  "product_id": 205303424,
+  "color_id": "460",
+  "ref": "0984/443",
+  "name": "Плавки свободного кроя с двойным поясом и принтом",
+  "section": "MEN",
+  "family": "SWIMWEAR",
+  "subfamily": "SWIMWEAR",
+  "color": "Темно-синий",
+  "price_kzt": 14990.0,
+  "price_old_kzt": null,
+  "price_rub": 3790,
+  "price_old_rub": null,
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/2da5/a963/a0774959ada6/477f0fcaa993/00984443460-p/00984443460-p.jpg?ts=1770654377172",
+  "images": [
+   "https://static.bershka.net/assets/public/2da5/a963/a0774959ada6/477f0fcaa993/00984443460-p/00984443460-p.jpg?ts=1770654377172",
+   "https://static.bershka.net/assets/public/5e47/a753/3df14c039f0d/0b36a642516e/00984443460-a1t/00984443460-a1t.jpg?ts=1770654375758",
+   "https://static.bershka.net/assets/public/7768/cbd2/3da644fcb6b1/9dd8eeb826b2/00984443460-a2d/00984443460-a2d.jpg?ts=1770654375971",
+   "https://static.bershka.net/assets/public/c2ea/29e8/0c3b45d29e5f/8397a669866c/00984443460-a3o/00984443460-a3o.jpg?ts=1770654377020",
+   "https://static.bershka.net/assets/public/06db/0f47/256243378f3b/0845042679f1/00984443460-a4o/00984443460-a4o.jpg?ts=1766390937626",
+   "https://static.bershka.net/assets/public/4ad1/aa05/541542de8447/99a04463f628/00984443460-b/00984443460-b.jpg?ts=1766390937537",
+   "https://static.bershka.net/assets/public/52b4/12b1/ce7b4811b1a9/c6637728d129/00984443460-r/00984443460-r.jpg?ts=1766390936312",
+   "https://static.bershka.net/assets/public/ba1d/a31c/ac1641ec9d18/921a9c459cf1/00984443460-s/00984443460-s.jpg?ts=1766390937243",
+   "https://static.bershka.net/assets/public/459a/3091/d43f4278ae41/5eb0b2532f6a/00984443460-e/00984443460-e.jpg?ts=1773128441690",
+   "https://static.bershka.net/assets/public/abf0/b656/1246470c8a8a/3b3d53d67fae/00984443460-a7o/00984443460-a7o.jpg?ts=1776326343410"
   ]
  },
  {
@@ -4751,6 +4869,35 @@
   ]
  },
  {
+  "product_id": 211721435,
+  "color_id": "808",
+  "ref": "1906/678",
+  "name": "Набор колец из нержавеющей стали",
+  "section": "MEN",
+  "family": "JEWELRY",
+  "subfamily": "JEWELLERY",
+  "color": "Серебряный",
+  "price_kzt": 12990.0,
+  "price_old_kzt": null,
+  "price_rub": 3590,
+  "price_old_rub": null,
+  "sizes": [
+   "M",
+   "L"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/2c60/7dc1/9af947d3bebc/429e3c175825/01906678808-p/01906678808-p.jpg?ts=1774883931603",
+  "images": [
+   "https://static.bershka.net/assets/public/2c60/7dc1/9af947d3bebc/429e3c175825/01906678808-p/01906678808-p.jpg?ts=1774883931603",
+   "https://static.bershka.net/assets/public/bfb5/7e86/fdc9427a9ee9/85a991081d4d/01906678808-a1t/01906678808-a1t.jpg?ts=1775652951254",
+   "https://static.bershka.net/assets/public/e652/6fc8/47f44c4d93e6/2a3b08c7465e/01906678808-a2d/01906678808-a2d.jpg?ts=1774883936926",
+   "https://static.bershka.net/assets/public/daa4/a1fc/cb864085aa6b/65bfbd49d86f/01906678808-a4o/01906678808-a4o.jpg?ts=1774863684943",
+   "https://static.bershka.net/assets/public/7181/1634/eb204edda9c5/a29799441032/01906678808-r/01906678808-r.jpg?ts=1774863685058",
+   "https://static.bershka.net/assets/public/d8b8/ec75/f59647db8a79/a69fe8755f03/01906678808-s/01906678808-s.jpg?ts=1774863685205",
+   "https://static.bershka.net/assets/public/acf6/38d2/b4ef4f739fe3/c0ad541f6709/01906678808-a7o/01906678808-a7o.jpg?ts=1775725247104"
+  ]
+ },
+ {
   "product_id": 204066565,
   "color_id": "403",
   "ref": "0015/443",
@@ -4989,34 +5136,6 @@
   ]
  },
  {
-  "product_id": 210906021,
-  "color_id": "712",
-  "ref": "1789/702",
-  "name": "Панама",
-  "section": "MEN",
-  "family": "ACCESSORIES",
-  "subfamily": "CAPS & BEANIES",
-  "color": "Бежевый",
-  "price_kzt": 12990.0,
-  "price_old_kzt": null,
-  "price_rub": 3590,
-  "price_old_rub": null,
-  "sizes": [
-   "M"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/5e71/00f7/b25e40da956c/834d86bc347a/01789702712-p/01789702712-p.jpg?ts=1775729109922",
-  "images": [
-   "https://static.bershka.net/assets/public/5e71/00f7/b25e40da956c/834d86bc347a/01789702712-p/01789702712-p.jpg?ts=1775729109922",
-   "https://static.bershka.net/assets/public/9588/e171/9a094d6ca849/dc25edf25b4f/01789702712-a4o/01789702712-a4o.jpg?ts=1775717408099",
-   "https://static.bershka.net/assets/public/ebb4/f81d/65ad423d8153/bcfef5ec2f14/01789702712-b/01789702712-b.jpg?ts=1775717408951",
-   "https://static.bershka.net/assets/public/c7d3/c0b5/c3a449cd8be4/991180eb4758/01789702712-r/01789702712-r.jpg?ts=1775717407933",
-   "https://static.bershka.net/assets/public/6029/944b/72194321b338/dd3f798fd6ef/01789702712-s/01789702712-s.jpg?ts=1775717407874",
-   "https://static.bershka.net/assets/public/9c05/9575/e0494421ac96/3fb7c0badc4e/01789702712-01-a1t/01789702712-01-a1t.jpg?ts=1776330432956",
-   "https://static.bershka.net/assets/public/daf3/35cd/f3b547deb208/4097f6f863e4/01789702712-01-a7o/01789702712-01-a7o.jpg?ts=1776335111014"
-  ]
- },
- {
   "product_id": 209136557,
   "color_id": "700",
   "ref": "4730/135",
@@ -5195,17 +5314,17 @@
   ]
  },
  {
-  "product_id": 226926048,
+  "product_id": 226929034,
   "color_id": "001",
-  "ref": "1022/864",
-  "name": "Ковбойские сапоги с вышивкой",
+  "ref": "1752/864",
+  "name": "Туфли-мюли на каблуке",
   "section": "WOMEN",
-  "family": "BOOT AND ANKLE BOOTS",
-  "subfamily": "BOOTS & ANKLE BOOTS",
+  "family": "HEELED SANDALS",
+  "subfamily": "HEELED SANDALS",
   "color": "Белый",
-  "price_kzt": 45990.0,
+  "price_kzt": 19990.0,
   "price_old_kzt": null,
-  "price_rub": 11540,
+  "price_rub": 4990,
   "price_old_rub": null,
   "sizes": [
    "35",
@@ -5217,18 +5336,18 @@
    "41"
   ],
   "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/d022/482d/92c5452cbe54/9abd30bcd927/11022864001-p/11022864001-p.jpg?ts=1778837954765",
+  "image": "https://static.bershka.net/assets/public/a80d/aac2/92b44a97b317/8c773704a525/11752864001-a4o/11752864001-a4o.jpg?ts=1777991448488",
   "images": [
-   "https://static.bershka.net/assets/public/d022/482d/92c5452cbe54/9abd30bcd927/11022864001-p/11022864001-p.jpg?ts=1778837954765",
-   "https://static.bershka.net/assets/public/9efa/6b93/7ff54cf0844e/f0a0ab304b60/11022864001-a1t/11022864001-a1t.jpg?ts=1778837953951",
-   "https://static.bershka.net/assets/public/c4eb/bac9/59da46e1a1d3/8f93cf9b62ff/11022864001-a2d/11022864001-a2d.jpg?ts=1778837953983",
-   "https://static.bershka.net/assets/public/4d7a/f006/010a46f09bb8/c91f506ff093/11022864001-a3o/11022864001-a3o.jpg?ts=1778837955049",
-   "https://static.bershka.net/assets/public/401c/c8fd/91d4451e8eaa/ae8bdba4002e/11022864001-a6o/11022864001-a6o.jpg?ts=1778837953729",
-   "https://static.bershka.net/assets/public/2a94/e23a/7ba34ae0b236/e21cc2ee833c/11022864001-a4o/11022864001-a4o.jpg?ts=1778837954783",
-   "https://static.bershka.net/assets/public/f4ab/1be8/9b28436aafb9/3669c8c9ce74/11022864001-a11o/11022864001-a11o.jpg?ts=1778837954670",
-   "https://static.bershka.net/assets/public/5887/36b7/8843433bae7c/0f65feb11ea8/11022864001-t4o/11022864001-t4o.jpg?ts=1778837954212",
-   "https://static.bershka.net/assets/public/53b3/17c5/f71047f6b088/7cf87da03e7d/11022864001-z/11022864001-z.jpg?ts=1778837954995",
-   "https://static.bershka.net/assets/public/7f2e/7095/51a94ec3a996/727c66ed53de/11022864001-r/11022864001-r.jpg?ts=1778837955758"
+   "https://static.bershka.net/assets/public/a80d/aac2/92b44a97b317/8c773704a525/11752864001-a4o/11752864001-a4o.jpg?ts=1777991448488",
+   "https://static.bershka.net/assets/public/54d7/3eb9/38f74901b88c/02a1005928d8/11752864001-a1t/11752864001-a1t.jpg?ts=1777991448917",
+   "https://static.bershka.net/assets/public/b71f/122f/03344158a664/1c8784ef9bc0/11752864001-a2d/11752864001-a2d.jpg?ts=1777991447921",
+   "https://static.bershka.net/assets/public/194b/3cd9/40b643b58a57/23b8d6558caa/11752864001-a3o/11752864001-a3o.jpg?ts=1777991447643",
+   "https://static.bershka.net/assets/public/e496/51fa/e061403d849b/b02a888b9d6e/11752864001-v1/11752864001-v1.jpg?ts=1777991448132",
+   "https://static.bershka.net/assets/public/b2e0/8262/183e47e88d1e/d10bd4da72a8/11752864001-z/11752864001-z.jpg?ts=1777991448076",
+   "https://static.bershka.net/assets/public/8c4a/d6fc/717c4ca7b144/5fa923c517dd/11752864001-r/11752864001-r.jpg?ts=1777991447473",
+   "https://static.bershka.net/assets/public/f694/a0e8/7f124dbca851/d68a6372cf5a/11752864001-t4o/11752864001-t4o.jpg?ts=1777991447980",
+   "https://static.bershka.net/assets/public/2ac5/f732/a67f44998bbb/0ba0d5d1a792/11752864001-a5o/11752864001-a5o.jpg?ts=1777991448120",
+   "https://static.bershka.net/assets/public/fc38/09dc/bba946f08ef1/21b03ec31934/11752864001-p/11752864001-p.jpg?ts=1777991447629"
   ]
  },
  {
@@ -5266,6 +5385,43 @@
    "https://static.bershka.net/assets/public/b4f5/d311/50bf46b0b092/057a4bdb6395/11602864040-a11o/11602864040-a11o.jpg?ts=1779780526500",
    "https://static.bershka.net/assets/public/ea1d/6ef4/0e0f4b7a8539/d8c8becca147/11602864040-z/11602864040-z.jpg?ts=1779780528531",
    "https://static.bershka.net/assets/public/5d1e/cf2f/a9a044ba834a/4b0727c6566a/11602864040-v1/11602864040-v1.jpg?ts=1779780528105"
+  ]
+ },
+ {
+  "product_id": 205576938,
+  "color_id": "040",
+  "ref": "1334/764",
+  "name": "Туфли с открытой пяткой",
+  "section": "WOMEN",
+  "family": "HEELED SHOE",
+  "subfamily": "HEELS",
+  "color": "Черный",
+  "price_kzt": 19990.0,
+  "price_old_kzt": null,
+  "price_rub": 4990,
+  "price_old_rub": null,
+  "sizes": [
+   "35",
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/7382/2c02/9a974b27a840/b0a07906121d/11334764040-a4o/11334764040-a4o.jpg?ts=1765971417392",
+  "images": [
+   "https://static.bershka.net/assets/public/7382/2c02/9a974b27a840/b0a07906121d/11334764040-a4o/11334764040-a4o.jpg?ts=1765971417392",
+   "https://static.bershka.net/assets/public/4191/005c/1d5642eebfa4/0c770409b7cd/11334764040-a1t/11334764040-a1t.jpg?ts=1765971419024",
+   "https://static.bershka.net/assets/public/91f3/505c/ba95484aad89/0a6e53e15f2b/11334764040-a2d/11334764040-a2d.jpg?ts=1765971417260",
+   "https://static.bershka.net/assets/public/4c66/9704/c2e746fca79c/7032dc99dc5a/11334764040-a3o/11334764040-a3o.jpg?ts=1765971417429",
+   "https://static.bershka.net/assets/public/13c7/6b62/ac7d4a7ab6c2/3bd6d194d001/11334764040-b1o/11334764040-b1o.jpg?ts=1773908981787",
+   "https://static.bershka.net/assets/public/17b4/34c8/97e441589fcd/65fc945594fa/11334764040-a5o/11334764040-a5o.jpg?ts=1774963630341",
+   "https://static.bershka.net/assets/public/9b54/159a/50624f3a9cf1/16541848304b/11334764040-t4o/11334764040-t4o.jpg?ts=1765971416999",
+   "https://static.bershka.net/assets/public/13ff/4bf9/deea4f0b934f/c01f3eb3c59f/11334764040-v1/11334764040-v1.jpg?ts=1765971416769",
+   "https://static.bershka.net/assets/public/811a/c849/c48b49a7b306/cc77bdebc9c4/11334764040-r/11334764040-r.jpg?ts=1765971417295",
+   "https://static.bershka.net/assets/public/a428/866f/2f9a4ec49b15/2a9a26878a96/11334764040-a11o/11334764040-a11o.jpg?ts=1765971417622"
   ]
  },
  {
@@ -5419,50 +5575,6 @@
   ]
  },
  {
-  "product_id": 204066123,
-  "color_id": "040",
-  "ref": "1714/460",
-  "name": "Босоножки на платформе",
-  "section": "WOMEN",
-  "family": "HEELED SANDALS",
-  "subfamily": "HEELED SANDALS",
-  "color": "Черный",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "35",
-   "35",
-   "36",
-   "36",
-   "37",
-   "37",
-   "38",
-   "38",
-   "39",
-   "39",
-   "40",
-   "40",
-   "41",
-   "41"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/68be/5782/92294c048312/05cf0d47e37e/11714460040-a4o/11714460040-a4o.jpg?ts=1742461343773",
-  "images": [
-   "https://static.bershka.net/assets/public/68be/5782/92294c048312/05cf0d47e37e/11714460040-a4o/11714460040-a4o.jpg?ts=1742461343773",
-   "https://static.bershka.net/assets/public/f2fa/8d05/9e7f4bd8a769/b506d2f170fa/11714460040-a2d/11714460040-a2d.jpg?ts=1742461343738",
-   "https://static.bershka.net/assets/public/5412/e88e/64cd43038b36/7b43862f64f1/11714460040-a1t/11714460040-a1t.jpg?ts=1742461343520",
-   "https://static.bershka.net/assets/public/0704/14b4/9ae341bfa70b/57952aa6f3d9/11714460040-a3o/11714460040-a3o.jpg?ts=1742461344331",
-   "https://static.bershka.net/assets/public/2e18/320f/78d94af99367/a1b955ea808a/11714460040-a5o/11714460040-a5o.jpg?ts=1777383210523",
-   "https://static.bershka.net/assets/public/432f/92b3/2e2c4c02a40a/9dee472e70c9/11714460040-w/11714460040-w.jpg?ts=1717052711262",
-   "https://static.bershka.net/assets/public/d93f/d8de/24ce4eaaa563/7dae2b8b71e8/11714460040-b1o/11714460040-b1o.jpg?ts=1717052729217",
-   "https://static.bershka.net/assets/public/5e3d/5d33/2aa64aaf919c/83947c355f06/11714460040-a11o/11714460040-a11o.jpg?ts=1742461343851",
-   "https://static.bershka.net/assets/public/d6a2/2a57/4d9a4dc8a78c/5206e59009ba/11714460040-d/11714460040-d.jpg?ts=1740673298169",
-   "https://static.bershka.net/assets/public/b651/f3ad/b75a442c91f9/284e9f87e045/11714460040-r/11714460040-r.jpg?ts=1742461343627"
-  ]
- },
- {
   "product_id": 204064017,
   "color_id": "102",
   "ref": "1902/764",
@@ -5534,43 +5646,6 @@
    "https://static.bershka.net/assets/public/deda/d627/e17f4679bd9b/d80bf4fe6591/11333764131-r/11333764131-r.jpg?ts=1765367620332",
    "https://static.bershka.net/assets/public/ce05/73c1/894746d1a398/fd6cbdd8104b/11333764131-v1/11333764131-v1.jpg?ts=1765367621393",
    "https://static.bershka.net/assets/public/1af1/b712/cc354c70b976/6887d048f4ac/11333764131-t4o/11333764131-t4o.jpg?ts=1765367622224"
-  ]
- },
- {
-  "product_id": 205576938,
-  "color_id": "040",
-  "ref": "1334/764",
-  "name": "Туфли с открытой пяткой",
-  "section": "WOMEN",
-  "family": "HEELED SHOE",
-  "subfamily": "HEELS",
-  "color": "Черный",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "35",
-   "36",
-   "37",
-   "38",
-   "39",
-   "40",
-   "41"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/7382/2c02/9a974b27a840/b0a07906121d/11334764040-a4o/11334764040-a4o.jpg?ts=1765971417392",
-  "images": [
-   "https://static.bershka.net/assets/public/7382/2c02/9a974b27a840/b0a07906121d/11334764040-a4o/11334764040-a4o.jpg?ts=1765971417392",
-   "https://static.bershka.net/assets/public/4191/005c/1d5642eebfa4/0c770409b7cd/11334764040-a1t/11334764040-a1t.jpg?ts=1765971419024",
-   "https://static.bershka.net/assets/public/91f3/505c/ba95484aad89/0a6e53e15f2b/11334764040-a2d/11334764040-a2d.jpg?ts=1765971417260",
-   "https://static.bershka.net/assets/public/4c66/9704/c2e746fca79c/7032dc99dc5a/11334764040-a3o/11334764040-a3o.jpg?ts=1765971417429",
-   "https://static.bershka.net/assets/public/13c7/6b62/ac7d4a7ab6c2/3bd6d194d001/11334764040-b1o/11334764040-b1o.jpg?ts=1773908981787",
-   "https://static.bershka.net/assets/public/17b4/34c8/97e441589fcd/65fc945594fa/11334764040-a5o/11334764040-a5o.jpg?ts=1774963630341",
-   "https://static.bershka.net/assets/public/9b54/159a/50624f3a9cf1/16541848304b/11334764040-t4o/11334764040-t4o.jpg?ts=1765971416999",
-   "https://static.bershka.net/assets/public/13ff/4bf9/deea4f0b934f/c01f3eb3c59f/11334764040-v1/11334764040-v1.jpg?ts=1765971416769",
-   "https://static.bershka.net/assets/public/811a/c849/c48b49a7b306/cc77bdebc9c4/11334764040-r/11334764040-r.jpg?ts=1765971417295",
-   "https://static.bershka.net/assets/public/a428/866f/2f9a4ec49b15/2a9a26878a96/11334764040-a11o/11334764040-a11o.jpg?ts=1765971417622"
   ]
  },
  {
@@ -5877,6 +5952,43 @@
    "https://static.bershka.net/assets/public/c6cb/1493/7b1b491c9c6c/ae47e263798f/11800864131-v1/11800864131-v1.jpg?ts=1776777771079",
    "https://static.bershka.net/assets/public/e195/9435/7603490192bc/f53385ef1a64/11800864131-a11o/11800864131-a11o.jpg?ts=1776777771393",
    "https://static.bershka.net/assets/public/e06c/811f/2d14416fb927/b00f1b8324c5/11800864131-t4o/11800864131-t4o.jpg?ts=1776777769992"
+  ]
+ },
+ {
+  "product_id": 204066100,
+  "color_id": "032",
+  "ref": "1832/560",
+  "name": "Стеганые шлепанцы на платформе",
+  "section": "WOMEN",
+  "family": "FLAT SANDALS",
+  "subfamily": "HEELED SANDALS",
+  "color": "Хаки",
+  "price_kzt": 15990.0,
+  "price_old_kzt": null,
+  "price_rub": 4080,
+  "price_old_rub": null,
+  "sizes": [
+   "35",
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/ed5a/e171/a6f74b21842e/1af45d479da7/11810660032-a4o/11810660032-a4o.jpg?ts=1765294909655",
+  "images": [
+   "https://static.bershka.net/assets/public/ed5a/e171/a6f74b21842e/1af45d479da7/11810660032-a4o/11810660032-a4o.jpg?ts=1765294909655",
+   "https://static.bershka.net/assets/public/8374/d6c6/b16d427b863b/3c7f140ac692/11810660032-b1o/11810660032-b1o.jpg?ts=1765294933201",
+   "https://static.bershka.net/assets/public/26b2/8db1/42ae41d383d3/423a8fc290f3/11810660032-a1t/11810660032-a1t.jpg?ts=1765294909687",
+   "https://static.bershka.net/assets/public/8b09/56f5/25e04fa28011/82b2282f8691/11810660032-a2d/11810660032-a2d.jpg?ts=1765294910105",
+   "https://static.bershka.net/assets/public/c811/d7d6/a2c84953bca5/ff8073ce6304/11810660032-a3o/11810660032-a3o.jpg?ts=1765294910259",
+   "https://static.bershka.net/assets/public/43b4/81d2/cd104c818103/3a0706d408e9/11810660032-a5o/11810660032-a5o.jpg?ts=1774961491986",
+   "https://static.bershka.net/assets/public/9ca2/efcc/a65d4aaf82db/8c1b06016f4e/11810660032-a6o/11810660032-a6o.jpg?ts=1774961491988",
+   "https://static.bershka.net/assets/public/3d47/d21c/c7934cc28a8a/cea9c50974e9/11810660032-r/11810660032-r.jpg?ts=1765294908956",
+   "https://static.bershka.net/assets/public/852c/609d/ab0b4f3c9b8e/4ac2fe16d29f/11810660032-v1/11810660032-v1.jpg?ts=1765294909130",
+   "https://static.bershka.net/assets/public/94a5/9aae/9a2b4fdc8b5c/f6c661d5c05f/11810660032-a11o/11810660032-a11o.jpg?ts=1765294909624"
   ]
  },
  {
@@ -6898,6 +7010,44 @@
   ]
  },
  {
+  "product_id": 226924575,
+  "color_id": "001",
+  "ref": "2300/864",
+  "name": "Кроссовки с контрастными вставками",
+  "section": "MEN",
+  "family": "TRAINERS",
+  "subfamily": "TRAINERS",
+  "color": "Белый",
+  "price_kzt": 28990.0,
+  "price_old_kzt": null,
+  "price_rub": 7290,
+  "price_old_rub": null,
+  "sizes": [
+   "39",
+   "40",
+   "41",
+   "42",
+   "43",
+   "44",
+   "45",
+   "46"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/4f73/df9d/62e74ef78886/093962da5737/12300864001-a4o/12300864001-a4o.jpg?ts=1776334146151",
+  "images": [
+   "https://static.bershka.net/assets/public/4f73/df9d/62e74ef78886/093962da5737/12300864001-a4o/12300864001-a4o.jpg?ts=1776334146151",
+   "https://static.bershka.net/assets/public/927a/301a/503640d98fb4/32ca33310f0d/12300864001-a1t/12300864001-a1t.jpg?ts=1776334149274",
+   "https://static.bershka.net/assets/public/c971/9ad8/404e47b88c42/53588e759782/12300864001-a2d/12300864001-a2d.jpg?ts=1776334149075",
+   "https://static.bershka.net/assets/public/11e8/4dca/5b4b435a9abd/5f86e6c7e8a7/12300864001-a3o/12300864001-a3o.jpg?ts=1776334149906",
+   "https://static.bershka.net/assets/public/94aa/9c56/121342a6b88d/1e9ceff40816/12300864001-z/12300864001-z.jpg?ts=1776334149573",
+   "https://static.bershka.net/assets/public/048f/9c16/dbcd42c4af4f/ebce35d96b3e/12300864001-a11o/12300864001-a11o.jpg?ts=1776334146577",
+   "https://static.bershka.net/assets/public/fec5/5529/c375405db789/500c4b304ccf/12300864001-t4o/12300864001-t4o.jpg?ts=1776334147923",
+   "https://static.bershka.net/assets/public/3da1/e70c/3a0a432faa86/623465e8da85/12300864001-v1/12300864001-v1.jpg?ts=1776334148472",
+   "https://static.bershka.net/assets/public/5d54/e86d/218f4c22abca/64de6622cd0a/12300864001-p/12300864001-p.jpg?ts=1776334149756",
+   "https://static.bershka.net/assets/public/5c11/b50b/b0f44f6caf0e/e14f60f90af8/12300864001-r/12300864001-r.jpg?ts=1776334144693"
+  ]
+ },
+ {
   "product_id": 226923180,
   "color_id": "040",
   "ref": "2608/764",
@@ -6933,44 +7083,6 @@
    "https://static.bershka.net/assets/public/efe1/0655/d9fa45bb8384/851bd0475f0a/12608764040-v1/12608764040-v1.jpg?ts=1777895555326",
    "https://static.bershka.net/assets/public/df55/3ba5/fe8546e489b9/9e3275b15f5d/12608764040-t4o/12608764040-t4o.jpg?ts=1777895555977",
    "https://static.bershka.net/assets/public/d8d0/d369/652248b180b2/ab702e9d697a/12608764040-a11o/12608764040-a11o.jpg?ts=1777895556536"
-  ]
- },
- {
-  "product_id": 219769401,
-  "color_id": "001",
-  "ref": "2403/864",
-  "name": "Объемные кеды для скейтбординга",
-  "section": "MEN",
-  "family": "SNEAKERS",
-  "subfamily": "TRAINERS",
-  "color": "Белый",
-  "price_kzt": 31990.0,
-  "price_old_kzt": null,
-  "price_rub": 8040,
-  "price_old_rub": null,
-  "sizes": [
-   "39",
-   "40",
-   "41",
-   "42",
-   "43",
-   "44",
-   "45",
-   "46"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/909a/368a/7e9a4c1c916a/ab16174d7f22/12403864001-a4o/12403864001-a4o.jpg?ts=1773670261031",
-  "images": [
-   "https://static.bershka.net/assets/public/909a/368a/7e9a4c1c916a/ab16174d7f22/12403864001-a4o/12403864001-a4o.jpg?ts=1773670261031",
-   "https://static.bershka.net/assets/public/f778/e872/eb8f4e4a8a65/55eebd923f5d/12403864001-a1t/12403864001-a1t.jpg?ts=1773670261025",
-   "https://static.bershka.net/assets/public/2808/119a/9e734ca7a284/90830c8085ce/12403864001-a2d/12403864001-a2d.jpg?ts=1773670261802",
-   "https://static.bershka.net/assets/public/9247/c009/da814373ba06/e1f8ca30e632/12403864001-a3o/12403864001-a3o.jpg?ts=1773670260169",
-   "https://static.bershka.net/assets/public/577f/db28/948f4c6d91f5/aec1760afad7/12403864001-a11o/12403864001-a11o.jpg?ts=1773670261956",
-   "https://static.bershka.net/assets/public/49b9/1b2b/e02e4b64a50d/176aab81f55b/12403864001-z/12403864001-z.jpg?ts=1773670265076",
-   "https://static.bershka.net/assets/public/7afa/c46f/64bb47858ab7/b6c02f17cb20/12403864001-v1/12403864001-v1.jpg?ts=1773670264068",
-   "https://static.bershka.net/assets/public/db01/7513/0912422f80a7/eb39df78bdfd/12403864001-r/12403864001-r.jpg?ts=1773670264681",
-   "https://static.bershka.net/assets/public/ff83/de46/6d3b4f3097ea/6b1308103cb8/12403864001-t4o/12403864001-t4o.jpg?ts=1773670264761",
-   "https://static.bershka.net/assets/public/71c3/e226/b9f746d0bf77/fbd5c6f37904/12403864001-p/12403864001-p.jpg?ts=1773670264240"
   ]
  },
  {
@@ -7012,6 +7124,82 @@
   ]
  },
  {
+  "product_id": 219769401,
+  "color_id": "001",
+  "ref": "2403/864",
+  "name": "Объемные кеды для скейтбординга",
+  "section": "MEN",
+  "family": "SNEAKERS",
+  "subfamily": "TRAINERS",
+  "color": "Белый",
+  "price_kzt": 31990.0,
+  "price_old_kzt": null,
+  "price_rub": 8040,
+  "price_old_rub": null,
+  "sizes": [
+   "39",
+   "40",
+   "41",
+   "42",
+   "43",
+   "44",
+   "45",
+   "46"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/909a/368a/7e9a4c1c916a/ab16174d7f22/12403864001-a4o/12403864001-a4o.jpg?ts=1773670261031",
+  "images": [
+   "https://static.bershka.net/assets/public/909a/368a/7e9a4c1c916a/ab16174d7f22/12403864001-a4o/12403864001-a4o.jpg?ts=1773670261031",
+   "https://static.bershka.net/assets/public/f778/e872/eb8f4e4a8a65/55eebd923f5d/12403864001-a1t/12403864001-a1t.jpg?ts=1773670261025",
+   "https://static.bershka.net/assets/public/2808/119a/9e734ca7a284/90830c8085ce/12403864001-a2d/12403864001-a2d.jpg?ts=1773670261802",
+   "https://static.bershka.net/assets/public/9247/c009/da814373ba06/e1f8ca30e632/12403864001-a3o/12403864001-a3o.jpg?ts=1773670260169",
+   "https://static.bershka.net/assets/public/577f/db28/948f4c6d91f5/aec1760afad7/12403864001-a11o/12403864001-a11o.jpg?ts=1773670261956",
+   "https://static.bershka.net/assets/public/49b9/1b2b/e02e4b64a50d/176aab81f55b/12403864001-z/12403864001-z.jpg?ts=1773670265076",
+   "https://static.bershka.net/assets/public/7afa/c46f/64bb47858ab7/b6c02f17cb20/12403864001-v1/12403864001-v1.jpg?ts=1773670264068",
+   "https://static.bershka.net/assets/public/db01/7513/0912422f80a7/eb39df78bdfd/12403864001-r/12403864001-r.jpg?ts=1773670264681",
+   "https://static.bershka.net/assets/public/ff83/de46/6d3b4f3097ea/6b1308103cb8/12403864001-t4o/12403864001-t4o.jpg?ts=1773670264761",
+   "https://static.bershka.net/assets/public/71c3/e226/b9f746d0bf77/fbd5c6f37904/12403864001-p/12403864001-p.jpg?ts=1773670264240"
+  ]
+ },
+ {
+  "product_id": 204066742,
+  "color_id": "040",
+  "ref": "2105/764",
+  "name": "Эластичные ботильоны в ковбойском стиле",
+  "section": "MEN",
+  "family": "BOOT AND ANKLE BOOTS",
+  "subfamily": "BOOTS & ANKLE BOOTS",
+  "color": "Черный",
+  "price_kzt": 39990.0,
+  "price_old_kzt": null,
+  "price_rub": 9990,
+  "price_old_rub": null,
+  "sizes": [
+   "39",
+   "40",
+   "41",
+   "42",
+   "43",
+   "44",
+   "45",
+   "46"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/4e54/56b2/76db4e9e9c2c/662d3e75d462/12105764040-a4o/12105764040-a4o.jpg?ts=1759387004687",
+  "images": [
+   "https://static.bershka.net/assets/public/4e54/56b2/76db4e9e9c2c/662d3e75d462/12105764040-a4o/12105764040-a4o.jpg?ts=1759387004687",
+   "https://static.bershka.net/assets/public/26b3/b244/27af42efa35c/5efa038f4def/12105764040-b1o/12105764040-b1o.jpg?ts=1761821197078",
+   "https://static.bershka.net/assets/public/11d4/79cf/62bc49cdb9ec/d34b124db25d/12105764040-b3o/12105764040-b3o.jpg?ts=1761820155936",
+   "https://static.bershka.net/assets/public/5d0f/31c8/20d247818ff6/62b005dab3b3/12105764040-a1t/12105764040-a1t.jpg?ts=1759387003569",
+   "https://static.bershka.net/assets/public/7cb8/b868/d5704eafbf56/c720c810a855/12105764040-a2d/12105764040-a2d.jpg?ts=1759387003884",
+   "https://static.bershka.net/assets/public/32e0/40f7/265b49c18729/1e501a548fef/12105764040-a3o/12105764040-a3o.jpg?ts=1759387003904",
+   "https://static.bershka.net/assets/public/e82e/a3c7/bc7d41a1a206/3f1e2cbe4663/12105764040-r/12105764040-r.jpg?ts=1759387002307",
+   "https://static.bershka.net/assets/public/2e33/7b45/96c04d02aacb/a15ca6ae3b1e/12105764040-v1/12105764040-v1.jpg?ts=1759387002211",
+   "https://static.bershka.net/assets/public/d664/0c24/830f4249956b/328e2e48cd6b/12105764040-a11o/12105764040-a11o.jpg?ts=1759387002354",
+   "https://static.bershka.net/assets/public/fd07/e272/9aec435d8e1d/bbc39e5073ac/12105764040-t4o/12105764040-t4o.jpg?ts=1759387003325"
+  ]
+ },
+ {
   "product_id": 209578581,
   "color_id": "040",
   "ref": "2104/664",
@@ -7050,6 +7238,44 @@
   ]
  },
  {
+  "product_id": 204065462,
+  "color_id": "202",
+  "ref": "2303/764",
+  "name": "Кроссовки с контрастными вставками",
+  "section": "MEN",
+  "family": "TRAINERS",
+  "subfamily": "TRAINERS",
+  "color": "Комбинированный",
+  "price_kzt": 24990.0,
+  "price_old_kzt": null,
+  "price_rub": 6290,
+  "price_old_rub": null,
+  "sizes": [
+   "39",
+   "40",
+   "41",
+   "42",
+   "43",
+   "44",
+   "45",
+   "46"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/4fa3/b217/b05b45cc90fd/6c8a3e8c7c1a/12303764202-a4o/12303764202-a4o.jpg?ts=1758697808256",
+  "images": [
+   "https://static.bershka.net/assets/public/4fa3/b217/b05b45cc90fd/6c8a3e8c7c1a/12303764202-a4o/12303764202-a4o.jpg?ts=1758697808256",
+   "https://static.bershka.net/assets/public/720f/628c/02364f748f82/799d4e9662ce/12303764202-b1o/12303764202-b1o.jpg?ts=1770294887028",
+   "https://static.bershka.net/assets/public/2db6/753f/3ec74a1fb59c/dbd231c235b4/12303764202-a1t/12303764202-a1t.jpg?ts=1758697806584",
+   "https://static.bershka.net/assets/public/f824/7570/7fcf403da295/e93a01eb4d6d/12303764202-a2d/12303764202-a2d.jpg?ts=1758697806063",
+   "https://static.bershka.net/assets/public/1dbc/b1e9/e12c4eab9f0a/7f157759394e/12303764202-a3o/12303764202-a3o.jpg?ts=1758697806293",
+   "https://static.bershka.net/assets/public/bf68/4347/bacd49f38e92/0aa9bf61ec17/12303764202-a5o/12303764202-a5o.jpg?ts=1774617207294",
+   "https://static.bershka.net/assets/public/eb72/b3bd/c62a47e8bf92/d40cbc24f80d/12303764202-r/12303764202-r.jpg?ts=1758697805550",
+   "https://static.bershka.net/assets/public/620f/2b4e/b5ba47469c39/c1cc63fcd028/12303764202-a11o/12303764202-a11o.jpg?ts=1758697807590",
+   "https://static.bershka.net/assets/public/8d5c/34a7/710741b8b903/7abb8ab7bc28/12303764202-v1/12303764202-v1.jpg?ts=1758697806431",
+   "https://static.bershka.net/assets/public/8c9b/31c8/f3fe4f92b910/9e8fd6b7cfb2/12303764202-t4o/12303764202-t4o.jpg?ts=1758697806744"
+  ]
+ },
+ {
   "product_id": 204064507,
   "color_id": "001",
   "ref": "2400/764",
@@ -7085,6 +7311,44 @@
    "https://static.bershka.net/assets/public/60ca/df18/ea9a46e6a730/d52ea9db5c3b/12400764001-r/12400764001-r.jpg?ts=1758697590644",
    "https://static.bershka.net/assets/public/9841/7d66/51e241d58f1f/388f3809cee7/12400764001-t4o/12400764001-t4o.jpg?ts=1758697590138",
    "https://static.bershka.net/assets/public/cbb9/9888/ae534c1b8e05/09ee1e767ef2/12400764001-v1/12400764001-v1.jpg?ts=1758697590375"
+  ]
+ },
+ {
+  "product_id": 204064400,
+  "color_id": "040",
+  "ref": "2110/664",
+  "name": "Ковбойские сапоги с цепочкой",
+  "section": "MEN",
+  "family": "BOOT AND ANKLE BOOTS",
+  "subfamily": "BOOTS & ANKLE BOOTS",
+  "color": "Черный",
+  "price_kzt": 49990.0,
+  "price_old_kzt": null,
+  "price_rub": 12540,
+  "price_old_rub": null,
+  "sizes": [
+   "39",
+   "40",
+   "41",
+   "42",
+   "43",
+   "44",
+   "45",
+   "46"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/d3a4/4ada/03854c459d75/d6e30e2c3fd1/12110664040-a4o/12110664040-a4o.jpg?ts=1760362275388",
+  "images": [
+   "https://static.bershka.net/assets/public/d3a4/4ada/03854c459d75/d6e30e2c3fd1/12110664040-a4o/12110664040-a4o.jpg?ts=1760362275388",
+   "https://static.bershka.net/assets/public/aae1/8a1e/c071444d8e8c/87d5e6b4fa9f/12110664040-b1o/12110664040-b1o.jpg?ts=1761821112600",
+   "https://static.bershka.net/assets/public/552e/ab02/4d414a5a9386/0c7c19edddb7/12110664040-b3o/12110664040-b3o.jpg?ts=1767780041315",
+   "https://static.bershka.net/assets/public/ab62/1896/d0844163998c/15c685ec3bee/12110664040-a1t/12110664040-a1t.jpg?ts=1760362275259",
+   "https://static.bershka.net/assets/public/a7e4/d9e2/c397481f926b/b8fa2aeecf11/12110664040-a2d/12110664040-a2d.jpg?ts=1760362274317",
+   "https://static.bershka.net/assets/public/d8f6/4c07/9157445fbaa7/5a180a57708b/12110664040-a3o/12110664040-a3o.jpg?ts=1760362274953",
+   "https://static.bershka.net/assets/public/13bc/7c62/0eae4849b57c/c9ea536595cb/12110664040-a11o/12110664040-a11o.jpg?ts=1760362273250",
+   "https://static.bershka.net/assets/public/d22a/e398/d456414abd56/f963f5d97961/12110664040-r/12110664040-r.jpg?ts=1760362268854",
+   "https://static.bershka.net/assets/public/f422/b2f1/0a9e46849dc5/281115401c95/12110664040-v1/12110664040-v1.jpg?ts=1760362272264",
+   "https://static.bershka.net/assets/public/f027/074e/f5f8482282ae/50a37ddf5bdc/12110664040-t4o/12110664040-t4o.jpg?ts=1760362275501"
   ]
  },
  {
@@ -7193,6 +7457,40 @@
   ]
  },
  {
+  "product_id": 204793186,
+  "color_id": "717",
+  "ref": "0981/718",
+  "name": "Куртка из искусственной кожи с воротником-трубой",
+  "section": "WOMEN",
+  "family": "JACKETS",
+  "subfamily": "JACKETS",
+  "color": "Κоричневый",
+  "price_kzt": 37990.0,
+  "price_old_kzt": null,
+  "price_rub": 9490,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/de49/79af/fc7d48a7a462/689d528b89b3/00981718717-p/00981718717-p.jpg?ts=1774876390211",
+  "images": [
+   "https://static.bershka.net/assets/public/de49/79af/fc7d48a7a462/689d528b89b3/00981718717-p/00981718717-p.jpg?ts=1774876390211",
+   "https://static.bershka.net/assets/public/ba9c/04aa/c20c40978e6d/d332f61add73/00981718717-a1t/00981718717-a1t.jpg?ts=1774876389525",
+   "https://static.bershka.net/assets/public/1945/6706/33af41dda8ab/2fa9e710d898/00981718717-a2d/00981718717-a2d.jpg?ts=1774876391474",
+   "https://static.bershka.net/assets/public/d228/1505/bc16456d93b9/572c8ae0ee2c/00981718717-a3o/00981718717-a3o.jpg?ts=1774876390391",
+   "https://static.bershka.net/assets/public/783c/2cdd/6ba34e8b8064/ea014f2572d8/00981718717-a4o/00981718717-a4o.jpg?ts=1765871786852",
+   "https://static.bershka.net/assets/public/d0ef/bdcf/934e43e1ba3a/71cc518e9044/00981718717-b/00981718717-b.jpg?ts=1765871786724",
+   "https://static.bershka.net/assets/public/a41a/6877/0b4446af9703/092cd9787c03/00981718717-a5o/00981718717-a5o.jpg?ts=1775551070574",
+   "https://static.bershka.net/assets/public/0c30/4316/c43147fc8398/e2922eff0436/00981718717-s/00981718717-s.jpg?ts=1765871786423",
+   "https://static.bershka.net/assets/public/9d4d/e3b3/58fa4e59a5b2/216c7559a77a/00981718717-r/00981718717-r.jpg?ts=1765871786241",
+   "https://static.bershka.net/assets/public/3308/c5aa/eba94421b3e4/e7b033d94828/00981718717-a7o/00981718717-a7o.jpg?ts=1770283715443"
+  ]
+ },
+ {
   "product_id": 204065540,
   "color_id": "600",
   "ref": "0038/741",
@@ -7257,40 +7555,6 @@
    "https://static.bershka.net/assets/public/0ed5/395d/97cb43878651/12ae4680b25e/01871156428-s/01871156428-s.jpg?ts=1774969315055",
    "https://static.bershka.net/assets/public/8c8f/a1e3/d2ed4e688eaf/af220d2c57fe/01871156428-r/01871156428-r.jpg?ts=1776688972614",
    "https://static.bershka.net/assets/public/657e/8da8/1ba546499a21/10dd1e099cec/01871156428-e/01871156428-e.jpg?ts=1776762057058"
-  ]
- },
- {
-  "product_id": 204793186,
-  "color_id": "717",
-  "ref": "0981/718",
-  "name": "Куртка из искусственной кожи с воротником-трубой",
-  "section": "WOMEN",
-  "family": "JACKETS",
-  "subfamily": "JACKETS",
-  "color": "Κоричневый",
-  "price_kzt": 37990.0,
-  "price_old_kzt": null,
-  "price_rub": 9490,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/de49/79af/fc7d48a7a462/689d528b89b3/00981718717-p/00981718717-p.jpg?ts=1774876390211",
-  "images": [
-   "https://static.bershka.net/assets/public/de49/79af/fc7d48a7a462/689d528b89b3/00981718717-p/00981718717-p.jpg?ts=1774876390211",
-   "https://static.bershka.net/assets/public/ba9c/04aa/c20c40978e6d/d332f61add73/00981718717-a1t/00981718717-a1t.jpg?ts=1774876389525",
-   "https://static.bershka.net/assets/public/1945/6706/33af41dda8ab/2fa9e710d898/00981718717-a2d/00981718717-a2d.jpg?ts=1774876391474",
-   "https://static.bershka.net/assets/public/d228/1505/bc16456d93b9/572c8ae0ee2c/00981718717-a3o/00981718717-a3o.jpg?ts=1774876390391",
-   "https://static.bershka.net/assets/public/783c/2cdd/6ba34e8b8064/ea014f2572d8/00981718717-a4o/00981718717-a4o.jpg?ts=1765871786852",
-   "https://static.bershka.net/assets/public/d0ef/bdcf/934e43e1ba3a/71cc518e9044/00981718717-b/00981718717-b.jpg?ts=1765871786724",
-   "https://static.bershka.net/assets/public/a41a/6877/0b4446af9703/092cd9787c03/00981718717-a5o/00981718717-a5o.jpg?ts=1775551070574",
-   "https://static.bershka.net/assets/public/0c30/4316/c43147fc8398/e2922eff0436/00981718717-s/00981718717-s.jpg?ts=1765871786423",
-   "https://static.bershka.net/assets/public/9d4d/e3b3/58fa4e59a5b2/216c7559a77a/00981718717-r/00981718717-r.jpg?ts=1765871786241",
-   "https://static.bershka.net/assets/public/3308/c5aa/eba94421b3e4/e7b033d94828/00981718717-a7o/00981718717-a7o.jpg?ts=1770283715443"
   ]
  },
  {
@@ -7377,39 +7641,6 @@
    "https://static.bershka.net/assets/public/e9d0/d8f6/ca894517b273/42e99ae37244/00030450807-s/00030450807-s.jpg?ts=1765804939331",
    "https://static.bershka.net/assets/public/71f0/3f3f/a75c45a79876/7a38a90cccb2/00030200807-a7o/00030200807-a7o.jpg?ts=1767956501078",
    "https://static.bershka.net/assets/public/2675/b295/f2934b62bdf2/770641f193ae/00030200807-28-h/master.m3u8?ts=1771580456578"
-  ]
- },
- {
-  "product_id": 206853645,
-  "color_id": "730",
-  "ref": "1264/200",
-  "name": "Куртка в клетку с принтом",
-  "section": "WOMEN",
-  "family": "JACKETS",
-  "subfamily": "JACKETS",
-  "color": "Верблюжий",
-  "price_kzt": 28990.0,
-  "price_old_kzt": null,
-  "price_rub": 7290,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/5dcb/badc/c33242ee9c29/907da8cfa1f4/01264200730-p/01264200730-p.jpg?ts=1773221892787",
-  "images": [
-   "https://static.bershka.net/assets/public/5dcb/badc/c33242ee9c29/907da8cfa1f4/01264200730-p/01264200730-p.jpg?ts=1773221892787",
-   "https://static.bershka.net/assets/public/e2aa/afef/8b604aa783cf/b53c0a08b345/01264200730-a1t/01264200730-a1t.jpg?ts=1773221893102",
-   "https://static.bershka.net/assets/public/e073/6b51/aee846cab2dd/4985b851c7c9/01264200730-a2d/01264200730-a2d.jpg?ts=1773221892392",
-   "https://static.bershka.net/assets/public/8c20/5ff4/95454c328db9/7d6f2045630c/01264200730-a3o/01264200730-a3o.jpg?ts=1773221893072",
-   "https://static.bershka.net/assets/public/6e0a/11c1/642e4aef8a53/5350e77efcec/01264200730-a4o/01264200730-a4o.jpg?ts=1773065530666",
-   "https://static.bershka.net/assets/public/79bc/f0a1/5b5e4f348498/826f5d221194/01264200730-b/01264200730-b.jpg?ts=1773065530361",
-   "https://static.bershka.net/assets/public/b3bc/aec6/22444f38b026/2de9b5b07e07/01264200730-s/01264200730-s.jpg?ts=1773065530540",
-   "https://static.bershka.net/assets/public/c4d2/8bbd/2d9545719a65/d2e00423a546/01264200730-r/01264200730-r.jpg?ts=1773065530337",
-   "https://static.bershka.net/assets/public/aeaf/c22e/56624923851e/69d8a6342262/01264200730-03-a7o/01264200730-03-a7o.jpg?ts=1773311889100"
   ]
  },
  {
@@ -10330,6 +10561,40 @@
   ]
  },
  {
+  "product_id": 215101597,
+  "color_id": "400",
+  "ref": "1994/169",
+  "name": "Платье-баллон мини",
+  "section": "WOMEN",
+  "family": "DRESSES",
+  "subfamily": "DRESSES",
+  "color": "Синий",
+  "price_kzt": 19990.0,
+  "price_old_kzt": null,
+  "price_rub": 4990,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/22a3/516f/3c04418a8933/69b24bc9a984/01994169400-p/01994169400-p.jpg?ts=1773765342587",
+  "images": [
+   "https://static.bershka.net/assets/public/22a3/516f/3c04418a8933/69b24bc9a984/01994169400-p/01994169400-p.jpg?ts=1773765342587",
+   "https://static.bershka.net/assets/public/402e/db6c/09124370aa1d/6305664135aa/01994169400-a1t/01994169400-a1t.jpg?ts=1773765351781",
+   "https://static.bershka.net/assets/public/01ff/d411/cc454d99991f/a99e18a94e2d/01994169400-a2d/01994169400-a2d.jpg?ts=1773765337898",
+   "https://static.bershka.net/assets/public/8d52/cc76/fc31464381a2/882892369eea/01994169400-a3o/01994169400-a3o.jpg?ts=1773765337775",
+   "https://static.bershka.net/assets/public/f182/c5b1/de3e434a9ffb/e648b4e6c4ab/01994169400-h1/master.m3u8?ts=1773921764520",
+   "https://static.bershka.net/assets/public/898a/9a29/b062448ea931/3085e4d9cfaf/01994169400-a4o/01994169400-a4o.jpg?ts=1773314250530",
+   "https://static.bershka.net/assets/public/eeea/3bd6/ee294f81ae40/b989e652eb01/01994169400-b/01994169400-b.jpg?ts=1773314249843",
+   "https://static.bershka.net/assets/public/4ed7/1f17/547049209ee1/25066cee75a8/01994169400-r/01994169400-r.jpg?ts=1773314250374",
+   "https://static.bershka.net/assets/public/722a/c940/d30e4a0bb26d/bbaf94f0a654/01994169400-s/01994169400-s.jpg?ts=1773314250468",
+   "https://static.bershka.net/assets/public/eb44/793e/417247e18c43/03e453be44e3/01994169400-a7o/01994169400-a7o.jpg?ts=1773845059462"
+  ]
+ },
+ {
   "product_id": 211746046,
   "color_id": "800",
   "ref": "1924/777",
@@ -11747,40 +12012,6 @@
   ]
  },
  {
-  "product_id": 207673962,
-  "color_id": "251",
-  "ref": "1140/777",
-  "name": "Платье миди в стиле рустик с кружевной отделкой",
-  "section": "WOMEN",
-  "family": "DRESSES",
-  "subfamily": "DRESSES",
-  "color": "Белый",
-  "price_kzt": 28990.0,
-  "price_old_kzt": null,
-  "price_rub": 7290,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/9132/6097/c53e40158086/7e3fbad31711/01140777251-p/01140777251-p.jpg?ts=1772116960576",
-  "images": [
-   "https://static.bershka.net/assets/public/9132/6097/c53e40158086/7e3fbad31711/01140777251-p/01140777251-p.jpg?ts=1772116960576",
-   "https://static.bershka.net/assets/public/2ac2/e5f0/edf34e5eb483/869f0b766ddd/01140777251-a1t/01140777251-a1t.jpg?ts=1772116960642",
-   "https://static.bershka.net/assets/public/df49/2d15/02414c8a8fb2/7a2dbe31ed25/01140777251-a2d/01140777251-a2d.jpg?ts=1772116960976",
-   "https://static.bershka.net/assets/public/4dbf/869e/99d44926af63/8b6d785c7630/01140777251-a3o/01140777251-a3o.jpg?ts=1772116961785",
-   "https://static.bershka.net/assets/public/da53/48a0/887e48c098e0/a43bd7373232/01140777251-a4o/01140777251-a4o.jpg?ts=1769586881503",
-   "https://static.bershka.net/assets/public/8b70/e05a/d30340d391cb/a810efc6215a/01140777251-b/01140777251-b.jpg?ts=1769586880796",
-   "https://static.bershka.net/assets/public/c0e1/2ac9/6e5342bc895e/c64605c18d93/01140777251-s/01140777251-s.jpg?ts=1769586880787",
-   "https://static.bershka.net/assets/public/ff85/a5ea/d8c44fc49a02/a6c67df92932/01140777251-r/01140777251-r.jpg?ts=1769586881106",
-   "https://static.bershka.net/assets/public/e44a/0f71/ae524b439b07/ab08932de052/01140777251-a7o/01140777251-a7o.jpg?ts=1772122663106"
-  ]
- },
- {
   "product_id": 209973162,
   "color_id": "401",
   "ref": "1327/335",
@@ -12253,39 +12484,6 @@
   ]
  },
  {
-  "product_id": 209719871,
-  "color_id": "250",
-  "ref": "1640/710",
-  "name": "Мини-платье с бантом сзади",
-  "section": "WOMEN",
-  "family": "DRESSES",
-  "subfamily": "DRESSES",
-  "color": "Белый",
-  "price_kzt": 24990.0,
-  "price_old_kzt": null,
-  "price_rub": 6290,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/8daf/1b55/46c54e15be4d/c2ea296fe842/01640710250-p/01640710250-p.jpg?ts=1777383737067",
-  "images": [
-   "https://static.bershka.net/assets/public/8daf/1b55/46c54e15be4d/c2ea296fe842/01640710250-p/01640710250-p.jpg?ts=1777383737067",
-   "https://static.bershka.net/assets/public/e585/a3df/280e4c7daedc/75996f836422/01640710250-a1t/01640710250-a1t.jpg?ts=1777383736860",
-   "https://static.bershka.net/assets/public/a0c7/2942/af3b41f5802a/c86ed892dc3b/01640710250-a2d/01640710250-a2d.jpg?ts=1777383737028",
-   "https://static.bershka.net/assets/public/64f8/2239/983544ac90d8/5aa5f5b906db/01640710250-a3o/01640710250-a3o.jpg?ts=1777383736727",
-   "https://static.bershka.net/assets/public/982a/1ad5/36c8465fbe72/1776a74c6fe8/01640710250-a4o/01640710250-a4o.jpg?ts=1775131144233",
-   "https://static.bershka.net/assets/public/d212/8e8e/e2a14ad0a1b5/91cf00a7b6ac/01640710250-b/01640710250-b.jpg?ts=1775131143626",
-   "https://static.bershka.net/assets/public/70be/5557/f2ee42ccbb4b/b91f99c3c8dc/01640710250-s/01640710250-s.jpg?ts=1775131143553",
-   "https://static.bershka.net/assets/public/a056/20c5/31b946dc96e5/1cf1e3da92ce/01640710250-r/01640710250-r.jpg?ts=1775131144358",
-   "https://static.bershka.net/assets/public/43af/738a/134a46508bac/70d8e25e4b90/01640710250-a7o/01640710250-a7o.jpg?ts=1777459815274"
-  ]
- },
- {
   "product_id": 226924393,
   "color_id": "726",
   "ref": "2764/692",
@@ -12476,40 +12674,6 @@
    "https://static.bershka.net/assets/public/5539/e55a/e49842b79ad7/472bc3038c37/01917692402-b/01917692402-b.jpg?ts=1771343392510",
    "https://static.bershka.net/assets/public/03c7/ebe5/77a449e399b8/88e66b72ba14/01917692402-r/01917692402-r.jpg?ts=1771343392914",
    "https://static.bershka.net/assets/public/213e/1d00/10e046adb8e9/aa1b22eb4428/01917692402-s/01917692402-s.jpg?ts=1771343392463"
-  ]
- },
- {
-  "product_id": 215101597,
-  "color_id": "400",
-  "ref": "1994/169",
-  "name": "Платье-баллон мини",
-  "section": "WOMEN",
-  "family": "DRESSES",
-  "subfamily": "DRESSES",
-  "color": "Синий",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/22a3/516f/3c04418a8933/69b24bc9a984/01994169400-p/01994169400-p.jpg?ts=1773765342587",
-  "images": [
-   "https://static.bershka.net/assets/public/22a3/516f/3c04418a8933/69b24bc9a984/01994169400-p/01994169400-p.jpg?ts=1773765342587",
-   "https://static.bershka.net/assets/public/402e/db6c/09124370aa1d/6305664135aa/01994169400-a1t/01994169400-a1t.jpg?ts=1773765351781",
-   "https://static.bershka.net/assets/public/01ff/d411/cc454d99991f/a99e18a94e2d/01994169400-a2d/01994169400-a2d.jpg?ts=1773765337898",
-   "https://static.bershka.net/assets/public/8d52/cc76/fc31464381a2/882892369eea/01994169400-a3o/01994169400-a3o.jpg?ts=1773765337775",
-   "https://static.bershka.net/assets/public/f182/c5b1/de3e434a9ffb/e648b4e6c4ab/01994169400-h1/master.m3u8?ts=1773921764520",
-   "https://static.bershka.net/assets/public/898a/9a29/b062448ea931/3085e4d9cfaf/01994169400-a4o/01994169400-a4o.jpg?ts=1773314250530",
-   "https://static.bershka.net/assets/public/eeea/3bd6/ee294f81ae40/b989e652eb01/01994169400-b/01994169400-b.jpg?ts=1773314249843",
-   "https://static.bershka.net/assets/public/4ed7/1f17/547049209ee1/25066cee75a8/01994169400-r/01994169400-r.jpg?ts=1773314250374",
-   "https://static.bershka.net/assets/public/722a/c940/d30e4a0bb26d/bbaf94f0a654/01994169400-s/01994169400-s.jpg?ts=1773314250468",
-   "https://static.bershka.net/assets/public/eb44/793e/417247e18c43/03e453be44e3/01994169400-a7o/01994169400-a7o.jpg?ts=1773845059462"
   ]
  },
  {
@@ -12784,7 +12948,7 @@
   "product_id": 211527760,
   "color_id": "800",
   "ref": "1758/187",
-  "name": "Платье мини с длинными рукавами и облегающей юбкой",
+  "name": "Мини-платье с вырезом «лодочка» и облегающей юбкой",
   "section": "WOMEN",
   "family": "DRESSES",
   "subfamily": "DRESSES",
@@ -20110,6 +20274,38 @@
   ]
  },
  {
+  "product_id": 209095138,
+  "color_id": "811",
+  "ref": "5009/225",
+  "name": "Джинсы с широкими штанинами и средней посадкой",
+  "section": "WOMEN",
+  "family": "TROUSERS",
+  "subfamily": "JEANS",
+  "color": "Серый",
+  "price_kzt": 24990.0,
+  "price_old_kzt": null,
+  "price_rub": 6290,
+  "price_old_rub": null,
+  "sizes": [
+   "32",
+   "34",
+   "36",
+   "38",
+   "40",
+   "42",
+   "44"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/b583/47c2/ab6f4bd9a58c/cde0f9899354/05009225811-p/05009225811-p.jpg?ts=1759326140372",
+  "images": [
+   "https://static.bershka.net/assets/public/b583/47c2/ab6f4bd9a58c/cde0f9899354/05009225811-p/05009225811-p.jpg?ts=1759326140372",
+   "https://static.bershka.net/assets/public/bc8f/84b6/84c5443b872a/3e3311f3d613/05009225811-a1t/05009225811-a1t.jpg?ts=1759326140085",
+   "https://static.bershka.net/assets/public/0cae/bcff/5e1a430787b4/fbffae53f0cf/05009225811-a2d/05009225811-a2d.jpg?ts=1759326140016",
+   "https://static.bershka.net/assets/public/4174/2c40/ed2b4d44af1e/96d8807996c7/05009225811-a4o/05009225811-a4o.jpg?ts=1734533722848",
+   "https://static.bershka.net/assets/public/7037/ac85/5a0c4b25b3d1/7ec47670f2ca/05009225811-r/05009225811-r.jpg?ts=1734533620152"
+  ]
+ },
+ {
   "product_id": 208274324,
   "color_id": "428",
   "ref": "0827/335",
@@ -20821,14 +21017,20 @@
   "sizes": [
    "32",
    "32",
+   "32",
+   "34",
    "34",
    "34",
    "36",
    "36",
+   "36",
+   "38",
    "38",
    "38",
    "40",
    "40",
+   "40",
+   "42",
    "42",
    "42"
   ],
@@ -22268,12 +22470,12 @@
    "44"
   ],
   "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/8a22/36de/88c64fb181e9/48610c0c3033/00065180426-p/00065180426-p.jpg?ts=1779964635272",
+  "image": "https://static.bershka.net/assets/public/bc07/ae0d/74a54f4abc9f/648fe9376647/00065180426-p/00065180426-p.jpg?ts=1780323035708",
   "images": [
-   "https://static.bershka.net/assets/public/8a22/36de/88c64fb181e9/48610c0c3033/00065180426-p/00065180426-p.jpg?ts=1779964635272",
-   "https://static.bershka.net/assets/public/1439/8c98/d26e4b929651/ceea658dded1/00065180426-a1t/00065180426-a1t.jpg?ts=1779964635449",
-   "https://static.bershka.net/assets/public/2e02/c2cc/087947e1b865/81f24f09ed6e/00065180426-a2d/00065180426-a2d.jpg?ts=1779964634824",
-   "https://static.bershka.net/assets/public/2e03/dfb4/af1b48f7964f/5d7434f2685f/00065180426-a3o/00065180426-a3o.jpg?ts=1779964634803",
+   "https://static.bershka.net/assets/public/bc07/ae0d/74a54f4abc9f/648fe9376647/00065180426-p/00065180426-p.jpg?ts=1780323035708",
+   "https://static.bershka.net/assets/public/a5c5/c4ba/b2dd4a91bbf1/10eabe7b24d2/00065180426-a1t/00065180426-a1t.jpg?ts=1780323034796",
+   "https://static.bershka.net/assets/public/7074/66fd/e369402f8294/8e1f0e7accf1/00065180426-a2d/00065180426-a2d.jpg?ts=1780323034219",
+   "https://static.bershka.net/assets/public/8d39/5bdd/34974898b403/02399d822497/00065180426-a3o/00065180426-a3o.jpg?ts=1780323035820",
    "https://static.bershka.net/assets/public/d456/b7e4/b46d45e5b827/d24db6e12869/00065180426-a4o/00065180426-a4o.jpg?ts=1765804817139",
    "https://static.bershka.net/assets/public/bfe6/5711/e8cf48e294ee/06a9d65b9e9f/00065180426-b/00065180426-b.jpg?ts=1765804817626",
    "https://static.bershka.net/assets/public/627a/963e/b4544e4eb52c/957d7dd57133/00065180426-r/00065180426-r.jpg?ts=1765804817680",
@@ -22550,74 +22752,68 @@
   ]
  },
  {
-  "product_id": 218089168,
-  "color_id": "251",
-  "ref": "2113/309",
-  "name": "Футболка с короткими рукавами и контрастным принтом Paul Frank",
+  "product_id": 210668182,
+  "color_id": "812",
+  "ref": "1545/326",
+  "name": "Полосатый свитер с капюшоном и V-образным вырезом",
+  "section": "WOMEN",
+  "family": "KNITWEAR",
+  "subfamily": "KNITWEAR",
+  "color": "Серый",
+  "price_kzt": 17990.0,
+  "price_old_kzt": null,
+  "price_rub": 4590,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/e062/f6a6/5a6c4f18a6a8/5d9dd3625cd2/01545326812-p1/01545326812-p1.jpg?ts=1770987652110",
+  "images": [
+   "https://static.bershka.net/assets/public/e062/f6a6/5a6c4f18a6a8/5d9dd3625cd2/01545326812-p1/01545326812-p1.jpg?ts=1770987652110",
+   "https://static.bershka.net/assets/public/d1f7/5ab1/4cfd4ab59743/0fb8e68e3759/01545326812-a1t/01545326812-a1t.jpg?ts=1770987651607",
+   "https://static.bershka.net/assets/public/5e7e/fa99/923d44b185d7/761bb0b1599a/01545326812-a2d/01545326812-a2d.jpg?ts=1770987651846",
+   "https://static.bershka.net/assets/public/501d/9f09/a0484da3bb1a/58238c744e12/01545326812-a3o/01545326812-a3o.jpg?ts=1770987651570",
+   "https://static.bershka.net/assets/public/76ca/1069/d8bd4e2ba014/1eaf6a263290/01545326812-a4o/01545326812-a4o.jpg?ts=1769432434175",
+   "https://static.bershka.net/assets/public/38a4/7bdc/2b1d4f2fbca5/1c556cc15ec0/01545326812-b/01545326812-b.jpg?ts=1769432433155",
+   "https://static.bershka.net/assets/public/e238/9bb9/fea743ca9a11/b601e03b3475/01545326812-r/01545326812-r.jpg?ts=1769432433184",
+   "https://static.bershka.net/assets/public/74bb/3301/e9804656bc1c/4c7bc301587b/01545326812-s/01545326812-s.jpg?ts=1769432433488"
+  ]
+ },
+ {
+  "product_id": 210655613,
+  "color_id": "800",
+  "ref": "1399/173",
+  "name": "Асимметричный лонгслив из полупрозрачной ткани",
   "section": "WOMEN",
   "family": "T-SHIRTS",
   "subfamily": "T-SHIRTS",
-  "color": "Белый",
+  "color": "Черный",
   "price_kzt": 12990.0,
   "price_old_kzt": null,
   "price_rub": 3590,
   "price_old_rub": null,
   "sizes": [
    "XS",
-   "XS",
-   "S",
-   "S",
-   "M",
-   "M",
-   "L",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/a12f/8fa2/24f349f0945d/6d0e3927487c/02113309251-a4o/02113309251-a4o.jpg?ts=1774949768216",
-  "images": [
-   "https://static.bershka.net/assets/public/a12f/8fa2/24f349f0945d/6d0e3927487c/02113309251-a4o/02113309251-a4o.jpg?ts=1774949768216",
-   "https://static.bershka.net/assets/public/003b/b5b5/77ac4e8fbe6c/8788282488d1/02113309251-b/02113309251-b.jpg?ts=1774949766353",
-   "https://static.bershka.net/assets/public/dbad/7490/45ab4c29b902/83dbaddd85fc/02113309251-r/02113309251-r.jpg?ts=1774949766052",
-   "https://static.bershka.net/assets/public/39f1/1226/92dd48299d1a/e336b4732009/02113309251-s/02113309251-s.jpg?ts=1774949766089",
-   "https://static.bershka.net/assets/public/9cf3/7ff8/9a714596b016/53edf3a6c845/02113309251-03-p/02113309251-03-p.jpg?ts=1775049070658",
-   "https://static.bershka.net/assets/public/133d/0f26/f0964c23aa19/992999bd3bd8/02113309251-03-a1t/02113309251-03-a1t.jpg?ts=1775049070553",
-   "https://static.bershka.net/assets/public/8e09/0970/90ae46a59731/b177de7c6996/02113309251-03-a2d/02113309251-03-a2d.jpg?ts=1775049070244",
-   "https://static.bershka.net/assets/public/4bdb/4066/daf24738a957/896c03bde592/02113309251-03-a3o/02113309251-03-a3o.jpg?ts=1775049069472"
-  ]
- },
- {
-  "product_id": 209096904,
-  "color_id": "812",
-  "ref": "7803/443",
-  "name": "Кружевная футболка с длинными рукавами",
-  "section": "WOMEN",
-  "family": "T-SHIRTS",
-  "subfamily": "T-SHIRTS",
-  "color": "Серый",
-  "price_kzt": 9990.0,
-  "price_old_kzt": null,
-  "price_rub": 2390,
-  "price_old_rub": null,
-  "sizes": [
-   "XXS",
-   "XS",
    "S",
    "M",
    "L"
   ],
   "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/3c26/1c39/ad8a4a168877/1e2fd810dee9/07803443812-p/07803443812-p.jpg?ts=1757403866775",
+  "image": "https://static.bershka.net/assets/public/b76a/8ffd/d5eb4889a02c/43fe8941e41f/01399173800-p/01399173800-p.jpg?ts=1769593205586",
   "images": [
-   "https://static.bershka.net/assets/public/3c26/1c39/ad8a4a168877/1e2fd810dee9/07803443812-p/07803443812-p.jpg?ts=1757403866775",
-   "https://static.bershka.net/assets/public/f59a/6c98/77af4ad097f2/b418134f504a/07803443812-a2d/07803443812-a2d.jpg?ts=1757403867729",
-   "https://static.bershka.net/assets/public/9095/d74f/e8f1483b9b06/6bad6a02ff04/07803443812-a1t/07803443812-a1t.jpg?ts=1757403867178",
-   "https://static.bershka.net/assets/public/2320/8d56/0e514404862d/5e2833536baa/07803443812-a4o/07803443812-a4o.jpg?ts=1755503639713",
-   "https://static.bershka.net/assets/public/e904/28f7/31dc456bae20/e43735182ddd/07803443812-b/07803443812-b.jpg?ts=1755503642396",
-   "https://static.bershka.net/assets/public/7756/67e1/94c4493f95aa/a5ffa36803cd/07803443812-a10t/07803443812-a10t.jpg?ts=1755503640469",
-   "https://static.bershka.net/assets/public/0c04/e996/ae0e43639913/cb61c0a9f5d7/07803443812-c/07803443812-c.jpg?ts=1755503645798",
-   "https://static.bershka.net/assets/public/fda6/6735/89f746baa839/5de49108112e/07803443812-a11d/07803443812-a11d.jpg?ts=1755503641350",
-   "https://static.bershka.net/assets/public/bea3/0f72/38554ea18371/294c0c5b467d/07803443812-r/07803443812-r.jpg?ts=1753106953371",
-   "https://static.bershka.net/assets/public/5abf/ecf0/884444a299c7/176fa735086a/07803443812-s/07803443812-s.jpg?ts=1753106953404"
+   "https://static.bershka.net/assets/public/b76a/8ffd/d5eb4889a02c/43fe8941e41f/01399173800-p/01399173800-p.jpg?ts=1769593205586",
+   "https://static.bershka.net/assets/public/287d/7a8b/7e094a3a9be8/88c2359e3319/01399173800-a1t/01399173800-a1t.jpg?ts=1769593205692",
+   "https://static.bershka.net/assets/public/7ac3/2c33/3a3744c882cb/2b56965189ca/01399173800-a2d/01399173800-a2d.jpg?ts=1769593206846",
+   "https://static.bershka.net/assets/public/4eb0/b33a/88424e09a8a4/bf0978c450d2/01399173800-a3o/01399173800-a3o.jpg?ts=1769593205958",
+   "https://static.bershka.net/assets/public/823a/125f/8b514e55b98d/9a108b9284f4/01399360800-a4o/01399360800-a4o.jpg?ts=1769185574806",
+   "https://static.bershka.net/assets/public/fecf/6354/7aca4229aed6/ccd674eee9d1/01399360800-b/01399360800-b.jpg?ts=1769185575066",
+   "https://static.bershka.net/assets/public/8a09/becf/519342b0a91d/aef89a81fb4d/01399360800-r/01399360800-r.jpg?ts=1769185574840",
+   "https://static.bershka.net/assets/public/bc6e/eff1/3bcc49ef905e/2017ed8bd3ee/01399360800-s/01399360800-s.jpg?ts=1769185574584",
+   "https://static.bershka.net/assets/public/aa4e/e97b/5b9d40339df0/53fa56041267/01399173800-a7o/01399173800-a7o.jpg?ts=1769687331144"
   ]
  },
  {
@@ -23460,7 +23656,7 @@
   "product_id": 226922627,
   "color_id": "400",
   "ref": "2983/167",
-  "name": "",
+  "name": "Футболка с принтом Toy Story",
   "section": "WOMEN",
   "family": "T-SHIRTS",
   "subfamily": "T-SHIRTS",
@@ -23601,39 +23797,6 @@
    "https://static.bershka.net/assets/public/0d02/c394/95de451b8dd6/cd4d074435d5/00988033300-b/00988033300-b.jpg?ts=1763120081677",
    "https://static.bershka.net/assets/public/140c/1d34/b5df48909360/a17cd2f6267b/00988033300-r/00988033300-r.jpg?ts=1763120081424",
    "https://static.bershka.net/assets/public/2520/b8fc/d3c5479ab1d1/d22a64db0b99/00988033300-s/00988033300-s.jpg?ts=1763120081548"
-  ]
- },
- {
-  "product_id": 210655613,
-  "color_id": "800",
-  "ref": "1399/173",
-  "name": "Асимметричный лонгслив из полупрозрачной ткани",
-  "section": "WOMEN",
-  "family": "T-SHIRTS",
-  "subfamily": "T-SHIRTS",
-  "color": "Черный",
-  "price_kzt": 12990.0,
-  "price_old_kzt": null,
-  "price_rub": 3590,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/b76a/8ffd/d5eb4889a02c/43fe8941e41f/01399173800-p/01399173800-p.jpg?ts=1769593205586",
-  "images": [
-   "https://static.bershka.net/assets/public/b76a/8ffd/d5eb4889a02c/43fe8941e41f/01399173800-p/01399173800-p.jpg?ts=1769593205586",
-   "https://static.bershka.net/assets/public/287d/7a8b/7e094a3a9be8/88c2359e3319/01399173800-a1t/01399173800-a1t.jpg?ts=1769593205692",
-   "https://static.bershka.net/assets/public/7ac3/2c33/3a3744c882cb/2b56965189ca/01399173800-a2d/01399173800-a2d.jpg?ts=1769593206846",
-   "https://static.bershka.net/assets/public/4eb0/b33a/88424e09a8a4/bf0978c450d2/01399173800-a3o/01399173800-a3o.jpg?ts=1769593205958",
-   "https://static.bershka.net/assets/public/823a/125f/8b514e55b98d/9a108b9284f4/01399360800-a4o/01399360800-a4o.jpg?ts=1769185574806",
-   "https://static.bershka.net/assets/public/fecf/6354/7aca4229aed6/ccd674eee9d1/01399360800-b/01399360800-b.jpg?ts=1769185575066",
-   "https://static.bershka.net/assets/public/8a09/becf/519342b0a91d/aef89a81fb4d/01399360800-r/01399360800-r.jpg?ts=1769185574840",
-   "https://static.bershka.net/assets/public/bc6e/eff1/3bcc49ef905e/2017ed8bd3ee/01399360800-s/01399360800-s.jpg?ts=1769185574584",
-   "https://static.bershka.net/assets/public/aa4e/e97b/5b9d40339df0/53fa56041267/01399173800-a7o/01399173800-a7o.jpg?ts=1769687331144"
   ]
  },
  {
@@ -24309,6 +24472,42 @@
    "https://static.bershka.net/assets/public/f00d/d504/6f1d4a9594f9/ff0a7630887a/01030134812-s/01030134812-s.jpg?ts=1767963202014",
    "https://static.bershka.net/assets/public/94b1/c32c/0533472797a1/f90734b799ca/01030134812-01-a7o/01030134812-01-a7o.jpg?ts=1769703820412",
    "https://static.bershka.net/assets/public/cfec/4bbe/326c4dbaada6/429af5bea28b/01030134812-02-h3/master.m3u8?ts=1769700847783"
+  ]
+ },
+ {
+  "product_id": 218089168,
+  "color_id": "251",
+  "ref": "2113/309",
+  "name": "Футболка с короткими рукавами и контрастным принтом Paul Frank",
+  "section": "WOMEN",
+  "family": "T-SHIRTS",
+  "subfamily": "T-SHIRTS",
+  "color": "Белый",
+  "price_kzt": 12990.0,
+  "price_old_kzt": null,
+  "price_rub": 3590,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "XS",
+   "S",
+   "S",
+   "M",
+   "M",
+   "L",
+   "L"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/a12f/8fa2/24f349f0945d/6d0e3927487c/02113309251-a4o/02113309251-a4o.jpg?ts=1774949768216",
+  "images": [
+   "https://static.bershka.net/assets/public/a12f/8fa2/24f349f0945d/6d0e3927487c/02113309251-a4o/02113309251-a4o.jpg?ts=1774949768216",
+   "https://static.bershka.net/assets/public/003b/b5b5/77ac4e8fbe6c/8788282488d1/02113309251-b/02113309251-b.jpg?ts=1774949766353",
+   "https://static.bershka.net/assets/public/dbad/7490/45ab4c29b902/83dbaddd85fc/02113309251-r/02113309251-r.jpg?ts=1774949766052",
+   "https://static.bershka.net/assets/public/39f1/1226/92dd48299d1a/e336b4732009/02113309251-s/02113309251-s.jpg?ts=1774949766089",
+   "https://static.bershka.net/assets/public/9cf3/7ff8/9a714596b016/53edf3a6c845/02113309251-03-p/02113309251-03-p.jpg?ts=1775049070658",
+   "https://static.bershka.net/assets/public/133d/0f26/f0964c23aa19/992999bd3bd8/02113309251-03-a1t/02113309251-03-a1t.jpg?ts=1775049070553",
+   "https://static.bershka.net/assets/public/8e09/0970/90ae46a59731/b177de7c6996/02113309251-03-a2d/02113309251-03-a2d.jpg?ts=1775049070244",
+   "https://static.bershka.net/assets/public/4bdb/4066/daf24738a957/896c03bde592/02113309251-03-a3o/02113309251-03-a3o.jpg?ts=1775049069472"
   ]
  },
  {
@@ -25396,6 +25595,41 @@
   ]
  },
  {
+  "product_id": 209096904,
+  "color_id": "812",
+  "ref": "7803/443",
+  "name": "Кружевная футболка с длинными рукавами",
+  "section": "WOMEN",
+  "family": "T-SHIRTS",
+  "subfamily": "T-SHIRTS",
+  "color": "Серый",
+  "price_kzt": 9990.0,
+  "price_old_kzt": null,
+  "price_rub": 2390,
+  "price_old_rub": null,
+  "sizes": [
+   "XXS",
+   "XS",
+   "S",
+   "M",
+   "L"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/3c26/1c39/ad8a4a168877/1e2fd810dee9/07803443812-p/07803443812-p.jpg?ts=1757403866775",
+  "images": [
+   "https://static.bershka.net/assets/public/3c26/1c39/ad8a4a168877/1e2fd810dee9/07803443812-p/07803443812-p.jpg?ts=1757403866775",
+   "https://static.bershka.net/assets/public/f59a/6c98/77af4ad097f2/b418134f504a/07803443812-a2d/07803443812-a2d.jpg?ts=1757403867729",
+   "https://static.bershka.net/assets/public/9095/d74f/e8f1483b9b06/6bad6a02ff04/07803443812-a1t/07803443812-a1t.jpg?ts=1757403867178",
+   "https://static.bershka.net/assets/public/2320/8d56/0e514404862d/5e2833536baa/07803443812-a4o/07803443812-a4o.jpg?ts=1755503639713",
+   "https://static.bershka.net/assets/public/e904/28f7/31dc456bae20/e43735182ddd/07803443812-b/07803443812-b.jpg?ts=1755503642396",
+   "https://static.bershka.net/assets/public/7756/67e1/94c4493f95aa/a5ffa36803cd/07803443812-a10t/07803443812-a10t.jpg?ts=1755503640469",
+   "https://static.bershka.net/assets/public/0c04/e996/ae0e43639913/cb61c0a9f5d7/07803443812-c/07803443812-c.jpg?ts=1755503645798",
+   "https://static.bershka.net/assets/public/fda6/6735/89f746baa839/5de49108112e/07803443812-a11d/07803443812-a11d.jpg?ts=1755503641350",
+   "https://static.bershka.net/assets/public/bea3/0f72/38554ea18371/294c0c5b467d/07803443812-r/07803443812-r.jpg?ts=1753106953371",
+   "https://static.bershka.net/assets/public/5abf/ecf0/884444a299c7/176fa735086a/07803443812-s/07803443812-s.jpg?ts=1753106953404"
+  ]
+ },
+ {
   "product_id": 209098112,
   "color_id": "700",
   "ref": "7547/443",
@@ -26016,38 +26250,6 @@
    "https://static.bershka.net/assets/public/35e8/dcf2/e5204aa48f65/65b37024683a/01850443251-r/01850443251-r.jpg?ts=1774873758939",
    "https://static.bershka.net/assets/public/aa56/ca1a/783b4d33accf/ea3b3c3c7552/01850443251-s/01850443251-s.jpg?ts=1774873758680",
    "https://static.bershka.net/assets/public/f636/2648/49b8466dad59/bc6a1ce1327e/01850443251-01-a7o/01850443251-01-a7o.jpg?ts=1776426694254"
-  ]
- },
- {
-  "product_id": 210668182,
-  "color_id": "812",
-  "ref": "1545/326",
-  "name": "Полосатый свитер с капюшоном и V-образным вырезом",
-  "section": "WOMEN",
-  "family": "KNITWEAR",
-  "subfamily": "KNITWEAR",
-  "color": "Серый",
-  "price_kzt": 17990.0,
-  "price_old_kzt": null,
-  "price_rub": 4590,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/e062/f6a6/5a6c4f18a6a8/5d9dd3625cd2/01545326812-p1/01545326812-p1.jpg?ts=1770987652110",
-  "images": [
-   "https://static.bershka.net/assets/public/e062/f6a6/5a6c4f18a6a8/5d9dd3625cd2/01545326812-p1/01545326812-p1.jpg?ts=1770987652110",
-   "https://static.bershka.net/assets/public/d1f7/5ab1/4cfd4ab59743/0fb8e68e3759/01545326812-a1t/01545326812-a1t.jpg?ts=1770987651607",
-   "https://static.bershka.net/assets/public/5e7e/fa99/923d44b185d7/761bb0b1599a/01545326812-a2d/01545326812-a2d.jpg?ts=1770987651846",
-   "https://static.bershka.net/assets/public/501d/9f09/a0484da3bb1a/58238c744e12/01545326812-a3o/01545326812-a3o.jpg?ts=1770987651570",
-   "https://static.bershka.net/assets/public/76ca/1069/d8bd4e2ba014/1eaf6a263290/01545326812-a4o/01545326812-a4o.jpg?ts=1769432434175",
-   "https://static.bershka.net/assets/public/38a4/7bdc/2b1d4f2fbca5/1c556cc15ec0/01545326812-b/01545326812-b.jpg?ts=1769432433155",
-   "https://static.bershka.net/assets/public/e238/9bb9/fea743ca9a11/b601e03b3475/01545326812-r/01545326812-r.jpg?ts=1769432433184",
-   "https://static.bershka.net/assets/public/74bb/3301/e9804656bc1c/4c7bc301587b/01545326812-s/01545326812-s.jpg?ts=1769432433488"
   ]
  },
  {
@@ -28140,40 +28342,6 @@
   ]
  },
  {
-  "product_id": 208547169,
-  "color_id": "400",
-  "ref": "0837/156",
-  "name": "Джинсовый топ из рельефной ткани",
-  "section": "WOMEN",
-  "family": "TOPS",
-  "subfamily": "DENIM TOPS",
-  "color": "Синий",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/62ea/17a9/c2f74e5e8532/cd40141cf7e2/00837156400-p1/00837156400-p1.jpg?ts=1773393203168",
-  "images": [
-   "https://static.bershka.net/assets/public/62ea/17a9/c2f74e5e8532/cd40141cf7e2/00837156400-p1/00837156400-p1.jpg?ts=1773393203168",
-   "https://static.bershka.net/assets/public/b2ce/dc1f/3f434dd0b4b9/27b79690a406/00837156400-a1t/00837156400-a1t.jpg?ts=1773393203224",
-   "https://static.bershka.net/assets/public/56d3/d8d9/538f4161a999/7784942bdda2/00837156400-a4o/00837156400-a4o.jpg?ts=1769185577911",
-   "https://static.bershka.net/assets/public/5a6c/70d7/520a4328b522/4e1528df71ca/00837156400-b/00837156400-b.jpg?ts=1769185577677",
-   "https://static.bershka.net/assets/public/9b33/1060/33634b258340/1e373d1a9249/00837156400-r/00837156400-r.jpg?ts=1769185577991",
-   "https://static.bershka.net/assets/public/5d5d/cbc6/bc514fea8287/33edf84a1db2/00837156400-s/00837156400-s.jpg?ts=1769185578604",
-   "https://static.bershka.net/assets/public/5ddb/256f/14524638914c/c03e2dd73ad1/00837156400-a3o/00837156400-a3o.jpg?ts=1770281137151",
-   "https://static.bershka.net/assets/public/a85f/9a79/a354442b9896/dfb65e1f1e35/00837156400-a2d/00837156400-a2d.jpg?ts=1770281138963",
-   "https://static.bershka.net/assets/public/d0c2/fcfb/495e4213b0ed/0830c2fe8911/00837156400-e/00837156400-e.jpg?ts=1770283735040",
-   "https://static.bershka.net/assets/public/5c4d/d250/2e184b6d96cf/36542ca4f377/00837156400-07-a7o/00837156400-07-a7o.jpg?ts=1770221434700"
-  ]
- },
- {
   "product_id": 210357143,
   "color_id": "700",
   "ref": "1729/693",
@@ -28719,7 +28887,11 @@
    "https://static.bershka.net/assets/public/d3e2/ec31/4e774a2fa855/3c127312a38e/01708376605-a4o/01708376605-a4o.jpg?ts=1776689600488",
    "https://static.bershka.net/assets/public/8db7/701e/9ede408fa1c4/eeb14e6ed84d/01708376605-b/01708376605-b.jpg?ts=1776689600091",
    "https://static.bershka.net/assets/public/06c1/50af/b3424a0ca61b/496df19e4b5d/01708376605-r/01708376605-r.jpg?ts=1776689599500",
-   "https://static.bershka.net/assets/public/eda7/04d6/213742eaaa32/f17afc79830e/01708376605-s/01708376605-s.jpg?ts=1776689601063"
+   "https://static.bershka.net/assets/public/eda7/04d6/213742eaaa32/f17afc79830e/01708376605-s/01708376605-s.jpg?ts=1776689601063",
+   "https://static.bershka.net/assets/public/28e8/55c8/21e44c14ac81/754527d7442f/0170837660520-p/0170837660520-p.jpg?ts=1780311405433",
+   "https://static.bershka.net/assets/public/17ae/7656/aca14dc4a937/e054be9512c2/0170837660520-a1t/0170837660520-a1t.jpg?ts=1780311400916",
+   "https://static.bershka.net/assets/public/8346/14b1/0515448db161/a7a05175e43b/0170837660520-a2d/0170837660520-a2d.jpg?ts=1780311406297",
+   "https://static.bershka.net/assets/public/dc57/c2d8/29524fd48cb8/9c9514c09c02/0170837660520-a3o/0170837660520-a3o.jpg?ts=1780311405239"
   ]
  },
  {
@@ -29912,40 +30084,6 @@
    "https://static.bershka.net/assets/public/4074/4c34/ac704e86a612/4c9571afe820/01641710250-b/01641710250-b.jpg?ts=1774873678853",
    "https://static.bershka.net/assets/public/2f65/7b5f/bcc6456b8bd0/58118da7628b/01641710250-r/01641710250-r.jpg?ts=1774873678975",
    "https://static.bershka.net/assets/public/60f9/01ef/16bc4a26916d/b9b42eb226ba/01641710250-s/01641710250-s.jpg?ts=1774873679485"
-  ]
- },
- {
-  "product_id": 206765885,
-  "color_id": "712",
-  "ref": "1260/187",
-  "name": "Топ из полупрозрачной ткани с узлами",
-  "section": "WOMEN",
-  "family": "TOPS",
-  "subfamily": "TOPS",
-  "color": "Бежевый",
-  "price_kzt": 15990.0,
-  "price_old_kzt": null,
-  "price_rub": 4080,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/bb86/23aa/d2e04153868f/5fdc7f0e34b6/01260187712-p/01260187712-p.jpg?ts=1769510692178",
-  "images": [
-   "https://static.bershka.net/assets/public/bb86/23aa/d2e04153868f/5fdc7f0e34b6/01260187712-p/01260187712-p.jpg?ts=1769510692178",
-   "https://static.bershka.net/assets/public/1c33/045b/8fe749dfa8ec/b55df5263b93/01260187712-a1t/01260187712-a1t.jpg?ts=1769510692365",
-   "https://static.bershka.net/assets/public/a594/48f8/e8504f9898b9/ee2b85b47c90/01260187712-a2d/01260187712-a2d.jpg?ts=1769510692735",
-   "https://static.bershka.net/assets/public/d40b/6343/06ac4dacbb5f/f67e3e85b96e/01260187712-a3o/01260187712-a3o.jpg?ts=1769510692517",
-   "https://static.bershka.net/assets/public/a895/4c36/346c4dc28b44/64389e828a2a/01260187712-h1/master.m3u8?ts=1769683495320",
-   "https://static.bershka.net/assets/public/4e50/3990/61254b04a162/51af42a75243/01260187712-a4o/01260187712-a4o.jpg?ts=1768905809880",
-   "https://static.bershka.net/assets/public/f32b/9867/263e4b07bcfa/5ccf3a4a4ed5/01260187712-b/01260187712-b.jpg?ts=1768905810014",
-   "https://static.bershka.net/assets/public/6067/3dc5/de4f4a9e9b32/57f404e53b9f/01260187712-s/01260187712-s.jpg?ts=1768905809307",
-   "https://static.bershka.net/assets/public/d509/bfdd/a7bf4581a331/5751085d0092/01260187712-r/01260187712-r.jpg?ts=1768905809305",
-   "https://static.bershka.net/assets/public/7ff4/b13f/7a164e2baa29/95a63b045ea4/01260187712-a7o/01260187712-a7o.jpg?ts=1769687282954"
   ]
  },
  {
@@ -34251,6 +34389,42 @@
   ]
  },
  {
+  "product_id": 226927719,
+  "color_id": "812",
+  "ref": "2641/700",
+  "name": "Толстовка с капюшоном и молнией",
+  "section": "WOMEN",
+  "family": "KNITWEAR",
+  "subfamily": "SWEATSHIRTS",
+  "color": "Серый",
+  "price_kzt": 17990.0,
+  "price_old_kzt": null,
+  "price_rub": 4590,
+  "price_old_rub": null,
+  "sizes": [
+   "XXS",
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/850f/07e9/31ad4f7095b6/506336292a36/02641700812-p/02641700812-p.jpg?ts=1779878824539",
+  "images": [
+   "https://static.bershka.net/assets/public/850f/07e9/31ad4f7095b6/506336292a36/02641700812-p/02641700812-p.jpg?ts=1779878824539",
+   "https://static.bershka.net/assets/public/10b9/5f30/ae3b43f1a932/49c65847699d/02641700812-a1t/02641700812-a1t.jpg?ts=1779878824831",
+   "https://static.bershka.net/assets/public/5362/bdc0/998e484a9b35/6ce39321f1c8/02641700812-a2d/02641700812-a2d.jpg?ts=1779878824402",
+   "https://static.bershka.net/assets/public/9f33/b0d9/a4d5498080f2/b0a5101b12b3/02641700812-a3o/02641700812-a3o.jpg?ts=1779878824844",
+   "https://static.bershka.net/assets/public/1415/eae8/596c49e9b9c9/6b404fd098cb/02641700812-h1/master.m3u8?ts=1779973363155",
+   "https://static.bershka.net/assets/public/c5a8/ee21/15084a08ba80/658cc91d1d1d/02641700812-a4o/02641700812-a4o.jpg?ts=1779809190577",
+   "https://static.bershka.net/assets/public/123e/b354/1eac47ca8582/31608b7c3ce2/02641700812-b/02641700812-b.jpg?ts=1779809190358",
+   "https://static.bershka.net/assets/public/4fb7/889a/5a234d3ea341/9320522e41a5/02641700812-h2/master.m3u8?ts=1779961215636",
+   "https://static.bershka.net/assets/public/50bd/ff10/75b44c4e896d/4b26db0637ae/02641700812-r/02641700812-r.jpg?ts=1779809190415",
+   "https://static.bershka.net/assets/public/99c5/a547/ec8f45c3913d/a7f9e91f2616/02641700812-s/02641700812-s.jpg?ts=1779809190642"
+  ]
+ },
+ {
   "product_id": 211489904,
   "color_id": "477",
   "ref": "1534/033",
@@ -34621,44 +34795,6 @@
   ]
  },
  {
-  "product_id": 209093179,
-  "color_id": "818",
-  "ref": "1820/727",
-  "name": "Худи из мягкого модала с молнией и капюшоном",
-  "section": "WOMEN",
-  "family": "KNITWEAR",
-  "subfamily": "SWEATSHIRTS",
-  "color": "Серый",
-  "price_kzt": 15990.0,
-  "price_old_kzt": null,
-  "price_rub": 4080,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "XS",
-   "S",
-   "S",
-   "M",
-   "M",
-   "L",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/bb43/c174/ae2940308439/42dfa3254905/01820727818-p/01820727818-p.jpg?ts=1754473967939",
-  "images": [
-   "https://static.bershka.net/assets/public/bb43/c174/ae2940308439/42dfa3254905/01820727818-p/01820727818-p.jpg?ts=1754473967939",
-   "https://static.bershka.net/assets/public/c42c/81d3/85904dde878b/d5cfe1b7511c/01820727818-a1t/01820727818-a1t.jpg?ts=1754307714869",
-   "https://static.bershka.net/assets/public/dcde/13e6/dc834e8f8139/6947700e23fe/01820727818-a2d/01820727818-a2d.jpg?ts=1754307714968",
-   "https://static.bershka.net/assets/public/21d9/6e15/1f9a4b79a9c4/a17c9e062090/01820727818-h1/master.m3u8?ts=1754638205144",
-   "https://static.bershka.net/assets/public/68a8/1f3c/854f49cc94c1/740c13b22133/01820727818-a4o/01820727818-a4o.jpg?ts=1754320200908",
-   "https://static.bershka.net/assets/public/a317/7c51/ce30446ab8fd/901a8260571f/01820727818-b/01820727818-b.jpg?ts=1754320199961",
-   "https://static.bershka.net/assets/public/165b/72af/4a5e4da2a8b8/0778ab0626dc/01820727818-a7o/01820727818-a7o.jpg?ts=1754573979252",
-   "https://static.bershka.net/assets/public/2310/ee5a/6ed14f3b84e5/328a5b0e1628/01820727818-r/01820727818-r.jpg?ts=1754320199850",
-   "https://static.bershka.net/assets/public/c640/28e7/f0024c77a3e4/af8fae630604/01820727818-s/01820727818-s.jpg?ts=1754320200180",
-   "https://static.bershka.net/assets/public/79d1/bc30/dd0f48cc994d/2076cf7f56a7/01820727818-28-a3o/01820727818-28-a3o.jpg?ts=1765984204235"
-  ]
- },
- {
   "product_id": 226924245,
   "color_id": "251",
   "ref": "2417/071",
@@ -34823,6 +34959,39 @@
    "https://static.bershka.net/assets/public/a1f6/0377/eadb43f3bc29/b6504f0f2f71/01741700902-b/01741700902-b.jpg?ts=1771928980172",
    "https://static.bershka.net/assets/public/23bd/a7ad/880e4df58b47/43d3332a1314/01741700902-s/01741700902-s.jpg?ts=1771928978742",
    "https://static.bershka.net/assets/public/4133/5f76/e57d48148dfc/25c5a92f4d7f/01741700902-r/01741700902-r.jpg?ts=1771928980241"
+  ]
+ },
+ {
+  "product_id": 209093179,
+  "color_id": "600",
+  "ref": "1820/727",
+  "name": "Худи из мягкого модала с молнией и капюшоном",
+  "section": "WOMEN",
+  "family": "KNITWEAR",
+  "subfamily": "SWEATSHIRTS",
+  "color": "Красный",
+  "price_kzt": 15990.0,
+  "price_old_kzt": null,
+  "price_rub": 4080,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/db56/6ddd/257e44bf9fbb/a0263f1f0c2f/01820741600-p/01820741600-p.jpg?ts=1770306342377",
+  "images": [
+   "https://static.bershka.net/assets/public/db56/6ddd/257e44bf9fbb/a0263f1f0c2f/01820741600-p/01820741600-p.jpg?ts=1770306342377",
+   "https://static.bershka.net/assets/public/5fe0/98cd/8cab40538a30/aaa18167f384/01820741600-a1t/01820741600-a1t.jpg?ts=1770306342171",
+   "https://static.bershka.net/assets/public/34d8/d74a/b09847c3a238/6deb8d79176d/01820741600-a2d/01820741600-a2d.jpg?ts=1770306343286",
+   "https://static.bershka.net/assets/public/c318/fc6a/04ea4b14b648/4641fa995307/01820741600-a3o/01820741600-a3o.jpg?ts=1770306342178",
+   "https://static.bershka.net/assets/public/15a5/77ec/993d40a78f76/ca03add1c241/01820741600-a4o/01820741600-a4o.jpg?ts=1768378409987",
+   "https://static.bershka.net/assets/public/b376/e5f1/8f2e47c19f2e/7cc02d4cf979/01820741600-b/01820741600-b.jpg?ts=1768378409783",
+   "https://static.bershka.net/assets/public/1dec/f7f9/48cd4bbb8ef0/7bc708e28b69/01820741600-r/01820741600-r.jpg?ts=1768378409851",
+   "https://static.bershka.net/assets/public/24b7/94c7/d4cc46a583db/f9a088932860/01820741600-s/01820741600-s.jpg?ts=1768378409889",
+   "https://static.bershka.net/assets/public/1578/90e1/1797454cbe59/9a9c48b30820/01820727600-01-a7o/01820727600-01-a7o.jpg?ts=1771511063509"
   ]
  },
  {
@@ -35534,39 +35703,6 @@
   ]
  },
  {
-  "product_id": 209093179,
-  "color_id": "600",
-  "ref": "1820/727",
-  "name": "Худи из мягкого модала с молнией и капюшоном",
-  "section": "WOMEN",
-  "family": "KNITWEAR",
-  "subfamily": "SWEATSHIRTS",
-  "color": "Красный",
-  "price_kzt": 15990.0,
-  "price_old_kzt": null,
-  "price_rub": 4080,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/db56/6ddd/257e44bf9fbb/a0263f1f0c2f/01820741600-p/01820741600-p.jpg?ts=1770306342377",
-  "images": [
-   "https://static.bershka.net/assets/public/db56/6ddd/257e44bf9fbb/a0263f1f0c2f/01820741600-p/01820741600-p.jpg?ts=1770306342377",
-   "https://static.bershka.net/assets/public/5fe0/98cd/8cab40538a30/aaa18167f384/01820741600-a1t/01820741600-a1t.jpg?ts=1770306342171",
-   "https://static.bershka.net/assets/public/34d8/d74a/b09847c3a238/6deb8d79176d/01820741600-a2d/01820741600-a2d.jpg?ts=1770306343286",
-   "https://static.bershka.net/assets/public/c318/fc6a/04ea4b14b648/4641fa995307/01820741600-a3o/01820741600-a3o.jpg?ts=1770306342178",
-   "https://static.bershka.net/assets/public/15a5/77ec/993d40a78f76/ca03add1c241/01820741600-a4o/01820741600-a4o.jpg?ts=1768378409987",
-   "https://static.bershka.net/assets/public/b376/e5f1/8f2e47c19f2e/7cc02d4cf979/01820741600-b/01820741600-b.jpg?ts=1768378409783",
-   "https://static.bershka.net/assets/public/1dec/f7f9/48cd4bbb8ef0/7bc708e28b69/01820741600-r/01820741600-r.jpg?ts=1768378409851",
-   "https://static.bershka.net/assets/public/24b7/94c7/d4cc46a583db/f9a088932860/01820741600-s/01820741600-s.jpg?ts=1768378409889",
-   "https://static.bershka.net/assets/public/1578/90e1/1797454cbe59/9a9c48b30820/01820727600-01-a7o/01820727600-01-a7o.jpg?ts=1771511063509"
-  ]
- },
- {
   "product_id": 212501650,
   "color_id": "512",
   "ref": "1826/187",
@@ -35775,6 +35911,46 @@
    "https://static.bershka.net/assets/public/062e/805d/b72c40b1a198/1b24ccaad831/01820727605-b/01820727605-b.jpg?ts=1754402306733",
    "https://static.bershka.net/assets/public/2d77/64d5/d45e4835b47b/07b877b6976b/01820727605-r/01820727605-r.jpg?ts=1747907340822",
    "https://static.bershka.net/assets/public/5e94/27b9/fd524a7d8cad/8c1da4904283/01820727605-s/01820727605-s.jpg?ts=1748273649219"
+  ]
+ },
+ {
+  "product_id": 209093179,
+  "color_id": "812",
+  "ref": "1820/727",
+  "name": "Худи из мягкого модала с молнией и капюшоном",
+  "section": "WOMEN",
+  "family": "KNITWEAR",
+  "subfamily": "SWEATSHIRTS",
+  "color": "Серый",
+  "price_kzt": 15990.0,
+  "price_old_kzt": null,
+  "price_rub": 4080,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "XS",
+   "XS",
+   "S",
+   "S",
+   "S",
+   "M",
+   "M",
+   "M",
+   "L",
+   "L",
+   "L"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/5b84/78d5/a76e4712b4d5/40e8b91d443c/01820727812-p/01820727812-p.jpg?ts=1770306485652",
+  "images": [
+   "https://static.bershka.net/assets/public/5b84/78d5/a76e4712b4d5/40e8b91d443c/01820727812-p/01820727812-p.jpg?ts=1770306485652",
+   "https://static.bershka.net/assets/public/72b1/b9dc/238941168c77/437173cf3b49/01820727812-a2d/01820727812-a2d.jpg?ts=1770306486064",
+   "https://static.bershka.net/assets/public/7b47/15dc/3d8344a0b859/14e92c7e2e58/01820727812-a1t/01820727812-a1t.jpg?ts=1770306485863",
+   "https://static.bershka.net/assets/public/a410/932c/a6584c21aa24/b3dc21559ec5/01820727812-a4o/01820727812-a4o.jpg?ts=1738060899843",
+   "https://static.bershka.net/assets/public/1b73/2298/affd49b59068/6256cd36b638/01820727812-b/01820727812-b.jpg?ts=1738060899442",
+   "https://static.bershka.net/assets/public/69c0/a40c/fd284e38821f/7644154893c9/01820727812-a3o/01820727812-a3o.jpg?ts=1770306486074",
+   "https://static.bershka.net/assets/public/47a3/84db/cc2a40f7bcca/8b5b84f2c7dc/01820727812-r/01820727812-r.jpg?ts=1738146409421",
+   "https://static.bershka.net/assets/public/2aca/5c91/5452488b9fb9/a1803e963991/01820727812-a7o/01820727812-a7o.jpg?ts=1770306516810"
   ]
  },
  {
@@ -36805,7 +36981,7 @@
   "product_id": 205577303,
   "color_id": "712",
   "ref": "1099/693",
-  "name": "Кардиган на молнии с косами",
+  "name": "Кардиган с косами на молнии",
   "section": "WOMEN",
   "family": "KNITWEAR",
   "subfamily": "KNITWEAR",
@@ -36871,7 +37047,7 @@
   "product_id": 205577303,
   "color_id": "401",
   "ref": "1099/693",
-  "name": "Кардиган на молнии с косами",
+  "name": "Кардиган с косами на молнии",
   "section": "WOMEN",
   "family": "KNITWEAR",
   "subfamily": "KNITWEAR",
@@ -36905,7 +37081,7 @@
   "product_id": 204065302,
   "color_id": "802",
   "ref": "0088/693",
-  "name": "Свитер с капюшоном и принтом",
+  "name": "Худи с принтом",
   "section": "WOMEN",
   "family": "KNITWEAR",
   "subfamily": "KNITWEAR",
@@ -36937,7 +37113,7 @@
   "product_id": 204065302,
   "color_id": "400",
   "ref": "0088/693",
-  "name": "Свитер с капюшоном и принтом",
+  "name": "Худи с принтом",
   "section": "WOMEN",
   "family": "KNITWEAR",
   "subfamily": "KNITWEAR",
@@ -38665,42 +38841,6 @@
   ]
  },
  {
-  "product_id": 212076485,
-  "color_id": "712",
-  "ref": "1836/236",
-  "name": "Джинсы-бананы с защипами",
-  "section": "MEN",
-  "family": "TROUSERS",
-  "subfamily": "JEANS",
-  "color": "Бежевый",
-  "price_kzt": 20290.0,
-  "price_old_kzt": 28990.0,
-  "price_rub": 5080,
-  "price_old_rub": 7290,
-  "sizes": [
-   "34",
-   "36",
-   "38",
-   "40",
-   "42",
-   "44"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/ff11/b441/6f04473bb2d3/aafe264567b6/01836236712-p/01836236712-p.jpg?ts=1777461947536",
-  "images": [
-   "https://static.bershka.net/assets/public/ff11/b441/6f04473bb2d3/aafe264567b6/01836236712-p/01836236712-p.jpg?ts=1777461947536",
-   "https://static.bershka.net/assets/public/4f8d/e708/caa746abb859/318a2e809e3c/01836236712-a1t/01836236712-a1t.jpg?ts=1777461947321",
-   "https://static.bershka.net/assets/public/78bb/b400/7caf44eebcfa/680d3979ebe6/01836236712-a2d/01836236712-a2d.jpg?ts=1777461946774",
-   "https://static.bershka.net/assets/public/0b82/537b/afd84a9c8dd1/41cf2697dfd4/01836236712-a3o/01836236712-a3o.jpg?ts=1777461947024",
-   "https://static.bershka.net/assets/public/605d/685b/0ae24a9ba248/bbe92e294d54/01836388712-a4o/01836388712-a4o.jpg?ts=1772548362676",
-   "https://static.bershka.net/assets/public/2f58/29a3/93804baa82b1/5edb50b7a185/01836388712-b/01836388712-b.jpg?ts=1772548362489",
-   "https://static.bershka.net/assets/public/6a9a/e0d9/57344a489148/4a1c8ff33e95/01836388712-r/01836388712-r.jpg?ts=1772548362416",
-   "https://static.bershka.net/assets/public/90d3/d15f/fcf64cda9aa0/493a4bee0631/01836388712-s/01836388712-s.jpg?ts=1772548362098",
-   "https://static.bershka.net/assets/public/f7f4/85e2/e2c6480eb5ed/192624851bdc/01836236712-01-e/01836236712-01-e.jpg?ts=1773762043605",
-   "https://static.bershka.net/assets/public/bacc/4b48/a5044664a100/4906dec49d00/01836236712-03-a7o/01836236712-03-a7o.jpg?ts=1774513273121"
-  ]
- },
- {
   "product_id": 205462710,
   "color_id": "401",
   "ref": "0885/236",
@@ -38831,75 +38971,6 @@
    "https://static.bershka.net/assets/public/f0c0/8707/d136464dab29/6ea913fa0a03/02585071401-r/02585071401-r.jpg?ts=1779348627256",
    "https://static.bershka.net/assets/public/79a9/f141/6f48498887a0/5b192588ecf0/02585071401-s/02585071401-s.jpg?ts=1779348627941",
    "https://static.bershka.net/assets/public/4ac4/e69b/d05e4a0da98a/9cf71993ead8/02585071401-e/02585071401-e.jpg?ts=1779957750351"
-  ]
- },
- {
-  "product_id": 210040082,
-  "color_id": "401",
-  "ref": "1660/623",
-  "name": "Поло с графическим принтом в полоску",
-  "section": "MEN",
-  "family": "T-SHIRTS",
-  "subfamily": "POLOS",
-  "color": "Морской",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/fdcb/f366/28534e1cacd1/2abfadbefe03/01660623401-p/01660623401-p.jpg?ts=1774855649735",
-  "images": [
-   "https://static.bershka.net/assets/public/fdcb/f366/28534e1cacd1/2abfadbefe03/01660623401-p/01660623401-p.jpg?ts=1774855649735",
-   "https://static.bershka.net/assets/public/22c3/c4e2/4af64569ad29/d1f57f5a9351/01660623401-a1t/01660623401-a1t.jpg?ts=1774855650894",
-   "https://static.bershka.net/assets/public/c844/0d0e/192840e5a043/d735e541bb7c/01660623401-a2d/01660623401-a2d.jpg?ts=1774855652548",
-   "https://static.bershka.net/assets/public/9112/f10d/4a6f41c498f3/ca63c902012f/01660623401-a3o/01660623401-a3o.jpg?ts=1774855649553",
-   "https://static.bershka.net/assets/public/c1d6/5d8a/81ab42a8ae52/337006abe914/01660623401-a4o/01660623401-a4o.jpg?ts=1774013221329",
-   "https://static.bershka.net/assets/public/7a5b/c07e/d5f64983bf25/2e6ea578f22e/01660623401-b/01660623401-b.jpg?ts=1774013221575",
-   "https://static.bershka.net/assets/public/74de/8ec0/3d6d47ffba89/95a092cfe657/01660623401-s/01660623401-s.jpg?ts=1774013221809",
-   "https://static.bershka.net/assets/public/c995/48bc/50b84138a40a/34a50277ee38/01660623401-r/01660623401-r.jpg?ts=1774013221108",
-   "https://static.bershka.net/assets/public/9af4/c5d2/9ac64106b1ea/9c902fc3e5dd/01660623401-a7o/01660623401-a7o.jpg?ts=1775045139436"
-  ]
- },
- {
-  "product_id": 211595389,
-  "color_id": "800",
-  "ref": "1563/154",
-  "name": "Футболка с принтом",
-  "section": "MEN",
-  "family": "T-SHIRTS",
-  "subfamily": "T-SHIRTS",
-  "color": "Черный",
-  "price_kzt": 9990.0,
-  "price_old_kzt": null,
-  "price_rub": 2390,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/54fd/7539/9f59473e872a/8609fb6d00c7/01563154800-p/01563154800-p.jpg?ts=1774366860857",
-  "images": [
-   "https://static.bershka.net/assets/public/54fd/7539/9f59473e872a/8609fb6d00c7/01563154800-p/01563154800-p.jpg?ts=1774366860857",
-   "https://static.bershka.net/assets/public/1001/f5af/04c3429c9acf/b374f19a5787/01563154800-a1t/01563154800-a1t.jpg?ts=1774366860635",
-   "https://static.bershka.net/assets/public/c9fa/fd88/d34d460e9197/8e2858d7d7e4/01563154800-a2d/01563154800-a2d.jpg?ts=1774366861203",
-   "https://static.bershka.net/assets/public/dae4/fe78/24ec43eab6cc/043a605598d1/01563154800-a3o/01563154800-a3o.jpg?ts=1774366861032",
-   "https://static.bershka.net/assets/public/d37b/2546/86524f938ced/29696dbc9898/01563154800-a4o/01563154800-a4o.jpg?ts=1773410067720",
-   "https://static.bershka.net/assets/public/c40e/b4d3/278b40a8b270/e9341fbaa5b7/01563154800-b/01563154800-b.jpg?ts=1773410069146",
-   "https://static.bershka.net/assets/public/42af/27fe/e7c74aec8ee5/384921a86ed7/01563154800-s/01563154800-s.jpg?ts=1773410067801",
-   "https://static.bershka.net/assets/public/ceb2/436b/2f754493b670/2d3235d9cb90/01563154800-r/01563154800-r.jpg?ts=1773410067497",
-   "https://static.bershka.net/assets/public/b489/e96e/1790449ea53d/88b0a1d6ce30/01563154800-a7o/01563154800-a7o.jpg?ts=1774518871958",
-   "https://static.bershka.net/assets/public/bd37/8d6c/35d042699259/c94958c8eb37/0156315480020-a5o/0156315480020-a5o.jpg?ts=1774969548895"
   ]
  },
  {
@@ -39242,6 +39313,40 @@
    "https://static.bershka.net/assets/public/739f/c034/49bf4b309fc3/99dc8a26084a/00968589805-r/00968589805-r.jpg?ts=1767860748687",
    "https://static.bershka.net/assets/public/f682/277d/17c94560aadd/ed1f2aed5f97/00968589805-s/00968589805-s.jpg?ts=1767860748842",
    "https://static.bershka.net/assets/public/43d7/4ec7/16be4fe89b3f/8ff71c9c053b/00968589805-e/00968589805-e.jpg?ts=1768494668515"
+  ]
+ },
+ {
+  "product_id": 210040082,
+  "color_id": "401",
+  "ref": "1660/623",
+  "name": "Поло с графическим принтом в полоску",
+  "section": "MEN",
+  "family": "T-SHIRTS",
+  "subfamily": "POLOS",
+  "color": "Морской",
+  "price_kzt": 19990.0,
+  "price_old_kzt": null,
+  "price_rub": 4990,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/fdcb/f366/28534e1cacd1/2abfadbefe03/01660623401-p/01660623401-p.jpg?ts=1774855649735",
+  "images": [
+   "https://static.bershka.net/assets/public/fdcb/f366/28534e1cacd1/2abfadbefe03/01660623401-p/01660623401-p.jpg?ts=1774855649735",
+   "https://static.bershka.net/assets/public/22c3/c4e2/4af64569ad29/d1f57f5a9351/01660623401-a1t/01660623401-a1t.jpg?ts=1774855650894",
+   "https://static.bershka.net/assets/public/c844/0d0e/192840e5a043/d735e541bb7c/01660623401-a2d/01660623401-a2d.jpg?ts=1774855652548",
+   "https://static.bershka.net/assets/public/9112/f10d/4a6f41c498f3/ca63c902012f/01660623401-a3o/01660623401-a3o.jpg?ts=1774855649553",
+   "https://static.bershka.net/assets/public/c1d6/5d8a/81ab42a8ae52/337006abe914/01660623401-a4o/01660623401-a4o.jpg?ts=1774013221329",
+   "https://static.bershka.net/assets/public/7a5b/c07e/d5f64983bf25/2e6ea578f22e/01660623401-b/01660623401-b.jpg?ts=1774013221575",
+   "https://static.bershka.net/assets/public/74de/8ec0/3d6d47ffba89/95a092cfe657/01660623401-s/01660623401-s.jpg?ts=1774013221809",
+   "https://static.bershka.net/assets/public/c995/48bc/50b84138a40a/34a50277ee38/01660623401-r/01660623401-r.jpg?ts=1774013221108",
+   "https://static.bershka.net/assets/public/9af4/c5d2/9ac64106b1ea/9c902fc3e5dd/01660623401-a7o/01660623401-a7o.jpg?ts=1775045139436"
   ]
  },
  {
@@ -40359,6 +40464,41 @@
   ]
  },
  {
+  "product_id": 209135865,
+  "color_id": "700",
+  "ref": "8123/152",
+  "name": "Футболка с воротником на пуговицах и зауженным рифленым кроем",
+  "section": "MEN",
+  "family": "T-SHIRTS",
+  "subfamily": "T-SHIRTS",
+  "color": "Κоричневый",
+  "price_kzt": 14990.0,
+  "price_old_kzt": null,
+  "price_rub": 3790,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/3d6e/2bfa/101840d68ec1/92dc0d5d6932/08123152700-p/08123152700-p.jpg?ts=1769528456600",
+  "images": [
+   "https://static.bershka.net/assets/public/3d6e/2bfa/101840d68ec1/92dc0d5d6932/08123152700-p/08123152700-p.jpg?ts=1769528456600",
+   "https://static.bershka.net/assets/public/9693/82f5/84cc4f2aa15f/6f09be8671b5/08123152700-a1t/08123152700-a1t.jpg?ts=1769528456848",
+   "https://static.bershka.net/assets/public/81a6/8101/97be4826b607/1ba5bc6c3f15/08123152700-a2d/08123152700-a2d.jpg?ts=1769528454887",
+   "https://static.bershka.net/assets/public/576a/4e1b/acee4cfcbf9f/254d9d9e3ac2/08123152700-a3o/08123152700-a3o.jpg?ts=1769528456060",
+   "https://static.bershka.net/assets/public/671a/b8bb/b0954658a5ca/e48fcf0d63a1/08123152700-a4o/08123152700-a4o.jpg?ts=1769530580673",
+   "https://static.bershka.net/assets/public/61e2/1f20/a5c54535a338/9cfd1ee275a7/08123152700-b/08123152700-b.jpg?ts=1769530580703",
+   "https://static.bershka.net/assets/public/940b/22e9/c3e74bbd8747/30460773bf57/08123152700-r/08123152700-r.jpg?ts=1769530579612",
+   "https://static.bershka.net/assets/public/0dd2/34df/6ace4e599bc4/d3226f02aa02/08123152700-s/08123152700-s.jpg?ts=1769530580279",
+   "https://static.bershka.net/assets/public/0ade/ac34/5aa640859650/4824bdf34209/08123152700-a7o/08123152700-a7o.jpg?ts=1772635651198",
+   "https://static.bershka.net/assets/public/243c/5552/bf0d41e780ea/20d32f97c60e/0812315270001-e/0812315270001-e.jpg?ts=1776162179460"
+  ]
+ },
+ {
   "product_id": 205528597,
   "color_id": "518",
   "ref": "0075/120",
@@ -41045,6 +41185,41 @@
    "https://static.bershka.net/assets/public/6ab8/49c5/46a540509194/0c73ad6acc02/00069154902-r/00069154902-r.jpg?ts=1763050489053",
    "https://static.bershka.net/assets/public/53ea/4851/b44f421fbce0/002e6aa49eab/00069154902-e/00069154902-e.jpg?ts=1764761751108",
    "https://static.bershka.net/assets/public/c6b7/a659/e0024cf2bd99/e729684c8677/00069154902-c/00069154902-c.jpg?ts=1777561189805"
+  ]
+ },
+ {
+  "product_id": 211595389,
+  "color_id": "800",
+  "ref": "1563/154",
+  "name": "Футболка с принтом",
+  "section": "MEN",
+  "family": "T-SHIRTS",
+  "subfamily": "T-SHIRTS",
+  "color": "Черный",
+  "price_kzt": 9990.0,
+  "price_old_kzt": null,
+  "price_rub": 2390,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/54fd/7539/9f59473e872a/8609fb6d00c7/01563154800-p/01563154800-p.jpg?ts=1774366860857",
+  "images": [
+   "https://static.bershka.net/assets/public/54fd/7539/9f59473e872a/8609fb6d00c7/01563154800-p/01563154800-p.jpg?ts=1774366860857",
+   "https://static.bershka.net/assets/public/1001/f5af/04c3429c9acf/b374f19a5787/01563154800-a1t/01563154800-a1t.jpg?ts=1774366860635",
+   "https://static.bershka.net/assets/public/c9fa/fd88/d34d460e9197/8e2858d7d7e4/01563154800-a2d/01563154800-a2d.jpg?ts=1774366861203",
+   "https://static.bershka.net/assets/public/dae4/fe78/24ec43eab6cc/043a605598d1/01563154800-a3o/01563154800-a3o.jpg?ts=1774366861032",
+   "https://static.bershka.net/assets/public/d37b/2546/86524f938ced/29696dbc9898/01563154800-a4o/01563154800-a4o.jpg?ts=1773410067720",
+   "https://static.bershka.net/assets/public/c40e/b4d3/278b40a8b270/e9341fbaa5b7/01563154800-b/01563154800-b.jpg?ts=1773410069146",
+   "https://static.bershka.net/assets/public/42af/27fe/e7c74aec8ee5/384921a86ed7/01563154800-s/01563154800-s.jpg?ts=1773410067801",
+   "https://static.bershka.net/assets/public/ceb2/436b/2f754493b670/2d3235d9cb90/01563154800-r/01563154800-r.jpg?ts=1773410067497",
+   "https://static.bershka.net/assets/public/b489/e96e/1790449ea53d/88b0a1d6ce30/01563154800-a7o/01563154800-a7o.jpg?ts=1774518871958",
+   "https://static.bershka.net/assets/public/bd37/8d6c/35d042699259/c94958c8eb37/0156315480020-a5o/0156315480020-a5o.jpg?ts=1774969548895"
   ]
  },
  {
@@ -42419,6 +42594,41 @@
    "https://static.bershka.net/assets/public/f935/6c2d/f8284fbb88b7/402866121e87/01714116250-r/01714116250-r.jpg?ts=1771946270872",
    "https://static.bershka.net/assets/public/f36a/7ba0/90814bbeb3b8/b98a471bf1d5/01714116250-s/01714116250-s.jpg?ts=1771946270832",
    "https://static.bershka.net/assets/public/6ccc/4486/e74b416b9267/76eb6af9364b/01714116250-13-e/01714116250-13-e.jpg?ts=1772634625867"
+  ]
+ },
+ {
+  "product_id": 206789302,
+  "color_id": "800",
+  "ref": "0081/443",
+  "name": "Футболка с воротником на пуговицах и короткими рифлеными рукавами",
+  "section": "MEN",
+  "family": "T-SHIRTS",
+  "subfamily": "T-SHIRTS",
+  "color": "Черный",
+  "price_kzt": 9990.0,
+  "price_old_kzt": null,
+  "price_rub": 2390,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/3caf/57e0/bc314dd99114/5d5559058485/00081443800-p/00081443800-p.jpg?ts=1778242601790",
+  "images": [
+   "https://static.bershka.net/assets/public/3caf/57e0/bc314dd99114/5d5559058485/00081443800-p/00081443800-p.jpg?ts=1778242601790",
+   "https://static.bershka.net/assets/public/d016/ef47/d0ba458bafa2/4843441b7c7d/00081443800-a1t/00081443800-a1t.jpg?ts=1778242602086",
+   "https://static.bershka.net/assets/public/ef87/caae/5ff94975b7c9/ab41b8ad89ae/00081443800-a2d/00081443800-a2d.jpg?ts=1778242601732",
+   "https://static.bershka.net/assets/public/55ff/004e/d9794b478d09/e11083118b2d/00081443800-a3o/00081443800-a3o.jpg?ts=1778242601664",
+   "https://static.bershka.net/assets/public/65a6/beb1/33324f368261/a90dcb66d965/00081443800-a4o/00081443800-a4o.jpg?ts=1766132260591",
+   "https://static.bershka.net/assets/public/4e43/f208/2ba7410dbbe5/b78836f9b090/00081443800-b/00081443800-b.jpg?ts=1766132260929",
+   "https://static.bershka.net/assets/public/7544/1874/025543fbb005/379a42b7d46f/00081443800-r/00081443800-r.jpg?ts=1766132260921",
+   "https://static.bershka.net/assets/public/807c/38b4/9f6d49deaae3/631b38355ac0/00081443800-s/00081443800-s.jpg?ts=1766132260452",
+   "https://static.bershka.net/assets/public/2268/f39e/4cd641359100/def1fcbd83cd/00081443800-01-a5o/00081443800-01-a5o.jpg?ts=1771950256752",
+   "https://static.bershka.net/assets/public/e83d/eac7/ec9e43d79856/d145e113818d/00081443800-02-a7o/00081443800-02-a7o.jpg?ts=1777454279905"
   ]
  },
  {
@@ -44673,6 +44883,41 @@
   ]
  },
  {
+  "product_id": 211721153,
+  "color_id": "800",
+  "ref": "1572/168",
+  "name": "Брюки очень свободного кроя с защипами",
+  "section": "MEN",
+  "family": "TROUSERS",
+  "subfamily": "TROUSERS",
+  "color": "Черный",
+  "price_kzt": 22390.0,
+  "price_old_kzt": 31990.0,
+  "price_rub": 5610,
+  "price_old_rub": 8040,
+  "sizes": [
+   "34",
+   "36",
+   "38",
+   "40",
+   "42",
+   "44"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/9689/4c7e/874e48fca910/3443c07960df/01572168800-p/01572168800-p.jpg?ts=1772546999342",
+  "images": [
+   "https://static.bershka.net/assets/public/9689/4c7e/874e48fca910/3443c07960df/01572168800-p/01572168800-p.jpg?ts=1772546999342",
+   "https://static.bershka.net/assets/public/ec2d/f576/6f0a48b0a1aa/60f6802f8d8f/01572168800-a1t/01572168800-a1t.jpg?ts=1772546999869",
+   "https://static.bershka.net/assets/public/8bd4/3ed3/ba1b4017b2d3/c1d83d7f07b4/01572168800-a2d/01572168800-a2d.jpg?ts=1772546999783",
+   "https://static.bershka.net/assets/public/e5cb/42cb/adac43baa942/38a4614483ca/01572168800-a3o/01572168800-a3o.jpg?ts=1772546999709",
+   "https://static.bershka.net/assets/public/7cfd/ce61/294a40a09160/319e892b984f/01572168800-a4o/01572168800-a4o.jpg?ts=1772018239144",
+   "https://static.bershka.net/assets/public/b236/fedd/1e334d228912/f7e0c0bd6d15/01572168800-b/01572168800-b.jpg?ts=1772018239369",
+   "https://static.bershka.net/assets/public/c020/93cd/865c4cef92d7/a9a6deed23ec/01572168800-s/01572168800-s.jpg?ts=1772018239357",
+   "https://static.bershka.net/assets/public/045c/c57a/f9aa4f78960e/b3bb991af5da/01572168800-r/01572168800-r.jpg?ts=1772018239519",
+   "https://static.bershka.net/assets/public/316d/ec62/25c1406299a0/8ba87da6c292/01572168800-e/01572168800-e.jpg?ts=1772699323349"
+  ]
+ },
+ {
   "product_id": 208963998,
   "color_id": "812",
   "ref": "1269/190",
@@ -45985,12 +46230,12 @@
    "XL"
   ],
   "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/6b4b/6fbc/84b145eaa2a6/b334e8797214/02107335251-p/02107335251-p.jpg?ts=1779954744099",
+  "image": "https://static.bershka.net/assets/public/3484/22e1/a35e4396ad0c/54d3a7e1031e/02107335251-p/02107335251-p.jpg?ts=1780304048950",
   "images": [
-   "https://static.bershka.net/assets/public/6b4b/6fbc/84b145eaa2a6/b334e8797214/02107335251-p/02107335251-p.jpg?ts=1779954744099",
-   "https://static.bershka.net/assets/public/a750/80b5/568948348842/757053112da7/02107335251-a1t/02107335251-a1t.jpg?ts=1779954744378",
-   "https://static.bershka.net/assets/public/b163/fab9/44f04a54a18f/51dbc5bcf8e3/02107335251-a2d/02107335251-a2d.jpg?ts=1779954743893",
-   "https://static.bershka.net/assets/public/378a/2009/1fb541d09623/75658ad1602e/02107335251-a3o/02107335251-a3o.jpg?ts=1779954744190",
+   "https://static.bershka.net/assets/public/3484/22e1/a35e4396ad0c/54d3a7e1031e/02107335251-p/02107335251-p.jpg?ts=1780304048950",
+   "https://static.bershka.net/assets/public/4aac/1281/69544cb18df1/a2080c239eb3/02107335251-a1t/02107335251-a1t.jpg?ts=1780304049684",
+   "https://static.bershka.net/assets/public/538e/eff3/41f64408a463/5216ee3e6368/02107335251-a2d/02107335251-a2d.jpg?ts=1780304048791",
+   "https://static.bershka.net/assets/public/df68/b861/fa0f4a05bbe5/1f0ddf3779b4/02107335251-a3o/02107335251-a3o.jpg?ts=1780304049813",
    "https://static.bershka.net/assets/public/c7c7/7cae/8d9c451e8723/50a29e36020c/02107335251-a4o/02107335251-a4o.jpg?ts=1776168520505",
    "https://static.bershka.net/assets/public/2aaf/8282/12d74558ac3c/c929a384f553/02107335251-b/02107335251-b.jpg?ts=1776168520800",
    "https://static.bershka.net/assets/public/a4e2/7833/3aa24596b99c/57b88c1bfbed/02107335251-r/02107335251-r.jpg?ts=1776168519569",
@@ -46064,7 +46309,120 @@
    "https://static.bershka.net/assets/public/dee1/fd1b/1c314620b1b0/e23dd2da068c/02134388811-b/02134388811-b.jpg?ts=1777977706513",
    "https://static.bershka.net/assets/public/780b/c14f/fbe04d10abda/566d5f9d30a9/02134388811-s/02134388811-s.jpg?ts=1777977706908",
    "https://static.bershka.net/assets/public/ac39/0721/4766497dbcd3/d0e299beccca/02134388811-r/02134388811-r.jpg?ts=1777977705775",
-   "https://static.bershka.net/assets/public/cee1/7bc4/fa2b476c80d1/7b19b3785a67/02134388811-01-a7o/02134388811-01-a7o.jpg?ts=1779354088052"
+   "https://static.bershka.net/assets/public/cee1/7bc4/fa2b476c80d1/7b19b3785a67/02134388811-01-a7o/02134388811-01-a7o.jpg?ts=1779354088052",
+   "https://static.bershka.net/assets/public/ef30/5526/6c714fad94ca/2d3c5fa47cb7/0213438881120-a5o/0213438881120-a5o.jpg?ts=1780309675716"
+  ]
+ },
+ {
+  "product_id": 207709469,
+  "color_id": "401",
+  "ref": "1022/180",
+  "name": "Джинсовые шорты свободного кроя",
+  "section": "MEN",
+  "family": "SHORTS",
+  "subfamily": "SHORTS",
+  "color": "Морской",
+  "price_kzt": 19990.0,
+  "price_old_kzt": null,
+  "price_rub": 4990,
+  "price_old_rub": null,
+  "sizes": [
+   "32",
+   "34",
+   "36",
+   "38",
+   "40",
+   "42",
+   "44",
+   "46"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/040a/db46/5bbc4892b459/54577e93aee3/01022180401-p/01022180401-p.jpg?ts=1772721546505",
+  "images": [
+   "https://static.bershka.net/assets/public/040a/db46/5bbc4892b459/54577e93aee3/01022180401-p/01022180401-p.jpg?ts=1772721546505",
+   "https://static.bershka.net/assets/public/10f8/41b7/fe3642c7a02c/246bc2488312/01022180401-a1t/01022180401-a1t.jpg?ts=1772721546898",
+   "https://static.bershka.net/assets/public/cf31/2643/f76f4262a9f4/6350230ecfe4/01022180401-a2d/01022180401-a2d.jpg?ts=1772721546681",
+   "https://static.bershka.net/assets/public/f86d/580e/68464adab817/68976b357554/01022180401-a3o/01022180401-a3o.jpg?ts=1772721546603",
+   "https://static.bershka.net/assets/public/4c4e/def4/71c94bf580b5/ee012fa42a3d/01022180401-a4o/01022180401-a4o.jpg?ts=1768905261753",
+   "https://static.bershka.net/assets/public/cc08/f93d/cc9d447cad7b/1facfecefff3/01022180401-b/01022180401-b.jpg?ts=1768905261915",
+   "https://static.bershka.net/assets/public/154f/057a/212b4b2a8ac4/c7b02f8541cf/01022180401-a7o/01022180401-a7o.jpg?ts=1772721658257",
+   "https://static.bershka.net/assets/public/7cfd/1283/618042bc98ff/7860b2c8f2a1/01022180401-r/01022180401-r.jpg?ts=1768905262223",
+   "https://static.bershka.net/assets/public/ac27/d95e/1f724b0b85fb/d1c353db46ef/01022180401-s/01022180401-s.jpg?ts=1768905262277",
+   "https://static.bershka.net/assets/public/44ad/6cd1/c7d24232b03d/1ade21882f71/01022180401-e/01022180401-e.jpg?ts=1770807237745"
+  ]
+ },
+ {
+  "product_id": 207709469,
+  "color_id": "800",
+  "ref": "1022/180",
+  "name": "Джинсовые шорты свободного кроя",
+  "section": "MEN",
+  "family": "SHORTS",
+  "subfamily": "SHORTS",
+  "color": "Черный",
+  "price_kzt": 19990.0,
+  "price_old_kzt": null,
+  "price_rub": 4990,
+  "price_old_rub": null,
+  "sizes": [
+   "32",
+   "34",
+   "36",
+   "38",
+   "40",
+   "42",
+   "44",
+   "46"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/77d8/e636/6dd04d29a8c9/a4f961ca9ede/01022180800-p/01022180800-p.jpg?ts=1775746522462",
+  "images": [
+   "https://static.bershka.net/assets/public/77d8/e636/6dd04d29a8c9/a4f961ca9ede/01022180800-p/01022180800-p.jpg?ts=1775746522462",
+   "https://static.bershka.net/assets/public/daae/17c1/227e4099a99a/17f38b901170/01022180800-a1t/01022180800-a1t.jpg?ts=1775746526787",
+   "https://static.bershka.net/assets/public/3cdf/6a3e/a9ce48158d6b/0fa40e8bcf88/01022180800-a2d/01022180800-a2d.jpg?ts=1775746522734",
+   "https://static.bershka.net/assets/public/e80c/265b/b5d7478cb018/311ae3ac6c26/01022180800-a3o/01022180800-a3o.jpg?ts=1775746523542",
+   "https://static.bershka.net/assets/public/0050/3839/e41f42af904d/c80af4f95720/01022180800-a4o/01022180800-a4o.jpg?ts=1768905262346",
+   "https://static.bershka.net/assets/public/1ae9/1ef5/407b49e69d4f/0d347ba7579a/01022180800-b/01022180800-b.jpg?ts=1768905262495",
+   "https://static.bershka.net/assets/public/8c6e/648d/af7c46c39a7b/75632b4abf2c/01022180800-s/01022180800-s.jpg?ts=1768905262791",
+   "https://static.bershka.net/assets/public/7413/d695/bc444276a847/4d4f6064b0ca/01022180800-r/01022180800-r.jpg?ts=1768905262836",
+   "https://static.bershka.net/assets/public/4bf8/760a/152b495d983d/2f07e0f4aec6/01022180800-a7o/01022180800-a7o.jpg?ts=1775748411847"
+  ]
+ },
+ {
+  "product_id": 207709469,
+  "color_id": "428",
+  "ref": "1022/180",
+  "name": "Джинсовые шорты свободного кроя",
+  "section": "MEN",
+  "family": "SHORTS",
+  "subfamily": "SHORTS",
+  "color": "Синий застиранный",
+  "price_kzt": 19990.0,
+  "price_old_kzt": null,
+  "price_rub": 4990,
+  "price_old_rub": null,
+  "sizes": [
+   "32",
+   "34",
+   "36",
+   "38",
+   "40",
+   "42",
+   "44",
+   "46"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/9de8/2c5b/bfb74a7eba15/62ca814fa689/01022180428-p/01022180428-p.jpg?ts=1775746526542",
+  "images": [
+   "https://static.bershka.net/assets/public/9de8/2c5b/bfb74a7eba15/62ca814fa689/01022180428-p/01022180428-p.jpg?ts=1775746526542",
+   "https://static.bershka.net/assets/public/a869/6a84/11434cb4a883/086cda2487d1/01022180428-a1t/01022180428-a1t.jpg?ts=1775746522900",
+   "https://static.bershka.net/assets/public/6ed1/2e29/69444b0399ea/f37defdddd29/01022180428-a2d/01022180428-a2d.jpg?ts=1775746522481",
+   "https://static.bershka.net/assets/public/fd64/a378/8c4c4c5e9a1c/57cad1629032/01022180428-a3o/01022180428-a3o.jpg?ts=1775746522961",
+   "https://static.bershka.net/assets/public/eea6/1b8a/0ac843e98ad4/427dbd4b1ec0/01022180428-a4o/01022180428-a4o.jpg?ts=1768905260728",
+   "https://static.bershka.net/assets/public/273f/0659/8dca42178c48/6bd7701d2c3c/01022180428-b/01022180428-b.jpg?ts=1768905260879",
+   "https://static.bershka.net/assets/public/472c/45ba/7a364d358bb6/82f2683bede3/01022180428-r/01022180428-r.jpg?ts=1768905260646",
+   "https://static.bershka.net/assets/public/aedd/fbaa/cfd24de59f27/a5ebdf4b5a6b/01022180428-s/01022180428-s.jpg?ts=1768905261405",
+   "https://static.bershka.net/assets/public/05f2/bd99/e90240e396a0/09aa7c422fbc/01022180428-e/01022180428-e.jpg?ts=1775748411416"
   ]
  },
  {
@@ -46456,44 +46814,6 @@
   ]
  },
  {
-  "product_id": 207709469,
-  "color_id": "401",
-  "ref": "1022/180",
-  "name": "Джинсовые шорты свободного кроя",
-  "section": "MEN",
-  "family": "SHORTS",
-  "subfamily": "SHORTS",
-  "color": "Морской",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "32",
-   "34",
-   "36",
-   "38",
-   "40",
-   "42",
-   "44",
-   "46"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/040a/db46/5bbc4892b459/54577e93aee3/01022180401-p/01022180401-p.jpg?ts=1772721546505",
-  "images": [
-   "https://static.bershka.net/assets/public/040a/db46/5bbc4892b459/54577e93aee3/01022180401-p/01022180401-p.jpg?ts=1772721546505",
-   "https://static.bershka.net/assets/public/10f8/41b7/fe3642c7a02c/246bc2488312/01022180401-a1t/01022180401-a1t.jpg?ts=1772721546898",
-   "https://static.bershka.net/assets/public/cf31/2643/f76f4262a9f4/6350230ecfe4/01022180401-a2d/01022180401-a2d.jpg?ts=1772721546681",
-   "https://static.bershka.net/assets/public/f86d/580e/68464adab817/68976b357554/01022180401-a3o/01022180401-a3o.jpg?ts=1772721546603",
-   "https://static.bershka.net/assets/public/4c4e/def4/71c94bf580b5/ee012fa42a3d/01022180401-a4o/01022180401-a4o.jpg?ts=1768905261753",
-   "https://static.bershka.net/assets/public/cc08/f93d/cc9d447cad7b/1facfecefff3/01022180401-b/01022180401-b.jpg?ts=1768905261915",
-   "https://static.bershka.net/assets/public/154f/057a/212b4b2a8ac4/c7b02f8541cf/01022180401-a7o/01022180401-a7o.jpg?ts=1772721658257",
-   "https://static.bershka.net/assets/public/7cfd/1283/618042bc98ff/7860b2c8f2a1/01022180401-r/01022180401-r.jpg?ts=1768905262223",
-   "https://static.bershka.net/assets/public/ac27/d95e/1f724b0b85fb/d1c353db46ef/01022180401-s/01022180401-s.jpg?ts=1768905262277",
-   "https://static.bershka.net/assets/public/44ad/6cd1/c7d24232b03d/1ade21882f71/01022180401-e/01022180401-e.jpg?ts=1770807237745"
-  ]
- },
- {
   "product_id": 217964613,
   "color_id": "401",
   "ref": "2060/443",
@@ -46596,6 +46916,79 @@
    "https://static.bershka.net/assets/public/1252/ee4e/1ba34c048578/05c9a2bc35b9/02370054800-s/02370054800-s.jpg?ts=1778241340794",
    "https://static.bershka.net/assets/public/08ee/988c/eb564f9fbbfc/a7c869444033/02370054800-r/02370054800-r.jpg?ts=1778241340733",
    "https://static.bershka.net/assets/public/be33/90a8/5fad43efafb2/f90d47c3fbfd/02370054800-a7o/02370054800-a7o.jpg?ts=1778766280323"
+  ]
+ },
+ {
+  "product_id": 211717922,
+  "color_id": "405",
+  "ref": "1635/710",
+  "name": "Шорты-бермуды с заниженным шаговым швом",
+  "section": "MEN",
+  "family": "SHORTS",
+  "subfamily": "SHORTS",
+  "color": "Темно-синий",
+  "price_kzt": 28990.0,
+  "price_old_kzt": null,
+  "price_rub": 7290,
+  "price_old_rub": null,
+  "sizes": [
+   "34",
+   "36",
+   "38",
+   "40",
+   "42",
+   "44"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/f197/cde3/ad694a2aa03e/782f1f1ebdea/01635710405-p/01635710405-p.jpg?ts=1777563168845",
+  "images": [
+   "https://static.bershka.net/assets/public/f197/cde3/ad694a2aa03e/782f1f1ebdea/01635710405-p/01635710405-p.jpg?ts=1777563168845",
+   "https://static.bershka.net/assets/public/f3c6/d28b/6b554c7fa6ce/c1f1880571a0/01635710405-a1t/01635710405-a1t.jpg?ts=1777563168798",
+   "https://static.bershka.net/assets/public/2522/dfeb/d9f141f89dc8/2175d2b5d33e/01635710405-a2d/01635710405-a2d.jpg?ts=1777563168809",
+   "https://static.bershka.net/assets/public/c37b/e5f7/df3c4e2ab10f/ef4331a6fa74/01635710405-a4o/01635710405-a4o.jpg?ts=1773410193428",
+   "https://static.bershka.net/assets/public/b1c3/9c67/d2cc47f1b34e/f3f186bcafa9/01635710405-b/01635710405-b.jpg?ts=1773410193820",
+   "https://static.bershka.net/assets/public/a0fb/8c25/6dd5460bb7ca/15b7dab127b2/01635710405-r/01635710405-r.jpg?ts=1773410194112",
+   "https://static.bershka.net/assets/public/0692/cb4f/2adb4c599b67/3929363b4bf6/01635710405-s/01635710405-s.jpg?ts=1773410193593",
+   "https://static.bershka.net/assets/public/335a/2cbf/f83442d7bb59/ee7f891c16d7/01635710405-a3o/01635710405-a3o.jpg?ts=1774864811438",
+   "https://static.bershka.net/assets/public/1274/9c5f/10844d969510/ee3b044ce38e/01635710405-01-a7o/01635710405-01-a7o.jpg?ts=1774961586911"
+  ]
+ },
+ {
+  "product_id": 207709469,
+  "color_id": "811",
+  "ref": "1022/180",
+  "name": "Джинсовые шорты свободного кроя",
+  "section": "MEN",
+  "family": "SHORTS",
+  "subfamily": "SHORTS",
+  "color": "Серый",
+  "price_kzt": 19990.0,
+  "price_old_kzt": null,
+  "price_rub": 4990,
+  "price_old_rub": null,
+  "sizes": [
+   "32",
+   "34",
+   "36",
+   "38",
+   "40",
+   "42",
+   "44",
+   "46"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/c1aa/6dd9/113541af872f/5db7196cbf0a/01022180811-p/01022180811-p.jpg?ts=1775746523217",
+  "images": [
+   "https://static.bershka.net/assets/public/c1aa/6dd9/113541af872f/5db7196cbf0a/01022180811-p/01022180811-p.jpg?ts=1775746523217",
+   "https://static.bershka.net/assets/public/e538/b886/98704abd946f/d5088335ecb6/01022180811-a1t/01022180811-a1t.jpg?ts=1775746522664",
+   "https://static.bershka.net/assets/public/d32b/4f72/623b451e8951/ab3a877160aa/01022180811-a2d/01022180811-a2d.jpg?ts=1775746523516",
+   "https://static.bershka.net/assets/public/7428/6c8a/8ba445f18600/82904b7493d5/01022180811-a3o/01022180811-a3o.jpg?ts=1775746522869",
+   "https://static.bershka.net/assets/public/dff6/232e/0e7041b9b806/0763d2ea8712/01022180811-a4o/01022180811-a4o.jpg?ts=1768905263808",
+   "https://static.bershka.net/assets/public/e61a/f7e5/645e4e759a4e/c78c8139ed61/01022180811-b/01022180811-b.jpg?ts=1768905264316",
+   "https://static.bershka.net/assets/public/6357/1da7/4e434386b339/fc85cbc009c4/01022180811-r/01022180811-r.jpg?ts=1768905263913",
+   "https://static.bershka.net/assets/public/ea36/a2d7/3c154a33b00d/5b5095ca1142/01022180811-s/01022180811-s.jpg?ts=1768905264329",
+   "https://static.bershka.net/assets/public/beb1/7f46/05bd468ca20f/e846fabce69b/01022180811-e/01022180811-e.jpg?ts=1775748411558",
+   "https://static.bershka.net/assets/public/6b3e/2d71/74a141de9416/27741628a4a0/0102218081120-a5o/0102218081120-a5o.jpg?ts=1772457569843"
   ]
  },
  {
@@ -46875,41 +47268,6 @@
    "https://static.bershka.net/assets/public/ab6a/6d38/0bb3456a9a7c/964f547ca7a1/01809054742-s/01809054742-s.jpg?ts=1773410084751",
    "https://static.bershka.net/assets/public/6d24/a83e/d89d4a39ad9c/63e699a3986d/01809054742-a3o/01809054742-a3o.jpg?ts=1774865061256",
    "https://static.bershka.net/assets/public/1d71/4194/2fe94e78b2f3/f100a626cee0/01809054742-01-a7o/01809054742-01-a7o.jpg?ts=1774961527389"
-  ]
- },
- {
-  "product_id": 209971902,
-  "color_id": "829",
-  "ref": "1515/335",
-  "name": "Шорты-бермуды свободного кроя с принтом",
-  "section": "MEN",
-  "family": "SHORTS",
-  "subfamily": "SHORTS",
-  "color": "темно-серый",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "34",
-   "36",
-   "38",
-   "40",
-   "42",
-   "44"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/2404/0010/4dc64c52bbc4/9c09e73bebfc/01515335829-p/01515335829-p.jpg?ts=1775137390726",
-  "images": [
-   "https://static.bershka.net/assets/public/2404/0010/4dc64c52bbc4/9c09e73bebfc/01515335829-p/01515335829-p.jpg?ts=1775137390726",
-   "https://static.bershka.net/assets/public/dff2/27f2/3114424fb1fe/8ed0f824cd53/01515335829-a1t/01515335829-a1t.jpg?ts=1775137390785",
-   "https://static.bershka.net/assets/public/8e77/8f8b/3f8e4c0488b1/1b0f9c3fec01/01515335829-a2d/01515335829-a2d.jpg?ts=1775137390929",
-   "https://static.bershka.net/assets/public/cfef/97f0/11054134b116/5c4a77ac08a5/01515335829-a3o/01515335829-a3o.jpg?ts=1775137390488",
-   "https://static.bershka.net/assets/public/cd3a/4afb/93a54bc28471/cf9ad5454722/01515335829-a4o/01515335829-a4o.jpg?ts=1772114343172",
-   "https://static.bershka.net/assets/public/ce55/9a1f/e4624d5da597/7ed926580a7b/01515335829-b/01515335829-b.jpg?ts=1772114343929",
-   "https://static.bershka.net/assets/public/0397/73e4/366d47189527/c0e44b1a3395/01515335829-r/01515335829-r.jpg?ts=1772114342914",
-   "https://static.bershka.net/assets/public/2a1b/f32e/038a43268a34/33672d0a8156/01515335829-s/01515335829-s.jpg?ts=1772114343404",
-   "https://static.bershka.net/assets/public/8a95/67f7/c4fc42a9b33d/3f3b51e920ba/01515335829-a7o/01515335829-a7o.jpg?ts=1775744818722"
   ]
  },
  {
@@ -47262,43 +47620,6 @@
    "https://static.bershka.net/assets/public/676b/3686/c3044248bfad/b1439fc31972/02404156433-s/02404156433-s.jpg?ts=1777303208404",
    "https://static.bershka.net/assets/public/312a/9765/674045979829/545adffc4628/02404156433-r/02404156433-r.jpg?ts=1777303207428",
    "https://static.bershka.net/assets/public/0efa/9241/b024496290d1/cfa660ecae55/02404156433-a7o/02404156433-a7o.jpg?ts=1778753035117"
-  ]
- },
- {
-  "product_id": 207709469,
-  "color_id": "428",
-  "ref": "1022/180",
-  "name": "Джинсовые шорты свободного кроя",
-  "section": "MEN",
-  "family": "SHORTS",
-  "subfamily": "SHORTS",
-  "color": "Синий застиранный",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "32",
-   "34",
-   "36",
-   "38",
-   "40",
-   "42",
-   "44",
-   "46"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/9de8/2c5b/bfb74a7eba15/62ca814fa689/01022180428-p/01022180428-p.jpg?ts=1775746526542",
-  "images": [
-   "https://static.bershka.net/assets/public/9de8/2c5b/bfb74a7eba15/62ca814fa689/01022180428-p/01022180428-p.jpg?ts=1775746526542",
-   "https://static.bershka.net/assets/public/a869/6a84/11434cb4a883/086cda2487d1/01022180428-a1t/01022180428-a1t.jpg?ts=1775746522900",
-   "https://static.bershka.net/assets/public/6ed1/2e29/69444b0399ea/f37defdddd29/01022180428-a2d/01022180428-a2d.jpg?ts=1775746522481",
-   "https://static.bershka.net/assets/public/fd64/a378/8c4c4c5e9a1c/57cad1629032/01022180428-a3o/01022180428-a3o.jpg?ts=1775746522961",
-   "https://static.bershka.net/assets/public/eea6/1b8a/0ac843e98ad4/427dbd4b1ec0/01022180428-a4o/01022180428-a4o.jpg?ts=1768905260728",
-   "https://static.bershka.net/assets/public/273f/0659/8dca42178c48/6bd7701d2c3c/01022180428-b/01022180428-b.jpg?ts=1768905260879",
-   "https://static.bershka.net/assets/public/472c/45ba/7a364d358bb6/82f2683bede3/01022180428-r/01022180428-r.jpg?ts=1768905260646",
-   "https://static.bershka.net/assets/public/aedd/fbaa/cfd24de59f27/a5ebdf4b5a6b/01022180428-s/01022180428-s.jpg?ts=1768905261405",
-   "https://static.bershka.net/assets/public/05f2/bd99/e90240e396a0/09aa7c422fbc/01022180428-e/01022180428-e.jpg?ts=1775748411416"
   ]
  },
  {
@@ -49968,76 +50289,6 @@
   ]
  },
  {
-  "product_id": 204064347,
-  "color_id": "700",
-  "ref": "0097/073",
-  "name": "Куртка из искусственной кожи",
-  "section": "MEN",
-  "family": "JACKETS",
-  "subfamily": "JACKETS",
-  "color": "Κоричневый",
-  "price_kzt": 39990.0,
-  "price_old_kzt": null,
-  "price_rub": 9990,
-  "price_old_rub": null,
-  "sizes": [
-   "S",
-   "S",
-   "M",
-   "M",
-   "L",
-   "L",
-   "XL",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/7796/7340/a2254e629d2e/f28f76aaa301/00097073700-p/00097073700-p.jpg?ts=1764779301879",
-  "images": [
-   "https://static.bershka.net/assets/public/7796/7340/a2254e629d2e/f28f76aaa301/00097073700-p/00097073700-p.jpg?ts=1764779301879",
-   "https://static.bershka.net/assets/public/6e72/3bb4/54b943929833/31fb7bc59797/00097073700-a1t/00097073700-a1t.jpg?ts=1764779300816",
-   "https://static.bershka.net/assets/public/f444/fb51/39eb4d64baf2/f8eac4ddaef2/00097073700-a2d/00097073700-a2d.jpg?ts=1764779301165",
-   "https://static.bershka.net/assets/public/8b85/cf11/db694cd78a30/7868468b6843/00097073700-a3o/00097073700-a3o.jpg?ts=1764779301522",
-   "https://static.bershka.net/assets/public/bb43/5849/a54a4284bbbc/7ff7d5733a05/00097073700-a4o/00097073700-a4o.jpg?ts=1763567710508",
-   "https://static.bershka.net/assets/public/be77/af3b/2ab54b578f97/a295dc9ea239/00097073700-b/00097073700-b.jpg?ts=1763567710334",
-   "https://static.bershka.net/assets/public/84f0/2d3e/474a4e43bcd5/aae226997810/00097073700-r/00097073700-r.jpg?ts=1763567709898",
-   "https://static.bershka.net/assets/public/9ee4/0cce/dc1e41019ed3/e83e8e29e543/00097073700-s/00097073700-s.jpg?ts=1763567710091",
-   "https://static.bershka.net/assets/public/4030/4289/c261430d9d71/c1deffd6afd8/00097073700-01-a5o/00097073700-01-a5o.jpg?ts=1768464774062",
-   "https://static.bershka.net/assets/public/eb56/b0a4/d39e462f884a/781e1b92cfed/0009707370001-a7o/0009707370001-a7o.jpg?ts=1777978607048"
-  ]
- },
- {
-  "product_id": 207319335,
-  "color_id": "800",
-  "ref": "1293/730",
-  "name": "Куртка с застежками-тогглами",
-  "section": "MEN",
-  "family": "JACKETS",
-  "subfamily": "JACKETS",
-  "color": "Черный",
-  "price_kzt": 39990.0,
-  "price_old_kzt": null,
-  "price_rub": 9990,
-  "price_old_rub": null,
-  "sizes": [
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/0d2d/6076/4b4749448073/c1a2fea58f29/01293730800-p/01293730800-p.jpg?ts=1773301296995",
-  "images": [
-   "https://static.bershka.net/assets/public/0d2d/6076/4b4749448073/c1a2fea58f29/01293730800-p/01293730800-p.jpg?ts=1773301296995",
-   "https://static.bershka.net/assets/public/c3a8/fef9/c39b4d5f9450/c9d5eb3d63e1/01293730800-a1t/01293730800-a1t.jpg?ts=1773301293106",
-   "https://static.bershka.net/assets/public/d713/6b72/4164498f86e7/2adef9b0b12b/01293730800-a2d/01293730800-a2d.jpg?ts=1773301293217",
-   "https://static.bershka.net/assets/public/ac47/db93/dfad4edd8e78/1024f6750310/01293730800-a3o/01293730800-a3o.jpg?ts=1773301294699",
-   "https://static.bershka.net/assets/public/bc72/2668/5fcc4dadb4b7/02ee157b1fbb/01293730800-a4o/01293730800-a4o.jpg?ts=1772548329841",
-   "https://static.bershka.net/assets/public/84c5/2473/182b40d7a920/fec8e9b69a35/01293730800-b/01293730800-b.jpg?ts=1772548329873",
-   "https://static.bershka.net/assets/public/ef43/ed60/a8bb4e92b82f/a696c19f7ac2/01293730800-s/01293730800-s.jpg?ts=1772548329684",
-   "https://static.bershka.net/assets/public/6975/ecb3/b3d3465882e5/87907ffc00f7/01293730800-r/01293730800-r.jpg?ts=1772548329542"
-  ]
- },
- {
   "product_id": 204065840,
   "color_id": "622",
   "ref": "0867/719",
@@ -50363,7 +50614,9 @@
    "https://static.bershka.net/assets/public/ced7/c32f/28334535a2e1/d013265ce96b/00060551146-a4o/00060551146-a4o.jpg?ts=1768809888982",
    "https://static.bershka.net/assets/public/4f52/6738/37454e39806f/192dfa65421a/00060551146-b/00060551146-b.jpg?ts=1768809889448",
    "https://static.bershka.net/assets/public/6b52/f0b0/d47d48e5959b/ba691270f800/00060551146-r/00060551146-r.jpg?ts=1768809888464",
-   "https://static.bershka.net/assets/public/700f/f7e3/18bf4d1ca22c/8dda622a84e7/00060551146-s/00060551146-s.jpg?ts=1768809888600"
+   "https://static.bershka.net/assets/public/700f/f7e3/18bf4d1ca22c/8dda622a84e7/00060551146-s/00060551146-s.jpg?ts=1768809888600",
+   "https://static.bershka.net/assets/public/124f/94b7/fd614957aa0b/d7474a473091/00060551146-01-h3/master.m3u8?ts=1780298879668",
+   "https://static.bershka.net/assets/public/5de4/38b5/c2964891886a/f796a7580ac2/0006055114620-a5o/0006055114620-a5o.jpg?ts=1780308993727"
   ]
  },
  {
@@ -50609,6 +50862,44 @@
    "https://static.bershka.net/assets/public/b6f4/4d98/825e4570bb94/94759c3e7d33/00027156428-r/00027156428-r.jpg?ts=1768398001956",
    "https://static.bershka.net/assets/public/7c90/6a95/9544454fbe1b/66178dc307c9/00027156428-s/00027156428-s.jpg?ts=1768398002521",
    "https://static.bershka.net/assets/public/5679/26d6/72be4e61a2df/6f6ad24d66f1/00027156428-a5o/00027156428-a5o.jpg?ts=1768465093232"
+  ]
+ },
+ {
+  "product_id": 204064347,
+  "color_id": "700",
+  "ref": "0097/073",
+  "name": "Куртка из искусственной кожи",
+  "section": "MEN",
+  "family": "JACKETS",
+  "subfamily": "JACKETS",
+  "color": "Κоричневый",
+  "price_kzt": 39990.0,
+  "price_old_kzt": null,
+  "price_rub": 9990,
+  "price_old_rub": null,
+  "sizes": [
+   "S",
+   "S",
+   "M",
+   "M",
+   "L",
+   "L",
+   "XL",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/7796/7340/a2254e629d2e/f28f76aaa301/00097073700-p/00097073700-p.jpg?ts=1764779301879",
+  "images": [
+   "https://static.bershka.net/assets/public/7796/7340/a2254e629d2e/f28f76aaa301/00097073700-p/00097073700-p.jpg?ts=1764779301879",
+   "https://static.bershka.net/assets/public/6e72/3bb4/54b943929833/31fb7bc59797/00097073700-a1t/00097073700-a1t.jpg?ts=1764779300816",
+   "https://static.bershka.net/assets/public/f444/fb51/39eb4d64baf2/f8eac4ddaef2/00097073700-a2d/00097073700-a2d.jpg?ts=1764779301165",
+   "https://static.bershka.net/assets/public/8b85/cf11/db694cd78a30/7868468b6843/00097073700-a3o/00097073700-a3o.jpg?ts=1764779301522",
+   "https://static.bershka.net/assets/public/bb43/5849/a54a4284bbbc/7ff7d5733a05/00097073700-a4o/00097073700-a4o.jpg?ts=1763567710508",
+   "https://static.bershka.net/assets/public/be77/af3b/2ab54b578f97/a295dc9ea239/00097073700-b/00097073700-b.jpg?ts=1763567710334",
+   "https://static.bershka.net/assets/public/84f0/2d3e/474a4e43bcd5/aae226997810/00097073700-r/00097073700-r.jpg?ts=1763567709898",
+   "https://static.bershka.net/assets/public/9ee4/0cce/dc1e41019ed3/e83e8e29e543/00097073700-s/00097073700-s.jpg?ts=1763567710091",
+   "https://static.bershka.net/assets/public/4030/4289/c261430d9d71/c1deffd6afd8/00097073700-01-a5o/00097073700-01-a5o.jpg?ts=1768464774062",
+   "https://static.bershka.net/assets/public/eb56/b0a4/d39e462f884a/781e1b92cfed/0009707370001-a7o/0009707370001-a7o.jpg?ts=1777978607048"
   ]
  },
  {
@@ -51305,38 +51596,6 @@
   ]
  },
  {
-  "product_id": 218088863,
-  "color_id": "800",
-  "ref": "1599/677",
-  "name": "Куртка из искусственной кожи",
-  "section": "MEN",
-  "family": "JACKETS",
-  "subfamily": "JACKETS",
-  "color": "Черный",
-  "price_kzt": 31990.0,
-  "price_old_kzt": null,
-  "price_rub": 8040,
-  "price_old_rub": null,
-  "sizes": [
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/75f8/39fa/71354d179278/f0378c186af0/01599677800-p/01599677800-p.jpg?ts=1754394228768",
-  "images": [
-   "https://static.bershka.net/assets/public/75f8/39fa/71354d179278/f0378c186af0/01599677800-p/01599677800-p.jpg?ts=1754394228768",
-   "https://static.bershka.net/assets/public/373c/945b/166941bc86a3/1ec4eb42de57/01599677800-a1t/01599677800-a1t.jpg?ts=1754394228674",
-   "https://static.bershka.net/assets/public/aff3/eb3f/f0e5449d931e/ba1e77cde64b/01599677800-a2d/01599677800-a2d.jpg?ts=1754394228603",
-   "https://static.bershka.net/assets/public/c3d0/0287/14a544c48c2c/57802ad30527/01599677800-a3o/01599677800-a3o.jpg?ts=1754394229063",
-   "https://static.bershka.net/assets/public/80e2/6135/437b4981ae1b/86c6477e8699/01599677800-a4o/01599677800-a4o.jpg?ts=1754317183566",
-   "https://static.bershka.net/assets/public/b735/74b3/526446adb4b6/af1d73e9f089/01599677800-b/01599677800-b.jpg?ts=1754317183296",
-   "https://static.bershka.net/assets/public/0aca/d126/02a24c3b8232/dfab15a469b3/01599677800-s/01599677800-s.jpg?ts=1754317184335",
-   "https://static.bershka.net/assets/public/83b7/5b9b/afb54d998182/c5c4ff9197f2/01599677800-r/01599677800-r.jpg?ts=1754317184013"
-  ]
- },
- {
   "product_id": 204654792,
   "color_id": "800",
   "ref": "0961/047",
@@ -51365,7 +51624,8 @@
    "https://static.bershka.net/assets/public/367d/5a05/177747a4bea7/5c61611a724c/00961047800-a4o/00961047800-a4o.jpg?ts=1768905165221",
    "https://static.bershka.net/assets/public/3fd3/1225/01f4482193e4/9fd8b4dbd3cf/00961047800-b/00961047800-b.jpg?ts=1768905164782",
    "https://static.bershka.net/assets/public/5933/012e/00af4e57aafc/9371647aaa75/00961047800-r/00961047800-r.jpg?ts=1768905166053",
-   "https://static.bershka.net/assets/public/8ad0/a687/44024d379c22/e4c43bc442d6/00961047800-s/00961047800-s.jpg?ts=1768905165925"
+   "https://static.bershka.net/assets/public/8ad0/a687/44024d379c22/e4c43bc442d6/00961047800-s/00961047800-s.jpg?ts=1768905165925",
+   "https://static.bershka.net/assets/public/42c4/abe7/0f0d42c78295/fcb7ffbdcf57/00961047800-55-e/00961047800-55-e.jpg?ts=1780300050838"
   ]
  },
  {
@@ -51432,6 +51692,38 @@
    "https://static.bershka.net/assets/public/3df1/a62a/25e44639a3e7/cfb376cb5ed4/00096047800-p/00096047800-p.jpg?ts=1767782818463",
    "https://static.bershka.net/assets/public/2299/af17/222c4cc195a3/5626538acc79/00096047800-a1t/00096047800-a1t.jpg?ts=1767782818805",
    "https://static.bershka.net/assets/public/294a/49d8/cf41481c88fc/22f53553fde5/00096047800-a2d/00096047800-a2d.jpg?ts=1767782818497"
+  ]
+ },
+ {
+  "product_id": 218088863,
+  "color_id": "800",
+  "ref": "1599/677",
+  "name": "Куртка из искусственной кожи",
+  "section": "MEN",
+  "family": "JACKETS",
+  "subfamily": "JACKETS",
+  "color": "Черный",
+  "price_kzt": 31990.0,
+  "price_old_kzt": null,
+  "price_rub": 8040,
+  "price_old_rub": null,
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/75f8/39fa/71354d179278/f0378c186af0/01599677800-p/01599677800-p.jpg?ts=1754394228768",
+  "images": [
+   "https://static.bershka.net/assets/public/75f8/39fa/71354d179278/f0378c186af0/01599677800-p/01599677800-p.jpg?ts=1754394228768",
+   "https://static.bershka.net/assets/public/373c/945b/166941bc86a3/1ec4eb42de57/01599677800-a1t/01599677800-a1t.jpg?ts=1754394228674",
+   "https://static.bershka.net/assets/public/aff3/eb3f/f0e5449d931e/ba1e77cde64b/01599677800-a2d/01599677800-a2d.jpg?ts=1754394228603",
+   "https://static.bershka.net/assets/public/c3d0/0287/14a544c48c2c/57802ad30527/01599677800-a3o/01599677800-a3o.jpg?ts=1754394229063",
+   "https://static.bershka.net/assets/public/80e2/6135/437b4981ae1b/86c6477e8699/01599677800-a4o/01599677800-a4o.jpg?ts=1754317183566",
+   "https://static.bershka.net/assets/public/b735/74b3/526446adb4b6/af1d73e9f089/01599677800-b/01599677800-b.jpg?ts=1754317183296",
+   "https://static.bershka.net/assets/public/0aca/d126/02a24c3b8232/dfab15a469b3/01599677800-s/01599677800-s.jpg?ts=1754317184335",
+   "https://static.bershka.net/assets/public/83b7/5b9b/afb54d998182/c5c4ff9197f2/01599677800-r/01599677800-r.jpg?ts=1754317184013"
   ]
  },
  {
@@ -51565,6 +51857,40 @@
    "https://static.bershka.net/assets/public/56c6/cb54/321d41fb8fc3/832842ce971e/02425335830-s/02425335830-s.jpg?ts=1778491557994",
    "https://static.bershka.net/assets/public/65f7/1e0e/634f4b3cb0ce/ee90b4b5bb3d/02425335830-r/02425335830-r.jpg?ts=1778491557652",
    "https://static.bershka.net/assets/public/d570/2fd6/ac5a40b5bdac/b54c40c69adc/02425335830-p/02425335830-p.jpg?ts=1779982460418"
+  ]
+ },
+ {
+  "product_id": 207351245,
+  "color_id": "505",
+  "ref": "0992/388",
+  "name": "Шорты с принтом",
+  "section": "WOMEN",
+  "family": "SHORTS",
+  "subfamily": "SHORTS",
+  "color": "Хаки",
+  "price_kzt": 19990.0,
+  "price_old_kzt": null,
+  "price_rub": 4990,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/37b9/21e4/0f21440489ed/3b4dfb814fff/00992388505-p/00992388505-p.jpg?ts=1780048706802",
+  "images": [
+   "https://static.bershka.net/assets/public/37b9/21e4/0f21440489ed/3b4dfb814fff/00992388505-p/00992388505-p.jpg?ts=1780048706802",
+   "https://static.bershka.net/assets/public/8142/5457/19f644bfb1a3/9e7cb6a65c7d/00992388505-a1t/00992388505-a1t.jpg?ts=1780048706948",
+   "https://static.bershka.net/assets/public/987e/4bc7/1101424b9dc1/1f29ea399327/00992388505-a2d/00992388505-a2d.jpg?ts=1780048709248",
+   "https://static.bershka.net/assets/public/1623/33fc/d99541aeb0b6/5a81b33f0422/00992388505-a3o/00992388505-a3o.jpg?ts=1780048709447",
+   "https://static.bershka.net/assets/public/f970/640f/f6b645009bfc/0335e153ce0a/00992388505-a9o/00992388505-a9o.jpg?ts=1780048709833",
+   "https://static.bershka.net/assets/public/d05b/22c5/46164d6baa7a/186901b5a675/00992388505-a4o/00992388505-a4o.jpg?ts=1768492073330",
+   "https://static.bershka.net/assets/public/8ca9/079a/13ae44c6a185/ec1c8f034edf/00992388505-b/00992388505-b.jpg?ts=1768492072811",
+   "https://static.bershka.net/assets/public/9c8d/3c2c/b1024660a1cb/bb6bc63a318b/00992388505-r/00992388505-r.jpg?ts=1768492073575",
+   "https://static.bershka.net/assets/public/9693/31be/ced3443a83c9/8a467e885a82/00992388505-s/00992388505-s.jpg?ts=1768492073256"
   ]
  },
  {
@@ -51729,7 +52055,7 @@
   "product_id": 213167219,
   "color_id": "506",
   "ref": "1416/156",
-  "name": "Джинсовые мини-шорты",
+  "name": "Джинсовое мини-платье с вышивкой",
   "section": "WOMEN",
   "family": "SHORTS",
   "subfamily": "SHORTS",
@@ -51833,40 +52159,6 @@
    "https://static.bershka.net/assets/public/b87f/0653/92b644cab490/11bd101a3469/01323388700-b/01323388700-b.jpg?ts=1773244925125",
    "https://static.bershka.net/assets/public/a726/9209/fb0e478b9484/ec399387f8f7/01323388700-r/01323388700-r.jpg?ts=1773244924669",
    "https://static.bershka.net/assets/public/9ff6/bf61/ddd74ada98f9/7534dba1d499/01323388700-s/01323388700-s.jpg?ts=1773244925225"
-  ]
- },
- {
-  "product_id": 207351245,
-  "color_id": "505",
-  "ref": "0992/388",
-  "name": "Шорты с принтом",
-  "section": "WOMEN",
-  "family": "SHORTS",
-  "subfamily": "SHORTS",
-  "color": "Хаки",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/37b9/21e4/0f21440489ed/3b4dfb814fff/00992388505-p/00992388505-p.jpg?ts=1780048706802",
-  "images": [
-   "https://static.bershka.net/assets/public/37b9/21e4/0f21440489ed/3b4dfb814fff/00992388505-p/00992388505-p.jpg?ts=1780048706802",
-   "https://static.bershka.net/assets/public/8142/5457/19f644bfb1a3/9e7cb6a65c7d/00992388505-a1t/00992388505-a1t.jpg?ts=1780048706948",
-   "https://static.bershka.net/assets/public/987e/4bc7/1101424b9dc1/1f29ea399327/00992388505-a2d/00992388505-a2d.jpg?ts=1780048709248",
-   "https://static.bershka.net/assets/public/1623/33fc/d99541aeb0b6/5a81b33f0422/00992388505-a3o/00992388505-a3o.jpg?ts=1780048709447",
-   "https://static.bershka.net/assets/public/f970/640f/f6b645009bfc/0335e153ce0a/00992388505-a9o/00992388505-a9o.jpg?ts=1780048709833",
-   "https://static.bershka.net/assets/public/d05b/22c5/46164d6baa7a/186901b5a675/00992388505-a4o/00992388505-a4o.jpg?ts=1768492073330",
-   "https://static.bershka.net/assets/public/8ca9/079a/13ae44c6a185/ec1c8f034edf/00992388505-b/00992388505-b.jpg?ts=1768492072811",
-   "https://static.bershka.net/assets/public/9c8d/3c2c/b1024660a1cb/bb6bc63a318b/00992388505-r/00992388505-r.jpg?ts=1768492073575",
-   "https://static.bershka.net/assets/public/9693/31be/ced3443a83c9/8a467e885a82/00992388505-s/00992388505-s.jpg?ts=1768492073256"
   ]
  },
  {
@@ -52609,8 +52901,12 @@
    "42"
   ],
   "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/8018/9762/f1f24bb5a10f/c5bb12423cf2/02493352433-a4o/02493352433-a4o.jpg?ts=1778846123262",
+  "image": "https://static.bershka.net/assets/public/df07/bd06/ed2842469458/f55ef2d365f0/02493352433-p/02493352433-p.jpg?ts=1780319631079",
   "images": [
+   "https://static.bershka.net/assets/public/df07/bd06/ed2842469458/f55ef2d365f0/02493352433-p/02493352433-p.jpg?ts=1780319631079",
+   "https://static.bershka.net/assets/public/7e8d/7751/daea4fc6b282/a3f269012db3/02493352433-a1t/02493352433-a1t.jpg?ts=1780319630177",
+   "https://static.bershka.net/assets/public/4b51/87e2/fa1f4477b28b/18cc996a91e4/02493352433-a2d/02493352433-a2d.jpg?ts=1780319630126",
+   "https://static.bershka.net/assets/public/447c/5d74/ac66491983b2/a1a529f24e17/02493352433-a3o/02493352433-a3o.jpg?ts=1780319630062",
    "https://static.bershka.net/assets/public/8018/9762/f1f24bb5a10f/c5bb12423cf2/02493352433-a4o/02493352433-a4o.jpg?ts=1778846123262",
    "https://static.bershka.net/assets/public/6b5e/bf2e/22ac44449ef7/bad5ccc436b0/02493352433-b/02493352433-b.jpg?ts=1778846123296",
    "https://static.bershka.net/assets/public/b21a/d81c/33f74089b4f5/5309ceebbb56/02493352433-r/02493352433-r.jpg?ts=1778846125051",
@@ -52750,17 +53046,17 @@
    "42"
   ],
   "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/9076/71fb/dea44b729bdc/cd6b9af32d27/01880335426-p/01880335426-p.jpg?ts=1779978759855",
+  "image": "https://static.bershka.net/assets/public/cb2a/dd11/3fc84bc8ad17/0f6db059a398/01880335426-p/01880335426-p.jpg?ts=1780324990196",
   "images": [
-   "https://static.bershka.net/assets/public/9076/71fb/dea44b729bdc/cd6b9af32d27/01880335426-p/01880335426-p.jpg?ts=1779978759855",
-   "https://static.bershka.net/assets/public/6e79/eff4/44334076a799/0b109a3f294c/01880335426-a1t/01880335426-a1t.jpg?ts=1779978759974",
-   "https://static.bershka.net/assets/public/b88d/fc0b/4ede49789909/91ddd6335203/01880335426-a2d/01880335426-a2d.jpg?ts=1779978759605",
-   "https://static.bershka.net/assets/public/b727/2d0c/f88b4ccd9374/5b9d5379576d/01880335426-a3o/01880335426-a3o.jpg?ts=1779978759699",
-   "https://static.bershka.net/assets/public/a954/c68f/946c41208c3c/20d421536968/01880335426-a4o/01880335426-a4o.jpg?ts=1779978773600",
-   "https://static.bershka.net/assets/public/0c2a/1bd3/f26e4d79a589/861c5d3f5306/01880335426-b/01880335426-b.jpg?ts=1779978774188",
-   "https://static.bershka.net/assets/public/cae3/37e0/f0ea4573a1cd/287803a8b5d1/01880335426-r/01880335426-r.jpg?ts=1779978773757",
-   "https://static.bershka.net/assets/public/16e7/91ad/1a5c415885d0/6f2b1996b75c/01880335426-s/01880335426-s.jpg?ts=1779978774257",
-   "https://static.bershka.net/assets/public/32ff/b128/2f1543669247/d65d0f567d1f/01880335426-e/01880335426-e.jpg?ts=1779979343119",
+   "https://static.bershka.net/assets/public/cb2a/dd11/3fc84bc8ad17/0f6db059a398/01880335426-p/01880335426-p.jpg?ts=1780324990196",
+   "https://static.bershka.net/assets/public/7214/b22a/aece445f8aea/f95da96a6359/01880335426-a1t/01880335426-a1t.jpg?ts=1780324990370",
+   "https://static.bershka.net/assets/public/cf70/2add/b0984f3b9d3b/dd1295de476e/01880335426-a2d/01880335426-a2d.jpg?ts=1780324991138",
+   "https://static.bershka.net/assets/public/8362/326d/85dd4a25ba2d/a1cd4a35b823/01880335426-a3o/01880335426-a3o.jpg?ts=1780324990923",
+   "https://static.bershka.net/assets/public/721a/8e9d/63f54723860d/1f4ed1f26fc3/01880335426-a4o/01880335426-a4o.jpg?ts=1780323720835",
+   "https://static.bershka.net/assets/public/8f76/4c5c/356b4de2ab6f/2b074715fa70/01880335426-b/01880335426-b.jpg?ts=1780323720949",
+   "https://static.bershka.net/assets/public/1257/db47/5d2646a9b29b/d4a850cfb20f/01880335426-r/01880335426-r.jpg?ts=1780323719710",
+   "https://static.bershka.net/assets/public/be4c/9a3c/751e406b9ab7/21dc8fa02fac/01880335426-s/01880335426-s.jpg?ts=1780323720327",
+   "https://static.bershka.net/assets/public/babf/0b16/e0c5434eba87/42b0877adaaf/01880335426-e/01880335426-e.jpg?ts=1780324989629",
    "https://static.bershka.net/assets/public/172a/67c9/23c94193905c/2643fb647f9c/01880335426-01-a7o/01880335426-01-a7o.jpg?ts=1779979288106"
   ]
  },
@@ -53899,42 +54195,6 @@
   ]
  },
  {
-  "product_id": 208765608,
-  "color_id": "433",
-  "ref": "0971/074",
-  "name": "Широкие джинсы с отворотами снизу",
-  "section": "WOMEN",
-  "family": "TROUSERS",
-  "subfamily": "JEANS",
-  "color": "Голубой",
-  "price_kzt": 28990.0,
-  "price_old_kzt": null,
-  "price_rub": 7290,
-  "price_old_rub": null,
-  "sizes": [
-   "32",
-   "34",
-   "36",
-   "38",
-   "40",
-   "42"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/2f1d/59cb/ee614617a741/ce2d5955208b/00971074433-p/00971074433-p.jpg?ts=1772100089436",
-  "images": [
-   "https://static.bershka.net/assets/public/2f1d/59cb/ee614617a741/ce2d5955208b/00971074433-p/00971074433-p.jpg?ts=1772100089436",
-   "https://static.bershka.net/assets/public/3748/8a26/dd4843268031/56b5d1a4b26b/00971074433-a1t/00971074433-a1t.jpg?ts=1772100091389",
-   "https://static.bershka.net/assets/public/eb67/18be/13ac437580fc/5be680c716b2/00971074433-a2d/00971074433-a2d.jpg?ts=1772100091365",
-   "https://static.bershka.net/assets/public/fa83/588c/8de74ab1afbf/eb0239002c9f/00971074433-a3o/00971074433-a3o.jpg?ts=1772100090140",
-   "https://static.bershka.net/assets/public/2e38/f434/93374cdfb4d7/bd254abb874e/00971074433-h1/master.m3u8?ts=1772121279014",
-   "https://static.bershka.net/assets/public/4d48/1e4c/d8754470be50/485d111081c4/00971074433-a4o/00971074433-a4o.jpg?ts=1771592226021",
-   "https://static.bershka.net/assets/public/004a/d0c7/74104bb19e1d/bc4a6c448e3a/00971074433-b/00971074433-b.jpg?ts=1771592226105",
-   "https://static.bershka.net/assets/public/ffac/5c5d/2d9a4e12899e/932b5829293a/00971074433-s/00971074433-s.jpg?ts=1771592225977",
-   "https://static.bershka.net/assets/public/8f3f/2055/592a419bbeca/d21031e5442a/00971074433-r/00971074433-r.jpg?ts=1771592226060",
-   "https://static.bershka.net/assets/public/09ad/466f/c1e04560a9d8/067387d71a3c/0097107443320-a5o/0097107443320-a5o.jpg?ts=1772614568089"
-  ]
- },
- {
   "product_id": 214965477,
   "color_id": "700",
   "ref": "1319/168",
@@ -54691,6 +54951,42 @@
   ]
  },
  {
+  "product_id": 208765608,
+  "color_id": "433",
+  "ref": "0971/074",
+  "name": "Широкие джинсы с отворотами снизу",
+  "section": "WOMEN",
+  "family": "TROUSERS",
+  "subfamily": "JEANS",
+  "color": "Голубой",
+  "price_kzt": 28990.0,
+  "price_old_kzt": null,
+  "price_rub": 7290,
+  "price_old_rub": null,
+  "sizes": [
+   "32",
+   "34",
+   "36",
+   "38",
+   "40",
+   "42"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/2f1d/59cb/ee614617a741/ce2d5955208b/00971074433-p/00971074433-p.jpg?ts=1772100089436",
+  "images": [
+   "https://static.bershka.net/assets/public/2f1d/59cb/ee614617a741/ce2d5955208b/00971074433-p/00971074433-p.jpg?ts=1772100089436",
+   "https://static.bershka.net/assets/public/3748/8a26/dd4843268031/56b5d1a4b26b/00971074433-a1t/00971074433-a1t.jpg?ts=1772100091389",
+   "https://static.bershka.net/assets/public/eb67/18be/13ac437580fc/5be680c716b2/00971074433-a2d/00971074433-a2d.jpg?ts=1772100091365",
+   "https://static.bershka.net/assets/public/fa83/588c/8de74ab1afbf/eb0239002c9f/00971074433-a3o/00971074433-a3o.jpg?ts=1772100090140",
+   "https://static.bershka.net/assets/public/2e38/f434/93374cdfb4d7/bd254abb874e/00971074433-h1/master.m3u8?ts=1772121279014",
+   "https://static.bershka.net/assets/public/4d48/1e4c/d8754470be50/485d111081c4/00971074433-a4o/00971074433-a4o.jpg?ts=1771592226021",
+   "https://static.bershka.net/assets/public/004a/d0c7/74104bb19e1d/bc4a6c448e3a/00971074433-b/00971074433-b.jpg?ts=1771592226105",
+   "https://static.bershka.net/assets/public/ffac/5c5d/2d9a4e12899e/932b5829293a/00971074433-s/00971074433-s.jpg?ts=1771592225977",
+   "https://static.bershka.net/assets/public/8f3f/2055/592a419bbeca/d21031e5442a/00971074433-r/00971074433-r.jpg?ts=1771592226060",
+   "https://static.bershka.net/assets/public/09ad/466f/c1e04560a9d8/067387d71a3c/0097107443320-a5o/0097107443320-a5o.jpg?ts=1772614568089"
+  ]
+ },
+ {
   "product_id": 209092664,
   "color_id": "428",
   "ref": "5035/335",
@@ -55346,12 +55642,12 @@
    "44"
   ],
   "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/1fdc/979b/b48d417c91ef/3ccb8c022d5e/00094797400-p/00094797400-p.jpg?ts=1780051544808",
+  "image": "https://static.bershka.net/assets/public/1dce/379f/b80749cb8eb7/8225918c8585/00094335400-p/00094335400-p.jpg?ts=1780322951897",
   "images": [
-   "https://static.bershka.net/assets/public/1fdc/979b/b48d417c91ef/3ccb8c022d5e/00094797400-p/00094797400-p.jpg?ts=1780051544808",
-   "https://static.bershka.net/assets/public/c276/bb31/1dd34a7e9ba2/b13be8342e9e/00094797400-a1t/00094797400-a1t.jpg?ts=1780051545111",
-   "https://static.bershka.net/assets/public/c473/9139/90234b3da2b1/543680c3f816/00094797400-a2d/00094797400-a2d.jpg?ts=1780051544502",
-   "https://static.bershka.net/assets/public/5def/1c03/e53b404a850c/9c247e233db3/00094797400-a3o/00094797400-a3o.jpg?ts=1780051545339",
+   "https://static.bershka.net/assets/public/1dce/379f/b80749cb8eb7/8225918c8585/00094335400-p/00094335400-p.jpg?ts=1780322951897",
+   "https://static.bershka.net/assets/public/5c8d/8963/b9384435b704/ce969f81fb80/00094335400-a1t/00094335400-a1t.jpg?ts=1780322951894",
+   "https://static.bershka.net/assets/public/ab8d/b973/a9d942ab9e8f/921800b93bd6/00094335400-a2d/00094335400-a2d.jpg?ts=1780322952237",
+   "https://static.bershka.net/assets/public/5006/da88/cbca4c668576/c3cbf09d0d06/00094335400-a3o/00094335400-a3o.jpg?ts=1780322952142",
    "https://static.bershka.net/assets/public/f42a/de2f/991c44009f77/2dbaf26b5da9/00094089400-a4o/00094089400-a4o.jpg?ts=1768905874970",
    "https://static.bershka.net/assets/public/59ae/49e7/170f4a80a95a/9f8cb808a5dc/00094089400-b/00094089400-b.jpg?ts=1768905875403",
    "https://static.bershka.net/assets/public/e402/c6d9/abb84b678cab/81011fdbc40a/00094089400-r/00094089400-r.jpg?ts=1768905874783",
@@ -57904,6 +58200,43 @@
   ]
  },
  {
+  "product_id": 206159503,
+  "color_id": "121",
+  "ref": "1812/764",
+  "name": "Сандалии с деталями в виде пряжек",
+  "section": "WOMEN",
+  "family": "FLAT SANDALS",
+  "subfamily": "HEELED SANDALS",
+  "color": "0",
+  "price_kzt": 17490.0,
+  "price_old_kzt": 24990.0,
+  "price_rub": 4440,
+  "price_old_rub": 6290,
+  "sizes": [
+   "35",
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/a402/30b4/765f44e7a6cd/3dba206d676f/11812764121-a4o/11812764121-a4o.jpg?ts=1766060519013",
+  "images": [
+   "https://static.bershka.net/assets/public/a402/30b4/765f44e7a6cd/3dba206d676f/11812764121-a4o/11812764121-a4o.jpg?ts=1766060519013",
+   "https://static.bershka.net/assets/public/bb58/aaf4/4e71428a998c/4ce0af36f081/11812764121-b1o/11812764121-b1o.jpg?ts=1778764113946",
+   "https://static.bershka.net/assets/public/d808/110f/4af04db794a8/997026d84fbb/11812764121-a1t/11812764121-a1t.jpg?ts=1766060517601",
+   "https://static.bershka.net/assets/public/25b7/7966/438e46449cdf/cc83b06e658f/11812764121-a2d/11812764121-a2d.jpg?ts=1773824838717",
+   "https://static.bershka.net/assets/public/d876/426d/6b914f44bdb8/8f01acb82171/11812764121-a3o/11812764121-a3o.jpg?ts=1766060520115",
+   "https://static.bershka.net/assets/public/302f/44c7/1a2b4fc09815/951b178affca/11812764121-a11o/11812764121-a11o.jpg?ts=1766060517768",
+   "https://static.bershka.net/assets/public/7fb7/5d6d/35e645229654/e8dc7ac226de/11812764121-r/11812764121-r.jpg?ts=1766060516428",
+   "https://static.bershka.net/assets/public/d001/71a0/80cc4c8c9993/5f55687ef5aa/11812764121-b2o/11812764121-b2o.jpg?ts=1774523149916",
+   "https://static.bershka.net/assets/public/527b/681d/55f6487fad4a/f47238a75514/11812764121-v1/11812764121-v1.jpg?ts=1766060516638",
+   "https://static.bershka.net/assets/public/6f51/b15f/49cc4ce9b4f9/7ac60e120c00/11812764121-t4o/11812764121-t4o.jpg?ts=1766060519060"
+  ]
+ },
+ {
   "product_id": 220218614,
   "color_id": "020",
   "ref": "1704/864",
@@ -58056,43 +58389,6 @@
    "https://static.bershka.net/assets/public/bf07/bf1d/d5ed4473a590/a6cc2c11a930/01209172700-s/01209172700-s.jpg?ts=1767889538794",
    "https://static.bershka.net/assets/public/415b/5224/24504a37b53f/59e508e9278a/01209172700-a7o/01209172700-a7o.jpg?ts=1768465119470",
    "https://static.bershka.net/assets/public/732b/83fc/344e4154b7cd/03fc1be9d7dc/01209172700-28-a9o/01209172700-28-a9o.jpg?ts=1770900568729"
-  ]
- },
- {
-  "product_id": 206159503,
-  "color_id": "121",
-  "ref": "1812/764",
-  "name": "Сандалии с деталями в виде пряжек",
-  "section": "WOMEN",
-  "family": "FLAT SANDALS",
-  "subfamily": "HEELED SANDALS",
-  "color": "0",
-  "price_kzt": 17490.0,
-  "price_old_kzt": 24990.0,
-  "price_rub": 4440,
-  "price_old_rub": 6290,
-  "sizes": [
-   "35",
-   "36",
-   "37",
-   "38",
-   "39",
-   "40",
-   "41"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/a402/30b4/765f44e7a6cd/3dba206d676f/11812764121-a4o/11812764121-a4o.jpg?ts=1766060519013",
-  "images": [
-   "https://static.bershka.net/assets/public/a402/30b4/765f44e7a6cd/3dba206d676f/11812764121-a4o/11812764121-a4o.jpg?ts=1766060519013",
-   "https://static.bershka.net/assets/public/bb58/aaf4/4e71428a998c/4ce0af36f081/11812764121-b1o/11812764121-b1o.jpg?ts=1778764113946",
-   "https://static.bershka.net/assets/public/d808/110f/4af04db794a8/997026d84fbb/11812764121-a1t/11812764121-a1t.jpg?ts=1766060517601",
-   "https://static.bershka.net/assets/public/25b7/7966/438e46449cdf/cc83b06e658f/11812764121-a2d/11812764121-a2d.jpg?ts=1773824838717",
-   "https://static.bershka.net/assets/public/d876/426d/6b914f44bdb8/8f01acb82171/11812764121-a3o/11812764121-a3o.jpg?ts=1766060520115",
-   "https://static.bershka.net/assets/public/302f/44c7/1a2b4fc09815/951b178affca/11812764121-a11o/11812764121-a11o.jpg?ts=1766060517768",
-   "https://static.bershka.net/assets/public/7fb7/5d6d/35e645229654/e8dc7ac226de/11812764121-r/11812764121-r.jpg?ts=1766060516428",
-   "https://static.bershka.net/assets/public/d001/71a0/80cc4c8c9993/5f55687ef5aa/11812764121-b2o/11812764121-b2o.jpg?ts=1774523149916",
-   "https://static.bershka.net/assets/public/527b/681d/55f6487fad4a/f47238a75514/11812764121-v1/11812764121-v1.jpg?ts=1766060516638",
-   "https://static.bershka.net/assets/public/6f51/b15f/49cc4ce9b4f9/7ac60e120c00/11812764121-t4o/11812764121-t4o.jpg?ts=1766060519060"
   ]
  },
  {
@@ -61142,40 +61438,6 @@
   ]
  },
  {
-  "product_id": 206211862,
-  "color_id": "251",
-  "ref": "0906/190",
-  "name": "Поло с короткими рукавами",
-  "section": "MEN",
-  "family": "T-SHIRTS",
-  "subfamily": "POLOS",
-  "color": "Белый",
-  "price_kzt": 10490.0,
-  "price_old_kzt": 14990.0,
-  "price_rub": 2540,
-  "price_old_rub": 3790,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/2619/b43b/4e41414cb72b/f85bcad3956c/00906190251-p/00906190251-p.jpg?ts=1764667912668",
-  "images": [
-   "https://static.bershka.net/assets/public/2619/b43b/4e41414cb72b/f85bcad3956c/00906190251-p/00906190251-p.jpg?ts=1764667912668",
-   "https://static.bershka.net/assets/public/1c38/fe07/106547cab178/b6e659702446/00906190251-a1t/00906190251-a1t.jpg?ts=1764667912576",
-   "https://static.bershka.net/assets/public/0f97/e06e/fbef47298892/5b57ec5f5805/00906190251-a2d/00906190251-a2d.jpg?ts=1764667915995",
-   "https://static.bershka.net/assets/public/1de4/3c8e/a71e41c197fd/14bd20415c9e/00906190251-a3o/00906190251-a3o.jpg?ts=1764667915672",
-   "https://static.bershka.net/assets/public/d511/a3ec/70f94bb68908/0d677289864e/00906190251-a4o/00906190251-a4o.jpg?ts=1763991087752",
-   "https://static.bershka.net/assets/public/158d/7498/768e4e6f8326/cd236b70a489/00906190251-b/00906190251-b.jpg?ts=1763991088406",
-   "https://static.bershka.net/assets/public/a279/e57e/040b4491b985/40da3ef8c233/00906190251-r/00906190251-r.jpg?ts=1763991087751",
-   "https://static.bershka.net/assets/public/8197/7b6a/297b46bdb603/72d0af05058b/00906190251-s/00906190251-s.jpg?ts=1763991088122",
-   "https://static.bershka.net/assets/public/ed8e/d829/b2dc4db493f0/4f118cfb6af5/00906190251-01-a7o/00906190251-01-a7o.jpg?ts=1777476225775"
-  ]
- },
- {
   "product_id": 217193725,
   "color_id": "401",
   "ref": "1846/224",
@@ -61747,40 +62009,6 @@
  },
  {
   "product_id": 207575484,
-  "color_id": "409",
-  "ref": "1127/443",
-  "name": "Футболка с короткими рукавами и принтом",
-  "section": "MEN",
-  "family": "T-SHIRTS",
-  "subfamily": "T-SHIRTS",
-  "color": "Синий",
-  "price_kzt": 6990.0,
-  "price_old_kzt": 9990.0,
-  "price_rub": 1790,
-  "price_old_rub": 2390,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.bershka.net/assets/public/716c/a385/672c46a1ad96/e1fff3d7a630/01127443409-p/01127443409-p.jpg?ts=1768319167236",
-  "images": [
-   "https://static.bershka.net/assets/public/716c/a385/672c46a1ad96/e1fff3d7a630/01127443409-p/01127443409-p.jpg?ts=1768319167236",
-   "https://static.bershka.net/assets/public/2a7f/937d/e5d14481b502/58aab535edad/01127443409-a1t/01127443409-a1t.jpg?ts=1768319167178",
-   "https://static.bershka.net/assets/public/d5b3/df76/6ddf468babf5/226b7eae4c83/01127443409-a2d/01127443409-a2d.jpg?ts=1768319166551",
-   "https://static.bershka.net/assets/public/6668/e4d2/b3514f04a632/e6675f8f4fa2/01127443409-a3o/01127443409-a3o.jpg?ts=1768472233956",
-   "https://static.bershka.net/assets/public/a45f/292c/e69444cab123/a05ea44c0151/01127443409-a4o/01127443409-a4o.jpg?ts=1768217488996",
-   "https://static.bershka.net/assets/public/f164/aa01/35cc49a28745/7ad61c0f8fd0/01127443409-b/01127443409-b.jpg?ts=1768217489162",
-   "https://static.bershka.net/assets/public/ee0b/fb24/28554e248b49/88630d48d851/01127443409-s/01127443409-s.jpg?ts=1768217489287",
-   "https://static.bershka.net/assets/public/e5d4/ed71/e48442df820b/994651d3a633/01127443409-r/01127443409-r.jpg?ts=1768217489705",
-   "https://static.bershka.net/assets/public/ad91/1d54/79f84106a920/1bf56bb400ca/01127443409-e/01127443409-e.jpg?ts=1768472203967"
-  ]
- },
- {
-  "product_id": 207575484,
   "color_id": "805",
   "ref": "1127/443",
   "name": "Футболка с короткими рукавами и принтом",
@@ -61881,6 +62109,40 @@
    "https://static.bershka.net/assets/public/844c/a3cc/029947c1996a/0d16400b5d5c/00889156433-r/00889156433-r.jpg?ts=1768217493862",
    "https://static.bershka.net/assets/public/8da5/f982/970c498e8f5b/c44b4c86aad0/00889156433-s/00889156433-s.jpg?ts=1768217494226",
    "https://static.bershka.net/assets/public/67c5/7595/2b0142eb9f57/c28ef095a397/00889156433-05-a5o/00889156433-05-a5o.jpg?ts=1776766460630"
+  ]
+ },
+ {
+  "product_id": 206211862,
+  "color_id": "251",
+  "ref": "0906/190",
+  "name": "Поло с короткими рукавами",
+  "section": "MEN",
+  "family": "T-SHIRTS",
+  "subfamily": "POLOS",
+  "color": "Белый",
+  "price_kzt": 10490.0,
+  "price_old_kzt": 14990.0,
+  "price_rub": 2540,
+  "price_old_rub": 3790,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.bershka.net/assets/public/2619/b43b/4e41414cb72b/f85bcad3956c/00906190251-p/00906190251-p.jpg?ts=1764667912668",
+  "images": [
+   "https://static.bershka.net/assets/public/2619/b43b/4e41414cb72b/f85bcad3956c/00906190251-p/00906190251-p.jpg?ts=1764667912668",
+   "https://static.bershka.net/assets/public/1c38/fe07/106547cab178/b6e659702446/00906190251-a1t/00906190251-a1t.jpg?ts=1764667912576",
+   "https://static.bershka.net/assets/public/0f97/e06e/fbef47298892/5b57ec5f5805/00906190251-a2d/00906190251-a2d.jpg?ts=1764667915995",
+   "https://static.bershka.net/assets/public/1de4/3c8e/a71e41c197fd/14bd20415c9e/00906190251-a3o/00906190251-a3o.jpg?ts=1764667915672",
+   "https://static.bershka.net/assets/public/d511/a3ec/70f94bb68908/0d677289864e/00906190251-a4o/00906190251-a4o.jpg?ts=1763991087752",
+   "https://static.bershka.net/assets/public/158d/7498/768e4e6f8326/cd236b70a489/00906190251-b/00906190251-b.jpg?ts=1763991088406",
+   "https://static.bershka.net/assets/public/a279/e57e/040b4491b985/40da3ef8c233/00906190251-r/00906190251-r.jpg?ts=1763991087751",
+   "https://static.bershka.net/assets/public/8197/7b6a/297b46bdb603/72d0af05058b/00906190251-s/00906190251-s.jpg?ts=1763991088122",
+   "https://static.bershka.net/assets/public/ed8e/d829/b2dc4db493f0/4f118cfb6af5/00906190251-01-a7o/00906190251-01-a7o.jpg?ts=1777476225775"
   ]
  },
  {
@@ -62759,10 +63021,16 @@
   "price_old_rub": null,
   "sizes": [
    "32",
+   "32",
+   "34",
    "34",
    "36",
+   "36",
+   "38",
    "38",
    "40",
+   "40",
+   "42",
    "42"
   ],
   "in_stock": true,
