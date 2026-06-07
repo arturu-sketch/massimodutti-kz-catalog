@@ -6365,6 +6365,72 @@
   ]
  },
  {
+  "product_id": 507771971,
+  "color_id": "250",
+  "ref": "0075/010",
+  "name": "ОДЕЯЛО С ПУХОВЫМ НАПОЛНИТЕЛЕМ (170 GXM²)",
+  "section": "СПАЛЬНЯ",
+  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
+  "subfamily": "DUVET FILLINGS",
+  "color": "БЕЛЫЙ",
+  "price_kzt": 89990.0,
+  "price_old_kzt": null,
+  "price_rub": 22490,
+  "price_old_rub": null,
+  "sizes": [
+   "135 x 200 cm",
+   "135 x 200 cm",
+   "135 x 200 cm",
+   "150 x 220 cm",
+   "150 x 220 cm",
+   "150 x 220 cm",
+   "150 x 220 cm",
+   "180 x 220 cm",
+   "180 x 220 cm",
+   "180 x 220 cm",
+   "200 x 200 cm",
+   "200 x 200 cm",
+   "200 x 200 cm",
+   "220 x 220 cm",
+   "220 x 220 cm",
+   "220 x 220 cm",
+   "220 x 220 cm",
+   "200 x 220 cm",
+   "200 x 220 cm",
+   "200 x 220 cm",
+   "240 x 220 cm",
+   "240 x 220 cm",
+   "240 x 220 cm",
+   "240 x 220 cm",
+   "260 x 220 cm",
+   "260 x 220 cm",
+   "160 x 210 cm",
+   "160 x 210 cm",
+   "260 x 240 cm",
+   "260 x 240 cm",
+   "260 x 240 cm",
+   "290 x 260 cm",
+   "290 x 260 cm",
+   "290 x 260 cm",
+   "200 x 230 cm",
+   "200 x 230 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/951b/600c/6a06401dbfdf/e1ed2c52da4b/40162010250-a7/40162010250-a7.jpg?ts=1750332044309",
+  "images": [
+   "https://static.zarahome.net/assets/public/951b/600c/6a06401dbfdf/e1ed2c52da4b/40162010250-a7/40162010250-a7.jpg?ts=1750332044309",
+   "https://static.zarahome.net/assets/public/b499/7674/4b8741088037/c851668bceef/40075010250-r1/40075010250-r1.jpg?ts=1743783057734",
+   "https://static.zarahome.net/assets/public/00a4/7d67/82204fb297e1/915dc38a9640/40162010250-a1/40162010250-a1.jpg?ts=1751374259176",
+   "https://static.zarahome.net/assets/public/caf4/f5a4/14cc4e73b226/706d6143f800/40075010250-a2/40075010250-a2.jpg?ts=1743783058131",
+   "https://static.zarahome.net/assets/public/9d66/d89b/70fb430db000/86828e7cd9f2/40075010250-a3/40075010250-a3.jpg?ts=1743783058014",
+   "https://static.zarahome.net/assets/public/6cd8/13e5/9d684cc5aa6d/1a80cb53f927/40075010250-a4/40075010250-a4.jpg?ts=1743783058397",
+   "https://static.zarahome.net/assets/public/8291/6a60/d70e4ddd9dc3/d49324b8b164/40075010250-a5/40075010250-a5.jpg?ts=1743783042646",
+   "https://static.zarahome.net/assets/public/dc5d/3234/a2aa486f9856/3a1a4541cabf/40075010250-a6/40075010250-a6.jpg?ts=1724072696679",
+   "https://static.zarahome.net/assets/public/bf16/88c0/c07c40d18a32/712c91aae068/40162010250-f/40162010250-f.jpg?ts=1750332043756",
+   "https://static.zarahome.net/assets/public/c7e5/a0f9/e3304a24be97/62ff0b3445f5/4016201025001-p1/4016201025001-p1.jpg?ts=1743494509959"
+  ]
+ },
+ {
   "product_id": 509989274,
   "color_id": "250",
   "ref": "0056/086",
@@ -6396,48 +6462,6 @@
    "https://static.zarahome.net/assets/public/8421/6b6b/f5d74794b812/b48c81dda62c/40056086250-c/40056086250-c.jpg?ts=1748948481943",
    "https://static.zarahome.net/assets/public/21bf/bc1c/d86a4cdfaa02/18d51a88ba0c/40056086250-f/40056086250-f.jpg?ts=1751472052177",
    "https://static.zarahome.net/assets/public/e815/471e/2c3440aa953d/1cae7ba5d990/40056086250-r/40056086250-r.jpg?ts=1748948479283"
-  ]
- },
- {
-  "product_id": 507778209,
-  "color_id": "250",
-  "ref": "1322/011",
-  "name": "ВНУТРЕННЯЯ ПОДУШКА ИЗ ГЕЛЕВОГО ВОЛОКНА",
-  "section": "СПАЛЬНЯ",
-  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
-  "subfamily": "CUSHION FILLINGS",
-  "color": "БЕЛЫЙ",
-  "price_kzt": 6990.0,
-  "price_old_kzt": null,
-  "price_rub": 1790,
-  "price_old_rub": null,
-  "sizes": [
-   "30 x 50 cm",
-   "30 x 50 cm",
-   "45 x 45 cm",
-   "45 x 45 cm",
-   "50 x 50 cm",
-   "50 x 50 cm",
-   "50 x 50 cm",
-   "50 x 75 cm",
-   "50 x 75 cm",
-   "50 x 75 cm",
-   "40 x 60 cm",
-   "40 x 60 cm",
-   "40 x 60 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/4b9e/a73c/061642078ebc/6163558a21fb/41320011250-a7/41320011250-a7.jpg?ts=1760434935050",
-  "images": [
-   "https://static.zarahome.net/assets/public/4b9e/a73c/061642078ebc/6163558a21fb/41320011250-a7/41320011250-a7.jpg?ts=1760434935050",
-   "https://static.zarahome.net/assets/public/5ec9/5533/4afa49b6b261/b4128ae3e3bb/41320011250-a1/41320011250-a1.jpg?ts=1760434934914",
-   "https://static.zarahome.net/assets/public/3343/98f9/45af4833a458/51d3e3481517/41320011250-a2/41320011250-a2.jpg?ts=1760434934874",
-   "https://static.zarahome.net/assets/public/a2ce/42a2/77d04913bf4d/e79c9a2f4bd4/41320011250-a3/41320011250-a3.jpg?ts=1760434934769",
-   "https://static.zarahome.net/assets/public/1729/650f/e99046a3bef3/ffb8de17f70e/41320011250-a4/41320011250-a4.jpg?ts=1760434937562",
-   "https://static.zarahome.net/assets/public/42dd/e0e7/4944466abac5/96f9f56b1e0d/41320011250-p1/41320011250-p1.jpg?ts=1760434934783",
-   "https://static.zarahome.net/assets/public/9f1c/ddef/cb5746b2bc04/82ea34039a07/41320011250-c/41320011250-c.jpg?ts=1760434934990",
-   "https://static.zarahome.net/assets/public/a6ef/fda4/3d9e48ae8694/8605327eb0e8/41320011250-f/41320011250-f.jpg?ts=1760434935414",
-   "https://static.zarahome.net/assets/public/4c53/6c2d/4bcc42a8ba2d/7dbf46964a7e/41316011250-r/41316011250-r.jpg?ts=1760434934559"
   ]
  },
  {
@@ -6811,6 +6835,48 @@
    "https://static.zarahome.net/assets/public/ae7d/35da/b1a7486e8e6a/6b536670ab55/40192012250-c/40192012250-c.jpg?ts=1757574019628",
    "https://static.zarahome.net/assets/public/c089/6d51/9f6943e491ca/d8273f4fd8cd/40192012250-f/40192012250-f.jpg?ts=1757573897742",
    "https://static.zarahome.net/assets/public/e397/4a37/27d34a409bb2/f70c45ebf4c0/40192012250-r/40192012250-r.jpg?ts=1757574018041"
+  ]
+ },
+ {
+  "product_id": 507778209,
+  "color_id": "250",
+  "ref": "1322/011",
+  "name": "ВНУТРЕННЯЯ ПОДУШКА ИЗ ГЕЛЕВОГО ВОЛОКНА",
+  "section": "СПАЛЬНЯ",
+  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
+  "subfamily": "CUSHION FILLINGS",
+  "color": "БЕЛЫЙ",
+  "price_kzt": 6990.0,
+  "price_old_kzt": null,
+  "price_rub": 1790,
+  "price_old_rub": null,
+  "sizes": [
+   "30 x 50 cm",
+   "30 x 50 cm",
+   "45 x 45 cm",
+   "45 x 45 cm",
+   "50 x 50 cm",
+   "50 x 50 cm",
+   "50 x 50 cm",
+   "50 x 75 cm",
+   "50 x 75 cm",
+   "50 x 75 cm",
+   "40 x 60 cm",
+   "40 x 60 cm",
+   "40 x 60 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/4b9e/a73c/061642078ebc/6163558a21fb/41320011250-a7/41320011250-a7.jpg?ts=1760434935050",
+  "images": [
+   "https://static.zarahome.net/assets/public/4b9e/a73c/061642078ebc/6163558a21fb/41320011250-a7/41320011250-a7.jpg?ts=1760434935050",
+   "https://static.zarahome.net/assets/public/5ec9/5533/4afa49b6b261/b4128ae3e3bb/41320011250-a1/41320011250-a1.jpg?ts=1760434934914",
+   "https://static.zarahome.net/assets/public/3343/98f9/45af4833a458/51d3e3481517/41320011250-a2/41320011250-a2.jpg?ts=1760434934874",
+   "https://static.zarahome.net/assets/public/a2ce/42a2/77d04913bf4d/e79c9a2f4bd4/41320011250-a3/41320011250-a3.jpg?ts=1760434934769",
+   "https://static.zarahome.net/assets/public/1729/650f/e99046a3bef3/ffb8de17f70e/41320011250-a4/41320011250-a4.jpg?ts=1760434937562",
+   "https://static.zarahome.net/assets/public/42dd/e0e7/4944466abac5/96f9f56b1e0d/41320011250-p1/41320011250-p1.jpg?ts=1760434934783",
+   "https://static.zarahome.net/assets/public/9f1c/ddef/cb5746b2bc04/82ea34039a07/41320011250-c/41320011250-c.jpg?ts=1760434934990",
+   "https://static.zarahome.net/assets/public/a6ef/fda4/3d9e48ae8694/8605327eb0e8/41320011250-f/41320011250-f.jpg?ts=1760434935414",
+   "https://static.zarahome.net/assets/public/4c53/6c2d/4bcc42a8ba2d/7dbf46964a7e/41316011250-r/41316011250-r.jpg?ts=1760434934559"
   ]
  },
  {
@@ -7710,72 +7776,6 @@
    "https://static.zarahome.net/assets/public/afcc/1cdf/3c71464fb9f7/4629ac1794ff/40076010250-f/40076010250-f.jpg?ts=1750332043551",
    "https://static.zarahome.net/assets/public/0cf5/732e/86954a4ba647/d553b47c4cac/4007601025001-a7/4007601025001-a7.jpg?ts=1743758134149",
    "https://static.zarahome.net/assets/public/ed74/425a/72b34cf0bf03/9f6eac8f4155/4007601025001-f1/4007601025001-f1.jpg?ts=1743758134499"
-  ]
- },
- {
-  "product_id": 507771971,
-  "color_id": "250",
-  "ref": "0075/010",
-  "name": "ОДЕЯЛО С ПУХОВЫМ НАПОЛНИТЕЛЕМ (170 GXM²)",
-  "section": "СПАЛЬНЯ",
-  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
-  "subfamily": "DUVET FILLINGS",
-  "color": "БЕЛЫЙ",
-  "price_kzt": 89990.0,
-  "price_old_kzt": null,
-  "price_rub": 22490,
-  "price_old_rub": null,
-  "sizes": [
-   "135 x 200 cm",
-   "135 x 200 cm",
-   "135 x 200 cm",
-   "150 x 220 cm",
-   "150 x 220 cm",
-   "150 x 220 cm",
-   "150 x 220 cm",
-   "180 x 220 cm",
-   "180 x 220 cm",
-   "180 x 220 cm",
-   "200 x 200 cm",
-   "200 x 200 cm",
-   "200 x 200 cm",
-   "220 x 220 cm",
-   "220 x 220 cm",
-   "220 x 220 cm",
-   "220 x 220 cm",
-   "200 x 220 cm",
-   "200 x 220 cm",
-   "200 x 220 cm",
-   "240 x 220 cm",
-   "240 x 220 cm",
-   "240 x 220 cm",
-   "240 x 220 cm",
-   "260 x 220 cm",
-   "260 x 220 cm",
-   "160 x 210 cm",
-   "160 x 210 cm",
-   "260 x 240 cm",
-   "260 x 240 cm",
-   "260 x 240 cm",
-   "290 x 260 cm",
-   "290 x 260 cm",
-   "290 x 260 cm",
-   "200 x 230 cm",
-   "200 x 230 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/951b/600c/6a06401dbfdf/e1ed2c52da4b/40162010250-a7/40162010250-a7.jpg?ts=1750332044309",
-  "images": [
-   "https://static.zarahome.net/assets/public/951b/600c/6a06401dbfdf/e1ed2c52da4b/40162010250-a7/40162010250-a7.jpg?ts=1750332044309",
-   "https://static.zarahome.net/assets/public/b499/7674/4b8741088037/c851668bceef/40075010250-r1/40075010250-r1.jpg?ts=1743783057734",
-   "https://static.zarahome.net/assets/public/00a4/7d67/82204fb297e1/915dc38a9640/40162010250-a1/40162010250-a1.jpg?ts=1751374259176",
-   "https://static.zarahome.net/assets/public/caf4/f5a4/14cc4e73b226/706d6143f800/40075010250-a2/40075010250-a2.jpg?ts=1743783058131",
-   "https://static.zarahome.net/assets/public/9d66/d89b/70fb430db000/86828e7cd9f2/40075010250-a3/40075010250-a3.jpg?ts=1743783058014",
-   "https://static.zarahome.net/assets/public/6cd8/13e5/9d684cc5aa6d/1a80cb53f927/40075010250-a4/40075010250-a4.jpg?ts=1743783058397",
-   "https://static.zarahome.net/assets/public/8291/6a60/d70e4ddd9dc3/d49324b8b164/40075010250-a5/40075010250-a5.jpg?ts=1743783042646",
-   "https://static.zarahome.net/assets/public/dc5d/3234/a2aa486f9856/3a1a4541cabf/40075010250-a6/40075010250-a6.jpg?ts=1724072696679",
-   "https://static.zarahome.net/assets/public/bf16/88c0/c07c40d18a32/712c91aae068/40162010250-f/40162010250-f.jpg?ts=1750332043756",
-   "https://static.zarahome.net/assets/public/c7e5/a0f9/e3304a24be97/62ff0b3445f5/4016201025001-p1/4016201025001-p1.jpg?ts=1743494509959"
   ]
  },
  {
@@ -10283,39 +10283,6 @@
   ]
  },
  {
-  "product_id": 488370368,
-  "color_id": "712",
-  "ref": "1189/121",
-  "name": "КОРОТКАЯ НОЧНАЯ РУБАШКА",
-  "section": "ОДЕЖДА И ОБУВЬ",
-  "family": "Женщины",
-  "subfamily": "NIGHTDRESSES",
-  "color": "ЭКРЮ",
-  "price_kzt": 39990.0,
-  "price_old_kzt": null,
-  "price_rub": 9990,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/934e/2fb2/acfc47988502/f3cdf8562aac/41189121712-a7/41189121712-a7.jpg?ts=1776074901555",
-  "images": [
-   "https://static.zarahome.net/assets/public/934e/2fb2/acfc47988502/f3cdf8562aac/41189121712-a7/41189121712-a7.jpg?ts=1776074901555",
-   "https://static.zarahome.net/assets/public/0ce3/9649/a170432eb86d/7e8b07121384/41189121712-p1/41189121712-p1.jpg?ts=1771859411913",
-   "https://static.zarahome.net/assets/public/1baa/128e/96a14a18ba4c/963b2e1d5079/41189121712-a1/41189121712-a1.jpg?ts=1771859413539",
-   "https://static.zarahome.net/assets/public/1071/6417/8b3e4778abfc/69e0a5fa7d86/41189121712-a2/41189121712-a2.jpg?ts=1771859412029",
-   "https://static.zarahome.net/assets/public/0b76/233b/0a7a41888f4a/f27783916725/41189121712-a3/41189121712-a3.jpg?ts=1771859412578",
-   "https://static.zarahome.net/assets/public/4ea1/1d76/8c4849baa3b9/cc1c6159b822/41189121712-r/41189121712-r.jpg?ts=1771859409745",
-   "https://static.zarahome.net/assets/public/9505/a166/b73e4ecd8bc1/22849da7e300/41189121712-c/41189121712-c.jpg?ts=1771859414684",
-   "https://static.zarahome.net/assets/public/3d44/69fb/20e74bf5b0c1/69882e5c8e83/41189121712-f/41189121712-f.jpg?ts=1771932779989",
-   "https://static.zarahome.net/assets/public/ceb7/b256/398a4cdc924d/5de026126187/41189121712-h/41189121712-h.jpg?ts=1776074901277"
-  ]
- },
- {
   "product_id": 488370430,
   "color_id": "250",
   "ref": "1188/120",
@@ -12561,6 +12528,36 @@
    "https://static.zarahome.net/assets/public/5c69/1938/c48648538cc4/230200af9fa5/42513120741-f/42513120741-f.jpg?ts=1776859693541",
    "https://static.zarahome.net/assets/public/fe57/98c7/d8384dcaa5e9/69e99e4b7cc3/42513120741-r/42513120741-r.jpg?ts=1778601647817",
    "https://static.zarahome.net/assets/public/da39/da29/51434898b643/65fd0d4ca6da/42513120741-c1/42513120741-c1.jpg?ts=1778601675961"
+  ]
+ },
+ {
+  "product_id": 475379638,
+  "color_id": "712",
+  "ref": "9116/008",
+  "name": "ШЕЛКОВЫЙ ЧЕХОЛ ДЛЯ ДЕКОРАТИВНОЙ ПОДУШКИ",
+  "section": "ДЕКОР",
+  "family": "ДЕКОРАТИВНЫЕ ПОДУШКИ",
+  "subfamily": "CUSHION COVERS",
+  "color": "ЭКРЮ",
+  "price_kzt": 31990.0,
+  "price_old_kzt": null,
+  "price_rub": 8040,
+  "price_old_rub": null,
+  "sizes": [
+   "30 x 50 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/9f55/e379/b819447ead2f/58512790aa03/49116008712-a7/49116008712-a7.jpg?ts=1770904558098",
+  "images": [
+   "https://static.zarahome.net/assets/public/9f55/e379/b819447ead2f/58512790aa03/49116008712-a7/49116008712-a7.jpg?ts=1770904558098",
+   "https://static.zarahome.net/assets/public/bd84/4b52/2d1a473394b0/cf68d4601d5a/49116008712-a3/49116008712-a3.jpg?ts=1764929852167",
+   "https://static.zarahome.net/assets/public/eca3/78d0/438f41008169/ea14a2bd6950/49116008712-a1/49116008712-a1.jpg?ts=1764929853619",
+   "https://static.zarahome.net/assets/public/eb8f/a2c0/8647469cb929/8f00d893db71/49116008712-p1/49116008712-p1.jpg?ts=1764929853459",
+   "https://static.zarahome.net/assets/public/402b/4bab/9a764b05868e/456a2a9db27f/49116008712-a2/49116008712-a2.jpg?ts=1764929853151",
+   "https://static.zarahome.net/assets/public/de93/2a43/b55448dcb308/fcedc2d9aaaf/49116008712-a6/49116008712-a6.jpg?ts=1766069581050",
+   "https://static.zarahome.net/assets/public/5148/4b42/a360448c9456/d6de4e14e0f9/49116008712-r/49116008712-r.jpg?ts=1764929850803",
+   "https://static.zarahome.net/assets/public/5671/f7ea/e65741b6bdda/38c2d7693a11/49116008712-c/49116008712-c.jpg?ts=1764929852933",
+   "https://static.zarahome.net/assets/public/c289/e2d5/99f245deb5e5/f353f8409fc2/49116008712-f/49116008712-f.jpg?ts=1770904159408"
   ]
  },
  {
@@ -15014,6 +15011,35 @@
    "https://static.zarahome.net/assets/public/fabd/5104/d82849eea67f/20413614a7fb/45619119251-r/45619119251-r.jpg?ts=1769425988758",
    "https://static.zarahome.net/assets/public/1118/499b/1c1c43838831/263dec7071bb/45619119251-c/45619119251-c.jpg?ts=1769426002619",
    "https://static.zarahome.net/assets/public/c43a/36b8/0d264898a105/452788714f67/45618119251-f/45618119251-f.jpg?ts=1773748607159"
+  ]
+ },
+ {
+  "product_id": 484504395,
+  "color_id": "920",
+  "ref": "2688/060",
+  "name": "СКЛАДНОЙ ПЛЯЖНЫЙ ПОДНОС",
+  "section": "ДЕТИ И МЛАДЕНЦЫ",
+  "family": "ДЕТИ И МЛАДЕНЦЫ",
+  "subfamily": "DECORATIVE ACCESSORIES",
+  "color": "СИНИЙ",
+  "price_kzt": 31990.0,
+  "price_old_kzt": null,
+  "price_rub": 8040,
+  "price_old_rub": null,
+  "sizes": [
+   "56 x 35 x 25 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/d7c1/eeae/4e5f4356bd1a/09c9bed5b694/42688060920-a7/42688060920-a7.jpg?ts=1776155371895",
+  "images": [
+   "https://static.zarahome.net/assets/public/d7c1/eeae/4e5f4356bd1a/09c9bed5b694/42688060920-a7/42688060920-a7.jpg?ts=1776155371895",
+   "https://static.zarahome.net/assets/public/c3ba/c91a/cff14f85a21c/deb14075ed8b/42688060920-p1/42688060920-p1.jpg?ts=1774006462161",
+   "https://static.zarahome.net/assets/public/d17b/00e5/47d24e4d925b/587d284e504c/42688060920-a1/42688060920-a1.jpg?ts=1774006475195",
+   "https://static.zarahome.net/assets/public/55a1/9dcb/226345799886/35c7e0d4474a/42688060920-a2/42688060920-a2.jpg?ts=1774006468234",
+   "https://static.zarahome.net/assets/public/51b3/d37b/6b8049408c8d/0c1ae89c8006/42688060920-a3/42688060920-a3.jpg?ts=1774006463230",
+   "https://static.zarahome.net/assets/public/252e/86b5/bf92477199e2/3d0d9ce26b9e/42688060920-r/42688060920-r.jpg?ts=1774006456910",
+   "https://static.zarahome.net/assets/public/357e/ff88/249249b49b60/a756e8659e75/42688060920-c/42688060920-c.jpg?ts=1774006463102",
+   "https://static.zarahome.net/assets/public/d666/d742/8d3841abba83/12153cd71db4/42688060920-f/42688060920-f.jpg?ts=1774513968206"
   ]
  },
  {
@@ -18377,6 +18403,35 @@
    "https://static.zarahome.net/assets/public/db17/8b9b/ff6e467d8887/e975d36f724f/46607032406-c/46607032406-c.jpg?ts=1769009875230",
    "https://static.zarahome.net/assets/public/57b8/4d6e/bf784deaa8a9/b2b11de35226/4660703240601-f/4660703240601-f.jpg?ts=1770306585525",
    "https://static.zarahome.net/assets/public/685b/defa/39e0486692e9/488a9d853890/4660703240601-a7/4660703240601-a7.jpg?ts=1770299697507"
+  ]
+ },
+ {
+  "product_id": 475402997,
+  "color_id": "712",
+  "ref": "1601/007",
+  "name": "ДЕТСКИЙ ЧЕХОЛ ДЛЯ ДЕКОРАТИВНОЙ ПОДУШКИ MINI WAFFLE С ВОЛАНОМ",
+  "section": "ДЕТИ И МЛАДЕНЦЫ",
+  "family": "СПАЛЬНЯ",
+  "subfamily": "CUSHION COVERS WITH MATCHING QUILT",
+  "color": "ЭКРЮ",
+  "price_kzt": 13990.0,
+  "price_old_kzt": null,
+  "price_rub": 3690,
+  "price_old_rub": null,
+  "sizes": [
+   "40 x 40 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/ae12/2e66/6f79442b9e61/0d8fa8e2d630/41601007712-a7/41601007712-a7.jpg?ts=1772120654736",
+  "images": [
+   "https://static.zarahome.net/assets/public/ae12/2e66/6f79442b9e61/0d8fa8e2d630/41601007712-a7/41601007712-a7.jpg?ts=1772120654736",
+   "https://static.zarahome.net/assets/public/7fb6/e6eb/a4554dad9aee/44f472bc964f/41601007712-p1/41601007712-p1.jpg?ts=1769701085331",
+   "https://static.zarahome.net/assets/public/f2ae/006c/f84f4015a97d/b931b3305654/41601007712-a1/41601007712-a1.jpg?ts=1769701084464",
+   "https://static.zarahome.net/assets/public/71e3/a4d7/2ffb4e1cbf5a/c9f09756b7b8/41601007712-a2/41601007712-a2.jpg?ts=1769701084680",
+   "https://static.zarahome.net/assets/public/cbe8/d5ae/36a74e96a9f7/598cfc952e78/41601007712-a3/41601007712-a3.jpg?ts=1769701079829",
+   "https://static.zarahome.net/assets/public/d0ea/5b9c/de644071948e/c8b66b4bfa92/41601007712-r/41601007712-r.jpg?ts=1769701085329",
+   "https://static.zarahome.net/assets/public/aa57/540e/d6104d5bbd1f/3902db2ba5e5/41601007712-c/41601007712-c.jpg?ts=1769701086059",
+   "https://static.zarahome.net/assets/public/bd92/517b/cffb46da8467/2bab185235cc/41601007712-f/41601007712-f.jpg?ts=1771924459644"
   ]
  },
  {
