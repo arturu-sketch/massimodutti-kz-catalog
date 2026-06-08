@@ -1,100 +1,5 @@
 [
  {
-  "product_id": 507793907,
-  "color_id": "741",
-  "ref": "2517/013",
-  "name": "БАННОЕ ПОЛОТЕНЦЕ С ЛЬНЯНОЙ ОТДЕЛКОЙ",
-  "section": "ВАННАЯ",
-  "family": "ВАННАЯ",
-  "subfamily": "TOWELS",
-  "color": "ЦВЕТ СЛОНОВОЙ КОСТИ",
-  "price_kzt": 5990.0,
-  "price_old_kzt": null,
-  "price_rub": 1500,
-  "price_old_rub": null,
-  "sizes": [
-   "30 x 50 cm",
-   "50 x 90 cm",
-   "90 x 150 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/765a/5be4/5c584530a611/3ce0a669dc3c/42517013741-a7/42517013741-a7.jpg?ts=1780580899845",
-  "images": [
-   "https://static.zarahome.net/assets/public/765a/5be4/5c584530a611/3ce0a669dc3c/42517013741-a7/42517013741-a7.jpg?ts=1780580899845",
-   "https://static.zarahome.net/assets/public/9027/f6f7/9d504a7cbe91/67e3ee0c1738/42517013741-p1/42517013741-p1.jpg?ts=1780558572629",
-   "https://static.zarahome.net/assets/public/554d/5494/d14d419cbe83/a832c072423d/42517013741-a1/42517013741-a1.jpg?ts=1780554514167",
-   "https://static.zarahome.net/assets/public/030c/0e3c/9f8f44bcb27d/6ec1beac1d62/42517013741-a2/42517013741-a2.jpg?ts=1780554513922",
-   "https://static.zarahome.net/assets/public/aab1/4685/e3ce4a97bd6a/f1739aaf9f8e/42517013741-a3/42517013741-a3.jpg?ts=1780554517509",
-   "https://static.zarahome.net/assets/public/1eb0/173d/28484becb83e/a9ca0aa1a224/42517013741-c1/42517013741-c1.jpg?ts=1780554522556",
-   "https://static.zarahome.net/assets/public/096f/c7a0/a51e47c3a1ce/faabd97b49c4/42517013741-x1/42517013741-x1.jpg?ts=1780554513866",
-   "https://static.zarahome.net/assets/public/a1c8/5e9d/051a4d5a9780/edf4968f8d9c/42517013741-r/42517013741-r.jpg?ts=1780554506369",
-   "https://static.zarahome.net/assets/public/f700/1ce8/12de4c4fa797/bff1f1080540/42517013741-f/42517013741-f.jpg?ts=1780581451360"
-  ]
- },
- {
-  "product_id": 507790408,
-  "color_id": "043",
-  "ref": "9593/013",
-  "name": "БАННОЕ ПОЛОТЕНЦЕ С ФЕСТОННОЙ ВЫШИВКОЙ",
-  "section": "ВАННАЯ",
-  "family": "ВАННАЯ",
-  "subfamily": "TOWELS",
-  "color": "ТЕМНО-СИНИЙ/БЕЛЫЙ",
-  "price_kzt": 4690.0,
-  "price_old_kzt": null,
-  "price_rub": 1200,
-  "price_old_rub": null,
-  "sizes": [
-   "30 x 50 cm",
-   "50 x 90 cm",
-   "90 x 150 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/21d0/e464/d2894a8d948c/de1d936de5d9/49593013043-a7/49593013043-a7.jpg?ts=1780397567998",
-  "images": [
-   "https://static.zarahome.net/assets/public/21d0/e464/d2894a8d948c/de1d936de5d9/49593013043-a7/49593013043-a7.jpg?ts=1780397567998",
-   "https://static.zarahome.net/assets/public/bd5d/5340/00b5430cad0c/71b841380584/49593013043-p1/49593013043-p1.jpg?ts=1776865201450",
-   "https://static.zarahome.net/assets/public/6c64/0f8d/454b4920b032/93a5c4776518/49593013043-a1/49593013043-a1.jpg?ts=1776865202396",
-   "https://static.zarahome.net/assets/public/9784/c955/303945c69386/95159bb63f35/49593013043-a2/49593013043-a2.jpg?ts=1776865206793",
-   "https://static.zarahome.net/assets/public/1cdd/4aeb/64d14ed99b39/2e3089d41ef6/49593013043-a3/49593013043-a3.jpg?ts=1776865202598",
-   "https://static.zarahome.net/assets/public/e44b/02ee/854f4472a8e5/8b391ed12ebe/49593013043-r/49593013043-r.jpg?ts=1776865197555",
-   "https://static.zarahome.net/assets/public/fbaf/4d06/baa9423c8a7e/9567c8b30c1e/49593013043-c1/49593013043-c1.jpg?ts=1776865213126",
-   "https://static.zarahome.net/assets/public/7105/610c/b6f144b6b8b7/4096b7d05eb0/49593013043-f/49593013043-f.jpg?ts=1780398175903"
-  ]
- },
- {
-  "product_id": 507783371,
-  "color_id": "982",
-  "ref": "1520/013",
-  "name": "ДВУХСТОРОННЕЕ БАННОЕ ПОЛОТЕНЦЕ В ПОЛОСКУ",
-  "section": "ВАННАЯ",
-  "family": "ВАННАЯ",
-  "subfamily": "TOWELS",
-  "color": "ЗЕЛЕНЫЙ",
-  "price_kzt": 4690.0,
-  "price_old_kzt": null,
-  "price_rub": 1200,
-  "price_old_rub": null,
-  "sizes": [
-   "30 x 50 cm",
-   "50 x 90 cm",
-   "90 x 150 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/89e1/f02d/32d24a43a00a/e690c194f6d6/41520013982-a7/41520013982-a7.jpg?ts=1780046301354",
-  "images": [
-   "https://static.zarahome.net/assets/public/89e1/f02d/32d24a43a00a/e690c194f6d6/41520013982-a7/41520013982-a7.jpg?ts=1780046301354",
-   "https://static.zarahome.net/assets/public/6d53/0f11/139348f8a41c/1405b28a8bb1/41520013982-p1/41520013982-p1.jpg?ts=1779199893396",
-   "https://static.zarahome.net/assets/public/0cc8/678e/23ff40ddabd2/38ec809c0f4e/41520013982-a1/41520013982-a1.jpg?ts=1779199898459",
-   "https://static.zarahome.net/assets/public/b443/ad92/25514a059ed1/f07b063cf515/41520013982-a2/41520013982-a2.jpg?ts=1779199893357",
-   "https://static.zarahome.net/assets/public/d4d8/6378/993c46d3ada3/902f4c648e86/41520013982-a3/41520013982-a3.jpg?ts=1779199895202",
-   "https://static.zarahome.net/assets/public/0dc1/91bc/8912406da854/fda517002ac2/41520013982-x1/41520013982-x1.jpg?ts=1779199893274",
-   "https://static.zarahome.net/assets/public/5a97/878b/a846485f8e96/f98d72cea5ff/41520013982-r/41520013982-r.jpg?ts=1779199886932",
-   "https://static.zarahome.net/assets/public/5e60/ec65/8a2d456e85ae/79f5bb6afe48/41520013982-c1/41520013982-c1.jpg?ts=1779199920488",
-   "https://static.zarahome.net/assets/public/6e49/36f2/326f4678aad4/045ad4161c17/41520013982-f/41520013982-f.jpg?ts=1780046300255"
-  ]
- },
- {
   "product_id": 507792370,
   "color_id": "741",
   "ref": "4584/013",
@@ -123,37 +28,6 @@
    "https://static.zarahome.net/assets/public/36f1/ce34/175a475e9705/1b5d56b8c658/44584013741-r/44584013741-r.jpg?ts=1778836031210",
    "https://static.zarahome.net/assets/public/e27e/0e32/f8564d18b70a/f874e2f37d88/44584013741-c1/44584013741-c1.jpg?ts=1778836055043",
    "https://static.zarahome.net/assets/public/4e15/4aaa/758f468d9ded/fb622dcab0c7/44584013741-f/44584013741-f.jpg?ts=1780584716880"
-  ]
- },
- {
-  "product_id": 507792370,
-  "color_id": "526",
-  "ref": "4584/013",
-  "name": "ВАФЕЛЬНОЕ ПОЛОТЕНЦЕ ДЛЯ ВАННОЙ",
-  "section": "ВАННАЯ",
-  "family": "ВАННАЯ",
-  "subfamily": "TOWELS",
-  "color": "ЗЕЛЕНЫЙ",
-  "price_kzt": 4690.0,
-  "price_old_kzt": null,
-  "price_rub": 1200,
-  "price_old_rub": null,
-  "sizes": [
-   "30 x 50 cm",
-   "50 x 90 cm",
-   "90 x 150 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/70ae/a072/60234f649545/9d36f73f4d1d/44584013526-a7/44584013526-a7.jpg?ts=1780582479916",
-  "images": [
-   "https://static.zarahome.net/assets/public/70ae/a072/60234f649545/9d36f73f4d1d/44584013526-a7/44584013526-a7.jpg?ts=1780582479916",
-   "https://static.zarahome.net/assets/public/4c60/0e90/46264bb38960/f37f959115ab/44584013526-p1/44584013526-p1.jpg?ts=1778836032273",
-   "https://static.zarahome.net/assets/public/eceb/197e/b3514f24a522/6560f3d94712/44584013526-a1/44584013526-a1.jpg?ts=1778836033535",
-   "https://static.zarahome.net/assets/public/20e6/eec1/e0734c8483b6/518e3b41f557/44584013526-a2/44584013526-a2.jpg?ts=1778836033019",
-   "https://static.zarahome.net/assets/public/22b5/8e40/29b64ddcb5c1/bfeb6e649fe8/44584013526-a3/44584013526-a3.jpg?ts=1778836032310",
-   "https://static.zarahome.net/assets/public/66d2/2d07/92ae41c39867/04ec57d1ac71/44584013526-r/44584013526-r.jpg?ts=1778836024707",
-   "https://static.zarahome.net/assets/public/4e91/50cb/d6dd41118419/da7037f05c9a/44584013526-c1/44584013526-c1.jpg?ts=1778836062853",
-   "https://static.zarahome.net/assets/public/81c5/b4ab/02cc4562bd30/b5c0ced8adca/44584013526-f/44584013526-f.jpg?ts=1780583161635"
   ]
  },
  {
@@ -189,10 +63,10 @@
   ]
  },
  {
-  "product_id": 507793832,
-  "color_id": "982",
-  "ref": "2518/013",
-  "name": "ЖАККАРДОВОЕ БАННОЕ ПОЛОТЕНЦЕ С ЦВЕТОЧНЫМ УЗОРОМ",
+  "product_id": 507792370,
+  "color_id": "526",
+  "ref": "4584/013",
+  "name": "ВАФЕЛЬНОЕ ПОЛОТЕНЦЕ ДЛЯ ВАННОЙ",
   "section": "ВАННАЯ",
   "family": "ВАННАЯ",
   "subfamily": "TOWELS",
@@ -207,17 +81,48 @@
    "90 x 150 cm"
   ],
   "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/eb3e/781b/52d248f0bf17/039172721ea6/42518013982-a7/42518013982-a7.jpg?ts=1780045001369",
+  "image": "https://static.zarahome.net/assets/public/70ae/a072/60234f649545/9d36f73f4d1d/44584013526-a7/44584013526-a7.jpg?ts=1780582479916",
   "images": [
-   "https://static.zarahome.net/assets/public/eb3e/781b/52d248f0bf17/039172721ea6/42518013982-a7/42518013982-a7.jpg?ts=1780045001369",
-   "https://static.zarahome.net/assets/public/0176/4a51/d0a941d7a9e5/62af23a70f67/42518013982-p1/42518013982-p1.jpg?ts=1779882485482",
-   "https://static.zarahome.net/assets/public/58d4/c967/fa4540e5bf6e/d7e165345618/42518013982-a1/42518013982-a1.jpg?ts=1779882493389",
-   "https://static.zarahome.net/assets/public/e299/292a/56844328b82a/356275dec418/42518013982-a2/42518013982-a2.jpg?ts=1779882487232",
-   "https://static.zarahome.net/assets/public/4112/0651/a0d54249b975/d86b2dedd3df/42518013982-a3/42518013982-a3.jpg?ts=1779882485497",
-   "https://static.zarahome.net/assets/public/9fba/cd3e/beee4fcab182/18c58b0d2393/42518013982-r/42518013982-r.jpg?ts=1779882476312",
-   "https://static.zarahome.net/assets/public/aa58/a1c2/703949c789b4/61499230dff1/42518013982-x1/42518013982-x1.jpg?ts=1779882484336",
-   "https://static.zarahome.net/assets/public/602e/d325/803f45a29f2f/a7367fbcccbf/42518013982-c1/42518013982-c1.jpg?ts=1779882498027",
-   "https://static.zarahome.net/assets/public/0103/b9dd/639a4038b1a4/8e975524e2aa/42518013982-f/42518013982-f.jpg?ts=1780054270853"
+   "https://static.zarahome.net/assets/public/70ae/a072/60234f649545/9d36f73f4d1d/44584013526-a7/44584013526-a7.jpg?ts=1780582479916",
+   "https://static.zarahome.net/assets/public/4c60/0e90/46264bb38960/f37f959115ab/44584013526-p1/44584013526-p1.jpg?ts=1778836032273",
+   "https://static.zarahome.net/assets/public/eceb/197e/b3514f24a522/6560f3d94712/44584013526-a1/44584013526-a1.jpg?ts=1778836033535",
+   "https://static.zarahome.net/assets/public/20e6/eec1/e0734c8483b6/518e3b41f557/44584013526-a2/44584013526-a2.jpg?ts=1778836033019",
+   "https://static.zarahome.net/assets/public/22b5/8e40/29b64ddcb5c1/bfeb6e649fe8/44584013526-a3/44584013526-a3.jpg?ts=1778836032310",
+   "https://static.zarahome.net/assets/public/66d2/2d07/92ae41c39867/04ec57d1ac71/44584013526-r/44584013526-r.jpg?ts=1778836024707",
+   "https://static.zarahome.net/assets/public/4e91/50cb/d6dd41118419/da7037f05c9a/44584013526-c1/44584013526-c1.jpg?ts=1778836062853",
+   "https://static.zarahome.net/assets/public/81c5/b4ab/02cc4562bd30/b5c0ced8adca/44584013526-f/44584013526-f.jpg?ts=1780583161635"
+  ]
+ },
+ {
+  "product_id": 507783371,
+  "color_id": "982",
+  "ref": "1520/013",
+  "name": "ДВУХСТОРОННЕЕ БАННОЕ ПОЛОТЕНЦЕ В ПОЛОСКУ",
+  "section": "ВАННАЯ",
+  "family": "ВАННАЯ",
+  "subfamily": "TOWELS",
+  "color": "ЗЕЛЕНЫЙ",
+  "price_kzt": 4690.0,
+  "price_old_kzt": null,
+  "price_rub": 1200,
+  "price_old_rub": null,
+  "sizes": [
+   "30 x 50 cm",
+   "50 x 90 cm",
+   "90 x 150 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/89e1/f02d/32d24a43a00a/e690c194f6d6/41520013982-a7/41520013982-a7.jpg?ts=1780046301354",
+  "images": [
+   "https://static.zarahome.net/assets/public/89e1/f02d/32d24a43a00a/e690c194f6d6/41520013982-a7/41520013982-a7.jpg?ts=1780046301354",
+   "https://static.zarahome.net/assets/public/6d53/0f11/139348f8a41c/1405b28a8bb1/41520013982-p1/41520013982-p1.jpg?ts=1779199893396",
+   "https://static.zarahome.net/assets/public/0cc8/678e/23ff40ddabd2/38ec809c0f4e/41520013982-a1/41520013982-a1.jpg?ts=1779199898459",
+   "https://static.zarahome.net/assets/public/b443/ad92/25514a059ed1/f07b063cf515/41520013982-a2/41520013982-a2.jpg?ts=1779199893357",
+   "https://static.zarahome.net/assets/public/d4d8/6378/993c46d3ada3/902f4c648e86/41520013982-a3/41520013982-a3.jpg?ts=1779199895202",
+   "https://static.zarahome.net/assets/public/0dc1/91bc/8912406da854/fda517002ac2/41520013982-x1/41520013982-x1.jpg?ts=1779199893274",
+   "https://static.zarahome.net/assets/public/5a97/878b/a846485f8e96/f98d72cea5ff/41520013982-r/41520013982-r.jpg?ts=1779199886932",
+   "https://static.zarahome.net/assets/public/5e60/ec65/8a2d456e85ae/79f5bb6afe48/41520013982-c1/41520013982-c1.jpg?ts=1779199920488",
+   "https://static.zarahome.net/assets/public/6e49/36f2/326f4678aad4/045ad4161c17/41520013982-f/41520013982-f.jpg?ts=1780046300255"
   ]
  },
  {
@@ -249,6 +154,38 @@
    "https://static.zarahome.net/assets/public/e9b3/4f47/be8840a88ad8/dc8b85f6e7d5/42518013741-r/42518013741-r.jpg?ts=1779961443053",
    "https://static.zarahome.net/assets/public/e290/0392/d8ed43ab8d7f/23b4da34cd73/42518013741-c1/42518013741-c1.jpg?ts=1779961462814",
    "https://static.zarahome.net/assets/public/e7bf/dbe9/b05e42e19e52/e108854dcd3d/42518013741-x1/42518013741-x1.jpg?ts=1779961449735"
+  ]
+ },
+ {
+  "product_id": 507793832,
+  "color_id": "982",
+  "ref": "2518/013",
+  "name": "ЖАККАРДОВОЕ БАННОЕ ПОЛОТЕНЦЕ С ЦВЕТОЧНЫМ УЗОРОМ",
+  "section": "ВАННАЯ",
+  "family": "ВАННАЯ",
+  "subfamily": "TOWELS",
+  "color": "ЗЕЛЕНЫЙ",
+  "price_kzt": 4690.0,
+  "price_old_kzt": null,
+  "price_rub": 1200,
+  "price_old_rub": null,
+  "sizes": [
+   "30 x 50 cm",
+   "50 x 90 cm",
+   "90 x 150 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/eb3e/781b/52d248f0bf17/039172721ea6/42518013982-a7/42518013982-a7.jpg?ts=1780045001369",
+  "images": [
+   "https://static.zarahome.net/assets/public/eb3e/781b/52d248f0bf17/039172721ea6/42518013982-a7/42518013982-a7.jpg?ts=1780045001369",
+   "https://static.zarahome.net/assets/public/0176/4a51/d0a941d7a9e5/62af23a70f67/42518013982-p1/42518013982-p1.jpg?ts=1779882485482",
+   "https://static.zarahome.net/assets/public/58d4/c967/fa4540e5bf6e/d7e165345618/42518013982-a1/42518013982-a1.jpg?ts=1779882493389",
+   "https://static.zarahome.net/assets/public/e299/292a/56844328b82a/356275dec418/42518013982-a2/42518013982-a2.jpg?ts=1779882487232",
+   "https://static.zarahome.net/assets/public/4112/0651/a0d54249b975/d86b2dedd3df/42518013982-a3/42518013982-a3.jpg?ts=1779882485497",
+   "https://static.zarahome.net/assets/public/9fba/cd3e/beee4fcab182/18c58b0d2393/42518013982-r/42518013982-r.jpg?ts=1779882476312",
+   "https://static.zarahome.net/assets/public/aa58/a1c2/703949c789b4/61499230dff1/42518013982-x1/42518013982-x1.jpg?ts=1779882484336",
+   "https://static.zarahome.net/assets/public/602e/d325/803f45a29f2f/a7367fbcccbf/42518013982-c1/42518013982-c1.jpg?ts=1779882498027",
+   "https://static.zarahome.net/assets/public/0103/b9dd/639a4038b1a4/8e975524e2aa/42518013982-f/42518013982-f.jpg?ts=1780054270853"
   ]
  },
  {
@@ -343,6 +280,100 @@
    "https://static.zarahome.net/assets/public/9dfc/ee95/7c91474bbb8e/6c833ebfddf9/44585013741-r/44585013741-r.jpg?ts=1778681609528",
    "https://static.zarahome.net/assets/public/183b/89f5/fdea443ba787/be3456b92609/44585013741-c1/44585013741-c1.jpg?ts=1778681628830",
    "https://static.zarahome.net/assets/public/d8dc/6489/4f6a4f149683/3ad1dbe6fcd7/44585013741-f/44585013741-f.jpg?ts=1779200712939"
+  ]
+ },
+ {
+  "product_id": 507790408,
+  "color_id": "043",
+  "ref": "9593/013",
+  "name": "БАННОЕ ПОЛОТЕНЦЕ С ФЕСТОННОЙ ВЫШИВКОЙ",
+  "section": "ВАННАЯ",
+  "family": "ВАННАЯ",
+  "subfamily": "TOWELS",
+  "color": "ТЕМНО-СИНИЙ/БЕЛЫЙ",
+  "price_kzt": 4690.0,
+  "price_old_kzt": null,
+  "price_rub": 1200,
+  "price_old_rub": null,
+  "sizes": [
+   "30 x 50 cm",
+   "50 x 90 cm",
+   "90 x 150 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/21d0/e464/d2894a8d948c/de1d936de5d9/49593013043-a7/49593013043-a7.jpg?ts=1780397567998",
+  "images": [
+   "https://static.zarahome.net/assets/public/21d0/e464/d2894a8d948c/de1d936de5d9/49593013043-a7/49593013043-a7.jpg?ts=1780397567998",
+   "https://static.zarahome.net/assets/public/bd5d/5340/00b5430cad0c/71b841380584/49593013043-p1/49593013043-p1.jpg?ts=1776865201450",
+   "https://static.zarahome.net/assets/public/6c64/0f8d/454b4920b032/93a5c4776518/49593013043-a1/49593013043-a1.jpg?ts=1776865202396",
+   "https://static.zarahome.net/assets/public/9784/c955/303945c69386/95159bb63f35/49593013043-a2/49593013043-a2.jpg?ts=1776865206793",
+   "https://static.zarahome.net/assets/public/1cdd/4aeb/64d14ed99b39/2e3089d41ef6/49593013043-a3/49593013043-a3.jpg?ts=1776865202598",
+   "https://static.zarahome.net/assets/public/e44b/02ee/854f4472a8e5/8b391ed12ebe/49593013043-r/49593013043-r.jpg?ts=1776865197555",
+   "https://static.zarahome.net/assets/public/fbaf/4d06/baa9423c8a7e/9567c8b30c1e/49593013043-c1/49593013043-c1.jpg?ts=1776865213126",
+   "https://static.zarahome.net/assets/public/7105/610c/b6f144b6b8b7/4096b7d05eb0/49593013043-f/49593013043-f.jpg?ts=1780398175903"
+  ]
+ },
+ {
+  "product_id": 507793907,
+  "color_id": "741",
+  "ref": "2517/013",
+  "name": "БАННОЕ ПОЛОТЕНЦЕ С ЛЬНЯНОЙ ОТДЕЛКОЙ",
+  "section": "ВАННАЯ",
+  "family": "ВАННАЯ",
+  "subfamily": "TOWELS",
+  "color": "ЦВЕТ СЛОНОВОЙ КОСТИ",
+  "price_kzt": 5990.0,
+  "price_old_kzt": null,
+  "price_rub": 1500,
+  "price_old_rub": null,
+  "sizes": [
+   "30 x 50 cm",
+   "50 x 90 cm",
+   "90 x 150 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/765a/5be4/5c584530a611/3ce0a669dc3c/42517013741-a7/42517013741-a7.jpg?ts=1780580899845",
+  "images": [
+   "https://static.zarahome.net/assets/public/765a/5be4/5c584530a611/3ce0a669dc3c/42517013741-a7/42517013741-a7.jpg?ts=1780580899845",
+   "https://static.zarahome.net/assets/public/9027/f6f7/9d504a7cbe91/67e3ee0c1738/42517013741-p1/42517013741-p1.jpg?ts=1780558572629",
+   "https://static.zarahome.net/assets/public/554d/5494/d14d419cbe83/a832c072423d/42517013741-a1/42517013741-a1.jpg?ts=1780554514167",
+   "https://static.zarahome.net/assets/public/030c/0e3c/9f8f44bcb27d/6ec1beac1d62/42517013741-a2/42517013741-a2.jpg?ts=1780554513922",
+   "https://static.zarahome.net/assets/public/aab1/4685/e3ce4a97bd6a/f1739aaf9f8e/42517013741-a3/42517013741-a3.jpg?ts=1780554517509",
+   "https://static.zarahome.net/assets/public/1eb0/173d/28484becb83e/a9ca0aa1a224/42517013741-c1/42517013741-c1.jpg?ts=1780554522556",
+   "https://static.zarahome.net/assets/public/096f/c7a0/a51e47c3a1ce/faabd97b49c4/42517013741-x1/42517013741-x1.jpg?ts=1780554513866",
+   "https://static.zarahome.net/assets/public/a1c8/5e9d/051a4d5a9780/edf4968f8d9c/42517013741-r/42517013741-r.jpg?ts=1780554506369",
+   "https://static.zarahome.net/assets/public/f700/1ce8/12de4c4fa797/bff1f1080540/42517013741-f/42517013741-f.jpg?ts=1780581451360"
+  ]
+ },
+ {
+  "product_id": 507790408,
+  "color_id": "446",
+  "ref": "9593/013",
+  "name": "БАННОЕ ПОЛОТЕНЦЕ С ФЕСТОННОЙ ВЫШИВКОЙ",
+  "section": "ВАННАЯ",
+  "family": "ВАННАЯ",
+  "subfamily": "TOWELS",
+  "color": "СИНИЙ",
+  "price_kzt": 4690.0,
+  "price_old_kzt": null,
+  "price_rub": 1200,
+  "price_old_rub": null,
+  "sizes": [
+   "30 x 50 cm",
+   "50 x 90 cm",
+   "90 x 150 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/9fc5/b846/d3dd4612ade0/091d937e7370/49593013446-a7/49593013446-a7.jpg?ts=1776762841825",
+  "images": [
+   "https://static.zarahome.net/assets/public/9fc5/b846/d3dd4612ade0/091d937e7370/49593013446-a7/49593013446-a7.jpg?ts=1776762841825",
+   "https://static.zarahome.net/assets/public/37fb/70ea/2b1e4089ba2d/e1b4b2542ed5/49593013446-a1/49593013446-a1.jpg?ts=1777032696670",
+   "https://static.zarahome.net/assets/public/9d77/cc27/1eff4ce88426/4321e1d41c4b/49593013446-p1/49593013446-p1.jpg?ts=1777032696748",
+   "https://static.zarahome.net/assets/public/26e9/c1ba/60974305a472/5125f151ecaf/49593013446-a3/49593013446-a3.jpg?ts=1777032727812",
+   "https://static.zarahome.net/assets/public/9af3/d192/140e464e9a3b/bb18e601e5f9/49593013446-a2/49593013446-a2.jpg?ts=1777032696652",
+   "https://static.zarahome.net/assets/public/3a81/8f39/56814c9f9675/5e8123c538d1/49593013446-r/49593013446-r.jpg?ts=1776785664762",
+   "https://static.zarahome.net/assets/public/0807/63ff/53f740cd96e0/802c2bff767d/49593013446-f/49593013446-f.jpg?ts=1776763417900",
+   "https://static.zarahome.net/assets/public/f777/70c7/b09845b594e6/7f4b7aa787da/49593013446-c/49593013446-c.jpg?ts=1777379334469"
   ]
  },
  {
@@ -533,10 +564,10 @@
   ]
  },
  {
-  "product_id": 507790408,
-  "color_id": "446",
-  "ref": "9593/013",
-  "name": "БАННОЕ ПОЛОТЕНЦЕ С ФЕСТОННОЙ ВЫШИВКОЙ",
+  "product_id": 507772937,
+  "color_id": "444",
+  "ref": "6548/013",
+  "name": "БАННОЕ ПОЛОТЕНЦЕ ИЗ ХЛОПКА В ПОЛОСКУ",
   "section": "ВАННАЯ",
   "family": "ВАННАЯ",
   "subfamily": "TOWELS",
@@ -551,16 +582,16 @@
    "90 x 150 cm"
   ],
   "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/9fc5/b846/d3dd4612ade0/091d937e7370/49593013446-a7/49593013446-a7.jpg?ts=1776762841825",
+  "image": "https://static.zarahome.net/assets/public/fa21/6cc6/cfaf4beeb21c/5dd118314415/46548013444-a7/46548013444-a7.jpg?ts=1778834336888",
   "images": [
-   "https://static.zarahome.net/assets/public/9fc5/b846/d3dd4612ade0/091d937e7370/49593013446-a7/49593013446-a7.jpg?ts=1776762841825",
-   "https://static.zarahome.net/assets/public/37fb/70ea/2b1e4089ba2d/e1b4b2542ed5/49593013446-a1/49593013446-a1.jpg?ts=1777032696670",
-   "https://static.zarahome.net/assets/public/9d77/cc27/1eff4ce88426/4321e1d41c4b/49593013446-p1/49593013446-p1.jpg?ts=1777032696748",
-   "https://static.zarahome.net/assets/public/26e9/c1ba/60974305a472/5125f151ecaf/49593013446-a3/49593013446-a3.jpg?ts=1777032727812",
-   "https://static.zarahome.net/assets/public/9af3/d192/140e464e9a3b/bb18e601e5f9/49593013446-a2/49593013446-a2.jpg?ts=1777032696652",
-   "https://static.zarahome.net/assets/public/3a81/8f39/56814c9f9675/5e8123c538d1/49593013446-r/49593013446-r.jpg?ts=1776785664762",
-   "https://static.zarahome.net/assets/public/0807/63ff/53f740cd96e0/802c2bff767d/49593013446-f/49593013446-f.jpg?ts=1776763417900",
-   "https://static.zarahome.net/assets/public/f777/70c7/b09845b594e6/7f4b7aa787da/49593013446-c/49593013446-c.jpg?ts=1777379334469"
+   "https://static.zarahome.net/assets/public/fa21/6cc6/cfaf4beeb21c/5dd118314415/46548013444-a7/46548013444-a7.jpg?ts=1778834336888",
+   "https://static.zarahome.net/assets/public/4ec5/1e1b/419d483798b5/ae409068a996/46548013444-p1/46548013444-p1.jpg?ts=1778678439497",
+   "https://static.zarahome.net/assets/public/f375/0d75/c6824a21a1d3/b09dc27b3ce8/46548013444-a1/46548013444-a1.jpg?ts=1778678439521",
+   "https://static.zarahome.net/assets/public/16d3/1702/636847c0a6a6/f795b854a469/46548013444-a2/46548013444-a2.jpg?ts=1778678434760",
+   "https://static.zarahome.net/assets/public/f629/c65c/1838445689ba/a441b24f8926/46548013444-a3/46548013444-a3.jpg?ts=1778678434782",
+   "https://static.zarahome.net/assets/public/7045/afec/3b324f5e9f7d/aa3c9e29a510/46548013444-r/46548013444-r.jpg?ts=1778678429309",
+   "https://static.zarahome.net/assets/public/cd0d/1c9b/fb9f42a1822e/fb7dd82e325d/46548013444-c1/46548013444-c1.jpg?ts=1778678460864",
+   "https://static.zarahome.net/assets/public/2e3b/03a5/8b254e9bab7e/1336f03da111/46548013444-f/46548013444-f.jpg?ts=1778835301613"
   ]
  },
  {
@@ -745,37 +776,6 @@
    "https://static.zarahome.net/assets/public/5e56/2adb/63834db8b490/761f105da686/49549013112-c1/49549013112-c1.jpg?ts=1776267800686",
    "https://static.zarahome.net/assets/public/e1c7/2814/8095428cbe88/c3889ecbd404/49549013112-f/49549013112-f.jpg?ts=1776333399111",
    "https://static.zarahome.net/assets/public/ce64/0fdc/6f764609a9d0/3922f8b0521a/49549013112-r/49549013112-r.jpg?ts=1776267775428"
-  ]
- },
- {
-  "product_id": 507772937,
-  "color_id": "444",
-  "ref": "6548/013",
-  "name": "БАННОЕ ПОЛОТЕНЦЕ ИЗ ХЛОПКА В ПОЛОСКУ",
-  "section": "ВАННАЯ",
-  "family": "ВАННАЯ",
-  "subfamily": "TOWELS",
-  "color": "СИНИЙ",
-  "price_kzt": 4690.0,
-  "price_old_kzt": null,
-  "price_rub": 1200,
-  "price_old_rub": null,
-  "sizes": [
-   "30 x 50 cm",
-   "50 x 90 cm",
-   "90 x 150 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/fa21/6cc6/cfaf4beeb21c/5dd118314415/46548013444-a7/46548013444-a7.jpg?ts=1778834336888",
-  "images": [
-   "https://static.zarahome.net/assets/public/fa21/6cc6/cfaf4beeb21c/5dd118314415/46548013444-a7/46548013444-a7.jpg?ts=1778834336888",
-   "https://static.zarahome.net/assets/public/4ec5/1e1b/419d483798b5/ae409068a996/46548013444-p1/46548013444-p1.jpg?ts=1778678439497",
-   "https://static.zarahome.net/assets/public/f375/0d75/c6824a21a1d3/b09dc27b3ce8/46548013444-a1/46548013444-a1.jpg?ts=1778678439521",
-   "https://static.zarahome.net/assets/public/16d3/1702/636847c0a6a6/f795b854a469/46548013444-a2/46548013444-a2.jpg?ts=1778678434760",
-   "https://static.zarahome.net/assets/public/f629/c65c/1838445689ba/a441b24f8926/46548013444-a3/46548013444-a3.jpg?ts=1778678434782",
-   "https://static.zarahome.net/assets/public/7045/afec/3b324f5e9f7d/aa3c9e29a510/46548013444-r/46548013444-r.jpg?ts=1778678429309",
-   "https://static.zarahome.net/assets/public/cd0d/1c9b/fb9f42a1822e/fb7dd82e325d/46548013444-c1/46548013444-c1.jpg?ts=1778678460864",
-   "https://static.zarahome.net/assets/public/2e3b/03a5/8b254e9bab7e/1336f03da111/46548013444-f/46548013444-f.jpg?ts=1778835301613"
   ]
  },
  {
@@ -5837,35 +5837,6 @@
   ]
  },
  {
-  "product_id": 476075082,
-  "color_id": "804",
-  "ref": "6330/008",
-  "name": "ЧЕХОЛ ИЗ СТИРАНОГО ЛЬНА ДЛЯ ПОДУШКИ",
-  "section": "СПАЛЬНЯ",
-  "family": "ДЕКОРАТИВНЫЕ ПОДУШКИ",
-  "subfamily": "CUSHION COVERS",
-  "color": "СЕРЫЙ",
-  "price_kzt": 39990.0,
-  "price_old_kzt": null,
-  "price_rub": 9990,
-  "price_old_rub": null,
-  "sizes": [
-   "40 x 60 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/f447/f6f1/130d42f4a090/2ea22a1ef8f7/46330008804-a7/46330008804-a7.jpg?ts=1774874813969",
-  "images": [
-   "https://static.zarahome.net/assets/public/f447/f6f1/130d42f4a090/2ea22a1ef8f7/46330008804-a7/46330008804-a7.jpg?ts=1774874813969",
-   "https://static.zarahome.net/assets/public/5d05/4aaf/65ef4961aa27/3731564c8e7a/46330008804-p1/46330008804-p1.jpg?ts=1770129168774",
-   "https://static.zarahome.net/assets/public/2fac/dd63/31e44c84af69/8fdade6a7023/46330008804-a3/46330008804-a3.jpg?ts=1770129168907",
-   "https://static.zarahome.net/assets/public/1034/a460/c7744525b0a4/3f9081a02da1/46330008804-a2/46330008804-a2.jpg?ts=1770129169416",
-   "https://static.zarahome.net/assets/public/8a12/77d3/2f454beab18b/832264be6c5f/46330008804-a1/46330008804-a1.jpg?ts=1770129199291",
-   "https://static.zarahome.net/assets/public/70dd/fd27/906e4ec1b7de/8661af4cc2dd/46330008804-r/46330008804-r.jpg?ts=1770129159325",
-   "https://static.zarahome.net/assets/public/9678/5bba/dd3d4b87990f/0b15d8806314/46330008804-c/46330008804-c.jpg?ts=1770129168118",
-   "https://static.zarahome.net/assets/public/eb51/ce5d/09cd4700ae77/8593f1435a8d/46330008804-f/46330008804-f.jpg?ts=1774875828720"
-  ]
- },
- {
   "product_id": 479908829,
   "color_id": "307",
   "ref": "1171/008",
@@ -6431,6 +6402,53 @@
   ]
  },
  {
+  "product_id": 507772040,
+  "color_id": "250",
+  "ref": "0080/012",
+  "name": "ПОДУШКА ИЗ МИКРОВОЛОКНА",
+  "section": "СПАЛЬНЯ",
+  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
+  "subfamily": "PILLOW FILLINGS",
+  "color": "БЕЛЫЙ",
+  "price_kzt": 16990.0,
+  "price_old_kzt": null,
+  "price_rub": 4290,
+  "price_old_rub": null,
+  "sizes": [
+   "40 x 90 cm",
+   "40 x 90 cm",
+   "40 x 135 cm",
+   "40 x 135 cm",
+   "50 x 60 cm",
+   "50 x 60 cm",
+   "50 x 75 cm",
+   "50 x 75 cm",
+   "50 x 95 cm",
+   "50 x 95 cm",
+   "70 x 90 cm",
+   "70 x 90 cm",
+   "65 x 100 cm",
+   "65 x 100 cm",
+   "60 x 60 cm",
+   "60 x 60 cm",
+   "80 x 80 cm",
+   "80 x 80 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/b341/191c/18c84d3d817e/1e6c8ebc9869/40080012250-a7/40080012250-a7.jpg?ts=1750064452374",
+  "images": [
+   "https://static.zarahome.net/assets/public/b341/191c/18c84d3d817e/1e6c8ebc9869/40080012250-a7/40080012250-a7.jpg?ts=1750064452374",
+   "https://static.zarahome.net/assets/public/5d76/b8f1/ae09468692d8/0865f49ca12f/40180012250-p1/40180012250-p1.jpg?ts=1720701681057",
+   "https://static.zarahome.net/assets/public/9592/5d9e/49fa4975b2ba/d755f534d477/40180012250-a1/40180012250-a1.jpg?ts=1720701682200",
+   "https://static.zarahome.net/assets/public/7e27/2336/8c3d43a183a8/8f47e0a7d181/40180012250-a2/40180012250-a2.jpg?ts=1720701682494",
+   "https://static.zarahome.net/assets/public/6f58/56ac/2e31454cadb9/ba27e33b271a/40180012250-a3/40180012250-a3.jpg?ts=1720701682582",
+   "https://static.zarahome.net/assets/public/a0c8/0773/bacd4698b4c8/d00dcd283653/40180012250-a4/40180012250-a4.jpg?ts=1720701684276",
+   "https://static.zarahome.net/assets/public/92c2/bae8/7f5c43e79a4e/19e93152e670/40180012250-a5/40180012250-a5.jpg?ts=1720701683840",
+   "https://static.zarahome.net/assets/public/6aec/4c7a/988a4a46b150/7675ddcc9918/40180012250-r/40180012250-r.jpg?ts=1720701683210",
+   "https://static.zarahome.net/assets/public/a5d7/55ac/88c647bebd19/c23d5425f58a/40080012250-f/40080012250-f.jpg?ts=1750064453068"
+  ]
+ },
+ {
   "product_id": 509989274,
   "color_id": "250",
   "ref": "0056/086",
@@ -6520,6 +6538,41 @@
    "https://static.zarahome.net/assets/public/72eb/4fbf/8dac40198ec3/d4ffff5cd3e1/40062086250-a2/40062086250-a2.jpg?ts=1739348609455",
    "https://static.zarahome.net/assets/public/50bc/d630/3de4464f8210/ab42594f3f97/40062086250-r/40062086250-r.jpg?ts=1739348755391",
    "https://static.zarahome.net/assets/public/b907/4dd4/f87b45e598db/dca64db1e57b/40062086250-f/40062086250-f.jpg?ts=1749199293054"
+  ]
+ },
+ {
+  "product_id": 507770775,
+  "color_id": "250",
+  "ref": "0064/087",
+  "name": "ЧЕХОЛ ДЛЯ ПОДУШКИ ИЗ ХЛОПКА В ПОЛОСКУ",
+  "section": "СПАЛЬНЯ",
+  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
+  "subfamily": "PILLOW PROTECTORS",
+  "color": "БЕЛЫЙ",
+  "price_kzt": 12990.0,
+  "price_old_kzt": null,
+  "price_rub": 3590,
+  "price_old_rub": null,
+  "sizes": [
+   "40 x 135 cm",
+   "40 x 135 cm",
+   "40 x 90 cm",
+   "40 x 90 cm",
+   "50 x 75 cm",
+   "50 x 75 cm",
+   "60 x 60 cm",
+   "60 x 60 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/6512/7e12/7b624dc68657/38fac7aa05c2/40064087250-a7/40064087250-a7.jpg?ts=1749137765964",
+  "images": [
+   "https://static.zarahome.net/assets/public/6512/7e12/7b624dc68657/38fac7aa05c2/40064087250-a7/40064087250-a7.jpg?ts=1749137765964",
+   "https://static.zarahome.net/assets/public/0696/3959/07cf4c86abed/e6180f87fc0a/40064087250-p1/40064087250-p1.jpg?ts=1743775430934",
+   "https://static.zarahome.net/assets/public/2db6/3800/60b4463bbdaf/f6c51c3b5617/40064087250-a1/40064087250-a1.jpg?ts=1743775429729",
+   "https://static.zarahome.net/assets/public/5b09/96f2/8b6e403d85aa/50e450dd5533/40064087250-a2/40064087250-a2.jpg?ts=1743775431418",
+   "https://static.zarahome.net/assets/public/d621/a92c/a1dd4fa0b57c/e38453417b6b/40064087250-a3/40064087250-a3.jpg?ts=1743775437096",
+   "https://static.zarahome.net/assets/public/10bc/5f5d/a3f449cca92f/c3ae2b73e6a6/40064087250-a4/40064087250-a4.jpg?ts=1743775429771",
+   "https://static.zarahome.net/assets/public/a9a8/94b9/a7344c0cadf7/4be547583c06/40064087250-f/40064087250-f.jpg?ts=1749137765968"
   ]
  },
  {
@@ -7298,41 +7351,6 @@
   ]
  },
  {
-  "product_id": 507770775,
-  "color_id": "250",
-  "ref": "0064/087",
-  "name": "ЧЕХОЛ ДЛЯ ПОДУШКИ ИЗ ХЛОПКА В ПОЛОСКУ",
-  "section": "СПАЛЬНЯ",
-  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
-  "subfamily": "PILLOW PROTECTORS",
-  "color": "БЕЛЫЙ",
-  "price_kzt": 12990.0,
-  "price_old_kzt": null,
-  "price_rub": 3590,
-  "price_old_rub": null,
-  "sizes": [
-   "40 x 135 cm",
-   "40 x 135 cm",
-   "40 x 90 cm",
-   "40 x 90 cm",
-   "50 x 75 cm",
-   "50 x 75 cm",
-   "60 x 60 cm",
-   "60 x 60 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/6512/7e12/7b624dc68657/38fac7aa05c2/40064087250-a7/40064087250-a7.jpg?ts=1749137765964",
-  "images": [
-   "https://static.zarahome.net/assets/public/6512/7e12/7b624dc68657/38fac7aa05c2/40064087250-a7/40064087250-a7.jpg?ts=1749137765964",
-   "https://static.zarahome.net/assets/public/0696/3959/07cf4c86abed/e6180f87fc0a/40064087250-p1/40064087250-p1.jpg?ts=1743775430934",
-   "https://static.zarahome.net/assets/public/2db6/3800/60b4463bbdaf/f6c51c3b5617/40064087250-a1/40064087250-a1.jpg?ts=1743775429729",
-   "https://static.zarahome.net/assets/public/5b09/96f2/8b6e403d85aa/50e450dd5533/40064087250-a2/40064087250-a2.jpg?ts=1743775431418",
-   "https://static.zarahome.net/assets/public/d621/a92c/a1dd4fa0b57c/e38453417b6b/40064087250-a3/40064087250-a3.jpg?ts=1743775437096",
-   "https://static.zarahome.net/assets/public/10bc/5f5d/a3f449cca92f/c3ae2b73e6a6/40064087250-a4/40064087250-a4.jpg?ts=1743775429771",
-   "https://static.zarahome.net/assets/public/a9a8/94b9/a7344c0cadf7/4be547583c06/40064087250-f/40064087250-f.jpg?ts=1749137765968"
-  ]
- },
- {
   "product_id": 507770748,
   "color_id": "250",
   "ref": "0064/086",
@@ -7690,53 +7708,6 @@
   ]
  },
  {
-  "product_id": 507772040,
-  "color_id": "250",
-  "ref": "0080/012",
-  "name": "ПОДУШКА ИЗ МИКРОВОЛОКНА",
-  "section": "СПАЛЬНЯ",
-  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
-  "subfamily": "PILLOW FILLINGS",
-  "color": "БЕЛЫЙ",
-  "price_kzt": 16990.0,
-  "price_old_kzt": null,
-  "price_rub": 4290,
-  "price_old_rub": null,
-  "sizes": [
-   "40 x 90 cm",
-   "40 x 90 cm",
-   "40 x 135 cm",
-   "40 x 135 cm",
-   "50 x 60 cm",
-   "50 x 60 cm",
-   "50 x 75 cm",
-   "50 x 75 cm",
-   "50 x 95 cm",
-   "50 x 95 cm",
-   "70 x 90 cm",
-   "70 x 90 cm",
-   "65 x 100 cm",
-   "65 x 100 cm",
-   "60 x 60 cm",
-   "60 x 60 cm",
-   "80 x 80 cm",
-   "80 x 80 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/b341/191c/18c84d3d817e/1e6c8ebc9869/40080012250-a7/40080012250-a7.jpg?ts=1750064452374",
-  "images": [
-   "https://static.zarahome.net/assets/public/b341/191c/18c84d3d817e/1e6c8ebc9869/40080012250-a7/40080012250-a7.jpg?ts=1750064452374",
-   "https://static.zarahome.net/assets/public/5d76/b8f1/ae09468692d8/0865f49ca12f/40180012250-p1/40180012250-p1.jpg?ts=1720701681057",
-   "https://static.zarahome.net/assets/public/9592/5d9e/49fa4975b2ba/d755f534d477/40180012250-a1/40180012250-a1.jpg?ts=1720701682200",
-   "https://static.zarahome.net/assets/public/7e27/2336/8c3d43a183a8/8f47e0a7d181/40180012250-a2/40180012250-a2.jpg?ts=1720701682494",
-   "https://static.zarahome.net/assets/public/6f58/56ac/2e31454cadb9/ba27e33b271a/40180012250-a3/40180012250-a3.jpg?ts=1720701682582",
-   "https://static.zarahome.net/assets/public/a0c8/0773/bacd4698b4c8/d00dcd283653/40180012250-a4/40180012250-a4.jpg?ts=1720701684276",
-   "https://static.zarahome.net/assets/public/92c2/bae8/7f5c43e79a4e/19e93152e670/40180012250-a5/40180012250-a5.jpg?ts=1720701683840",
-   "https://static.zarahome.net/assets/public/6aec/4c7a/988a4a46b150/7675ddcc9918/40180012250-r/40180012250-r.jpg?ts=1720701683210",
-   "https://static.zarahome.net/assets/public/a5d7/55ac/88c647bebd19/c23d5425f58a/40080012250-f/40080012250-f.jpg?ts=1750064453068"
-  ]
- },
- {
   "product_id": 507782352,
   "color_id": "250",
   "ref": "0076/010",
@@ -7814,56 +7785,6 @@
   ]
  },
  {
-  "product_id": 507771884,
-  "color_id": "250",
-  "ref": "0077/010",
-  "name": "ЛЕТНЕЕ ОДЕЯЛО FEATHER TOUCH (125 Г/М²)",
-  "section": "СПАЛЬНЯ",
-  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
-  "subfamily": "DUVET FILLINGS",
-  "color": "БЕЛЫЙ",
-  "price_kzt": 49990.0,
-  "price_old_kzt": null,
-  "price_rub": 12540,
-  "price_old_rub": null,
-  "sizes": [
-   "135 x 200 cm",
-   "150 x 220 cm",
-   "150 x 220 cm",
-   "150 x 220 cm",
-   "180 x 220 cm",
-   "200 x 200 cm",
-   "220 x 220 cm",
-   "220 x 220 cm",
-   "220 x 220 cm",
-   "200 x 220 cm",
-   "240 x 220 cm",
-   "240 x 220 cm",
-   "240 x 220 cm",
-   "160 x 210 cm",
-   "260 x 240 cm",
-   "260 x 240 cm",
-   "260 x 240 cm",
-   "290 x 260 cm",
-   "290 x 260 cm",
-   "200 x 230 cm",
-   "200 x 230 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/6c94/fe85/87b3466899a6/bc43abe46da0/40077010250-a7/40077010250-a7.jpg?ts=1750332044210",
-  "images": [
-   "https://static.zarahome.net/assets/public/6c94/fe85/87b3466899a6/bc43abe46da0/40077010250-a7/40077010250-a7.jpg?ts=1750332044210",
-   "https://static.zarahome.net/assets/public/069a/4c08/edff4849a018/602592f6bcc6/40077010250-p1/40077010250-p1.jpg?ts=1719413749050",
-   "https://static.zarahome.net/assets/public/1494/7f42/dfdd402a8f71/b0212e23e1eb/40077010250-a1/40077010250-a1.jpg?ts=1751371287833",
-   "https://static.zarahome.net/assets/public/79cc/2168/40924b09b8ff/df833eabcd72/40077010250-a2/40077010250-a2.jpg?ts=1719413750645",
-   "https://static.zarahome.net/assets/public/53c5/a36c/64fb468dab1e/74487aa74874/40077010250-a3/40077010250-a3.jpg?ts=1719413750547",
-   "https://static.zarahome.net/assets/public/e713/e464/32a3480883e6/b9e6f2c20164/40077010250-a4/40077010250-a4.jpg?ts=1719413751512",
-   "https://static.zarahome.net/assets/public/2dbe/a674/13d247149174/3599367a23ae/40077010250-a5/40077010250-a5.jpg?ts=1719413751054",
-   "https://static.zarahome.net/assets/public/2ad1/cda6/41d7407b9c53/5356573a74dd/40077010250-f/40077010250-f.jpg?ts=1750332043718",
-   "https://static.zarahome.net/assets/public/9342/90a0/d6d04b84a69b/e441b5d53d92/40077010250-r/40077010250-r.jpg?ts=1719413750089"
-  ]
- },
- {
   "product_id": 507792461,
   "color_id": "250",
   "ref": "0073/010",
@@ -7924,6 +7845,56 @@
    "https://static.zarahome.net/assets/public/dd01/e4ce/e0364c3690a0/9b2aa3ff17c4/40073010250-a6/40073010250-a6.jpg?ts=1724072702971",
    "https://static.zarahome.net/assets/public/35b3/d1cc/2dcb40208e0c/078a31175551/40073010250-f/40073010250-f.jpg?ts=1750332043800",
    "https://static.zarahome.net/assets/public/be4e/a3a4/01ca4f529857/f1e0c016feb3/4007301025001-p1/4007301025001-p1.jpg?ts=1743758538752"
+  ]
+ },
+ {
+  "product_id": 507771884,
+  "color_id": "250",
+  "ref": "0077/010",
+  "name": "ЛЕТНЕЕ ОДЕЯЛО FEATHER TOUCH (125 Г/М²)",
+  "section": "СПАЛЬНЯ",
+  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
+  "subfamily": "DUVET FILLINGS",
+  "color": "БЕЛЫЙ",
+  "price_kzt": 49990.0,
+  "price_old_kzt": null,
+  "price_rub": 12540,
+  "price_old_rub": null,
+  "sizes": [
+   "135 x 200 cm",
+   "150 x 220 cm",
+   "150 x 220 cm",
+   "150 x 220 cm",
+   "180 x 220 cm",
+   "200 x 200 cm",
+   "220 x 220 cm",
+   "220 x 220 cm",
+   "220 x 220 cm",
+   "200 x 220 cm",
+   "240 x 220 cm",
+   "240 x 220 cm",
+   "240 x 220 cm",
+   "160 x 210 cm",
+   "260 x 240 cm",
+   "260 x 240 cm",
+   "260 x 240 cm",
+   "290 x 260 cm",
+   "290 x 260 cm",
+   "200 x 230 cm",
+   "200 x 230 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/6c94/fe85/87b3466899a6/bc43abe46da0/40077010250-a7/40077010250-a7.jpg?ts=1750332044210",
+  "images": [
+   "https://static.zarahome.net/assets/public/6c94/fe85/87b3466899a6/bc43abe46da0/40077010250-a7/40077010250-a7.jpg?ts=1750332044210",
+   "https://static.zarahome.net/assets/public/069a/4c08/edff4849a018/602592f6bcc6/40077010250-p1/40077010250-p1.jpg?ts=1719413749050",
+   "https://static.zarahome.net/assets/public/1494/7f42/dfdd402a8f71/b0212e23e1eb/40077010250-a1/40077010250-a1.jpg?ts=1751371287833",
+   "https://static.zarahome.net/assets/public/79cc/2168/40924b09b8ff/df833eabcd72/40077010250-a2/40077010250-a2.jpg?ts=1719413750645",
+   "https://static.zarahome.net/assets/public/53c5/a36c/64fb468dab1e/74487aa74874/40077010250-a3/40077010250-a3.jpg?ts=1719413750547",
+   "https://static.zarahome.net/assets/public/e713/e464/32a3480883e6/b9e6f2c20164/40077010250-a4/40077010250-a4.jpg?ts=1719413751512",
+   "https://static.zarahome.net/assets/public/2dbe/a674/13d247149174/3599367a23ae/40077010250-a5/40077010250-a5.jpg?ts=1719413751054",
+   "https://static.zarahome.net/assets/public/2ad1/cda6/41d7407b9c53/5356573a74dd/40077010250-f/40077010250-f.jpg?ts=1750332043718",
+   "https://static.zarahome.net/assets/public/9342/90a0/d6d04b84a69b/e441b5d53d92/40077010250-r/40077010250-r.jpg?ts=1719413750089"
   ]
  },
  {
@@ -8067,97 +8038,6 @@
    "https://static.zarahome.net/assets/public/402d/dd76/b19f40b1a428/e63ac8c1b5e9/41314011250-a6/41314011250-a6.jpg?ts=1777886146938",
    "https://static.zarahome.net/assets/public/0cc5/595e/5b49485fb58c/ef5583ca0524/41314011250-f/41314011250-f.jpg?ts=1777890686929",
    "https://static.zarahome.net/assets/public/0b4f/9e7d/c8cb4b998610/204134df7537/41314011250-r/41314011250-r.jpg?ts=1777890684987"
-  ]
- },
- {
-  "product_id": 507787594,
-  "color_id": "500",
-  "ref": "9217/412",
-  "name": "БОКАЛ КОНИЧЕСКОЙ ФОРМЫ ИЗ ХРУСТАЛЬНОГО СТЕКЛА",
-  "section": "КУХНЯ И СТОЛОВАЯ",
-  "family": "СТЕКЛЯННАЯ ПОСУДА",
-  "subfamily": "GLASSES",
-  "color": "ЗЕЛЕНЫЙ",
-  "price_kzt": 6590.0,
-  "price_old_kzt": null,
-  "price_rub": 1650,
-  "price_old_rub": null,
-  "sizes": [
-   "23.4 x 9.8 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/5ea3/f482/5dda4010a5e1/77ac196a10be/49217412500-a7/49217412500-a7.jpg?ts=1779981546110",
-  "images": [
-   "https://static.zarahome.net/assets/public/5ea3/f482/5dda4010a5e1/77ac196a10be/49217412500-a7/49217412500-a7.jpg?ts=1779981546110",
-   "https://static.zarahome.net/assets/public/2f96/5b6e/fe4e418bb1b4/525aa36b00ce/49217412500-p1/49217412500-p1.jpg?ts=1779790027940",
-   "https://static.zarahome.net/assets/public/f067/d5ac/c8c44c048490/3eac8c15ac36/49217412500-a1/49217412500-a1.jpg?ts=1779790027997",
-   "https://static.zarahome.net/assets/public/1410/a0f6/2d1b40e8a0b3/0cb7214ad5ed/49217412500-a2/49217412500-a2.jpg?ts=1779790027785",
-   "https://static.zarahome.net/assets/public/f30b/187c/ec374994ae3b/8e30fb237719/49217412500-a3/49217412500-a3.jpg?ts=1779790028187",
-   "https://static.zarahome.net/assets/public/a029/8f04/8d3044a5be9a/4eba9d85ff41/49217412500-r/49217412500-r.jpg?ts=1779790019392",
-   "https://static.zarahome.net/assets/public/e708/0f6a/983649c4bc18/1f9f5d3df874/49217412500-c1/49217412500-c1.jpg?ts=1779790037685",
-   "https://static.zarahome.net/assets/public/1292/0961/3c494248a647/f98706495a87/49217412500-x1/49217412500-x1.jpg?ts=1779790027548",
-   "https://static.zarahome.net/assets/public/39e8/7881/c87d4f449850/2134ad73970d/49217412500-f/49217412500-f.jpg?ts=1779982004786",
-   "https://static.zarahome.net/assets/public/8ed6/09e4/cee7454385f6/08f1e700cbde/4921741250001-a7/4921741250001-a7.jpg?ts=1780576260947"
-  ]
- },
- {
-  "product_id": 507787857,
-  "color_id": "500",
-  "ref": "9217/401",
-  "name": "КОНИЧЕСКИЙ СТАКАН ИЗ ХРУСТАЛЬНОГО СТЕКЛА",
-  "section": "КУХНЯ И СТОЛОВАЯ",
-  "family": "СТЕКЛЯННАЯ ПОСУДА",
-  "subfamily": "TUMBLERS",
-  "color": "ЗЕЛЕНЫЙ",
-  "price_kzt": 4690.0,
-  "price_old_kzt": null,
-  "price_rub": 1200,
-  "price_old_rub": null,
-  "sizes": [
-   "9.6 x 9 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/d167/13bb/d61b4b5ea7de/e65c340b0fc0/49217401500-a7/49217401500-a7.jpg?ts=1780039786325",
-  "images": [
-   "https://static.zarahome.net/assets/public/d167/13bb/d61b4b5ea7de/e65c340b0fc0/49217401500-a7/49217401500-a7.jpg?ts=1780039786325",
-   "https://static.zarahome.net/assets/public/925f/ed4f/8dfb49208b1a/1eecc19109c1/49217401500-p1/49217401500-p1.jpg?ts=1779790022056",
-   "https://static.zarahome.net/assets/public/395e/2c70/075a40b5a81b/612e8ca3e2a2/49217401500-a1/49217401500-a1.jpg?ts=1779790022069",
-   "https://static.zarahome.net/assets/public/8826/c55e/57254caea52d/931241629046/49217401500-a2/49217401500-a2.jpg?ts=1779790022116",
-   "https://static.zarahome.net/assets/public/0094/9db3/3fd546c1ab11/05ae56a04bb8/49217401500-a3/49217401500-a3.jpg?ts=1779790022097",
-   "https://static.zarahome.net/assets/public/8158/9404/cfe348f79d5b/917540078a46/49217401500-r/49217401500-r.jpg?ts=1779790017325",
-   "https://static.zarahome.net/assets/public/f580/32f6/b16549979e8d/cf47f458acc9/49217401500-c1/49217401500-c1.jpg?ts=1779790037688",
-   "https://static.zarahome.net/assets/public/5c68/cdf7/d8eb407d9e03/68fc5fc2ba77/49217401500-x1/49217401500-x1.jpg?ts=1779790033136",
-   "https://static.zarahome.net/assets/public/315e/b7ac/70e043d08470/659e9f9800ef/49217401500-f/49217401500-f.jpg?ts=1780054270487"
-  ]
- },
- {
-  "product_id": 475344409,
-  "color_id": "808",
-  "ref": "1525/106",
-  "name": "МЕТАЛЛИЧЕСКОЕ УВЕЛИЧИТЕЛЬНОЕ ЗЕРКАЛО",
-  "section": "ДЕКОР",
-  "family": "ДЕКОР",
-  "subfamily": "MIRRORS",
-  "color": "СЕРЕБРЯНЫЙ",
-  "price_kzt": 31990.0,
-  "price_old_kzt": null,
-  "price_rub": 8040,
-  "price_old_rub": null,
-  "sizes": [
-   "33.6 x 17.1 x 17.1 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/78be/aa87/08814605b2e2/450d79e230be/41525106808-a7/41525106808-a7.jpg?ts=1762416601404",
-  "images": [
-   "https://static.zarahome.net/assets/public/78be/aa87/08814605b2e2/450d79e230be/41525106808-a7/41525106808-a7.jpg?ts=1762416601404",
-   "https://static.zarahome.net/assets/public/89cf/d031/09cc46d3a0ac/93e83a1da10f/41525106808-p1/41525106808-p1.jpg?ts=1764245570094",
-   "https://static.zarahome.net/assets/public/973f/7b7c/115a43c69133/c65973a3c649/41525106808-a1/41525106808-a1.jpg?ts=1764245572235",
-   "https://static.zarahome.net/assets/public/911b/a12e/09644af88f27/91490c49aee8/41525106808-a2/41525106808-a2.jpg?ts=1764245570618",
-   "https://static.zarahome.net/assets/public/f47c/4c5d/5ddf49848efc/6e1a57f9d862/41525106808-a3/41525106808-a3.jpg?ts=1764245570150",
-   "https://static.zarahome.net/assets/public/aa8e/bdb9/01a540a3bb3e/8f4d2138659c/41525106808-a6/41525106808-a6.jpg?ts=1762430779227",
-   "https://static.zarahome.net/assets/public/0924/dc87/d95b4e7b83a1/470ed07e6ca8/41525106808-f/41525106808-f.jpg?ts=1762416601319",
-   "https://static.zarahome.net/assets/public/1cc6/4dd1/5c6a4bd8a0ac/aead64c65a00/41525106808-r/41525106808-r.jpg?ts=1764245568234",
-   "https://static.zarahome.net/assets/public/587b/6a31/07eb46fb9d88/eeeb827eb22d/41525106808-c/41525106808-c.jpg?ts=1764245573292"
   ]
  },
  {
@@ -12531,36 +12411,6 @@
   ]
  },
  {
-  "product_id": 475379638,
-  "color_id": "712",
-  "ref": "9116/008",
-  "name": "ШЕЛКОВЫЙ ЧЕХОЛ ДЛЯ ДЕКОРАТИВНОЙ ПОДУШКИ",
-  "section": "ДЕКОР",
-  "family": "ДЕКОРАТИВНЫЕ ПОДУШКИ",
-  "subfamily": "CUSHION COVERS",
-  "color": "ЭКРЮ",
-  "price_kzt": 31990.0,
-  "price_old_kzt": null,
-  "price_rub": 8040,
-  "price_old_rub": null,
-  "sizes": [
-   "30 x 50 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/9f55/e379/b819447ead2f/58512790aa03/49116008712-a7/49116008712-a7.jpg?ts=1770904558098",
-  "images": [
-   "https://static.zarahome.net/assets/public/9f55/e379/b819447ead2f/58512790aa03/49116008712-a7/49116008712-a7.jpg?ts=1770904558098",
-   "https://static.zarahome.net/assets/public/bd84/4b52/2d1a473394b0/cf68d4601d5a/49116008712-a3/49116008712-a3.jpg?ts=1764929852167",
-   "https://static.zarahome.net/assets/public/eca3/78d0/438f41008169/ea14a2bd6950/49116008712-a1/49116008712-a1.jpg?ts=1764929853619",
-   "https://static.zarahome.net/assets/public/eb8f/a2c0/8647469cb929/8f00d893db71/49116008712-p1/49116008712-p1.jpg?ts=1764929853459",
-   "https://static.zarahome.net/assets/public/402b/4bab/9a764b05868e/456a2a9db27f/49116008712-a2/49116008712-a2.jpg?ts=1764929853151",
-   "https://static.zarahome.net/assets/public/de93/2a43/b55448dcb308/fcedc2d9aaaf/49116008712-a6/49116008712-a6.jpg?ts=1766069581050",
-   "https://static.zarahome.net/assets/public/5148/4b42/a360448c9456/d6de4e14e0f9/49116008712-r/49116008712-r.jpg?ts=1764929850803",
-   "https://static.zarahome.net/assets/public/5671/f7ea/e65741b6bdda/38c2d7693a11/49116008712-c/49116008712-c.jpg?ts=1764929852933",
-   "https://static.zarahome.net/assets/public/c289/e2d5/99f245deb5e5/f353f8409fc2/49116008712-f/49116008712-f.jpg?ts=1770904159408"
-  ]
- },
- {
   "product_id": 479913943,
   "color_id": "052",
   "ref": "5151/009",
@@ -12588,6 +12438,36 @@
    "https://static.zarahome.net/assets/public/70be/48b8/08d2483880f0/05b48c678b92/45151009052-r/45151009052-r.jpg?ts=1771428532604",
    "https://static.zarahome.net/assets/public/cd47/4db6/efcd4a7797b8/420fa9c5f2f6/45151009052-c/45151009052-c.jpg?ts=1771428538964",
    "https://static.zarahome.net/assets/public/8bae/a763/c74c4626a48e/aaa8e450874a/45151009052-f/45151009052-f.jpg?ts=1771591925985"
+  ]
+ },
+ {
+  "product_id": 475379638,
+  "color_id": "712",
+  "ref": "9116/008",
+  "name": "ШЕЛКОВЫЙ ЧЕХОЛ ДЛЯ ДЕКОРАТИВНОЙ ПОДУШКИ",
+  "section": "ДЕКОР",
+  "family": "ДЕКОРАТИВНЫЕ ПОДУШКИ",
+  "subfamily": "CUSHION COVERS",
+  "color": "ЭКРЮ",
+  "price_kzt": 31990.0,
+  "price_old_kzt": null,
+  "price_rub": 8040,
+  "price_old_rub": null,
+  "sizes": [
+   "30 x 50 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/9f55/e379/b819447ead2f/58512790aa03/49116008712-a7/49116008712-a7.jpg?ts=1770904558098",
+  "images": [
+   "https://static.zarahome.net/assets/public/9f55/e379/b819447ead2f/58512790aa03/49116008712-a7/49116008712-a7.jpg?ts=1770904558098",
+   "https://static.zarahome.net/assets/public/bd84/4b52/2d1a473394b0/cf68d4601d5a/49116008712-a3/49116008712-a3.jpg?ts=1764929852167",
+   "https://static.zarahome.net/assets/public/eca3/78d0/438f41008169/ea14a2bd6950/49116008712-a1/49116008712-a1.jpg?ts=1764929853619",
+   "https://static.zarahome.net/assets/public/eb8f/a2c0/8647469cb929/8f00d893db71/49116008712-p1/49116008712-p1.jpg?ts=1764929853459",
+   "https://static.zarahome.net/assets/public/402b/4bab/9a764b05868e/456a2a9db27f/49116008712-a2/49116008712-a2.jpg?ts=1764929853151",
+   "https://static.zarahome.net/assets/public/de93/2a43/b55448dcb308/fcedc2d9aaaf/49116008712-a6/49116008712-a6.jpg?ts=1766069581050",
+   "https://static.zarahome.net/assets/public/5148/4b42/a360448c9456/d6de4e14e0f9/49116008712-r/49116008712-r.jpg?ts=1764929850803",
+   "https://static.zarahome.net/assets/public/5671/f7ea/e65741b6bdda/38c2d7693a11/49116008712-c/49116008712-c.jpg?ts=1764929852933",
+   "https://static.zarahome.net/assets/public/c289/e2d5/99f245deb5e5/f353f8409fc2/49116008712-f/49116008712-f.jpg?ts=1770904159408"
   ]
  },
  {
@@ -14653,37 +14533,6 @@
   ]
  },
  {
-  "product_id": 483507043,
-  "color_id": "701",
-  "ref": "2684/080",
-  "name": "СКЛАДНАЯ ПЛЯЖНАЯ ТЕЛЕЖКА ИЗ ХЛОПКА",
-  "section": "ДЕТИ И МЛАДЕНЦЫ",
-  "family": "ДЕТИ И МЛАДЕНЦЫ",
-  "subfamily": "FURNITURE",
-  "color": "CANELA",
-  "price_kzt": 85990.0,
-  "price_old_kzt": null,
-  "price_rub": 21470,
-  "price_old_rub": null,
-  "sizes": [
-   "79 x 40 x 84 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/465b/133a/36bf4b599354/83511956dae3/42684080701-a7/42684080701-a7.jpg?ts=1774617667785",
-  "images": [
-   "https://static.zarahome.net/assets/public/465b/133a/36bf4b599354/83511956dae3/42684080701-a7/42684080701-a7.jpg?ts=1774617667785",
-   "https://static.zarahome.net/assets/public/ddbf/4a7c/d9634290a32e/4d5ffb0ae179/42684080701-p1/42684080701-p1.jpg?ts=1775556001784",
-   "https://static.zarahome.net/assets/public/ed0b/2cad/47314b309ee4/5821632c0604/42684080701-a1/42684080701-a1.jpg?ts=1775556001693",
-   "https://static.zarahome.net/assets/public/9dbe/f5dc/0cdd401a87a4/52f3f55ae385/42684080701-a2/42684080701-a2.jpg?ts=1775555997049",
-   "https://static.zarahome.net/assets/public/3114/853f/a0b645a28fc4/77ac20857994/42684080701-a3/42684080701-a3.jpg?ts=1775556001802",
-   "https://static.zarahome.net/assets/public/e872/d9ba/740c438b9656/d90d9704ee22/42684080701-a4/42684080701-a4.jpg?ts=1775555996993",
-   "https://static.zarahome.net/assets/public/33eb/cd91/f2194f5998c7/a2e7149d4712/42684080701-f/42684080701-f.jpg?ts=1774617678271",
-   "https://static.zarahome.net/assets/public/a4bf/c0d6/57374ac29a4e/6c49d2102315/42684080701-r/42684080701-r.jpg?ts=1775555994305",
-   "https://static.zarahome.net/assets/public/78cf/abb6/5cd14540850e/2b676ee394fe/42684080701-c1/42684080701-c1.jpg?ts=1775556023011",
-   "https://static.zarahome.net/assets/public/f9e6/5020/5ac1439a9c1e/a119e2a14486/42684080701-h/42684080701-h.jpg?ts=1776089403240"
-  ]
- },
- {
   "product_id": 484231737,
   "color_id": "701",
   "ref": "5603/536",
@@ -15011,35 +14860,6 @@
    "https://static.zarahome.net/assets/public/fabd/5104/d82849eea67f/20413614a7fb/45619119251-r/45619119251-r.jpg?ts=1769425988758",
    "https://static.zarahome.net/assets/public/1118/499b/1c1c43838831/263dec7071bb/45619119251-c/45619119251-c.jpg?ts=1769426002619",
    "https://static.zarahome.net/assets/public/c43a/36b8/0d264898a105/452788714f67/45618119251-f/45618119251-f.jpg?ts=1773748607159"
-  ]
- },
- {
-  "product_id": 484504395,
-  "color_id": "920",
-  "ref": "2688/060",
-  "name": "СКЛАДНОЙ ПЛЯЖНЫЙ ПОДНОС",
-  "section": "ДЕТИ И МЛАДЕНЦЫ",
-  "family": "ДЕТИ И МЛАДЕНЦЫ",
-  "subfamily": "DECORATIVE ACCESSORIES",
-  "color": "СИНИЙ",
-  "price_kzt": 31990.0,
-  "price_old_kzt": null,
-  "price_rub": 8040,
-  "price_old_rub": null,
-  "sizes": [
-   "56 x 35 x 25 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/d7c1/eeae/4e5f4356bd1a/09c9bed5b694/42688060920-a7/42688060920-a7.jpg?ts=1776155371895",
-  "images": [
-   "https://static.zarahome.net/assets/public/d7c1/eeae/4e5f4356bd1a/09c9bed5b694/42688060920-a7/42688060920-a7.jpg?ts=1776155371895",
-   "https://static.zarahome.net/assets/public/c3ba/c91a/cff14f85a21c/deb14075ed8b/42688060920-p1/42688060920-p1.jpg?ts=1774006462161",
-   "https://static.zarahome.net/assets/public/d17b/00e5/47d24e4d925b/587d284e504c/42688060920-a1/42688060920-a1.jpg?ts=1774006475195",
-   "https://static.zarahome.net/assets/public/55a1/9dcb/226345799886/35c7e0d4474a/42688060920-a2/42688060920-a2.jpg?ts=1774006468234",
-   "https://static.zarahome.net/assets/public/51b3/d37b/6b8049408c8d/0c1ae89c8006/42688060920-a3/42688060920-a3.jpg?ts=1774006463230",
-   "https://static.zarahome.net/assets/public/252e/86b5/bf92477199e2/3d0d9ce26b9e/42688060920-r/42688060920-r.jpg?ts=1774006456910",
-   "https://static.zarahome.net/assets/public/357e/ff88/249249b49b60/a756e8659e75/42688060920-c/42688060920-c.jpg?ts=1774006463102",
-   "https://static.zarahome.net/assets/public/d666/d742/8d3841abba83/12153cd71db4/42688060920-f/42688060920-f.jpg?ts=1774513968206"
   ]
  },
  {
@@ -24185,35 +24005,6 @@
   ]
  },
  {
-  "product_id": 493059169,
-  "color_id": "701",
-  "ref": "2666/060",
-  "name": "ОСНОВАНИЕ ДЛЯ ПЛЯЖНОГО ЗОНТА С ЭФФЕКТОМ ПОЛОТЕНЦА",
-  "section": "ДЕТИ И МЛАДЕНЦЫ",
-  "family": "ПЛЯЖ",
-  "subfamily": "TEXTILE ACCESSORIES",
-  "color": "CANELA",
-  "price_kzt": 49990.0,
-  "price_old_kzt": null,
-  "price_rub": 12540,
-  "price_old_rub": null,
-  "sizes": [
-   "135 x 135 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/fdab/bedd/9d0f4e2a9f6f/14086de34ac0/42666060701-a7/42666060701-a7.jpg?ts=1774257594773",
-  "images": [
-   "https://static.zarahome.net/assets/public/fdab/bedd/9d0f4e2a9f6f/14086de34ac0/42666060701-a7/42666060701-a7.jpg?ts=1774257594773",
-   "https://static.zarahome.net/assets/public/9abe/311b/150e40ceaa6a/334b020cf2cf/42666060701-p1/42666060701-p1.jpg?ts=1774011371525",
-   "https://static.zarahome.net/assets/public/1d20/c085/b0fe487aac01/a8e23791955a/42666060701-a1/42666060701-a1.jpg?ts=1774011371638",
-   "https://static.zarahome.net/assets/public/53cf/33e7/38314423ba93/81c238d5afd3/42666060701-a2/42666060701-a2.jpg?ts=1774011371615",
-   "https://static.zarahome.net/assets/public/db54/5e14/d8674d62bd1c/84d246b731a5/42666060701-a3/42666060701-a3.jpg?ts=1774011371498",
-   "https://static.zarahome.net/assets/public/6755/2360/b9504a7f840b/0f9ca3fc2169/42666060701-r/42666060701-r.jpg?ts=1774011368103",
-   "https://static.zarahome.net/assets/public/b18c/30dd/ed7c4bfcb244/e070780b58ba/42666060701-c/42666060701-c.jpg?ts=1774011378494",
-   "https://static.zarahome.net/assets/public/2202/9f45/703f40058c1a/1c28776ba4f8/42666060701-f/42666060701-f.jpg?ts=1774283245181"
-  ]
- },
- {
   "product_id": 479908170,
   "color_id": "999",
   "ref": "8623/052",
@@ -24270,35 +24061,6 @@
    "https://static.zarahome.net/assets/public/9d7e/443e/86b64199a6cd/35d743b6de44/48619052300-r/48619052300-r.jpg?ts=1769176549126",
    "https://static.zarahome.net/assets/public/9aab/879d/536c49ca8cc6/7fdad0f7d14b/48619052300-c/48619052300-c.jpg?ts=1769176556658",
    "https://static.zarahome.net/assets/public/eb05/51cd/cc6b4935bc20/52acf4fa8eca/48619052300-f/48619052300-f.jpg?ts=1773748603404"
-  ]
- },
- {
-  "product_id": 493544137,
-  "color_id": "999",
-  "ref": "8660/052",
-  "name": "НАБОР ДЕТСКИХ ПЛЯЖНЫХ ФОРМОЧЕК ИЗ СИЛИКОНА (4 ШТ.)",
-  "section": "ДЕТИ И МЛАДЕНЦЫ",
-  "family": "ПЛЯЖ",
-  "subfamily": "TOYS",
-  "color": "РАЗНОЦВЕТНЫЙ",
-  "price_kzt": 9990.0,
-  "price_old_kzt": null,
-  "price_rub": 2390,
-  "price_old_rub": null,
-  "sizes": [
-   "22 x 14 x 5 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/6ec3/c4c4/e0a24891b165/154826523598/48660052999-a7/48660052999-a7.jpg?ts=1772803940271",
-  "images": [
-   "https://static.zarahome.net/assets/public/6ec3/c4c4/e0a24891b165/154826523598/48660052999-a7/48660052999-a7.jpg?ts=1772803940271",
-   "https://static.zarahome.net/assets/public/4bf4/25d6/d57944669c59/edfd28beda2c/48660052999-p1/48660052999-p1.jpg?ts=1772533876880",
-   "https://static.zarahome.net/assets/public/4ef5/836d/d3dd40a09d0b/f407f8478bb8/48660052999-a1/48660052999-a1.jpg?ts=1772533834148",
-   "https://static.zarahome.net/assets/public/7941/da74/99424a128392/041bc3c1e619/48660052999-a2/48660052999-a2.jpg?ts=1772533834677",
-   "https://static.zarahome.net/assets/public/508b/fcb7/af124583aee0/bd7de9707914/48660052999-a4/48660052999-a4.jpg?ts=1772533876857",
-   "https://static.zarahome.net/assets/public/b7bb/c7b8/7ed643c5ab93/2ae710375a2c/48660052999-r/48660052999-r.jpg?ts=1772533827778",
-   "https://static.zarahome.net/assets/public/7e25/4560/645c47f2b1c8/d528a5b2135c/48660052999-c/48660052999-c.jpg?ts=1772533845109",
-   "https://static.zarahome.net/assets/public/f4fc/c02d/4a4a4090ac51/7cfbbc13bccd/48660052999-f/48660052999-f.jpg?ts=1773748613927"
   ]
  },
  {
