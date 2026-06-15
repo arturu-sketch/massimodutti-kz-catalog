@@ -1,12 +1,12 @@
 {
-  "left": 6869,
+  "left": 6673,
   "total": 10250,
-  "used": 3381,
-  "percent": 67.0,
+  "used": 3577,
+  "percent": 65.1,
   "packs": [
     {
       "total": 10250,
-      "left": 6869,
+      "left": 6673,
       "expires": "Wed, 19 Aug 2026 14:00:00 GMT"
     }
   ]
