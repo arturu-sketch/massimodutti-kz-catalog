@@ -106,46 +106,6 @@
  },
  {
   "product_id": 511311904,
-  "color_id": "003",
-  "ref": "2075/328",
-  "name": "Рубашка с короткими рукавами и вырезом на груди",
-  "section": "WOMEN",
-  "family": "SHIRTS",
-  "subfamily": "SHIRTS",
-  "color": "Белый",
-  "price_kzt": 12990.0,
-  "price_old_kzt": null,
-  "price_rub": 3590,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "XS",
-   "S",
-   "S",
-   "M",
-   "M",
-   "L",
-   "L",
-   "XL",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/0a00/b68e/105e40278ae2/45b79cb04650/02075328003-a15/02075328003-a15.jpg?ts=1781796791554",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/0a00/b68e/105e40278ae2/45b79cb04650/02075328003-a15/02075328003-a15.jpg?ts=1781796791554",
-   "https://static.e-stradivarius.net/assets/public/e062/b623/39ed43d581f8/564d1473958f/02075328003-c1/02075328003-c1.jpg?ts=1781796791521",
-   "https://static.e-stradivarius.net/assets/public/4b48/6cb0/aaa54c6a8356/d30455dade92/02075328003-a1/02075328003-a1.jpg?ts=1781796791322",
-   "https://static.e-stradivarius.net/assets/public/1a6e/35e4/0f8c460089de/37d35226de0d/02075328003-a2/02075328003-a2.jpg?ts=1781796790473",
-   "https://static.e-stradivarius.net/assets/public/6629/4752/749241ceb6f8/b9663490652f/02075328003-a3/02075328003-a3.jpg?ts=1781796790267",
-   "https://static.e-stradivarius.net/assets/public/d66b/2926/78de4b65af7a/0b2432c5a0aa/02075328003-a16/02075328003-a16.jpg?ts=1781796790957",
-   "https://static.e-stradivarius.net/assets/public/a43f/5577/47554bbbb22f/1c4dbd53b0fb/02075328003-s1/02075328003-s1.jpg?ts=1773329378814",
-   "https://static.e-stradivarius.net/assets/public/46f1/8b86/57e54b0ab6a7/44a65e21eeaa/02075328003-s2/02075328003-s2.jpg?ts=1773329379034",
-   "https://static.e-stradivarius.net/assets/public/d028/9806/3240410ba019/5477834b372f/02075328003-s3/02075328003-s3.jpg?ts=1773329378928",
-   "https://static.e-stradivarius.net/assets/public/f76a/cc51/534247608b91/bbb540d1254e/02075328003-r/02075328003-r.jpg?ts=1768561953762"
-  ]
- },
- {
-  "product_id": 511311904,
   "color_id": "042",
   "ref": "2075/328",
   "name": "Рубашка с короткими рукавами и вырезом на груди",
@@ -182,6 +142,46 @@
    "https://static.e-stradivarius.net/assets/public/397c/5c23/b2b348b9a6bb/438b2dafff0a/02075328042-s2/02075328042-s2.jpg?ts=1777892849294",
    "https://static.e-stradivarius.net/assets/public/b79b/1426/1e454e968918/00afa6fce96e/02075328042-s3/02075328042-s3.jpg?ts=1777892850199",
    "https://static.e-stradivarius.net/assets/public/7992/0de3/d3574f319086/5747a4e11970/02075328042-m/02075328042-m.jpg?ts=1777892848736"
+  ]
+ },
+ {
+  "product_id": 511311904,
+  "color_id": "003",
+  "ref": "2075/328",
+  "name": "Рубашка с короткими рукавами и вырезом на груди",
+  "section": "WOMEN",
+  "family": "SHIRTS",
+  "subfamily": "SHIRTS",
+  "color": "Белый",
+  "price_kzt": 12990.0,
+  "price_old_kzt": null,
+  "price_rub": 3590,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "XS",
+   "S",
+   "S",
+   "M",
+   "M",
+   "L",
+   "L",
+   "XL",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.e-stradivarius.net/assets/public/0a00/b68e/105e40278ae2/45b79cb04650/02075328003-a15/02075328003-a15.jpg?ts=1781796791554",
+  "images": [
+   "https://static.e-stradivarius.net/assets/public/0a00/b68e/105e40278ae2/45b79cb04650/02075328003-a15/02075328003-a15.jpg?ts=1781796791554",
+   "https://static.e-stradivarius.net/assets/public/e062/b623/39ed43d581f8/564d1473958f/02075328003-c1/02075328003-c1.jpg?ts=1781796791521",
+   "https://static.e-stradivarius.net/assets/public/4b48/6cb0/aaa54c6a8356/d30455dade92/02075328003-a1/02075328003-a1.jpg?ts=1781796791322",
+   "https://static.e-stradivarius.net/assets/public/1a6e/35e4/0f8c460089de/37d35226de0d/02075328003-a2/02075328003-a2.jpg?ts=1781796790473",
+   "https://static.e-stradivarius.net/assets/public/6629/4752/749241ceb6f8/b9663490652f/02075328003-a3/02075328003-a3.jpg?ts=1781796790267",
+   "https://static.e-stradivarius.net/assets/public/d66b/2926/78de4b65af7a/0b2432c5a0aa/02075328003-a16/02075328003-a16.jpg?ts=1781796790957",
+   "https://static.e-stradivarius.net/assets/public/a43f/5577/47554bbbb22f/1c4dbd53b0fb/02075328003-s1/02075328003-s1.jpg?ts=1773329378814",
+   "https://static.e-stradivarius.net/assets/public/46f1/8b86/57e54b0ab6a7/44a65e21eeaa/02075328003-s2/02075328003-s2.jpg?ts=1773329379034",
+   "https://static.e-stradivarius.net/assets/public/d028/9806/3240410ba019/5477834b372f/02075328003-s3/02075328003-s3.jpg?ts=1773329378928",
+   "https://static.e-stradivarius.net/assets/public/f76a/cc51/534247608b91/bbb540d1254e/02075328003-r/02075328003-r.jpg?ts=1768561953762"
   ]
  },
  {
@@ -2272,6 +2272,46 @@
   ]
  },
  {
+  "product_id": 511301802,
+  "color_id": "001",
+  "ref": "2540/422",
+  "name": "Топ на бретелях в рубчик B07",
+  "section": "WOMEN",
+  "family": "T-SHIRTS",
+  "subfamily": "T-SHIRTS",
+  "color": "Черный",
+  "price_kzt": 5990.0,
+  "price_old_kzt": null,
+  "price_rub": 1500,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "XS",
+   "S",
+   "S",
+   "M",
+   "M",
+   "L",
+   "L",
+   "XL",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.e-stradivarius.net/assets/public/5055/7ff1/b95344c9a547/e675e93e7bc0/02540422001-a15/02540422001-a15.jpg?ts=1781796861010",
+  "images": [
+   "https://static.e-stradivarius.net/assets/public/5055/7ff1/b95344c9a547/e675e93e7bc0/02540422001-a15/02540422001-a15.jpg?ts=1781796861010",
+   "https://static.e-stradivarius.net/assets/public/df2f/4bb2/fff94c359dd8/95758371cc9a/02540422001-c1/02540422001-c1.jpg?ts=1781796862067",
+   "https://static.e-stradivarius.net/assets/public/6e87/05c6/5ffb4c3a828e/9e5a952863f9/02540422001-a1/02540422001-a1.jpg?ts=1781796862397",
+   "https://static.e-stradivarius.net/assets/public/e93a/f8c1/c8944ff7a9f4/cc91d0b74f95/02540422001-a2/02540422001-a2.jpg?ts=1781796861585",
+   "https://static.e-stradivarius.net/assets/public/14bd/60fe/e1374a12887e/caf991d2d1f5/02540422001-a3/02540422001-a3.jpg?ts=1781796861113",
+   "https://static.e-stradivarius.net/assets/public/d52f/20fd/965947349ece/8d4163d73429/02540422001-a16/02540422001-a16.jpg?ts=1781796861417",
+   "https://static.e-stradivarius.net/assets/public/aef6/57b7/499643fc9b99/c0374756c5c4/02540422001-s1/02540422001-s1.jpg?ts=1772796264397",
+   "https://static.e-stradivarius.net/assets/public/a88f/0780/b4b44e74ad5b/d4ad5cb74af6/02540422001-s2/02540422001-s2.jpg?ts=1772796264267",
+   "https://static.e-stradivarius.net/assets/public/f98f/c113/da9d4552af8f/17fb13ca89f1/02540422001-s3/02540422001-s3.jpg?ts=1772796264474",
+   "https://static.e-stradivarius.net/assets/public/a94f/3f53/f1864d708620/0e430319aaf5/02540422001-m/02540422001-m.jpg?ts=1772796264452"
+  ]
+ },
+ {
   "product_id": 511702437,
   "color_id": "400",
   "ref": "2565/831",
@@ -2904,46 +2944,6 @@
    "https://static.e-stradivarius.net/assets/public/452d/b52b/73134aae965a/ff290a196818/02540422003-s1/02540422003-s1.jpg?ts=1775056830372",
    "https://static.e-stradivarius.net/assets/public/5719/292f/4e7749079bf8/43c6aff6ed1e/02540422003-s2/02540422003-s2.jpg?ts=1775056830370",
    "https://static.e-stradivarius.net/assets/public/f42c/f7f6/6cbd4e6b978c/1377071b47b3/02540422003-s3/02540422003-s3.jpg?ts=1772796265101"
-  ]
- },
- {
-  "product_id": 511301802,
-  "color_id": "001",
-  "ref": "2540/422",
-  "name": "Топ на бретелях в рубчик B07",
-  "section": "WOMEN",
-  "family": "T-SHIRTS",
-  "subfamily": "T-SHIRTS",
-  "color": "Черный",
-  "price_kzt": 5990.0,
-  "price_old_kzt": null,
-  "price_rub": 1500,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "XS",
-   "S",
-   "S",
-   "M",
-   "M",
-   "L",
-   "L",
-   "XL",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/5055/7ff1/b95344c9a547/e675e93e7bc0/02540422001-a15/02540422001-a15.jpg?ts=1781796861010",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/5055/7ff1/b95344c9a547/e675e93e7bc0/02540422001-a15/02540422001-a15.jpg?ts=1781796861010",
-   "https://static.e-stradivarius.net/assets/public/df2f/4bb2/fff94c359dd8/95758371cc9a/02540422001-c1/02540422001-c1.jpg?ts=1781796862067",
-   "https://static.e-stradivarius.net/assets/public/6e87/05c6/5ffb4c3a828e/9e5a952863f9/02540422001-a1/02540422001-a1.jpg?ts=1781796862397",
-   "https://static.e-stradivarius.net/assets/public/e93a/f8c1/c8944ff7a9f4/cc91d0b74f95/02540422001-a2/02540422001-a2.jpg?ts=1781796861585",
-   "https://static.e-stradivarius.net/assets/public/14bd/60fe/e1374a12887e/caf991d2d1f5/02540422001-a3/02540422001-a3.jpg?ts=1781796861113",
-   "https://static.e-stradivarius.net/assets/public/d52f/20fd/965947349ece/8d4163d73429/02540422001-a16/02540422001-a16.jpg?ts=1781796861417",
-   "https://static.e-stradivarius.net/assets/public/aef6/57b7/499643fc9b99/c0374756c5c4/02540422001-s1/02540422001-s1.jpg?ts=1772796264397",
-   "https://static.e-stradivarius.net/assets/public/a88f/0780/b4b44e74ad5b/d4ad5cb74af6/02540422001-s2/02540422001-s2.jpg?ts=1772796264267",
-   "https://static.e-stradivarius.net/assets/public/f98f/c113/da9d4552af8f/17fb13ca89f1/02540422001-s3/02540422001-s3.jpg?ts=1772796264474",
-   "https://static.e-stradivarius.net/assets/public/a94f/3f53/f1864d708620/0e430319aaf5/02540422001-m/02540422001-m.jpg?ts=1772796264452"
   ]
  },
  {
@@ -5278,6 +5278,76 @@
    "https://static.e-stradivarius.net/assets/public/37b8/1882/5eee40af9e7c/face07a1e39c/07063631503-s3/07063631503-s3.jpg?ts=1778139967789",
    "https://static.e-stradivarius.net/assets/public/dbd8/57ca/68c24b2d92d2/62cee1d4bb4b/07063631503-r/07063631503-r.jpg?ts=1778139967197",
    "https://static.e-stradivarius.net/assets/public/bcdf/44bb/e4b74919bb3a/ff1f16236012/07063631503-b1/07063631503-b1.jpg?ts=1778139970163"
+  ]
+ },
+ {
+  "product_id": 511313027,
+  "color_id": "555",
+  "ref": "7063/630",
+  "name": "Футболка с короткими рукавами в японском стиле",
+  "section": "WOMEN",
+  "family": "T-SHIRTS",
+  "subfamily": "T-SHIRTS",
+  "color": "Хаки",
+  "price_kzt": 9990.0,
+  "price_old_kzt": null,
+  "price_rub": 2390,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.e-stradivarius.net/assets/public/fc38/5c9f/b12745ec898e/bcfbf0137b7b/07063631555-a15/07063631555-a15.jpg?ts=1781168168768",
+  "images": [
+   "https://static.e-stradivarius.net/assets/public/fc38/5c9f/b12745ec898e/bcfbf0137b7b/07063631555-a15/07063631555-a15.jpg?ts=1781168168768",
+   "https://static.e-stradivarius.net/assets/public/f7ca/9e8d/6dec47ae8b45/37ecc900e7d7/07063631555-c1/07063631555-c1.jpg?ts=1779263433228",
+   "https://static.e-stradivarius.net/assets/public/ad04/e39e/30d0449884a6/dfb738ddd9e6/07063631555-a1/07063631555-a1.jpg?ts=1779263408278",
+   "https://static.e-stradivarius.net/assets/public/e3fb/dc46/31cc426282cd/2f22ce393c7a/07063631555-a2/07063631555-a2.jpg?ts=1779263433364",
+   "https://static.e-stradivarius.net/assets/public/dc6a/cd82/e07d41fa8ce7/fa87d995ae10/07063631555-a3/07063631555-a3.jpg?ts=1779263415891",
+   "https://static.e-stradivarius.net/assets/public/af29/06fb/32fd4ad7b985/f5e0f7b0cbca/07063631555-s1/07063631555-s1.jpg?ts=1778139598663",
+   "https://static.e-stradivarius.net/assets/public/1f1c/eaa2/49b24d8c8e7f/1e4960a737f9/07063631555-s2/07063631555-s2.jpg?ts=1778139598109",
+   "https://static.e-stradivarius.net/assets/public/f608/f73b/618b4edca170/51331977d624/07063631555-s3/07063631555-s3.jpg?ts=1778139598413",
+   "https://static.e-stradivarius.net/assets/public/a967/d0c4/aa564be6bcc8/d1521ec8b6ee/07063631555-r/07063631555-r.jpg?ts=1778139598963",
+   "https://static.e-stradivarius.net/assets/public/9821/0502/959c4547aa59/4d4adba2e296/07063631555-b1/07063631555-b1.jpg?ts=1778139602126"
+  ]
+ },
+ {
+  "product_id": 511313027,
+  "color_id": "001",
+  "ref": "7063/630",
+  "name": "Футболка с короткими рукавами в японском стиле",
+  "section": "WOMEN",
+  "family": "T-SHIRTS",
+  "subfamily": "T-SHIRTS",
+  "color": "Черный",
+  "price_kzt": 9990.0,
+  "price_old_kzt": null,
+  "price_rub": 2390,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.e-stradivarius.net/assets/public/cb4d/f981/91994215aeee/999ff17d8e5b/07063630001-a15/07063630001-a15.jpg?ts=1776932114521",
+  "images": [
+   "https://static.e-stradivarius.net/assets/public/cb4d/f981/91994215aeee/999ff17d8e5b/07063630001-a15/07063630001-a15.jpg?ts=1776932114521",
+   "https://static.e-stradivarius.net/assets/public/5504/8234/4fc44a638a71/a1e87ef42d89/07063630001-c1/07063630001-c1.jpg?ts=1776932113899",
+   "https://static.e-stradivarius.net/assets/public/7a19/46a5/251f457ba907/e46e05d13c93/07063630001-a1/07063630001-a1.jpg?ts=1776932113823",
+   "https://static.e-stradivarius.net/assets/public/aac5/c218/a00d4008a95f/ff0ee795276b/07063630001-a2/07063630001-a2.jpg?ts=1776932114270",
+   "https://static.e-stradivarius.net/assets/public/45ec/107e/5c7649eea028/2330c38f50c7/07063630001-a3/07063630001-a3.jpg?ts=1776932113702",
+   "https://static.e-stradivarius.net/assets/public/929d/fa83/568e49609bc7/1a920ae9346e/07063630001-s1/07063630001-s1.jpg?ts=1776692550764",
+   "https://static.e-stradivarius.net/assets/public/5fd3/44ff/7ff241c3865a/639feae46ac5/07063630001-s2/07063630001-s2.jpg?ts=1776692550487",
+   "https://static.e-stradivarius.net/assets/public/5127/8943/56314e518b30/c78ac626cbac/07063630001-s3/07063630001-s3.jpg?ts=1776692549903",
+   "https://static.e-stradivarius.net/assets/public/e4d2/2625/eb084014bd6f/8c0b3f982acb/07063630001-b1/07063630001-b1.jpg?ts=1776692689114",
+   "https://static.e-stradivarius.net/assets/public/f732/7275/0c7a4d5aa30b/a4709579a475/07063630001-m/07063630001-m.jpg?ts=1776692688939"
   ]
  },
  {
@@ -10159,43 +10229,6 @@
   ]
  },
  {
-  "product_id": 511301862,
-  "color_id": "550",
-  "ref": "8289/520",
-  "name": "Свободные шорты с камуфляжным принтом",
-  "section": "WOMEN",
-  "family": "SHORTS",
-  "subfamily": "SHORTS",
-  "color": "Хаки",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "32",
-   "34",
-   "36",
-   "38",
-   "40",
-   "42",
-   "44"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/0144/6746/6da84fcbadbd/dbc7c0d9b697/08289520550-a15/08289520550-a15.jpg?ts=1781623418905",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/0144/6746/6da84fcbadbd/dbc7c0d9b697/08289520550-a15/08289520550-a15.jpg?ts=1781623418905",
-   "https://static.e-stradivarius.net/assets/public/cc54/4690/72434f2ca6ee/7b575ea6c39d/08289520550-c1/08289520550-c1.jpg?ts=1781623391312",
-   "https://static.e-stradivarius.net/assets/public/045f/a601/e4c649d190a9/fd251c1064ba/08289520550-a1/08289520550-a1.jpg?ts=1781623386258",
-   "https://static.e-stradivarius.net/assets/public/60ca/13f8/e01e478b938e/a3f2fcb355c7/08289520550-a2/08289520550-a2.jpg?ts=1781623386684",
-   "https://static.e-stradivarius.net/assets/public/b135/a62b/0d3e4e56ae30/818fd582583a/08289520550-a3/08289520550-a3.jpg?ts=1781623386684",
-   "https://static.e-stradivarius.net/assets/public/787d/1085/203d49c392f1/f4763ff317e2/08289520550-a17/08289520550-a17.jpg?ts=1781623386411",
-   "https://static.e-stradivarius.net/assets/public/838f/7b5d/15d14fd28837/74a4558e27e7/08289520550-s1/08289520550-s1.jpg?ts=1781624298145",
-   "https://static.e-stradivarius.net/assets/public/15c7/f5e9/6a3b4e5b864f/cada02828dca/08289520550-s2/08289520550-s2.jpg?ts=1781624298831",
-   "https://static.e-stradivarius.net/assets/public/33e2/72db/95e642eaa5f6/66cd2980ece4/08289520550-s3/08289520550-s3.jpg?ts=1781624300638",
-   "https://static.e-stradivarius.net/assets/public/36af/88c6/69d5474f9065/c23b91837601/08289520550-m/08289520550-m.jpg?ts=1781624298010"
-  ]
- },
- {
   "product_id": 511301208,
   "color_id": "400",
   "ref": "4536/428",
@@ -12122,43 +12155,6 @@
   ]
  },
  {
-  "product_id": 511309720,
-  "color_id": "003",
-  "ref": "1361/244",
-  "name": "Джинсовые шорты baggy",
-  "section": "WOMEN",
-  "family": "SHORTS",
-  "subfamily": "SHORTS",
-  "color": "Белый",
-  "price_kzt": 18990.0,
-  "price_old_kzt": null,
-  "price_rub": 4690,
-  "price_old_rub": null,
-  "sizes": [
-   "32",
-   "34",
-   "36",
-   "38",
-   "40",
-   "42",
-   "44"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/5524/ce05/c0ec4fadac3b/485565650f51/01361275003-a15/01361275003-a15.jpg?ts=1780410960511",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/5524/ce05/c0ec4fadac3b/485565650f51/01361275003-a15/01361275003-a15.jpg?ts=1780410960511",
-   "https://static.e-stradivarius.net/assets/public/d64f/7ce9/3b1a48ed9aa4/bc584f5b2e4b/01361275003-c1/01361275003-c1.jpg?ts=1780410960592",
-   "https://static.e-stradivarius.net/assets/public/02aa/5576/976a41589c25/c58ef4a66d1f/01361275003-a1/01361275003-a1.jpg?ts=1780410960948",
-   "https://static.e-stradivarius.net/assets/public/2204/4674/7a134830820b/ae52d9a64460/01361275003-a2/01361275003-a2.jpg?ts=1780410960945",
-   "https://static.e-stradivarius.net/assets/public/31a5/c91d/419f42e49822/dd2d045abb84/01361275003-a3/01361275003-a3.jpg?ts=1780410960731",
-   "https://static.e-stradivarius.net/assets/public/f1ec/bfd5/bc1340c689ea/722907d19dc0/01361275003-a4/01361275003-a4.jpg?ts=1780410960995",
-   "https://static.e-stradivarius.net/assets/public/a419/ab07/464244bebf72/2d1f6dc636fd/01361275003-s1/01361275003-s1.jpg?ts=1781592537139",
-   "https://static.e-stradivarius.net/assets/public/65cd/bb35/58434d9cb8f3/6d3faeb54ecd/01361275003-s2/01361275003-s2.jpg?ts=1781592536985",
-   "https://static.e-stradivarius.net/assets/public/4acd/fcf0/025143b6982e/ab2685124b50/01361275003-s3/01361275003-s3.jpg?ts=1780327768519",
-   "https://static.e-stradivarius.net/assets/public/3c4a/ef1e/4cd04eefa4b4/d44d78b0923f/01361275003-r/01361275003-r.jpg?ts=1780327699742"
-  ]
- },
- {
   "product_id": 517178975,
   "color_id": "722",
   "ref": "1499/925",
@@ -12728,6 +12724,43 @@
    "https://static.e-stradivarius.net/assets/public/7de7/d952/71834e63afd7/87ad6a88ff89/01499512778-s2/01499512778-s2.jpg?ts=1769422712643",
    "https://static.e-stradivarius.net/assets/public/e70e/a74c/458744e4ac3c/9270c8873faa/01499512778-s3/01499512778-s3.jpg?ts=1769422712375",
    "https://static.e-stradivarius.net/assets/public/4c8f/7725/5c2d4affa0e8/dba720f23057/01499512778-r/01499512778-r.jpg?ts=1769422712613"
+  ]
+ },
+ {
+  "product_id": 511309720,
+  "color_id": "003",
+  "ref": "1361/244",
+  "name": "Джинсовые шорты baggy",
+  "section": "WOMEN",
+  "family": "SHORTS",
+  "subfamily": "SHORTS",
+  "color": "Белый",
+  "price_kzt": 18990.0,
+  "price_old_kzt": null,
+  "price_rub": 4690,
+  "price_old_rub": null,
+  "sizes": [
+   "32",
+   "34",
+   "36",
+   "38",
+   "40",
+   "42",
+   "44"
+  ],
+  "in_stock": true,
+  "image": "https://static.e-stradivarius.net/assets/public/5524/ce05/c0ec4fadac3b/485565650f51/01361275003-a15/01361275003-a15.jpg?ts=1780410960511",
+  "images": [
+   "https://static.e-stradivarius.net/assets/public/5524/ce05/c0ec4fadac3b/485565650f51/01361275003-a15/01361275003-a15.jpg?ts=1780410960511",
+   "https://static.e-stradivarius.net/assets/public/d64f/7ce9/3b1a48ed9aa4/bc584f5b2e4b/01361275003-c1/01361275003-c1.jpg?ts=1780410960592",
+   "https://static.e-stradivarius.net/assets/public/02aa/5576/976a41589c25/c58ef4a66d1f/01361275003-a1/01361275003-a1.jpg?ts=1780410960948",
+   "https://static.e-stradivarius.net/assets/public/2204/4674/7a134830820b/ae52d9a64460/01361275003-a2/01361275003-a2.jpg?ts=1780410960945",
+   "https://static.e-stradivarius.net/assets/public/31a5/c91d/419f42e49822/dd2d045abb84/01361275003-a3/01361275003-a3.jpg?ts=1780410960731",
+   "https://static.e-stradivarius.net/assets/public/f1ec/bfd5/bc1340c689ea/722907d19dc0/01361275003-a4/01361275003-a4.jpg?ts=1780410960995",
+   "https://static.e-stradivarius.net/assets/public/a419/ab07/464244bebf72/2d1f6dc636fd/01361275003-s1/01361275003-s1.jpg?ts=1781592537139",
+   "https://static.e-stradivarius.net/assets/public/65cd/bb35/58434d9cb8f3/6d3faeb54ecd/01361275003-s2/01361275003-s2.jpg?ts=1781592536985",
+   "https://static.e-stradivarius.net/assets/public/4acd/fcf0/025143b6982e/ab2685124b50/01361275003-s3/01361275003-s3.jpg?ts=1780327768519",
+   "https://static.e-stradivarius.net/assets/public/3c4a/ef1e/4cd04eefa4b4/d44d78b0923f/01361275003-r/01361275003-r.jpg?ts=1780327699742"
   ]
  },
  {
@@ -13368,6 +13401,57 @@
    "https://static.e-stradivarius.net/assets/public/e29e/4478/59484f7aadc7/4f7ef7349a4b/07693665001-s2/07693665001-s2.jpg?ts=1740560899201",
    "https://static.e-stradivarius.net/assets/public/7374/cf2d/773740ad9c83/97cf23eda195/07693665001-s3/07693665001-s3.jpg?ts=1740561256038",
    "https://static.e-stradivarius.net/assets/public/081d/f290/5e21485a9f5b/52d7b91a4c28/07693665001-m/07693665001-m.jpg?ts=1740560842563"
+  ]
+ },
+ {
+  "product_id": 511304326,
+  "color_id": "703",
+  "ref": "1283/422",
+  "name": "Джинсовая юбка-шорты D62",
+  "section": "WOMEN",
+  "family": "SKIRTS",
+  "subfamily": "SKIRTS",
+  "color": "Темно-синий",
+  "price_kzt": 16990.0,
+  "price_old_kzt": null,
+  "price_rub": 4290,
+  "price_old_rub": null,
+  "sizes": [
+   "32",
+   "32",
+   "32",
+   "34",
+   "34",
+   "34",
+   "36",
+   "36",
+   "36",
+   "38",
+   "38",
+   "38",
+   "40",
+   "40",
+   "40",
+   "42",
+   "42",
+   "42",
+   "44",
+   "44",
+   "44"
+  ],
+  "in_stock": true,
+  "image": "https://static.e-stradivarius.net/assets/public/eefb/35f8/7aad4f4ca9a7/bad2f24c2537/01283746703-a15/01283746703-a15.jpg?ts=1774617067329",
+  "images": [
+   "https://static.e-stradivarius.net/assets/public/eefb/35f8/7aad4f4ca9a7/bad2f24c2537/01283746703-a15/01283746703-a15.jpg?ts=1774617067329",
+   "https://static.e-stradivarius.net/assets/public/d8a9/bd4e/4b9a45a1994e/8707eceef13d/01283746703-c1/01283746703-c1.jpg?ts=1774617065040",
+   "https://static.e-stradivarius.net/assets/public/f478/5d09/a0234067b144/5096248dfe22/01283746703-a1/01283746703-a1.jpg?ts=1774617064929",
+   "https://static.e-stradivarius.net/assets/public/72b6/de67/512b4b14b488/3aec15625fd1/01283746703-a2/01283746703-a2.jpg?ts=1774617065587",
+   "https://static.e-stradivarius.net/assets/public/60ce/5c4b/6cb64a02a2cb/6c5cad0b1fca/01283746703-a3/01283746703-a3.jpg?ts=1774617067206",
+   "https://static.e-stradivarius.net/assets/public/d558/79ae/4763455e9337/bd8866cce058/01283746703-a16/01283746703-a16.jpg?ts=1774617065587",
+   "https://static.e-stradivarius.net/assets/public/ccdb/5d61/b4ac4dd7a73f/4f1ebd589978/01283747703-s1/01283747703-s1.jpg?ts=1778139657479",
+   "https://static.e-stradivarius.net/assets/public/01c7/0554/e6304fe8816f/d7218f878260/01283747703-s2/01283747703-s2.jpg?ts=1778139657786",
+   "https://static.e-stradivarius.net/assets/public/7477/cfb4/74704461a1da/1558e7d5f208/01283747703-s3/01283747703-s3.jpg?ts=1778139657136",
+   "https://static.e-stradivarius.net/assets/public/8a19/c2d6/356d4037a5dd/672608151bf3/01283746703-r/01283746703-r.jpg?ts=1750693082743"
   ]
  },
  {
@@ -14317,57 +14401,6 @@
  },
  {
   "product_id": 511304326,
-  "color_id": "703",
-  "ref": "1283/422",
-  "name": "Джинсовая юбка-шорты D62",
-  "section": "WOMEN",
-  "family": "SKIRTS",
-  "subfamily": "SKIRTS",
-  "color": "Темно-синий",
-  "price_kzt": 16990.0,
-  "price_old_kzt": null,
-  "price_rub": 4290,
-  "price_old_rub": null,
-  "sizes": [
-   "32",
-   "32",
-   "32",
-   "34",
-   "34",
-   "34",
-   "36",
-   "36",
-   "36",
-   "38",
-   "38",
-   "38",
-   "40",
-   "40",
-   "40",
-   "42",
-   "42",
-   "42",
-   "44",
-   "44",
-   "44"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/eefb/35f8/7aad4f4ca9a7/bad2f24c2537/01283746703-a15/01283746703-a15.jpg?ts=1774617067329",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/eefb/35f8/7aad4f4ca9a7/bad2f24c2537/01283746703-a15/01283746703-a15.jpg?ts=1774617067329",
-   "https://static.e-stradivarius.net/assets/public/d8a9/bd4e/4b9a45a1994e/8707eceef13d/01283746703-c1/01283746703-c1.jpg?ts=1774617065040",
-   "https://static.e-stradivarius.net/assets/public/f478/5d09/a0234067b144/5096248dfe22/01283746703-a1/01283746703-a1.jpg?ts=1774617064929",
-   "https://static.e-stradivarius.net/assets/public/72b6/de67/512b4b14b488/3aec15625fd1/01283746703-a2/01283746703-a2.jpg?ts=1774617065587",
-   "https://static.e-stradivarius.net/assets/public/60ce/5c4b/6cb64a02a2cb/6c5cad0b1fca/01283746703-a3/01283746703-a3.jpg?ts=1774617067206",
-   "https://static.e-stradivarius.net/assets/public/d558/79ae/4763455e9337/bd8866cce058/01283746703-a16/01283746703-a16.jpg?ts=1774617065587",
-   "https://static.e-stradivarius.net/assets/public/ccdb/5d61/b4ac4dd7a73f/4f1ebd589978/01283747703-s1/01283747703-s1.jpg?ts=1778139657479",
-   "https://static.e-stradivarius.net/assets/public/01c7/0554/e6304fe8816f/d7218f878260/01283747703-s2/01283747703-s2.jpg?ts=1778139657786",
-   "https://static.e-stradivarius.net/assets/public/7477/cfb4/74704461a1da/1558e7d5f208/01283747703-s3/01283747703-s3.jpg?ts=1778139657136",
-   "https://static.e-stradivarius.net/assets/public/8a19/c2d6/356d4037a5dd/672608151bf3/01283746703-r/01283746703-r.jpg?ts=1750693082743"
-  ]
- },
- {
-  "product_id": 511304326,
   "color_id": "003",
   "ref": "1283/422",
   "name": "Джинсовая юбка-шорты D62",
@@ -14450,6 +14483,39 @@
    "https://static.e-stradivarius.net/assets/public/c37f/03e4/d8624787b8ee/4aa6cf3810d5/08396118001-s2/08396118001-s2.jpg?ts=1779348269798",
    "https://static.e-stradivarius.net/assets/public/4c73/1112/dd1a4c2c8cc0/02fcf5902a18/08396118001-s3/08396118001-s3.jpg?ts=1779348269812",
    "https://static.e-stradivarius.net/assets/public/44d4/4791/5a964d9aab37/8fd91fcdcd4d/08396118001-m/08396118001-m.jpg?ts=1779348272311"
+  ]
+ },
+ {
+  "product_id": 511319044,
+  "color_id": "650",
+  "ref": "2382/896",
+  "name": "Платье миди из бенгалина с квадратным вырезом",
+  "section": "WOMEN",
+  "family": "DRESSES",
+  "subfamily": "DRESSES",
+  "color": "Лиловый",
+  "price_kzt": 19990.0,
+  "price_old_kzt": null,
+  "price_rub": 4990,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.e-stradivarius.net/assets/public/2e67/5399/a3a44b5a9333/13289ada3e4a/02382899650-a15/02382899650-a15.jpg?ts=1779966618420",
+  "images": [
+   "https://static.e-stradivarius.net/assets/public/2e67/5399/a3a44b5a9333/13289ada3e4a/02382899650-a15/02382899650-a15.jpg?ts=1779966618420",
+   "https://static.e-stradivarius.net/assets/public/d229/f8e9/5c624bc09016/71470a7ff825/02382899650-c1/02382899650-c1.jpg?ts=1779966619157",
+   "https://static.e-stradivarius.net/assets/public/3897/a773/73b84834bf9b/c3ba75c0a731/02382899650-a1/02382899650-a1.jpg?ts=1779966619224",
+   "https://static.e-stradivarius.net/assets/public/6eae/e430/9a604c4ba40a/b4f93008a6ed/02382899650-a2/02382899650-a2.jpg?ts=1779966618380",
+   "https://static.e-stradivarius.net/assets/public/7648/b1c3/8daa44dcba09/988f6f6b08e5/02382899650-a3/02382899650-a3.jpg?ts=1779966618831",
+   "https://static.e-stradivarius.net/assets/public/b4dc/18c8/01974246b7a0/2d3f590edd4a/02382899650-a16/02382899650-a16.jpg?ts=1779966618482",
+   "https://static.e-stradivarius.net/assets/public/17fd/bd83/2dc943ab88e1/c404ce944c59/02382899650-s1/02382899650-s1.jpg?ts=1777390972488",
+   "https://static.e-stradivarius.net/assets/public/20fc/0d3b/8fb54edd806c/a4c9777e4538/02382899650-s3/02382899650-s3.jpg?ts=1777390973233"
   ]
  },
  {
@@ -14948,39 +15014,6 @@
   ]
  },
  {
-  "product_id": 511319044,
-  "color_id": "650",
-  "ref": "2382/896",
-  "name": "Платье миди из бенгалина с квадратным вырезом",
-  "section": "WOMEN",
-  "family": "DRESSES",
-  "subfamily": "DRESSES",
-  "color": "Лиловый",
-  "price_kzt": 19990.0,
-  "price_old_kzt": null,
-  "price_rub": 4990,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/2e67/5399/a3a44b5a9333/13289ada3e4a/02382899650-a15/02382899650-a15.jpg?ts=1779966618420",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/2e67/5399/a3a44b5a9333/13289ada3e4a/02382899650-a15/02382899650-a15.jpg?ts=1779966618420",
-   "https://static.e-stradivarius.net/assets/public/d229/f8e9/5c624bc09016/71470a7ff825/02382899650-c1/02382899650-c1.jpg?ts=1779966619157",
-   "https://static.e-stradivarius.net/assets/public/3897/a773/73b84834bf9b/c3ba75c0a731/02382899650-a1/02382899650-a1.jpg?ts=1779966619224",
-   "https://static.e-stradivarius.net/assets/public/6eae/e430/9a604c4ba40a/b4f93008a6ed/02382899650-a2/02382899650-a2.jpg?ts=1779966618380",
-   "https://static.e-stradivarius.net/assets/public/7648/b1c3/8daa44dcba09/988f6f6b08e5/02382899650-a3/02382899650-a3.jpg?ts=1779966618831",
-   "https://static.e-stradivarius.net/assets/public/b4dc/18c8/01974246b7a0/2d3f590edd4a/02382899650-a16/02382899650-a16.jpg?ts=1779966618482",
-   "https://static.e-stradivarius.net/assets/public/17fd/bd83/2dc943ab88e1/c404ce944c59/02382899650-s1/02382899650-s1.jpg?ts=1777390972488",
-   "https://static.e-stradivarius.net/assets/public/20fc/0d3b/8fb54edd806c/a4c9777e4538/02382899650-s3/02382899650-s3.jpg?ts=1777390973233"
-  ]
- },
- {
   "product_id": 512133028,
   "color_id": "001",
   "ref": "8460/705",
@@ -15083,41 +15116,6 @@
    "https://static.e-stradivarius.net/assets/public/652b/0c60/94744c7f8e82/cf009765effc/08625306200-s1/08625306200-s1.jpg?ts=1754548765072",
    "https://static.e-stradivarius.net/assets/public/b05e/c1e3/95494d478984/e661a0b4df5f/08625306200-s2/08625306200-s2.jpg?ts=1754548764930",
    "https://static.e-stradivarius.net/assets/public/2b2f/9d61/ce8f4342b5a8/d57533d75dde/08625306200-s3/08625306200-s3.jpg?ts=1754548766414"
-  ]
- },
- {
-  "product_id": 516898469,
-  "color_id": "001",
-  "ref": "8625/306",
-  "name": "Объемная стеганая куртка с капюшоном",
-  "section": "WOMEN",
-  "family": "JACKETS",
-  "subfamily": "JACKETS",
-  "color": "Черный",
-  "price_kzt": 35990.0,
-  "price_old_kzt": null,
-  "price_rub": 8990,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/db7f/f52c/58f84c24a67c/4c9db67e89ba/08625306001-a15/08625306001-a15.jpg?ts=1753433690392",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/db7f/f52c/58f84c24a67c/4c9db67e89ba/08625306001-a15/08625306001-a15.jpg?ts=1753433690392",
-   "https://static.e-stradivarius.net/assets/public/402c/d292/31f34730a143/c9fe85a2e934/08625306001-c1/08625306001-c1.jpg?ts=1753433690229",
-   "https://static.e-stradivarius.net/assets/public/b3d6/c6db/a6af4bd3a6a9/0abf3a27a8f7/08625306001-a1/08625306001-a1.jpg?ts=1753433688164",
-   "https://static.e-stradivarius.net/assets/public/14d0/383d/796142489318/214146561572/08625306001-a2/08625306001-a2.jpg?ts=1753433688201",
-   "https://static.e-stradivarius.net/assets/public/848f/e976/7b5e4b72b5ae/82ed8ba672f5/08625306001-a3/08625306001-a3.jpg?ts=1753433690331",
-   "https://static.e-stradivarius.net/assets/public/a229/dddb/ea39435ba5ef/abf4e45ad5f9/08625306001-s1/08625306001-s1.jpg?ts=1751008104601",
-   "https://static.e-stradivarius.net/assets/public/1e3c/0eb5/f83c4f8dbf35/7958afef41dd/08625306001-s2/08625306001-s2.jpg?ts=1751008104464",
-   "https://static.e-stradivarius.net/assets/public/f506/83fe/9e8249c9a682/d87b427c58ac/08625306001-s3/08625306001-s3.jpg?ts=1751008104643",
-   "https://static.e-stradivarius.net/assets/public/612b/a359/dc3f485a82df/601cfd1c972c/08625306001-r/08625306001-r.jpg?ts=1753433689789",
-   "https://static.e-stradivarius.net/assets/public/ec99/d4a2/5f5b47cea120/f989a0da8896/08625306001-m/08625306001-m.jpg?ts=1751008104908"
   ]
  },
  {
@@ -15507,41 +15505,6 @@
    "https://static.e-stradivarius.net/assets/public/abc5/33b1/059645dca330/a6983fe1cdcd/01720400001-s3/01720400001-s3.jpg?ts=1772621468083",
    "https://static.e-stradivarius.net/assets/public/3493/6f99/f31f49378e01/4ed22cad72be/01720400001-m/01720400001-m.jpg?ts=1772621477567",
    "https://static.e-stradivarius.net/assets/public/edc7/53ad/92a04311b072/9697216b1542/01720400001-b1/01720400001-b1.png?ts=1772621480335"
-  ]
- },
- {
-  "product_id": 511319470,
-  "color_id": "402",
-  "ref": "8643/703",
-  "name": "Кожаная куртка с карманами",
-  "section": "WOMEN",
-  "family": "LEATHER",
-  "subfamily": "LEATHER",
-  "color": "Коричневый",
-  "price_kzt": 85990.0,
-  "price_old_kzt": null,
-  "price_rub": 21470,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/e68b/6ace/b7ce45c2a810/c01cbff4549d/08643703402-a15/08643703402-a15.jpg?ts=1770303195281",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/e68b/6ace/b7ce45c2a810/c01cbff4549d/08643703402-a15/08643703402-a15.jpg?ts=1770303195281",
-   "https://static.e-stradivarius.net/assets/public/9f54/38e8/7c5f4494897e/aa00bb341da5/08643703402-c1/08643703402-c1.jpg?ts=1770303199263",
-   "https://static.e-stradivarius.net/assets/public/6c1d/9ce4/752d419fb474/ce195b7d1d30/08643703402-a1/08643703402-a1.jpg?ts=1770303202101",
-   "https://static.e-stradivarius.net/assets/public/d8c2/9b3f/550f43348297/38d95dbab7f2/08643703402-a2/08643703402-a2.jpg?ts=1770303199937",
-   "https://static.e-stradivarius.net/assets/public/7152/d4e9/29c74ea1bbe9/49d52224d508/08643703402-a3/08643703402-a3.jpg?ts=1770303197999",
-   "https://static.e-stradivarius.net/assets/public/2193/8bf4/11d54b8696dc/5c48adb4a1f1/08643703402-s1/08643703402-s1.jpg?ts=1753259798415",
-   "https://static.e-stradivarius.net/assets/public/2bf3/2e7f/60414483a8be/1ace31623f62/08643703402-s2/08643703402-s2.jpg?ts=1753259798780",
-   "https://static.e-stradivarius.net/assets/public/9b47/fa0a/8b4c4e76b1c4/503a08b1840a/08643703402-s3/08643703402-s3.jpg?ts=1753259798201",
-   "https://static.e-stradivarius.net/assets/public/ddd1/5436/43aa4513a3a4/6010d3cdabce/08643703402-m/08643703402-m.jpg?ts=1753259800156",
-   "https://static.e-stradivarius.net/assets/public/73c7/84ee/f32d41cd9ed9/ed4e3d955ce9/08643703402-r/08643703402-r.jpg?ts=1753690812739"
   ]
  },
  {
@@ -16591,76 +16554,6 @@
   ]
  },
  {
-  "product_id": 511311587,
-  "color_id": "001",
-  "ref": "8064/555",
-  "name": "Облегающий топ с горловиной халтер",
-  "section": "WOMEN",
-  "family": "T-SHIRTS",
-  "subfamily": "T-SHIRTS",
-  "color": "Черный",
-  "price_kzt": 9990.0,
-  "price_old_kzt": null,
-  "price_rub": 2390,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/f865/528b/3b0148ceb132/6dab9a527efe/08064555001-a15/08064555001-a15.jpg?ts=1779978062881",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/f865/528b/3b0148ceb132/6dab9a527efe/08064555001-a15/08064555001-a15.jpg?ts=1779978062881",
-   "https://static.e-stradivarius.net/assets/public/33f6/0ca7/640a4032aa98/7b7ece8130e9/08064555001-c1/08064555001-c1.jpg?ts=1779978062723",
-   "https://static.e-stradivarius.net/assets/public/775f/27be/51814c32a0c9/2c8e2964527f/08064555001-a1/08064555001-a1.jpg?ts=1779978062705",
-   "https://static.e-stradivarius.net/assets/public/4880/93d2/4727466893fe/cd9ac1c14660/08064555001-a2/08064555001-a2.jpg?ts=1779978062850",
-   "https://static.e-stradivarius.net/assets/public/2dd6/843f/db8a4eb984ce/1cad26891d61/08064555001-a3/08064555001-a3.jpg?ts=1779978062912",
-   "https://static.e-stradivarius.net/assets/public/a505/b0bb/be1c4171a767/9aa6eb5d23d3/08064555001-s1/08064555001-s1.jpg?ts=1779983172522",
-   "https://static.e-stradivarius.net/assets/public/28e0/ee75/d98843479ec3/ba7d1ac8fd99/08064555001-s2/08064555001-s2.jpg?ts=1779983171502",
-   "https://static.e-stradivarius.net/assets/public/1bc2/bd3f/c6654cd48a3e/97f6dd90ce75/08064555001-s3/08064555001-s3.jpg?ts=1779983172513",
-   "https://static.e-stradivarius.net/assets/public/4074/e009/7e9a4903ab20/4234949e6caf/08064555001-r/08064555001-r.jpg?ts=1779983171220",
-   "https://static.e-stradivarius.net/assets/public/b0e2/5340/90b04861a653/0ea1052084cd/08064555001-m/08064555001-m.jpg?ts=1779983172543"
-  ]
- },
- {
-  "product_id": 511311956,
-  "color_id": "004",
-  "ref": "8068/570",
-  "name": "Топ на бретелях с кружевом",
-  "section": "WOMEN",
-  "family": "T-SHIRTS",
-  "subfamily": "T-SHIRTS",
-  "color": "Экрю",
-  "price_kzt": 9990.0,
-  "price_old_kzt": null,
-  "price_rub": 2390,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/ef02/7b6a/2f4c46b0bbae/e963c6831369/08068570004-a15/08068570004-a15.jpg?ts=1781796690795",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/ef02/7b6a/2f4c46b0bbae/e963c6831369/08068570004-a15/08068570004-a15.jpg?ts=1781796690795",
-   "https://static.e-stradivarius.net/assets/public/5593/009a/b18648faa1dd/f337599c77fd/08068570004-c1/08068570004-c1.jpg?ts=1781796692789",
-   "https://static.e-stradivarius.net/assets/public/3754/a9d4/a75f41fc9266/8e792420eab4/08068570004-a1/08068570004-a1.jpg?ts=1781796690153",
-   "https://static.e-stradivarius.net/assets/public/d679/77bc/d11e43dca383/71b557928846/08068570004-a2/08068570004-a2.jpg?ts=1781796690505",
-   "https://static.e-stradivarius.net/assets/public/2d74/7bc6/9bcc4f04bfb6/e0e7268d7cfb/08068570004-a3/08068570004-a3.jpg?ts=1781796690203",
-   "https://static.e-stradivarius.net/assets/public/67ea/e316/28f44a598497/ca7986348b52/08068570004-a16/08068570004-a16.jpg?ts=1781796694696",
-   "https://static.e-stradivarius.net/assets/public/eda6/016d/138d4e65a20d/40f07b88f3a4/08068570004-s1/08068570004-s1.jpg?ts=1780322761712",
-   "https://static.e-stradivarius.net/assets/public/9a3d/034a/165c41b79204/652deec97843/08068570004-s2/08068570004-s2.jpg?ts=1780322761372",
-   "https://static.e-stradivarius.net/assets/public/c7d7/9425/3e604704b7e0/587483f752eb/08068570004-s3/08068570004-s3.jpg?ts=1780322763317",
-   "https://static.e-stradivarius.net/assets/public/5ce2/79ad/c5384d19947b/ab6f2370576c/08068570004-b1/08068570004-b1.jpg?ts=1780322762517"
-  ]
- },
- {
   "product_id": 511323134,
   "color_id": "706",
   "ref": "7118/500",
@@ -16728,6 +16621,76 @@
    "https://static.e-stradivarius.net/assets/public/6d75/afc3/50b143e6ab42/c9ba7cf26247/08067545001-s3/08067545001-s3.jpg?ts=1779984853720",
    "https://static.e-stradivarius.net/assets/public/4ab1/97a3/12d3442fbe90/23306718f330/08067545001-r/08067545001-r.jpg?ts=1779984929666",
    "https://static.e-stradivarius.net/assets/public/f839/63b3/fa95476d8c78/af08b3ca1073/08067545001-m/08067545001-m.jpg?ts=1779984930268"
+  ]
+ },
+ {
+  "product_id": 511311587,
+  "color_id": "001",
+  "ref": "8064/555",
+  "name": "Облегающий топ с горловиной халтер",
+  "section": "WOMEN",
+  "family": "T-SHIRTS",
+  "subfamily": "T-SHIRTS",
+  "color": "Черный",
+  "price_kzt": 9990.0,
+  "price_old_kzt": null,
+  "price_rub": 2390,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.e-stradivarius.net/assets/public/f865/528b/3b0148ceb132/6dab9a527efe/08064555001-a15/08064555001-a15.jpg?ts=1779978062881",
+  "images": [
+   "https://static.e-stradivarius.net/assets/public/f865/528b/3b0148ceb132/6dab9a527efe/08064555001-a15/08064555001-a15.jpg?ts=1779978062881",
+   "https://static.e-stradivarius.net/assets/public/33f6/0ca7/640a4032aa98/7b7ece8130e9/08064555001-c1/08064555001-c1.jpg?ts=1779978062723",
+   "https://static.e-stradivarius.net/assets/public/775f/27be/51814c32a0c9/2c8e2964527f/08064555001-a1/08064555001-a1.jpg?ts=1779978062705",
+   "https://static.e-stradivarius.net/assets/public/4880/93d2/4727466893fe/cd9ac1c14660/08064555001-a2/08064555001-a2.jpg?ts=1779978062850",
+   "https://static.e-stradivarius.net/assets/public/2dd6/843f/db8a4eb984ce/1cad26891d61/08064555001-a3/08064555001-a3.jpg?ts=1779978062912",
+   "https://static.e-stradivarius.net/assets/public/a505/b0bb/be1c4171a767/9aa6eb5d23d3/08064555001-s1/08064555001-s1.jpg?ts=1779983172522",
+   "https://static.e-stradivarius.net/assets/public/28e0/ee75/d98843479ec3/ba7d1ac8fd99/08064555001-s2/08064555001-s2.jpg?ts=1779983171502",
+   "https://static.e-stradivarius.net/assets/public/1bc2/bd3f/c6654cd48a3e/97f6dd90ce75/08064555001-s3/08064555001-s3.jpg?ts=1779983172513",
+   "https://static.e-stradivarius.net/assets/public/4074/e009/7e9a4903ab20/4234949e6caf/08064555001-r/08064555001-r.jpg?ts=1779983171220",
+   "https://static.e-stradivarius.net/assets/public/b0e2/5340/90b04861a653/0ea1052084cd/08064555001-m/08064555001-m.jpg?ts=1779983172543"
+  ]
+ },
+ {
+  "product_id": 511311956,
+  "color_id": "004",
+  "ref": "8068/570",
+  "name": "Топ на бретелях с кружевом",
+  "section": "WOMEN",
+  "family": "T-SHIRTS",
+  "subfamily": "T-SHIRTS",
+  "color": "Экрю",
+  "price_kzt": 9990.0,
+  "price_old_kzt": null,
+  "price_rub": 2390,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.e-stradivarius.net/assets/public/ef02/7b6a/2f4c46b0bbae/e963c6831369/08068570004-a15/08068570004-a15.jpg?ts=1781796690795",
+  "images": [
+   "https://static.e-stradivarius.net/assets/public/ef02/7b6a/2f4c46b0bbae/e963c6831369/08068570004-a15/08068570004-a15.jpg?ts=1781796690795",
+   "https://static.e-stradivarius.net/assets/public/5593/009a/b18648faa1dd/f337599c77fd/08068570004-c1/08068570004-c1.jpg?ts=1781796692789",
+   "https://static.e-stradivarius.net/assets/public/3754/a9d4/a75f41fc9266/8e792420eab4/08068570004-a1/08068570004-a1.jpg?ts=1781796690153",
+   "https://static.e-stradivarius.net/assets/public/d679/77bc/d11e43dca383/71b557928846/08068570004-a2/08068570004-a2.jpg?ts=1781796690505",
+   "https://static.e-stradivarius.net/assets/public/2d74/7bc6/9bcc4f04bfb6/e0e7268d7cfb/08068570004-a3/08068570004-a3.jpg?ts=1781796690203",
+   "https://static.e-stradivarius.net/assets/public/67ea/e316/28f44a598497/ca7986348b52/08068570004-a16/08068570004-a16.jpg?ts=1781796694696",
+   "https://static.e-stradivarius.net/assets/public/eda6/016d/138d4e65a20d/40f07b88f3a4/08068570004-s1/08068570004-s1.jpg?ts=1780322761712",
+   "https://static.e-stradivarius.net/assets/public/9a3d/034a/165c41b79204/652deec97843/08068570004-s2/08068570004-s2.jpg?ts=1780322761372",
+   "https://static.e-stradivarius.net/assets/public/c7d7/9425/3e604704b7e0/587483f752eb/08068570004-s3/08068570004-s3.jpg?ts=1780322763317",
+   "https://static.e-stradivarius.net/assets/public/5ce2/79ad/c5384d19947b/ab6f2370576c/08068570004-b1/08068570004-b1.jpg?ts=1780322762517"
   ]
  },
  {
@@ -16911,41 +16874,6 @@
    "https://static.e-stradivarius.net/assets/public/a8c4/f3ee/078c48d3a510/37480761bdc1/02565544540-s2/02565544540-s2.jpg?ts=1780904808052",
    "https://static.e-stradivarius.net/assets/public/fc73/dbbb/0086498ea682/ecd2cdef8a61/02565544540-s3/02565544540-s3.jpg?ts=1780904807173",
    "https://static.e-stradivarius.net/assets/public/07a5/46c6/608b41649577/704c76b228a3/02565544540-r/02565544540-r.jpg?ts=1780904808428"
-  ]
- },
- {
-  "product_id": 511323134,
-  "color_id": "004",
-  "ref": "7118/500",
-  "name": "Боди на бретелях с кружевом",
-  "section": "WOMEN",
-  "family": "T-SHIRTS",
-  "subfamily": "T-SHIRTS",
-  "color": "Экрю",
-  "price_kzt": 11990.0,
-  "price_old_kzt": null,
-  "price_rub": 2790,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/a35f/2db9/20b84d98a94c/5d3a4ebe89d5/07118500004-a15/07118500004-a15.jpg?ts=1780309531516",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/a35f/2db9/20b84d98a94c/5d3a4ebe89d5/07118500004-a15/07118500004-a15.jpg?ts=1780309531516",
-   "https://static.e-stradivarius.net/assets/public/edbe/e535/12354768b380/01ca3b401095/07118500004-c1/07118500004-c1.jpg?ts=1780309539150",
-   "https://static.e-stradivarius.net/assets/public/23ba/9028/e9ab480da691/15586e0b7752/07118500004-a1/07118500004-a1.jpg?ts=1780309531676",
-   "https://static.e-stradivarius.net/assets/public/d2b2/5e9d/38a44d74b0a9/870e2b7bb404/07118500004-a2/07118500004-a2.jpg?ts=1780309531977",
-   "https://static.e-stradivarius.net/assets/public/cfb6/5500/a0464d21abb4/5c6b5fb71e49/07118500004-a3/07118500004-a3.jpg?ts=1780309531428",
-   "https://static.e-stradivarius.net/assets/public/288e/ac82/fced4f008c16/1e5c26cdd089/07118500004-s1/07118500004-s1.jpg?ts=1779981500888",
-   "https://static.e-stradivarius.net/assets/public/baba/1311/cd9241fc8676/ab40b6b8f105/07118500004-s2/07118500004-s2.jpg?ts=1779981500730",
-   "https://static.e-stradivarius.net/assets/public/42bf/26f2/996044b995fa/c1c21627000d/07118500004-s3/07118500004-s3.jpg?ts=1779981502356",
-   "https://static.e-stradivarius.net/assets/public/5153/15d5/c8b34bba86ea/ee80d9ae561a/07118500004-r/07118500004-r.jpg?ts=1779981500843",
-   "https://static.e-stradivarius.net/assets/public/b35e/cc48/95dc48b49966/40adca06b4d0/07118500004-b1/07118500004-b1.jpg?ts=1779981501769"
   ]
  },
  {
@@ -20096,6 +20024,41 @@
   ]
  },
  {
+  "product_id": 511301525,
+  "color_id": "706",
+  "ref": "8044/655",
+  "name": "Майка с широкими бретелями",
+  "section": "WOMEN",
+  "family": "T-SHIRTS",
+  "subfamily": "T-SHIRTS",
+  "color": "Светло-серый",
+  "price_kzt": 7290.0,
+  "price_old_kzt": null,
+  "price_rub": 1840,
+  "price_old_rub": null,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "in_stock": true,
+  "image": "https://static.e-stradivarius.net/assets/public/473e/ebb1/3e594fdcb93f/c021b28c0f11/08044655706-a15/08044655706-a15.jpg?ts=1778080684100",
+  "images": [
+   "https://static.e-stradivarius.net/assets/public/473e/ebb1/3e594fdcb93f/c021b28c0f11/08044655706-a15/08044655706-a15.jpg?ts=1778080684100",
+   "https://static.e-stradivarius.net/assets/public/109f/f5fa/90c44cd6a065/135fe79cea60/08044655706-c1/08044655706-c1.jpg?ts=1778080684748",
+   "https://static.e-stradivarius.net/assets/public/58ac/6ad1/d1b0480dabda/44a76746cefd/08044655706-a1/08044655706-a1.jpg?ts=1778080683595",
+   "https://static.e-stradivarius.net/assets/public/54e1/737b/787f49b4a7c0/11966782df09/08044655706-a2/08044655706-a2.jpg?ts=1778080684831",
+   "https://static.e-stradivarius.net/assets/public/1c01/bcda/80ba49939e53/d32822c0ea76/08044655706-a3/08044655706-a3.jpg?ts=1778080684429",
+   "https://static.e-stradivarius.net/assets/public/f5bb/ac4b/699f4e339711/9ff4b3806e8f/08044655706-s1/08044655706-s1.jpg?ts=1778139825113",
+   "https://static.e-stradivarius.net/assets/public/9f66/2892/a73e48f885f6/ab8bd18b57ce/08044655706-s2/08044655706-s2.jpg?ts=1778139826028",
+   "https://static.e-stradivarius.net/assets/public/6522/9fec/e92043aa853e/ee1b47e48815/08044655706-r/08044655706-r.jpg?ts=1778139825636",
+   "https://static.e-stradivarius.net/assets/public/319a/262c/138a401ab19a/687ebe1752bb/08044655706-b1/08044655706-b1.jpg?ts=1778139827730",
+   "https://static.e-stradivarius.net/assets/public/3486/e374/6fcf4bca8868/735f2c85bf15/08044655706-m/08044655706-m.jpg?ts=1778139826747"
+  ]
+ },
+ {
   "product_id": 511299893,
   "color_id": "001",
   "ref": "8063/222",
@@ -21018,33 +20981,6 @@
   ]
  },
  {
-  "product_id": 511315455,
-  "color_id": "220",
-  "ref": "3017/206",
-  "name": "Набор из 5 колец в форме сердца",
-  "section": "WOMEN",
-  "family": "FASHION JEWELLERY",
-  "subfamily": "RINGS",
-  "color": "Серый",
-  "price_kzt": 7290.0,
-  "price_old_kzt": null,
-  "price_rub": 1840,
-  "price_old_rub": null,
-  "sizes": [
-   "M"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/4d27/662a/c3424e78bc69/38591a1d61b8/03017206220-c/03017206220-c.jpg?ts=1779432459369",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/4d27/662a/c3424e78bc69/38591a1d61b8/03017206220-c/03017206220-c.jpg?ts=1779432459369",
-   "https://static.e-stradivarius.net/assets/public/9488/21bd/1da148eb9780/9a390928371f/03017206220-a1/03017206220-a1.jpg?ts=1779431970066",
-   "https://static.e-stradivarius.net/assets/public/4844/27ff/73654933b4a2/b102b9854e38/03017206220-a2/03017206220-a2.jpg?ts=1779432457594",
-   "https://static.e-stradivarius.net/assets/public/a88c/e002/e92f439b8e32/649e2cb3524f/03017206220-a4/03017206220-a4.jpg?ts=1779432458674",
-   "https://static.e-stradivarius.net/assets/public/1b74/083c/300c4f21a235/20652a17044c/03017206220-m/03017206220-m.jpg?ts=1779432458710",
-   "https://static.e-stradivarius.net/assets/public/702b/5206/321b4a0998bf/9cf3c9144cf8/03017206220-r/03017206220-r.jpg?ts=1779432645211"
-  ]
- },
- {
   "product_id": 511319025,
   "color_id": "300",
   "ref": "0068/611",
@@ -21937,6 +21873,33 @@
    "https://static.e-stradivarius.net/assets/public/affc/2b29/ebed4a4b95ca/740fd7fef2e9/03292705300-a4/03292705300-a4.jpg?ts=1720180789757",
    "https://static.e-stradivarius.net/assets/public/ebec/a069/db024673ae68/0f7d3632c756/03292705300-m/03292705300-m.jpg?ts=1720180728066",
    "https://static.e-stradivarius.net/assets/public/ed7b/9498/dbbb43668373/c60cecbd7beb/03292705300-r/03292705300-r.jpg?ts=1720180722450"
+  ]
+ },
+ {
+  "product_id": 511315455,
+  "color_id": "220",
+  "ref": "3017/206",
+  "name": "Набор из 5 колец в форме сердца",
+  "section": "WOMEN",
+  "family": "FASHION JEWELLERY",
+  "subfamily": "RINGS",
+  "color": "Серый",
+  "price_kzt": 7290.0,
+  "price_old_kzt": null,
+  "price_rub": 1840,
+  "price_old_rub": null,
+  "sizes": [
+   "M"
+  ],
+  "in_stock": true,
+  "image": "https://static.e-stradivarius.net/assets/public/4d27/662a/c3424e78bc69/38591a1d61b8/03017206220-c/03017206220-c.jpg?ts=1779432459369",
+  "images": [
+   "https://static.e-stradivarius.net/assets/public/4d27/662a/c3424e78bc69/38591a1d61b8/03017206220-c/03017206220-c.jpg?ts=1779432459369",
+   "https://static.e-stradivarius.net/assets/public/9488/21bd/1da148eb9780/9a390928371f/03017206220-a1/03017206220-a1.jpg?ts=1779431970066",
+   "https://static.e-stradivarius.net/assets/public/4844/27ff/73654933b4a2/b102b9854e38/03017206220-a2/03017206220-a2.jpg?ts=1779432457594",
+   "https://static.e-stradivarius.net/assets/public/a88c/e002/e92f439b8e32/649e2cb3524f/03017206220-a4/03017206220-a4.jpg?ts=1779432458674",
+   "https://static.e-stradivarius.net/assets/public/1b74/083c/300c4f21a235/20652a17044c/03017206220-m/03017206220-m.jpg?ts=1779432458710",
+   "https://static.e-stradivarius.net/assets/public/702b/5206/321b4a0998bf/9cf3c9144cf8/03017206220-r/03017206220-r.jpg?ts=1779432645211"
   ]
  },
  {
@@ -27356,41 +27319,6 @@
   ]
  },
  {
-  "product_id": 511319186,
-  "color_id": "001",
-  "ref": "8420/310",
-  "name": "Мини-шорты",
-  "section": "WOMEN",
-  "family": "SHORTS",
-  "subfamily": "SHORTS",
-  "color": "Черный",
-  "price_kzt": 9990.0,
-  "price_old_kzt": null,
-  "price_rub": 2390,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/3a06/46a0/c8834da88bed/ffd91b53080b/08420310001-a15/08420310001-a15.jpg?ts=1766151067434",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/3a06/46a0/c8834da88bed/ffd91b53080b/08420310001-a15/08420310001-a15.jpg?ts=1766151067434",
-   "https://static.e-stradivarius.net/assets/public/cea9/930e/17644d34ac9e/c146f14b2c4c/08420310001-c1/08420310001-c1.jpg?ts=1766151066508",
-   "https://static.e-stradivarius.net/assets/public/91e3/070b/0cf04b9fb970/73f8b627b1d5/08420310001-a1/08420310001-a1.jpg?ts=1766151059932",
-   "https://static.e-stradivarius.net/assets/public/9cf5/347e/bdda42fd8c57/36aa5a95d2f3/08420310001-a2/08420310001-a2.jpg?ts=1766151063933",
-   "https://static.e-stradivarius.net/assets/public/40cf/405e/59344dd19207/9a9eec2477d5/08420310001-a3/08420310001-a3.jpg?ts=1766151066363",
-   "https://static.e-stradivarius.net/assets/public/307b/8e70/95954b368760/1eb31f25b120/08420310001-s1/08420310001-s1.jpg?ts=1748502487946",
-   "https://static.e-stradivarius.net/assets/public/82d1/4df7/904d4ef098b3/4ede2fb8748a/08420310001-s2/08420310001-s2.jpg?ts=1748502488066",
-   "https://static.e-stradivarius.net/assets/public/98d2/8da7/39974c7e9641/cc6ddf9151ae/08420310001-s3/08420310001-s3.jpg?ts=1748502488767",
-   "https://static.e-stradivarius.net/assets/public/ea90/69fe/46eb48d5ab56/d73c9569057a/08420310001-r/08420310001-r.jpg?ts=1748502110965",
-   "https://static.e-stradivarius.net/assets/public/fc65/f065/9047441bb6ab/fcbf799009b8/08420310001-m/08420310001-m.jpg?ts=1748502487645"
-  ]
- },
- {
   "product_id": 511309720,
   "color_id": "701",
   "ref": "1361/244",
@@ -31477,41 +31405,6 @@
    "https://static.e-stradivarius.net/assets/public/2814/4ea2/efe1492d89f2/8755ab82fd2d/06252180400-s3/06252180400-s3.jpg?ts=1779432479261",
    "https://static.e-stradivarius.net/assets/public/b417/1737/9d6841409f28/5dbb22e3f15f/06252180400-r/06252180400-r.jpg?ts=1779432477988",
    "https://static.e-stradivarius.net/assets/public/a84a/3824/7e2d4d3fa845/1dad89c2a346/06252180400-m/06252180400-m.jpg?ts=1779432479354"
-  ]
- },
- {
-  "product_id": 511313200,
-  "color_id": "550",
-  "ref": "2383/575",
-  "name": "Платье миди из сатина",
-  "section": "WOMEN",
-  "family": "DRESSES",
-  "subfamily": "DRESSES",
-  "color": "Хаки",
-  "price_kzt": 18990.0,
-  "price_old_kzt": null,
-  "price_rub": 4690,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.e-stradivarius.net/assets/public/b2a1/a831/18984d05bedb/649657677741/02383575550-a15/02383575550-a15.jpg?ts=1780410964147",
-  "images": [
-   "https://static.e-stradivarius.net/assets/public/b2a1/a831/18984d05bedb/649657677741/02383575550-a15/02383575550-a15.jpg?ts=1780410964147",
-   "https://static.e-stradivarius.net/assets/public/b55f/0ecf/40d44347b6ce/e0b12f3fb03e/02383575550-c1/02383575550-c1.jpg?ts=1780410964105",
-   "https://static.e-stradivarius.net/assets/public/3952/5c19/9d68466d9fd3/663e550844df/02383575550-a1/02383575550-a1.jpg?ts=1780410964707",
-   "https://static.e-stradivarius.net/assets/public/6300/b5c7/d7894e1f9c7c/eb1be33536d5/02383575550-a2/02383575550-a2.jpg?ts=1780410964793",
-   "https://static.e-stradivarius.net/assets/public/571d/1aa3/739c4ff4af80/8f0214b7b2af/02383575550-a3/02383575550-a3.jpg?ts=1780410964904",
-   "https://static.e-stradivarius.net/assets/public/714a/37e2/7d7e4d2ab93d/2004e0c39fd9/02383575550-a4/02383575550-a4.jpg?ts=1780413205858",
-   "https://static.e-stradivarius.net/assets/public/4ffe/c9dd/981a4c11831a/03b00475396e/02383575550-s1/02383575550-s1.jpg?ts=1780659851976",
-   "https://static.e-stradivarius.net/assets/public/183a/580f/c3e84f1d9706/712b0ae5489b/02383575550-s2/02383575550-s2.jpg?ts=1780659851820",
-   "https://static.e-stradivarius.net/assets/public/2364/fb44/36cd487ca572/f32a83323da3/02383575550-s3/02383575550-s3.jpg?ts=1780659853175",
-   "https://static.e-stradivarius.net/assets/public/5ceb/ca46/a1344df5b568/40ad85af8536/02383575550-r/02383575550-r.jpg?ts=1780659851571"
   ]
  },
  {
