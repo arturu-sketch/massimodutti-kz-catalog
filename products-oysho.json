@@ -596,41 +596,6 @@
   ]
  },
  {
-  "product_id": 227796235,
-  "color_id": "725",
-  "ref": "5613/134",
-  "name": "Брюки wide leg из 100%-го льна в полоску",
-  "section": "WOMEN",
-  "family": "PANTS",
-  "subfamily": "PL-PANTS+FD",
-  "color": "ПЕСОЧНЫЙ          ",
-  "price_kzt": 45990.0,
-  "price_old_kzt": null,
-  "price_rub": 11540,
-  "price_old_rub": null,
-  "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "in_stock": true,
-  "image": "https://static.oysho.net/assets/public/328f/9fe7/9ad846e497e9/a8a5bc55a7ae/35613134725-p/35613134725-p.jpg?ts=1778568882280",
-  "images": [
-   "https://static.oysho.net/assets/public/328f/9fe7/9ad846e497e9/a8a5bc55a7ae/35613134725-p/35613134725-p.jpg?ts=1778568882280",
-   "https://static.oysho.net/assets/public/0f9f/6e17/0ce84ddfa7f1/ec44caa36e28/35613134725-a1/35613134725-a1.jpg?ts=1778568906863",
-   "https://static.oysho.net/assets/public/36d4/9d8a/88a04bd89633/373b65c80561/35613134725-a2/35613134725-a2.jpg?ts=1778568882780",
-   "https://static.oysho.net/assets/public/d969/3e63/7d9e47679235/623cdf15da2c/35613134725-a3/35613134725-a3.jpg?ts=1778568882098",
-   "https://static.oysho.net/assets/public/466c/e7b4/3a5245ef88fd/c9b77687533f/35613134725-a16/35613134725-a16.jpg?ts=1778568882080",
-   "https://static.oysho.net/assets/public/054d/19e6/35aa4244b293/e1526fa5e4a8/35613134725-a17/35613134725-a17.jpg?ts=1778568881822",
-   "https://static.oysho.net/assets/public/a1e7/99f5/8e844bc4bd14/77a37d4cda90/35613134725-t/35613134725-t.jpg?ts=1778568881849",
-   "https://static.oysho.net/assets/public/95ea/2e71/0b2348ffbe15/d4248eaf8dd0/35613134725-m1/35613134725-m1.jpg?ts=1778570319325",
-   "https://static.oysho.net/assets/public/1597/15df/052743f88fb7/c4e85b0bd57c/35613134725-m2/35613134725-m2.jpg?ts=1778570319621",
-   "https://static.oysho.net/assets/public/8eee/5d6a/63324f8e828f/9ac6f90144b0/35613134725-o4/35613134725-o4.jpg?ts=1778568968434"
-  ]
- },
- {
   "product_id": 223457348,
   "color_id": "800",
   "ref": "2997/901",
@@ -1494,37 +1459,6 @@
   ]
  },
  {
-  "product_id": 223473402,
-  "color_id": "691",
-  "ref": "5886/146",
-  "name": "Спортивная повязка для волос 6 см в полоску",
-  "section": "WOMEN",
-  "family": "HAIR ACCESSORY",
-  "subfamily": "ACC-HEADBANDS",
-  "color": "КРАСНЫЙ",
-  "price_kzt": 7990.0,
-  "price_old_kzt": null,
-  "price_rub": 1990,
-  "price_old_rub": null,
-  "sizes": [
-   "M"
-  ],
-  "in_stock": true,
-  "image": "https://static.oysho.net/assets/public/fff3/e0f5/31854535bed8/9f5bb35a15a1/35886146691-p/35886146691-p.jpg?ts=1777279395819",
-  "images": [
-   "https://static.oysho.net/assets/public/fff3/e0f5/31854535bed8/9f5bb35a15a1/35886146691-p/35886146691-p.jpg?ts=1777279395819",
-   "https://static.oysho.net/assets/public/9334/a0ad/dfed49688462/92ff4a796c37/35886146691-a1/35886146691-a1.jpg?ts=1777279412517",
-   "https://static.oysho.net/assets/public/3054/8691/206d461982b3/67dbbf56a06d/35886146691-a2/35886146691-a2.jpg?ts=1777279413588",
-   "https://static.oysho.net/assets/public/2531/57b8/813244b98a21/f1f626ee3637/35886146691-m1/35886146691-m1.jpg?ts=1777279413529",
-   "https://static.oysho.net/assets/public/a06c/d460/69e2458f83eb/018445223f12/35886146691-m3/35886146691-m3.jpg?ts=1777279415246",
-   "https://static.oysho.net/assets/public/7674/b45d/a7ce4075816f/ca1f51dc468a/35886146691-m4/35886146691-m4.jpg?ts=1777279414129",
-   "https://static.oysho.net/assets/public/5976/0570/89b94c74866a/eb580f739628/35886146691-k13/35886146691-k13.jpg?ts=1777272493796",
-   "https://static.oysho.net/assets/public/be6a/479e/2062466c8f81/533618e6e3b8/35886146691-k12/35886146691-k12.jpg?ts=1777272494409",
-   "https://static.oysho.net/assets/public/8a61/100a/5b5a4c11a999/2b410021a8fa/35886146691-r/35886146691-r.jpg?ts=1777279393527",
-   "https://static.oysho.net/assets/public/6e5e/47fa/c654434bb2a6/647d0efcf6b5/35886146691-m10/35886146691-m10.jpg?ts=1777279412982"
-  ]
- },
- {
   "product_id": 226621638,
   "color_id": "700",
   "ref": "6887/148",
@@ -1621,6 +1555,37 @@
   ]
  },
  {
+  "product_id": 223452907,
+  "color_id": "116",
+  "ref": "4105/880",
+  "name": "Стеганая спортивная сумка",
+  "section": "WOMEN",
+  "family": "BAG",
+  "subfamily": "SPORTS BAG",
+  "color": "ШОКОЛАДНЫЙ      ",
+  "price_kzt": 39990.0,
+  "price_old_kzt": null,
+  "price_rub": 9990,
+  "price_old_rub": null,
+  "sizes": [
+   "M"
+  ],
+  "in_stock": true,
+  "image": "https://static.oysho.net/assets/public/7ded/c38d/8ace4654b8fc/4eadbd27111c/14105880116-p/14105880116-p.jpg?ts=1780395118237",
+  "images": [
+   "https://static.oysho.net/assets/public/7ded/c38d/8ace4654b8fc/4eadbd27111c/14105880116-p/14105880116-p.jpg?ts=1780395118237",
+   "https://static.oysho.net/assets/public/1e3d/03cc/5f9e458ab336/e68968064b8d/14105880116-a1/14105880116-a1.jpg?ts=1780395119453",
+   "https://static.oysho.net/assets/public/08e0/d9ce/d85f455ab529/09bbdc239e25/14105880116-a2/14105880116-a2.jpg?ts=1780395119608",
+   "https://static.oysho.net/assets/public/9dc8/e3d6/55b84f3e9e92/d63d28594ae6/14105880116-a3/14105880116-a3.jpg?ts=1780395118926",
+   "https://static.oysho.net/assets/public/11ff/8931/b6ab497b95da/db9eab3020ea/14105880116-a4/14105880116-a4.jpg?ts=1780395118816",
+   "https://static.oysho.net/assets/public/7d34/ee82/700c4e009c5c/8a911d4fd05e/14105880116-t/14105880116-t.jpg?ts=1780395466122",
+   "https://static.oysho.net/assets/public/6a40/c7dc/70db49f392ee/bdba2b94b98f/14105880116-m/14105880116-m.jpg?ts=1780395123430",
+   "https://static.oysho.net/assets/public/bf2f/d309/b02c47fa87e1/22934a85aca2/14105880116-k4/14105880116-k4.jpg?ts=1780395123116",
+   "https://static.oysho.net/assets/public/09d0/c71e/b0d449c1ba87/7cbaf9230542/14105880116-k3/14105880116-k3.jpg?ts=1780395124615",
+   "https://static.oysho.net/assets/public/9a81/91da/59b4437c91e3/e3e4952b397e/14105880116-k2/14105880116-k2.jpg?ts=1780395121631"
+  ]
+ },
+ {
   "product_id": 223471134,
   "color_id": "100",
   "ref": "4111/780",
@@ -1640,15 +1605,15 @@
   "image": "https://static.oysho.net/assets/public/01fe/9c2f/b55e4a6fbcc0/53a19dee480f/14111780100-p/14111780100-p.jpg?ts=1771501781774",
   "images": [
    "https://static.oysho.net/assets/public/01fe/9c2f/b55e4a6fbcc0/53a19dee480f/14111780100-p/14111780100-p.jpg?ts=1771501781774",
-   "https://static.oysho.net/assets/public/e52f/8c18/005348269dc2/9fc53b539943/14111780100-a1/14111780100-a1.jpg?ts=1771501783592",
+   "https://static.oysho.net/assets/public/8b58/d92d/0b7449a4b75d/b0ba51907e31/14111780100-a1/14111780100-a1.jpg?ts=1782920421867",
    "https://static.oysho.net/assets/public/91c0/f41e/d04a4ab9873b/ffabaa44389c/14111780100-a2/14111780100-a2.jpg?ts=1771501781821",
    "https://static.oysho.net/assets/public/82a6/4cf4/329e4963880a/993a498b0657/14111780100-a3/14111780100-a3.jpg?ts=1771501782340",
    "https://static.oysho.net/assets/public/b68a/5bd8/13744ee3bc80/0af425bcb244/14111780100-a4/14111780100-a4.jpg?ts=1771501781858",
    "https://static.oysho.net/assets/public/c2d6/4fdb/40f34cf1a1d8/8fa4d3cc094f/14111780100-a5/14111780100-a5.jpg?ts=1771501782031",
    "https://static.oysho.net/assets/public/89fb/86b0/a48b49518f87/3e5d375705e1/14111780100-t/14111780100-t.jpg?ts=1771501782337",
    "https://static.oysho.net/assets/public/9544/e1a0/a03f402ab408/4440f87fc57e/14111780100-k5/14111780100-k5.jpg?ts=1770906908368",
-   "https://static.oysho.net/assets/public/932b/fce2/acc042d987a6/e892e93f6a89/14111780100-k1/14111780100-k1.jpg?ts=1772096112596",
-   "https://static.oysho.net/assets/public/9223/3465/8f474354ac0a/214202276ede/14111780100-k3/14111780100-k3.jpg?ts=1770906908470"
+   "https://static.oysho.net/assets/public/9223/3465/8f474354ac0a/214202276ede/14111780100-k3/14111780100-k3.jpg?ts=1770906908470",
+   "https://static.oysho.net/assets/public/5ffb/2f57/56f643dc8d18/fe5a3508e066/14111780100-x2/14111780100-x2.jpg?ts=1770906905986"
   ]
  },
  {
@@ -2015,6 +1980,68 @@
   ]
  },
  {
+  "product_id": 223473402,
+  "color_id": "691",
+  "ref": "5886/146",
+  "name": "Спортивная повязка для волос 6 см в полоску",
+  "section": "WOMEN",
+  "family": "HAIR ACCESSORY",
+  "subfamily": "ACC-HEADBANDS",
+  "color": "КРАСНЫЙ",
+  "price_kzt": 7990.0,
+  "price_old_kzt": null,
+  "price_rub": 1990,
+  "price_old_rub": null,
+  "sizes": [
+   "M"
+  ],
+  "in_stock": true,
+  "image": "https://static.oysho.net/assets/public/fff3/e0f5/31854535bed8/9f5bb35a15a1/35886146691-p/35886146691-p.jpg?ts=1777279395819",
+  "images": [
+   "https://static.oysho.net/assets/public/fff3/e0f5/31854535bed8/9f5bb35a15a1/35886146691-p/35886146691-p.jpg?ts=1777279395819",
+   "https://static.oysho.net/assets/public/9334/a0ad/dfed49688462/92ff4a796c37/35886146691-a1/35886146691-a1.jpg?ts=1777279412517",
+   "https://static.oysho.net/assets/public/3054/8691/206d461982b3/67dbbf56a06d/35886146691-a2/35886146691-a2.jpg?ts=1777279413588",
+   "https://static.oysho.net/assets/public/2531/57b8/813244b98a21/f1f626ee3637/35886146691-m1/35886146691-m1.jpg?ts=1777279413529",
+   "https://static.oysho.net/assets/public/a06c/d460/69e2458f83eb/018445223f12/35886146691-m3/35886146691-m3.jpg?ts=1777279415246",
+   "https://static.oysho.net/assets/public/7674/b45d/a7ce4075816f/ca1f51dc468a/35886146691-m4/35886146691-m4.jpg?ts=1777279414129",
+   "https://static.oysho.net/assets/public/5976/0570/89b94c74866a/eb580f739628/35886146691-k13/35886146691-k13.jpg?ts=1777272493796",
+   "https://static.oysho.net/assets/public/be6a/479e/2062466c8f81/533618e6e3b8/35886146691-k12/35886146691-k12.jpg?ts=1777272494409",
+   "https://static.oysho.net/assets/public/8a61/100a/5b5a4c11a999/2b410021a8fa/35886146691-r/35886146691-r.jpg?ts=1777279393527",
+   "https://static.oysho.net/assets/public/6e5e/47fa/c654434bb2a6/647d0efcf6b5/35886146691-m10/35886146691-m10.jpg?ts=1777279412982"
+  ]
+ },
+ {
+  "product_id": 223473402,
+  "color_id": "716",
+  "ref": "5886/146",
+  "name": "Спортивная повязка для волос 6 см в полоску",
+  "section": "WOMEN",
+  "family": "HAIR ACCESSORY",
+  "subfamily": "ACC-HEADBANDS",
+  "color": "ТЕМНО-КОРИЧНЕВЫЙ",
+  "price_kzt": 7990.0,
+  "price_old_kzt": null,
+  "price_rub": 1990,
+  "price_old_rub": null,
+  "sizes": [
+   "M"
+  ],
+  "in_stock": true,
+  "image": "https://static.oysho.net/assets/public/6bf2/20d7/e2ec48c992c2/113c1c54f8a9/35886146716-p/35886146716-p.jpg?ts=1777279395916",
+  "images": [
+   "https://static.oysho.net/assets/public/6bf2/20d7/e2ec48c992c2/113c1c54f8a9/35886146716-p/35886146716-p.jpg?ts=1777279395916",
+   "https://static.oysho.net/assets/public/ff42/f498/44ef47b6a03f/c51e03fff75f/35886146716-a1/35886146716-a1.jpg?ts=1777279395902",
+   "https://static.oysho.net/assets/public/e992/c42b/ef2c4d7b968e/015b68fa5637/35886146716-a2/35886146716-a2.jpg?ts=1777279396451",
+   "https://static.oysho.net/assets/public/637c/8fd4/19cd464dafb9/93ac8e0d55ce/35886146716-m1/35886146716-m1.jpg?ts=1777279396038",
+   "https://static.oysho.net/assets/public/3044/600b/b5b54b4f9237/e26ce5d81c41/35886146716-m2/35886146716-m2.jpg?ts=1777279395939",
+   "https://static.oysho.net/assets/public/c1fc/c481/bd464b3e90cd/ab553b4774cd/35886146716-m3/35886146716-m3.jpg?ts=1777279396787",
+   "https://static.oysho.net/assets/public/e91b/3b42/f2354e4a97cd/c9dc653cca76/35886146716-k12/35886146716-k12.jpg?ts=1777276432696",
+   "https://static.oysho.net/assets/public/0d37/4f3d/ddae4c8281db/9d841062d2dd/35886146716-k11/35886146716-k11.jpg?ts=1777276435315",
+   "https://static.oysho.net/assets/public/a2db/3b67/61f6453cbf02/51b76ea617f8/35886146716-m10/35886146716-m10.jpg?ts=1777279394124",
+   "https://static.oysho.net/assets/public/6148/b712/105942faaba2/ceae238e4038/35886146716-r/35886146716-r.jpg?ts=1777279396417"
+  ]
+ },
+ {
   "product_id": 223463190,
   "color_id": "032",
   "ref": "4151/380",
@@ -2120,38 +2147,66 @@
   ]
  },
  {
-  "product_id": 223464109,
-  "color_id": "390",
-  "ref": "4085/134",
-  "name": "Брюки-блумеры из 100%-го льна",
+  "product_id": 223469234,
+  "color_id": "131",
+  "ref": "4156/880",
+  "name": "Регулируемая поясная сумка Running",
   "section": "WOMEN",
-  "family": "PANTS",
-  "subfamily": "PL-PANTS+FD",
-  "color": "НЕБЕСНО-ГОЛУБОЙ",
-  "price_kzt": 39990.0,
+  "family": "BAG",
+  "subfamily": "SPORTS BAG",
+  "color": "СЕРО-КОРИЧНЕВЫЙ",
+  "price_kzt": 15990.0,
   "price_old_kzt": null,
-  "price_rub": 9990,
+  "price_rub": 4080,
   "price_old_rub": null,
   "sizes": [
-   "XS",
-   "S",
-   "M",
-   "L",
-   "XL"
+   "M"
   ],
   "in_stock": true,
-  "image": "https://static.oysho.net/assets/public/5a3f/a5d0/5992403881e0/6878c4e79c91/34085134390-p/34085134390-p.jpg?ts=1779289907872",
+  "image": "https://static.oysho.net/assets/public/cf33/aeef/8c2a4aa3b70d/4186cc2f0dec/14103780131-p/14103780131-p.jpg?ts=1770799592526",
   "images": [
-   "https://static.oysho.net/assets/public/5a3f/a5d0/5992403881e0/6878c4e79c91/34085134390-p/34085134390-p.jpg?ts=1779289907872",
-   "https://static.oysho.net/assets/public/3249/3d89/f0954f5db22f/fe6826fdccc4/34085134390-a1/34085134390-a1.jpg?ts=1779346905834",
-   "https://static.oysho.net/assets/public/df3c/508e/a1ed4e228245/51a5cab8f51a/34085134390-a2/34085134390-a2.jpg?ts=1779346905882",
-   "https://static.oysho.net/assets/public/f0e9/6781/db7042e0980d/d83f4439c56b/34085134390-a3/34085134390-a3.jpg?ts=1779346906029",
-   "https://static.oysho.net/assets/public/c909/ac90/6a1940ec8a20/622001594c3f/34085134390-a4/34085134390-a4.jpg?ts=1779346905779",
-   "https://static.oysho.net/assets/public/1dfd/541d/abd549dcaa2c/d59c454991f7/34085134390-a5/34085134390-a5.jpg?ts=1779346905511",
-   "https://static.oysho.net/assets/public/1e29/6897/d179402ebd72/3844ce4dca34/34085134390-a16/34085134390-a16.jpg?ts=1779289907151",
-   "https://static.oysho.net/assets/public/d7c2/b775/d20f42f895fd/a806c9353c7f/34085134390-a20/34085134390-a20.jpg?ts=1779289907602",
-   "https://static.oysho.net/assets/public/59cf/fc71/0ddb49399e41/d93e1dce545e/34085134390-a21/34085134390-a21.jpg?ts=1779289907388",
-   "https://static.oysho.net/assets/public/b625/4ab5/68a44e52af98/22620a5c53b8/34085134390-t/34085134390-t.jpg?ts=1779289908866"
+   "https://static.oysho.net/assets/public/cf33/aeef/8c2a4aa3b70d/4186cc2f0dec/14103780131-p/14103780131-p.jpg?ts=1770799592526",
+   "https://static.oysho.net/assets/public/340a/5a58/27574b1eb120/06160e41078a/14103780131-a1/14103780131-a1.jpg?ts=1770887206547",
+   "https://static.oysho.net/assets/public/c34d/de25/5e07471f91aa/584c630ed142/14103780131-a2/14103780131-a2.jpg?ts=1770887208058",
+   "https://static.oysho.net/assets/public/b5ae/6294/97634546b020/442fb9e4c9ef/14103780131-a3/14103780131-a3.jpg?ts=1770887207633",
+   "https://static.oysho.net/assets/public/0c30/b59b/ef6b4185b3f0/68d6dca7c151/14103780131-a4/14103780131-a4.jpg?ts=1770799571665",
+   "https://static.oysho.net/assets/public/26e6/150d/96b644219dbb/f6e14a70c43b/14103780131-a16/14103780131-a16.jpg?ts=1776259603086",
+   "https://static.oysho.net/assets/public/ad0f/36ef/5e4945958b4f/5125bbac4e3e/14103780131-t/14103780131-t.jpg?ts=1770799571468",
+   "https://static.oysho.net/assets/public/107a/f971/8d174cb6a20f/4b0d31a5ca38/14103780131-k1/14103780131-k1.jpg?ts=1771406542559",
+   "https://static.oysho.net/assets/public/6d8a/c63c/da134f68b177/50a25fd772ac/14103780131-k7/14103780131-k7.jpg?ts=1771406542408",
+   "https://static.oysho.net/assets/public/b9f6/32a4/95064d338c0e/f001253ba3af/14103780131-m10/14103780131-m10.jpg?ts=1770799571443"
+  ]
+ },
+ {
+  "product_id": 223463241,
+  "color_id": "040",
+  "ref": "4081/380",
+  "name": "Большая сумка для мам",
+  "section": "WOMEN",
+  "family": "BAG",
+  "subfamily": "OUTDOOR BAG",
+  "color": "ЧЕРНЫЙ",
+  "price_kzt": 59990.0,
+  "price_old_kzt": null,
+  "price_rub": 14990,
+  "price_old_rub": null,
+  "sizes": [
+   "M",
+   "M"
+  ],
+  "in_stock": true,
+  "image": "https://static.oysho.net/assets/public/0298/5f9e/8a87469e8242/62045fe3fe54/14081380040-p/14081380040-p.jpg?ts=1770712636883",
+  "images": [
+   "https://static.oysho.net/assets/public/0298/5f9e/8a87469e8242/62045fe3fe54/14081380040-p/14081380040-p.jpg?ts=1770712636883",
+   "https://static.oysho.net/assets/public/f712/0c16/89fb4f5f88cc/cb4cf2ce0108/14081380040-a1/14081380040-a1.jpg?ts=1770712636758",
+   "https://static.oysho.net/assets/public/ef0c/7530/8c1347d7a8e3/7b04d11888d2/14081380040-a2/14081380040-a2.jpg?ts=1770712636942",
+   "https://static.oysho.net/assets/public/9a9a/c1f4/59624b1a8781/5f2997b0397d/14081380040-a3/14081380040-a3.jpg?ts=1770712637015",
+   "https://static.oysho.net/assets/public/9e21/dd43/196643b0a54b/c3efa02225e2/14081380040-a4/14081380040-a4.jpg?ts=1770712637145",
+   "https://static.oysho.net/assets/public/f605/5aad/3a4c47b39af8/b7f74c32c189/14081380040-a5/14081380040-a5.jpg?ts=1770712637091",
+   "https://static.oysho.net/assets/public/ca7e/5a01/fbaa46efb190/359319c2a11b/14081380040-a6/14081380040-a6.jpg?ts=1770712637285",
+   "https://static.oysho.net/assets/public/940d/59a5/a1ad426f82ef/da2174042cc9/14081380040-t/14081380040-t.jpg?ts=1770712639677",
+   "https://static.oysho.net/assets/public/c322/7419/069340d081a1/9e88f54f163f/14081380040-x1/14081380040-x1.jpg?ts=1770819521117",
+   "https://static.oysho.net/assets/public/884d/d788/a81a45e48ecc/8a928f4533e9/14081380040-k2/14081380040-k2.jpg?ts=1770371725727"
   ]
  },
  {

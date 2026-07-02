@@ -1,32 +1,34 @@
 [
  {
-  "product_id": 507778090,
-  "color_id": "105",
-  "ref": "9418/043",
-  "name": "ЦВЕТНАЯ КЕРАМИЧЕСКАЯ НАСАДКА ДЛЯ ДИФФУЗОРА",
-  "section": "АРОМАТЫ",
-  "family": "АРОМАТЫ",
-  "subfamily": "DECORATIVE ACCESSORIES",
-  "color": "РАЗНОЦВЕТНЫЙ",
-  "price_kzt": 9990.0,
+  "product_id": 507770245,
+  "color_id": "251",
+  "ref": "1586/013",
+  "name": "ЖАККАРДОВОЕ БАННОЕ ПОЛОТЕНЦЕ С ЦВЕТОЧНЫМ УЗОРОМ",
+  "section": "ВАННАЯ",
+  "family": "ВАННАЯ",
+  "subfamily": "TOWELS",
+  "color": "ЖЕЛТОВАТО-БЕЛЫЙ",
+  "price_kzt": 4690.0,
   "price_old_kzt": null,
-  "price_rub": 2390,
+  "price_rub": 1200,
   "price_old_rub": null,
   "sizes": [
-   "11.8 x 8.2 x 8.2 cm"
+   "30 x 50 cm",
+   "50 x 90 cm",
+   "90 x 150 cm"
   ],
   "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/8e09/eb97/07f44294bf38/0805a5b086c0/49418043105-a7/49418043105-a7.jpg?ts=1782825842073",
+  "image": "https://static.zarahome.net/assets/public/31f3/da3e/d2f0462e86ec/a6cd519f406d/41586013251-a7/41586013251-a7.jpg?ts=1780406531628",
   "images": [
-   "https://static.zarahome.net/assets/public/8e09/eb97/07f44294bf38/0805a5b086c0/49418043105-a7/49418043105-a7.jpg?ts=1782825842073",
-   "https://static.zarahome.net/assets/public/dc54/9b33/fcf14dcfb3d5/92ae6954dcfb/49418043105-p1/49418043105-p1.jpg?ts=1782827408453",
-   "https://static.zarahome.net/assets/public/d91f/45b8/3ecb4b67af29/a23862d36cf6/49418043105-a1/49418043105-a1.jpg?ts=1782827408394",
-   "https://static.zarahome.net/assets/public/1873/608c/ab4f45f7976e/d68580569ef4/49418043105-a2/49418043105-a2.jpg?ts=1782827412773",
-   "https://static.zarahome.net/assets/public/efc7/e8b0/75fb490089dc/3d5bc0f5c325/49418043105-a3/49418043105-a3.jpg?ts=1782827412838",
-   "https://static.zarahome.net/assets/public/988d/e8e4/e5d94ce088c8/dbad96f4b33c/49418043105-f/49418043105-f.jpg?ts=1782825344490",
-   "https://static.zarahome.net/assets/public/be61/6ecc/d1ab4aed9955/a4e3eb933607/49418043105-r/49418043105-r.jpg?ts=1782827400208",
-   "https://static.zarahome.net/assets/public/f25e/c910/815f40feab01/f886e3d6cea3/49418043105-c1/49418043105-c1.jpg?ts=1782827415202",
-   "https://static.zarahome.net/assets/public/7b43/b44a/c665440d8a82/17b4ac78b600/49418043105-x1/49418043105-x1.jpg?ts=1782827407298"
+   "https://static.zarahome.net/assets/public/31f3/da3e/d2f0462e86ec/a6cd519f406d/41586013251-a7/41586013251-a7.jpg?ts=1780406531628",
+   "https://static.zarahome.net/assets/public/f209/4346/b2c340f7988d/0963dff88a39/41586013251-p1/41586013251-p1.jpg?ts=1780327503025",
+   "https://static.zarahome.net/assets/public/1bc1/99ae/ff9744f3a073/10c932263c31/41586013251-a1/41586013251-a1.jpg?ts=1780327502840",
+   "https://static.zarahome.net/assets/public/42a6/dda4/328349bf9320/7a10173d1eaa/41586013251-a2/41586013251-a2.jpg?ts=1780327503397",
+   "https://static.zarahome.net/assets/public/afbf/0bde/925a487b97a8/f167d7fadf20/41586013251-a3/41586013251-a3.jpg?ts=1780327503711",
+   "https://static.zarahome.net/assets/public/b9a5/9c5a/3e4f4573aed4/004e613dddad/41586013251-x1/41586013251-x1.jpg?ts=1780327503214",
+   "https://static.zarahome.net/assets/public/956f/8c65/36394c21b418/3da78ca9d165/41586013251-c1/41586013251-c1.jpg?ts=1780327504128",
+   "https://static.zarahome.net/assets/public/53d0/6965/6cd144e8b14d/2bcbfbb92f26/41586013251-r/41586013251-r.jpg?ts=1780327495177",
+   "https://static.zarahome.net/assets/public/6fd7/ad57/9dc747ef9d1c/493c3a8095cb/41586013251-f/41586013251-f.jpg?ts=1780406530181"
   ]
  },
  {
@@ -127,46 +129,6 @@
    "https://static.zarahome.net/assets/public/36e4/5210/c22b4628bc65/6cd8f3df6706/44111088712-x1/44111088712-x1.jpg?ts=1779111895233",
    "https://static.zarahome.net/assets/public/b6c6/e02f/7d2749409f5c/2806b399545a/44111088712-c1/44111088712-c1.jpg?ts=1779111916865",
    "https://static.zarahome.net/assets/public/1b2f/b9a0/dfcd40889f06/3d8c0f1820bb/44111088712-f/44111088712-f.jpg?ts=1781009301414"
-  ]
- },
- {
-  "product_id": 517317773,
-  "color_id": "251",
-  "ref": "6164/088",
-  "name": "ПОДОДЕЯЛЬНИК С ПРИНТОМ «ЛИСТЬЯ»",
-  "section": "СПАЛЬНЯ",
-  "family": "ПОСТЕЛЬНОЕ БЕЛЬЕ",
-  "subfamily": "DUVET COVERS",
-  "color": "ЖЕЛТОВАТО-БЕЛЫЙ",
-  "price_kzt": 36990.0,
-  "price_old_kzt": null,
-  "price_rub": 9240,
-  "price_old_rub": null,
-  "sizes": [
-   "135 x 200 cm",
-   "150 x 220 cm",
-   "180 x 220 cm",
-   "200 x 200 cm",
-   "220 x 220 cm",
-   "200 x 220 cm",
-   "240 x 220 cm",
-   "160 x 210 cm",
-   "260 x 240 cm",
-   "290 x 260 cm",
-   "200 x 230 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/dec1/e7c2/22b541828c8b/1b272be122b5/46164088251-a7/46164088251-a7.jpg?ts=1760086474460",
-  "images": [
-   "https://static.zarahome.net/assets/public/dec1/e7c2/22b541828c8b/1b272be122b5/46164088251-a7/46164088251-a7.jpg?ts=1760086474460",
-   "https://static.zarahome.net/assets/public/e5e1/356d/961143e39d84/f6ca70a38288/46164088251-p1/46164088251-p1.jpg?ts=1760091522781",
-   "https://static.zarahome.net/assets/public/2837/a132/bc354775bbdc/847ef4a1eaec/46164088251-a1/46164088251-a1.jpg?ts=1760092491402",
-   "https://static.zarahome.net/assets/public/605d/21dd/47174fe589e5/7de0f6a9c821/46164088251-a2/46164088251-a2.jpg?ts=1760092492218",
-   "https://static.zarahome.net/assets/public/2c1c/3b23/7fc14719bb0d/8df48614b6ee/46164088251-a3/46164088251-a3.jpg?ts=1760092493314",
-   "https://static.zarahome.net/assets/public/7e23/3f5d/03fb4265a4be/9dc202915b16/46164088251-a4/46164088251-a4.jpg?ts=1760092492406",
-   "https://static.zarahome.net/assets/public/f699/268e/16eb4189b9ad/334e7008f5f4/46164088251-r/46164088251-r.jpg?ts=1760092481264",
-   "https://static.zarahome.net/assets/public/10a9/01eb/d2a046718a5e/88001116fba1/46164088251-c/46164088251-c.jpg?ts=1760092494324",
-   "https://static.zarahome.net/assets/public/5670/c59d/c7174e74bd70/b2163777a3bb/46164088251-f/46164088251-f.jpg?ts=1760086474565"
   ]
  },
  {
@@ -401,6 +363,48 @@
    "https://static.zarahome.net/assets/public/b3f7/022e/137446cf937d/4d4fff23a8f2/40060087250-a4/40060087250-a4.jpg?ts=1718204210363",
    "https://static.zarahome.net/assets/public/3014/a3bc/cebf40848519/0b79744592a5/40050087250-r/40050087250-r.jpg?ts=1782829517932",
    "https://static.zarahome.net/assets/public/5a10/8d98/4ccc46a69d84/01a760f40683/40060087250-f/40060087250-f.jpg?ts=1749138953990"
+  ]
+ },
+ {
+  "product_id": 520761386,
+  "color_id": "250",
+  "ref": "0186/012",
+  "name": "ПОДУШКА С ПЕРЬЕВЫМ НАПОЛНИТЕЛЕМ",
+  "section": "СПАЛЬНЯ",
+  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
+  "subfamily": "PILLOW FILLINGS",
+  "color": "БЕЛЫЙ",
+  "price_kzt": 25990.0,
+  "price_old_kzt": null,
+  "price_rub": 6990,
+  "price_old_rub": null,
+  "sizes": [
+   "40 x 90 cm",
+   "40 x 90 cm",
+   "50 x 60 cm",
+   "50 x 60 cm",
+   "50 x 75 cm",
+   "50 x 75 cm",
+   "50 x 95 cm",
+   "50 x 95 cm",
+   "60 x 60 cm",
+   "60 x 60 cm",
+   "80 x 80 cm",
+   "80 x 80 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/9a20/1955/727e4616a710/e6b1f4dbf8f1/40086012250-a7/40086012250-a7.jpg?ts=1750069556277",
+  "images": [
+   "https://static.zarahome.net/assets/public/9a20/1955/727e4616a710/e6b1f4dbf8f1/40086012250-a7/40086012250-a7.jpg?ts=1750069556277",
+   "https://static.zarahome.net/assets/public/852f/a942/de49473eac1b/85fa6f21e842/40096012250-p1/40096012250-p1.jpg?ts=1782812262781",
+   "https://static.zarahome.net/assets/public/155f/3c04/3a434eaf8b67/8eb74e7416db/40096012250-a1/40096012250-a1.jpg?ts=1782812264843",
+   "https://static.zarahome.net/assets/public/9e95/0ba5/17534dd4920d/288ec5f2c4f8/40096012250-a2/40096012250-a2.jpg?ts=1782812262501",
+   "https://static.zarahome.net/assets/public/b291/9994/1f76418bbecb/911269aaecb7/40096012250-a3/40096012250-a3.jpg?ts=1782812263759",
+   "https://static.zarahome.net/assets/public/7675/c454/98db413bbdbd/f823fdfabdfc/40096012250-a4/40096012250-a4.jpg?ts=1718204300810",
+   "https://static.zarahome.net/assets/public/b346/b652/0be44c8e9626/865b5d5c2cbf/40086012250-a5/40086012250-a5.jpg?ts=1720701798615",
+   "https://static.zarahome.net/assets/public/7e7f/f42c/47ae4317a277/69a678f57d01/40186012250-a6/40186012250-a6.jpg?ts=1781183061960",
+   "https://static.zarahome.net/assets/public/9be7/9049/2e81463dbc55/c28afd35165f/40096012250-r/40096012250-r.jpg?ts=1782812255593",
+   "https://static.zarahome.net/assets/public/8a6d/0657/f6764fc5b823/377ea0d27b32/40086012250-a4/40086012250-a4.jpg?ts=1720701798334"
   ]
  },
  {
@@ -785,7 +789,7 @@
   "product_id": 507780811,
   "color_id": "250",
   "ref": "0062/086",
-  "name": "ВОДОСТОЙКИЙ НАМАТРАСНИК ИЗ ХЛОПКОВОГО ДЖЕРСИ",
+  "name": "ВОДОНЕПРОНИЦАЕМЫЙ НАМАТРАСНИК ИЗ ХЛОПКОВОГО ДЖЕРСИ",
   "section": "СПАЛЬНЯ",
   "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
   "subfamily": "MATTRESS PROTECTORS",
@@ -929,7 +933,7 @@
   "product_id": 507777154,
   "color_id": "250",
   "ref": "0060/086",
-  "name": "ВОДОСТОЙКИЙ НАМАТРАСНИК ИЗ МАХРОВОГО ХЛОПКА",
+  "name": "ВОДОНЕПРОНИЦАЕМЫЙ НАМАТРАСНИК ИЗ МАХРОВОЙ ХЛОПКОВОЙ ТКАНИ",
   "section": "СПАЛЬНЯ",
   "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
   "subfamily": "MATTRESS PROTECTORS",
@@ -1265,7 +1269,7 @@
   "product_id": 507770775,
   "color_id": "250",
   "ref": "0064/087",
-  "name": "ЧЕХОЛ ДЛЯ ПОДУШКИ ИЗ ХЛОПКА В ПОЛОСКУ",
+  "name": "ЗАЩИТНЫЙ ЧЕХОЛ ДЛЯ ПОДУШКИ ИЗ ХЛОПКА В ПОЛОСКУ",
   "section": "СПАЛЬНЯ",
   "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
   "subfamily": "PILLOW PROTECTORS",
@@ -1339,99 +1343,6 @@
    "https://static.zarahome.net/assets/public/0594/0813/0b1645269489/9469f4b2f17e/40064086250-a4/40064086250-a4.jpg?ts=1782829518352",
    "https://static.zarahome.net/assets/public/96d7/2150/8a834b95aad7/faa512425643/40064086250-f/40064086250-f.jpg?ts=1749811724406",
    "https://static.zarahome.net/assets/public/97fb/2af7/171d4709b68e/da2ba855d623/40064086250-f/40064086250-f.jpg?ts=1749811862693"
-  ]
- },
- {
-  "product_id": 507792535,
-  "color_id": "250",
-  "ref": "0065/086",
-  "name": "НАМАТРАСНИК С НАБИВКОЙ",
-  "section": "СПАЛЬНЯ",
-  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
-  "subfamily": "MATTRESS PROTECTORS",
-  "color": "БЕЛЫЙ",
-  "price_kzt": 31990.0,
-  "price_old_kzt": null,
-  "price_rub": 8040,
-  "price_old_rub": null,
-  "sizes": [
-   "90 x 200 cm",
-   "90 x 200 cm",
-   "90 x 200 cm",
-   "105 x 200 cm",
-   "105 x 200 cm",
-   "105 x 200 cm",
-   "140 x 200 cm",
-   "140 x 200 cm",
-   "140 x 200 cm",
-   "150 x 200 cm",
-   "150 x 200 cm",
-   "150 x 200 cm",
-   "160 x 200 cm",
-   "160 x 200 cm",
-   "160 x 200 cm",
-   "180 x 200 cm",
-   "180 x 200 cm",
-   "180 x 200 cm",
-   "200 x 200 cm",
-   "200 x 200 cm",
-   "200 x 200 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/0d00/93ec/a186411a9d7b/ee0455df7f92/40065086250-a7/40065086250-a7.jpg?ts=1749208800573",
-  "images": [
-   "https://static.zarahome.net/assets/public/0d00/93ec/a186411a9d7b/ee0455df7f92/40065086250-a7/40065086250-a7.jpg?ts=1749208800573",
-   "https://static.zarahome.net/assets/public/0392/7d56/b0f2451fb6f3/066c2b276386/40058086250-p1/40058086250-p1.jpg?ts=1782829521734",
-   "https://static.zarahome.net/assets/public/5296/82f0/2e054c239644/53f0ac136e16/40058086250-a1/40058086250-a1.jpg?ts=1782829521899",
-   "https://static.zarahome.net/assets/public/6ff3/9d2e/4f5543fa8713/38ececca0193/40058086250-a2/40058086250-a2.jpg?ts=1782829521392",
-   "https://static.zarahome.net/assets/public/3996/ae92/2ff84e8baa3f/ffad95a024c5/40058086250-a3/40058086250-a3.jpg?ts=1782829521754",
-   "https://static.zarahome.net/assets/public/df16/f55b/3d924939abc0/71f425fa4c18/40058086250-a4/40058086250-a4.jpg?ts=1782829521517",
-   "https://static.zarahome.net/assets/public/d13b/f6cb/17a6486bb4fe/fcedb95c3987/40058086250-r/40058086250-r.jpg?ts=1782829517538",
-   "https://static.zarahome.net/assets/public/8e9f/71a0/25b54a018172/aa9f21f1201e/40065086250-f/40065086250-f.jpg?ts=1749208800267",
-   "https://static.zarahome.net/assets/public/b66e/a986/f186412eb21f/c5a8f63b6229/4006508625001-a7/4006508625001-a7.jpg?ts=1743699524267",
-   "https://static.zarahome.net/assets/public/305f/197f/b06d4f07b96f/66a1b9c6a3de/4006508625001-f1/4006508625001-f1.jpg?ts=1743699524573"
-  ]
- },
- {
-  "product_id": 520761386,
-  "color_id": "250",
-  "ref": "0186/012",
-  "name": "ПОДУШКА С ПЕРЬЕВЫМ НАПОЛНИТЕЛЕМ",
-  "section": "СПАЛЬНЯ",
-  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
-  "subfamily": "PILLOW FILLINGS",
-  "color": "БЕЛЫЙ",
-  "price_kzt": 25990.0,
-  "price_old_kzt": null,
-  "price_rub": 6990,
-  "price_old_rub": null,
-  "sizes": [
-   "40 x 90 cm",
-   "40 x 90 cm",
-   "50 x 60 cm",
-   "50 x 60 cm",
-   "50 x 75 cm",
-   "50 x 75 cm",
-   "50 x 95 cm",
-   "50 x 95 cm",
-   "60 x 60 cm",
-   "60 x 60 cm",
-   "80 x 80 cm",
-   "80 x 80 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/9a20/1955/727e4616a710/e6b1f4dbf8f1/40086012250-a7/40086012250-a7.jpg?ts=1750069556277",
-  "images": [
-   "https://static.zarahome.net/assets/public/9a20/1955/727e4616a710/e6b1f4dbf8f1/40086012250-a7/40086012250-a7.jpg?ts=1750069556277",
-   "https://static.zarahome.net/assets/public/852f/a942/de49473eac1b/85fa6f21e842/40096012250-p1/40096012250-p1.jpg?ts=1782812262781",
-   "https://static.zarahome.net/assets/public/155f/3c04/3a434eaf8b67/8eb74e7416db/40096012250-a1/40096012250-a1.jpg?ts=1782812264843",
-   "https://static.zarahome.net/assets/public/9e95/0ba5/17534dd4920d/288ec5f2c4f8/40096012250-a2/40096012250-a2.jpg?ts=1782812262501",
-   "https://static.zarahome.net/assets/public/b291/9994/1f76418bbecb/911269aaecb7/40096012250-a3/40096012250-a3.jpg?ts=1782812263759",
-   "https://static.zarahome.net/assets/public/7675/c454/98db413bbdbd/f823fdfabdfc/40096012250-a4/40096012250-a4.jpg?ts=1718204300810",
-   "https://static.zarahome.net/assets/public/b346/b652/0be44c8e9626/865b5d5c2cbf/40086012250-a5/40086012250-a5.jpg?ts=1720701798615",
-   "https://static.zarahome.net/assets/public/7e7f/f42c/47ae4317a277/69a678f57d01/40186012250-a6/40186012250-a6.jpg?ts=1781183061960",
-   "https://static.zarahome.net/assets/public/9be7/9049/2e81463dbc55/c28afd35165f/40096012250-r/40096012250-r.jpg?ts=1782812255593",
-   "https://static.zarahome.net/assets/public/8a6d/0657/f6764fc5b823/377ea0d27b32/40086012250-a4/40086012250-a4.jpg?ts=1720701798334"
   ]
  },
  {
@@ -1519,6 +1430,57 @@
    "https://static.zarahome.net/assets/public/820c/b1ba/58464873b6f0/d507dfbb862a/40080012250-f/40080012250-f.jpg?ts=1750064430202",
    "https://static.zarahome.net/assets/public/8ab2/29a5/188b4d08acc7/03ab0b85a7af/40080012250-a5/40080012250-a5.jpg?ts=1718203547751",
    "https://static.zarahome.net/assets/public/5e19/a41e/7adc4388967c/b1db9043e15b/40080012250-a5/40080012250-a5.jpg?ts=1718204613819"
+  ]
+ },
+ {
+  "product_id": 507792535,
+  "color_id": "250",
+  "ref": "0065/086",
+  "name": "СТЕГАНЫЙ НАМАТРАСНИК",
+  "section": "СПАЛЬНЯ",
+  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
+  "subfamily": "MATTRESS PROTECTORS",
+  "color": "БЕЛЫЙ",
+  "price_kzt": 31990.0,
+  "price_old_kzt": null,
+  "price_rub": 8040,
+  "price_old_rub": null,
+  "sizes": [
+   "90 x 200 cm",
+   "90 x 200 cm",
+   "90 x 200 cm",
+   "105 x 200 cm",
+   "105 x 200 cm",
+   "105 x 200 cm",
+   "140 x 200 cm",
+   "140 x 200 cm",
+   "140 x 200 cm",
+   "150 x 200 cm",
+   "150 x 200 cm",
+   "150 x 200 cm",
+   "160 x 200 cm",
+   "160 x 200 cm",
+   "160 x 200 cm",
+   "180 x 200 cm",
+   "180 x 200 cm",
+   "180 x 200 cm",
+   "200 x 200 cm",
+   "200 x 200 cm",
+   "200 x 200 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/0d00/93ec/a186411a9d7b/ee0455df7f92/40065086250-a7/40065086250-a7.jpg?ts=1749208800573",
+  "images": [
+   "https://static.zarahome.net/assets/public/0d00/93ec/a186411a9d7b/ee0455df7f92/40065086250-a7/40065086250-a7.jpg?ts=1749208800573",
+   "https://static.zarahome.net/assets/public/0392/7d56/b0f2451fb6f3/066c2b276386/40058086250-p1/40058086250-p1.jpg?ts=1782829521734",
+   "https://static.zarahome.net/assets/public/5296/82f0/2e054c239644/53f0ac136e16/40058086250-a1/40058086250-a1.jpg?ts=1782829521899",
+   "https://static.zarahome.net/assets/public/6ff3/9d2e/4f5543fa8713/38ececca0193/40058086250-a2/40058086250-a2.jpg?ts=1782829521392",
+   "https://static.zarahome.net/assets/public/3996/ae92/2ff84e8baa3f/ffad95a024c5/40058086250-a3/40058086250-a3.jpg?ts=1782829521754",
+   "https://static.zarahome.net/assets/public/df16/f55b/3d924939abc0/71f425fa4c18/40058086250-a4/40058086250-a4.jpg?ts=1782829521517",
+   "https://static.zarahome.net/assets/public/d13b/f6cb/17a6486bb4fe/fcedb95c3987/40058086250-r/40058086250-r.jpg?ts=1782829517538",
+   "https://static.zarahome.net/assets/public/8e9f/71a0/25b54a018172/aa9f21f1201e/40065086250-f/40065086250-f.jpg?ts=1749208800267",
+   "https://static.zarahome.net/assets/public/b66e/a986/f186412eb21f/c5a8f63b6229/4006508625001-a7/4006508625001-a7.jpg?ts=1743699524267",
+   "https://static.zarahome.net/assets/public/305f/197f/b06d4f07b96f/66a1b9c6a3de/4006508625001-f1/4006508625001-f1.jpg?ts=1743699524573"
   ]
  },
  {
@@ -1860,113 +1822,123 @@
   ]
  },
  {
-  "product_id": 520761438,
-  "color_id": "250",
-  "ref": "0182/012",
-  "name": "ПОДУШКА ИЗ МИКРОФИБРЫ",
-  "section": "СПАЛЬНЯ",
-  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
-  "subfamily": "PILLOW FILLINGS",
-  "color": "БЕЛЫЙ",
-  "price_kzt": 9990.0,
+  "product_id": 508345392,
+  "color_id": "300",
+  "ref": "3209/202",
+  "name": "ДЕСЕРТНАЯ ТАРЕЛКА ИЗ ФАЯНСА С РЫБОЙ",
+  "section": "КУХНЯ И СТОЛОВАЯ",
+  "family": "СТОЛОВАЯ ПОСУДА",
+  "subfamily": "DESSERT PLATES",
+  "color": "ЖЕЛТЫЙ",
+  "price_kzt": 6590.0,
   "price_old_kzt": null,
-  "price_rub": 2390,
+  "price_rub": 1650,
   "price_old_rub": null,
   "sizes": [
-   "30 x 50 cm",
-   "30 x 50 cm",
-   "50 x 75 cm",
-   "50 x 75 cm",
-   "60 x 60 cm",
-   "60 x 60 cm",
-   "80 x 80 cm",
-   "80 x 80 cm"
+   "3.5 x 17 x 17 cm"
   ],
   "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/66c5/1ea2/691544d583fc/bfaddd194ad1/40082012250-a7/40082012250-a7.jpg?ts=1750347435059",
+  "image": "https://static.zarahome.net/assets/public/e83e/c63a/b0884e7d9d83/f2cc55cb23d2/43209202300-a7/43209202300-a7.jpg?ts=1782376587114",
   "images": [
-   "https://static.zarahome.net/assets/public/66c5/1ea2/691544d583fc/bfaddd194ad1/40082012250-a7/40082012250-a7.jpg?ts=1750347435059",
-   "https://static.zarahome.net/assets/public/301e/1cac/fa9345f9b286/332255469edd/40182012250-p1/40182012250-p1.jpg?ts=1781183241484",
-   "https://static.zarahome.net/assets/public/2c21/4370/2ad4471f8386/391c1ec820f3/40082012250-a1/40082012250-a1.jpg?ts=1718204633109",
-   "https://static.zarahome.net/assets/public/7f7d/a4f7/1fa44874b298/90aa531dabf3/40082012250-a2/40082012250-a2.jpg?ts=1718204633584",
-   "https://static.zarahome.net/assets/public/09ff/2d52/f08f4cca9f9c/1f83f8552b72/40082012250-a3/40082012250-a3.jpg?ts=1718204633816",
-   "https://static.zarahome.net/assets/public/3610/44f7/8b264aa68c25/f5f6bd4e34f5/40082012250-a4/40082012250-a4.jpg?ts=1718204635818",
-   "https://static.zarahome.net/assets/public/6ea7/6353/c788431ea344/f94398ebe87e/40082012250-a5/40082012250-a5.jpg?ts=1718204635955",
-   "https://static.zarahome.net/assets/public/6214/7bdb/336e48a89284/50d3de9ccf9c/40182012250-a6/40182012250-a6.jpg?ts=1781183053189",
-   "https://static.zarahome.net/assets/public/823d/40e9/e46d49128f9c/b549c8ae4223/40082012250-f/40082012250-f.jpg?ts=1750347434940",
-   "https://static.zarahome.net/assets/public/71ef/1c66/85ed44caae30/aabaf2379266/4008201225001-a7/4008201225001-a7.jpg?ts=1724246254511"
+   "https://static.zarahome.net/assets/public/e83e/c63a/b0884e7d9d83/f2cc55cb23d2/43209202300-a7/43209202300-a7.jpg?ts=1782376587114",
+   "https://static.zarahome.net/assets/public/496b/6509/aa174acf96ce/0af4491241c4/43209202300-p1/43209202300-p1.jpg?ts=1782384665194",
+   "https://static.zarahome.net/assets/public/fad2/5f42/2d1843b28817/99280a95c967/43209202300-a1/43209202300-a1.jpg?ts=1782384665091",
+   "https://static.zarahome.net/assets/public/2aa5/18d4/bab241d4a086/c0bef53fbfc1/43209202300-a2/43209202300-a2.jpg?ts=1782384664965",
+   "https://static.zarahome.net/assets/public/0002/feda/8e564bc6b52c/fdc7d59bab06/43209202300-a3/43209202300-a3.jpg?ts=1782384670076",
+   "https://static.zarahome.net/assets/public/f98c/87e1/b1ba41729180/c8a50784a61c/43209202300-f/43209202300-f.jpg?ts=1782383465775",
+   "https://static.zarahome.net/assets/public/0118/91d0/6f4641bbbc5d/3b32e56cc060/43209202300-x1/43209202300-x1.jpg?ts=1782384665330",
+   "https://static.zarahome.net/assets/public/712d/88dd/4a94461b8246/04bfc417722f/43209202300-r/43209202300-r.jpg?ts=1782384657467",
+   "https://static.zarahome.net/assets/public/11f3/073d/dc1748e883ea/7ba9dc25f0ba/43209202300-c1/43209202300-c1.jpg?ts=1782384667332"
   ]
  },
  {
-  "product_id": 515620461,
-  "color_id": "250",
-  "ref": "0067/086",
-  "name": "НАМАТРАСНИК С ЭФФЕКТОМ ПУХА",
-  "section": "СПАЛЬНЯ",
-  "family": "НАПОЛНИТЕЛИ И ПОДУШКИ",
-  "subfamily": "MATTRESS PROTECTORS",
-  "color": "БЕЛЫЙ",
-  "price_kzt": 85990.0,
+  "product_id": 507937233,
+  "color_id": "400",
+  "ref": "3207/200",
+  "name": "ФАЯНСОВАЯ ТАРЕЛКА С ВОЛНИСТЫМ КРАЕМ",
+  "section": "КУХНЯ И СТОЛОВАЯ",
+  "family": "СТОЛОВАЯ ПОСУДА",
+  "subfamily": "DINNER PLATES",
+  "color": "СИНИЙ",
+  "price_kzt": 6590.0,
   "price_old_kzt": null,
-  "price_rub": 21470,
+  "price_rub": 1650,
   "price_old_rub": null,
   "sizes": [
-   "90 x 200 cm",
-   "90 x 200 cm",
-   "140 x 200 cm",
-   "140 x 200 cm",
-   "150 x 200 cm",
-   "150 x 200 cm",
-   "160 x 200 cm",
-   "160 x 200 cm",
-   "180 x 200 cm",
-   "180 x 200 cm",
-   "200 x 200 cm",
-   "200 x 200 cm"
+   "3 x 28 x 28 cm"
   ],
   "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/663a/a0b7/2116445a9a3f/51c06dfb23b1/40067086250-a7/40067086250-a7.jpg?ts=1750061051758",
+  "image": "https://static.zarahome.net/assets/public/4beb/d00c/881c4904a237/45600c923476/43207200400-a7/43207200400-a7.jpg?ts=1781263116654",
   "images": [
-   "https://static.zarahome.net/assets/public/663a/a0b7/2116445a9a3f/51c06dfb23b1/40067086250-a7/40067086250-a7.jpg?ts=1750061051758",
-   "https://static.zarahome.net/assets/public/7dcf/c92f/c3234faa8b1e/b0bf226bcec2/40067086250-p1/40067086250-p1.jpg?ts=1725022973880",
-   "https://static.zarahome.net/assets/public/f532/dfd9/eef34031ac3c/4c0d6dec4e51/40067086250-a1/40067086250-a1.jpg?ts=1725022973382",
-   "https://static.zarahome.net/assets/public/a941/7661/cfb64bd6b843/ba22d17a2533/40067086250-a2/40067086250-a2.jpg?ts=1725022973865",
-   "https://static.zarahome.net/assets/public/f540/c671/1ad04c88848a/dfb45304ba03/40067086250-a3/40067086250-a3.jpg?ts=1725022973828",
-   "https://static.zarahome.net/assets/public/2952/e8ed/19a846f6bcf7/d61ea0d478e3/40067086250-a4/40067086250-a4.jpg?ts=1725022974555",
-   "https://static.zarahome.net/assets/public/bde9/2421/621d4844bc8c/4ada53ac091e/40067086250-r/40067086250-r.jpg?ts=1725022961421",
-   "https://static.zarahome.net/assets/public/d7dd/91cc/4093499bb78b/cd741a3d028b/40067086250-f/40067086250-f.jpg?ts=1750061051359"
+   "https://static.zarahome.net/assets/public/4beb/d00c/881c4904a237/45600c923476/43207200400-a7/43207200400-a7.jpg?ts=1781263116654",
+   "https://static.zarahome.net/assets/public/f0dc/c133/597c490a8e77/ba13a77e86bd/43207200400-p1/43207200400-p1.jpg?ts=1781691258434",
+   "https://static.zarahome.net/assets/public/f95d/bc99/ab8942c18a69/729cd94afdfa/43207200400-a1/43207200400-a1.jpg?ts=1781691257606",
+   "https://static.zarahome.net/assets/public/e2c5/d923/31e447389304/1ddcf6c27b70/43207200400-a2/43207200400-a2.jpg?ts=1781691257918",
+   "https://static.zarahome.net/assets/public/d979/86d9/aeb94793bd5a/587692e47aa1/43207200400-a3/43207200400-a3.jpg?ts=1781691257668",
+   "https://static.zarahome.net/assets/public/242e/e734/eaed47008325/71e42a4e5f63/43207200400-f/43207200400-f.jpg?ts=1781264794336",
+   "https://static.zarahome.net/assets/public/540f/48ff/7c964576990e/4f22544ab028/43207200400-r/43207200400-r.jpg?ts=1781691254659",
+   "https://static.zarahome.net/assets/public/7acd/7493/f40143f4bb11/de07bfda3cb3/43207200400-x1/43207200400-x1.jpg?ts=1781691258767",
+   "https://static.zarahome.net/assets/public/e956/303d/74ab497c9ab7/89b0c15c5d5b/43207200400-c1/43207200400-c1.jpg?ts=1781691263636"
   ]
  },
  {
-  "product_id": 507779984,
+  "product_id": 507796451,
   "color_id": "700",
-  "ref": "6324/211",
-  "name": "МИСКА ДЛЯ ДОМАШНИХ ЖИВОТНЫХ С ПОДСТАВКОЙ",
-  "section": "КОЛЛЕКЦИЯ ДЛЯ ДОМАШНИХ ЖИВОТНЫХ",
-  "family": "КОЛЛЕКЦИЯ ДЛЯ ДОМАШНИХ ЖИВОТНЫХ",
-  "subfamily": "BOWLS",
+  "ref": "9288/023",
+  "name": "",
+  "section": "КУХНЯ И СТОЛОВАЯ",
+  "family": "СКАТЕРТИ",
+  "subfamily": "PLACEMATS",
   "color": "КОРИЧНЕВЫЙ",
-  "price_kzt": 23990.0,
+  "price_kzt": 6590.0,
   "price_old_kzt": null,
-  "price_rub": 6040,
+  "price_rub": 1650,
   "price_old_rub": null,
   "sizes": [
-   "17 x 17 x 17 cm",
-   "24.5 x 19.5 x 19.5 cm"
+   "35 x 50 cm"
   ],
   "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/5a7e/771f/a1b34a7bbe32/ce1d488ba6ad/46324211700-a7/46324211700-a7.jpg?ts=1771236893379",
+  "image": "https://static.zarahome.net/assets/public/cb27/db14/421844cb8a5d/1cc79b1828a7/49288023700-a7/49288023700-a7.jpg?ts=1782399956587",
   "images": [
-   "https://static.zarahome.net/assets/public/5a7e/771f/a1b34a7bbe32/ce1d488ba6ad/46324211700-a7/46324211700-a7.jpg?ts=1771236893379",
-   "https://static.zarahome.net/assets/public/163c/1621/07f1409e8175/ac24bfb42d66/46324211700-p1/46324211700-p1.jpg?ts=1743632525162",
-   "https://static.zarahome.net/assets/public/e33a/005e/9737428ead97/7b96066392f5/46324211700-a1/46324211700-a1.jpg?ts=1743632525145",
-   "https://static.zarahome.net/assets/public/13d7/508d/af1047a3a325/8ea4a2907080/46324211700-a2/46324211700-a2.jpg?ts=1743632525894",
-   "https://static.zarahome.net/assets/public/aeb9/90e9/2c7b4171b6b7/edd98f9cc8ae/46324211700-a3/46324211700-a3.jpg?ts=1743632526191",
-   "https://static.zarahome.net/assets/public/e392/347e/311943e5b26c/5da925bc005f/46324211700-a4/46324211700-a4.jpg?ts=1743632525184",
-   "https://static.zarahome.net/assets/public/91fe/8456/105240279e57/63ca406b39de/46324211700-h/46324211700-h.jpg?ts=1738928208105",
-   "https://static.zarahome.net/assets/public/dcfd/069f/ec6649488ca2/7c65793c4f6d/46324211700-b1/46324211700-b1.jpg?ts=1718968036671",
-   "https://static.zarahome.net/assets/public/7a5f/bf3f/56154659a11e/bcc904380fca/46324211700-r/46324211700-r.jpg?ts=1760339042073",
-   "https://static.zarahome.net/assets/public/b547/bf24/de4d4522a19e/4d3f81a582e2/46324211700-f/46324211700-f.jpg?ts=1771237118956"
+   "https://static.zarahome.net/assets/public/cb27/db14/421844cb8a5d/1cc79b1828a7/49288023700-a7/49288023700-a7.jpg?ts=1782399956587",
+   "https://static.zarahome.net/assets/public/c42a/4504/d05d474a9caa/f2021c4e9252/49288023700-p1/49288023700-p1.jpg?ts=1782219247942",
+   "https://static.zarahome.net/assets/public/a5e2/19a9/60f34be685a9/5b775b05fd4f/49288023700-a1/49288023700-a1.jpg?ts=1782219247960",
+   "https://static.zarahome.net/assets/public/c71a/47e7/0c0743f38a5b/aadcccc03961/49288023700-a2/49288023700-a2.jpg?ts=1782219248166",
+   "https://static.zarahome.net/assets/public/3136/2e6d/40684e44aa4f/a8fa43183791/49288023700-a3/49288023700-a3.jpg?ts=1782219263654",
+   "https://static.zarahome.net/assets/public/dc61/11fe/9d104040967c/6e08d062a469/49288023700-a4/49288023700-a4.jpg?ts=1782219248045",
+   "https://static.zarahome.net/assets/public/6c50/12c6/72724a6aa6ef/716072ed2cbd/49288023700-r/49288023700-r.jpg?ts=1782219239203",
+   "https://static.zarahome.net/assets/public/8fee/97f8/132440fab5b9/2486f7758214/49288023700-x1/49288023700-x1.jpg?ts=1782219248388",
+   "https://static.zarahome.net/assets/public/a830/1928/2f4b46ef9a7e/822ac7e718d5/49288023700-c1/49288023700-c1.jpg?ts=1782219255556",
+   "https://static.zarahome.net/assets/public/5ea4/f3dd/3f6e4677962d/ada06c8e5217/49288023700-f/49288023700-f.jpg?ts=1782400305542"
+  ]
+ },
+ {
+  "product_id": 507796471,
+  "color_id": "700",
+  "ref": "9288/024",
+  "name": "",
+  "section": "КУХНЯ И СТОЛОВАЯ",
+  "family": "СКАТЕРТИ",
+  "subfamily": "TABLE RUNNERS",
+  "color": "КОРИЧНЕВЫЙ",
+  "price_kzt": 18990.0,
+  "price_old_kzt": null,
+  "price_rub": 4690,
+  "price_old_rub": null,
+  "sizes": [
+   "50 x 160 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/bbce/0750/c8b646dc8e50/1fa18e463557/49288024700-p1/49288024700-p1.jpg?ts=1781772714258",
+  "images": [
+   "https://static.zarahome.net/assets/public/bbce/0750/c8b646dc8e50/1fa18e463557/49288024700-p1/49288024700-p1.jpg?ts=1781772714258",
+   "https://static.zarahome.net/assets/public/02d8/2d97/22b441959e08/2b21577fd078/49288024700-a1/49288024700-a1.jpg?ts=1781772715313",
+   "https://static.zarahome.net/assets/public/f56e/59fe/e139422f8683/87dc07121c35/49288024700-a2/49288024700-a2.jpg?ts=1781772716045",
+   "https://static.zarahome.net/assets/public/9eb0/5e7d/390c4f25810f/8e70efd78291/49288024700-a3/49288024700-a3.jpg?ts=1781772713475",
+   "https://static.zarahome.net/assets/public/ae7f/1997/c9d841808495/3b6d6e176635/49288024700-a4/49288024700-a4.jpg?ts=1781772716195",
+   "https://static.zarahome.net/assets/public/a44c/4284/3be54d88bf29/c14d9557f22f/49288024700-r/49288024700-r.jpg?ts=1781772708117",
+   "https://static.zarahome.net/assets/public/6b49/5add/92c6458598d4/83d5997ad5d1/49288024700-x1/49288024700-x1.jpg?ts=1781772714355",
+   "https://static.zarahome.net/assets/public/54bd/2b58/f6bf4c7dbee9/4ad9110e5673/49288024700-c1/49288024700-c1.jpg?ts=1781772719467"
   ]
  },
  {
@@ -2081,37 +2053,6 @@
    "https://static.zarahome.net/assets/public/db9b/7e71/3b4f4d729710/bb124d2aa493/4563702925101-f/4563702925101-f.jpg?ts=1779453074469",
    "https://static.zarahome.net/assets/public/ba05/b630/47f74c01963c/5855c2b050e4/4563702925101-h/4563702925101-h.jpg?ts=1779453074725",
    "https://static.zarahome.net/assets/public/a8b0/0569/d43f4e429499/22c0d7fc3b4a/4563702925101-a7/4563702925101-a7.jpg?ts=1779724837720"
-  ]
- },
- {
-  "product_id": 507772904,
-  "color_id": "999",
-  "ref": "9602/031",
-  "name": "ДЕТСКИЙ НАПОЛЬНЫЙ ПУФ ИЗ ХЛОПКА В КЛЕТКУ",
-  "section": "ДЕТИ И МЛАДЕНЦЫ",
-  "family": "ДЕТИ И МЛАДЕНЦЫ",
-  "subfamily": "POUFFES",
-  "color": "РАЗНОЦВЕТНЫЙ",
-  "price_kzt": 85990.0,
-  "price_old_kzt": null,
-  "price_rub": 21470,
-  "price_old_rub": null,
-  "sizes": [
-   "58 x 58 x 60 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/5a0d/d9f1/21d643f692dc/777561d29c50/49602031999-a7/49602031999-a7.jpg?ts=1779094221788",
-  "images": [
-   "https://static.zarahome.net/assets/public/5a0d/d9f1/21d643f692dc/777561d29c50/49602031999-a7/49602031999-a7.jpg?ts=1779094221788",
-   "https://static.zarahome.net/assets/public/98b8/04ba/2e45481dbc95/191e77932f26/49602031999-p1/49602031999-p1.jpg?ts=1778763072213",
-   "https://static.zarahome.net/assets/public/0b9b/9ab1/f1954387a8f1/36083214a59b/49602031999-a1/49602031999-a1.jpg?ts=1778763072218",
-   "https://static.zarahome.net/assets/public/d8e0/f85c/a34c4834bb22/c1ee7565e7e4/49602031999-a2/49602031999-a2.jpg?ts=1778763072241",
-   "https://static.zarahome.net/assets/public/44ed/f64e/b0b8418f8461/25ce314ce28c/49602031999-a3/49602031999-a3.jpg?ts=1778763081635",
-   "https://static.zarahome.net/assets/public/38ee/33a5/8fbd4207990f/955a7917b36c/49602031999-a4/49602031999-a4.jpg?ts=1778763072067",
-   "https://static.zarahome.net/assets/public/9b07/93a7/5bfa4d13970f/c5aad13ec9f6/49602031999-x1/49602031999-x1.jpg?ts=1778763072107",
-   "https://static.zarahome.net/assets/public/b18b/28aa/c79e40b6a97b/019ae8e8a953/49602031999-r/49602031999-r.jpg?ts=1778763063595",
-   "https://static.zarahome.net/assets/public/cc63/0eb6/0b7e43dfb338/ca9d509119ee/49602031999-c1/49602031999-c1.jpg?ts=1778763083267",
-   "https://static.zarahome.net/assets/public/5f2d/fc34/c0144706bf95/9d070967cd2a/49602031999-f/49602031999-f.jpg?ts=1779107616074"
   ]
  },
  {
@@ -2491,9 +2432,9 @@
    "150 x 220 cm"
   ],
   "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/a189/17c7/b7b24f8390a2/86c5cacb5e5d/42630088999-a7/42630088999-a7.jpg?ts=1773999454027",
+  "image": "https://static.zarahome.net/assets/public/f0ae/4374/d7fa456191b3/aad651107bb8/42630088999-a7/42630088999-a7.jpg?ts=1782916846565",
   "images": [
-   "https://static.zarahome.net/assets/public/a189/17c7/b7b24f8390a2/86c5cacb5e5d/42630088999-a7/42630088999-a7.jpg?ts=1773999454027",
+   "https://static.zarahome.net/assets/public/f0ae/4374/d7fa456191b3/aad651107bb8/42630088999-a7/42630088999-a7.jpg?ts=1782916846565",
    "https://static.zarahome.net/assets/public/d6f3/17e9/c3a246cb8da8/955198fb9041/42630088999-p1/42630088999-p1.jpg?ts=1769701119798",
    "https://static.zarahome.net/assets/public/473e/378f/dbc0471ca270/1e82d489d667/42630088999-a1/42630088999-a1.jpg?ts=1769701121394",
    "https://static.zarahome.net/assets/public/cc4e/ec1a/df9544cba5a5/c80b5630a969/42630088999-a2/42630088999-a2.jpg?ts=1769701121845",
@@ -2658,6 +2599,38 @@
   ]
  },
  {
+  "product_id": 507774481,
+  "color_id": "251",
+  "ref": "8610/088",
+  "name": "ДЕТСКИЙ ПОДОДЕЯЛЬНИК С ВЫШИВКОЙ PICUETA",
+  "section": "ДЕТИ И МЛАДЕНЦЫ",
+  "family": "СПАЛЬНЯ",
+  "subfamily": "DUVET COVERS",
+  "color": "ЖЕЛТОВАТО-БЕЛЫЙ",
+  "price_kzt": 21990.0,
+  "price_old_kzt": null,
+  "price_rub": 5490,
+  "price_old_rub": null,
+  "sizes": [
+   "100 x 120 cm",
+   "150 x 220 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/24cb/3183/328e4d678bd1/7d1c9f46936b/48610088251-a7/48610088251-a7.jpg?ts=1751446429779",
+  "images": [
+   "https://static.zarahome.net/assets/public/24cb/3183/328e4d678bd1/7d1c9f46936b/48610088251-a7/48610088251-a7.jpg?ts=1751446429779",
+   "https://static.zarahome.net/assets/public/c00c/68a0/80c94ed19cb7/a2fae4ba729a/48610088251-p1/48610088251-p1.jpg?ts=1734421254050",
+   "https://static.zarahome.net/assets/public/0155/03a4/22cb4387becd/e6859b78dd7f/48610088251-a1/48610088251-a1.jpg?ts=1734421252286",
+   "https://static.zarahome.net/assets/public/d1aa/6e94/455748bc9b9a/9860175d1c89/48610088251-a2/48610088251-a2.jpg?ts=1734421252556",
+   "https://static.zarahome.net/assets/public/0ef9/26e2/40264bc09679/1c5b5c694eb0/48610088251-a3/48610088251-a3.jpg?ts=1734421253264",
+   "https://static.zarahome.net/assets/public/1793/dd2d/46bb4b9dbaa1/657797e8ddc0/48610088251-a4/48610088251-a4.jpg?ts=1734421253500",
+   "https://static.zarahome.net/assets/public/2b7b/7666/51b7442da549/d80a14156a8c/48610088251-a5/48610088251-a5.jpg?ts=1734421253640",
+   "https://static.zarahome.net/assets/public/75d4/735c/a5dd4a52b5f9/368802773a64/48610088251-f/48610088251-f.jpg?ts=1751446429788",
+   "https://static.zarahome.net/assets/public/ba33/0333/32e1487c9941/b2958b1dcdae/48610088251-h/48610088251-h.jpg?ts=1751384631538",
+   "https://static.zarahome.net/assets/public/63be/47e2/3c75403fbca5/1a90f5982b1e/48610088251-r/48610088251-r.jpg?ts=1737014708868"
+  ]
+ },
+ {
   "product_id": 507791425,
   "color_id": "999",
   "ref": "1605/088",
@@ -2722,69 +2695,33 @@
   ]
  },
  {
-  "product_id": 507774481,
-  "color_id": "251",
-  "ref": "8610/088",
-  "name": "ДЕТСКИЙ ПОДОДЕЯЛЬНИК С ВЫШИВКОЙ PICUETA",
-  "section": "ДЕТИ И МЛАДЕНЦЫ",
-  "family": "СПАЛЬНЯ",
-  "subfamily": "DUVET COVERS",
-  "color": "ЖЕЛТОВАТО-БЕЛЫЙ",
+  "product_id": 507783713,
+  "color_id": "982",
+  "ref": "2357/029",
+  "name": "ДЖУТОВЫЙ КОВРИК ДЛЯ ВХОДНОЙ ДВЕРИ С УЗОРОМ «ЕЛОЧКА»",
+  "section": "ДЕКОР",
+  "family": "КОВРЫ",
+  "subfamily": "",
+  "color": "ЗЕЛЕНЫЙ",
   "price_kzt": 21990.0,
   "price_old_kzt": null,
   "price_rub": 5490,
   "price_old_rub": null,
   "sizes": [
-   "100 x 120 cm",
-   "150 x 220 cm"
+   "45 x 75 cm"
   ],
   "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/24cb/3183/328e4d678bd1/7d1c9f46936b/48610088251-a7/48610088251-a7.jpg?ts=1751446429779",
+  "image": "https://static.zarahome.net/assets/public/07fb/d561/bbf04474b3bf/91c15a62f0ae/42357029982-a7/42357029982-a7.jpg?ts=1781012071755",
   "images": [
-   "https://static.zarahome.net/assets/public/24cb/3183/328e4d678bd1/7d1c9f46936b/48610088251-a7/48610088251-a7.jpg?ts=1751446429779",
-   "https://static.zarahome.net/assets/public/c00c/68a0/80c94ed19cb7/a2fae4ba729a/48610088251-p1/48610088251-p1.jpg?ts=1734421254050",
-   "https://static.zarahome.net/assets/public/0155/03a4/22cb4387becd/e6859b78dd7f/48610088251-a1/48610088251-a1.jpg?ts=1734421252286",
-   "https://static.zarahome.net/assets/public/d1aa/6e94/455748bc9b9a/9860175d1c89/48610088251-a2/48610088251-a2.jpg?ts=1734421252556",
-   "https://static.zarahome.net/assets/public/0ef9/26e2/40264bc09679/1c5b5c694eb0/48610088251-a3/48610088251-a3.jpg?ts=1734421253264",
-   "https://static.zarahome.net/assets/public/1793/dd2d/46bb4b9dbaa1/657797e8ddc0/48610088251-a4/48610088251-a4.jpg?ts=1734421253500",
-   "https://static.zarahome.net/assets/public/2b7b/7666/51b7442da549/d80a14156a8c/48610088251-a5/48610088251-a5.jpg?ts=1734421253640",
-   "https://static.zarahome.net/assets/public/75d4/735c/a5dd4a52b5f9/368802773a64/48610088251-f/48610088251-f.jpg?ts=1751446429788",
-   "https://static.zarahome.net/assets/public/ba33/0333/32e1487c9941/b2958b1dcdae/48610088251-h/48610088251-h.jpg?ts=1751384631538",
-   "https://static.zarahome.net/assets/public/63be/47e2/3c75403fbca5/1a90f5982b1e/48610088251-r/48610088251-r.jpg?ts=1737014708868"
-  ]
- },
- {
-  "product_id": 507783426,
-  "color_id": "251",
-  "ref": "4391/047",
-  "name": "ПОТОЛОЧНАЯ ЛАМПА «ЦВЕТОК», СРЕДНЯЯ",
-  "section": "ДЕКОР",
-  "family": "ЛАМПЫ И СВЕТИЛЬНИКИ",
-  "subfamily": "LAMPS",
-  "color": "ЖЕЛТОВАТО-БЕЛЫЙ",
-  "price_kzt": 49990.0,
-  "price_old_kzt": null,
-  "price_rub": 12540,
-  "price_old_rub": null,
-  "sizes": [
-   "120 x 62 x 56 cm",
-   "120 x 62 x 56 cm",
-   "120 x 62 x 56 cm",
-   "120 x 62 x 56 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/6058/b8c6/e8ae4636a6e3/49db72bb1544/44391047251-a7/44391047251-a7.jpg?ts=1770128989597",
-  "images": [
-   "https://static.zarahome.net/assets/public/6058/b8c6/e8ae4636a6e3/49db72bb1544/44391047251-a7/44391047251-a7.jpg?ts=1770128989597",
-   "https://static.zarahome.net/assets/public/9191/1e88/48504839b246/101d6c5ddb19/44391047251-p1/44391047251-p1.jpg?ts=1743638506944",
-   "https://static.zarahome.net/assets/public/7c4a/a3fd/56344b4d9472/772731e78843/44391047251-a1/44391047251-a1.jpg?ts=1743638506229",
-   "https://static.zarahome.net/assets/public/6afb/618d/1f6f4492be34/09fd3aa7fb42/44391047251-a2/44391047251-a2.jpg?ts=1743638507266",
-   "https://static.zarahome.net/assets/public/4983/e453/27df4ac1a56b/7a296ee52922/44391047251-a3/44391047251-a3.jpg?ts=1743688846672",
-   "https://static.zarahome.net/assets/public/28e4/a690/0eb94ea88e03/e7988a016311/44391047251-a4/44391047251-a4.jpg?ts=1743688846338",
-   "https://static.zarahome.net/assets/public/dfca/0a3e/648c49338bcd/c30b4273685e/44391047251-a5/44391047251-a5.jpg?ts=1743688846301",
-   "https://static.zarahome.net/assets/public/2bce/2aa7/52fe4bafa829/99b9ecea8494/44391047251-f/44391047251-f.jpg?ts=1770128953638",
-   "https://static.zarahome.net/assets/public/fc0f/1660/4e754a2a8595/1e55563770e2/44391047251-d1/44391047251-d1.jpg?ts=1751619117694",
-   "https://static.zarahome.net/assets/public/b606/ba33/c65d4b2c8342/26663fb4ef81/44391047251-r1/44391047251-r1.jpg?ts=1743638506614"
+   "https://static.zarahome.net/assets/public/07fb/d561/bbf04474b3bf/91c15a62f0ae/42357029982-a7/42357029982-a7.jpg?ts=1781012071755",
+   "https://static.zarahome.net/assets/public/e28a/2c4a/e5b04881b13f/340c94a6426b/42357029982-p1/42357029982-p1.jpg?ts=1781107072972",
+   "https://static.zarahome.net/assets/public/b4f3/e9cc/337d4fcd9406/4e59270248ad/42357029982-a1/42357029982-a1.jpg?ts=1781107072883",
+   "https://static.zarahome.net/assets/public/66b4/d9e5/153c49718bfd/e7fcf258c8a8/42357029982-a2/42357029982-a2.jpg?ts=1781107072817",
+   "https://static.zarahome.net/assets/public/f4d2/4d7d/865e44aeaa06/fddaceeb867e/42357029982-a3/42357029982-a3.jpg?ts=1781107073283",
+   "https://static.zarahome.net/assets/public/f4d5/728b/d85a4665b844/857bb34e4b48/42357029982-f/42357029982-f.jpg?ts=1781012072682",
+   "https://static.zarahome.net/assets/public/28b9/6a92/9709406cb712/0067b16c3351/42357029982-r/42357029982-r.jpg?ts=1781107067558",
+   "https://static.zarahome.net/assets/public/aa64/cbd3/c4994a668ac3/c7b575f61320/42357029982-c1/42357029982-c1.jpg?ts=1781107084844",
+   "https://static.zarahome.net/assets/public/b0cd/f30c/78894ca39363/f40168df44ba/42357029982-x1/42357029982-x1.jpg?ts=1781107074765"
   ]
  },
  {
@@ -3204,36 +3141,6 @@
   ]
  },
  {
-  "product_id": 515839049,
-  "color_id": "802",
-  "ref": "3370/054",
-  "name": "КНИГА УОРХОЛ БАСКИЯ (АНГЛИЙСКИЙ)",
-  "section": "LIFESTYLE",
-  "family": "LIFESTYLE",
-  "subfamily": "BOOKS",
-  "color": "СЕРЫЙ",
-  "price_kzt": 39990.0,
-  "price_old_kzt": null,
-  "price_rub": 9990,
-  "price_old_rub": null,
-  "sizes": [
-   "29 x 26.1 x 3 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/f3cf/3795/554641b69dbc/2afa3a1c8762/43370054802-a7/43370054802-a7.jpg?ts=1767783590617",
-  "images": [
-   "https://static.zarahome.net/assets/public/f3cf/3795/554641b69dbc/2afa3a1c8762/43370054802-a7/43370054802-a7.jpg?ts=1767783590617",
-   "https://static.zarahome.net/assets/public/c44b/7443/076b4780afc0/1ce046e0ddc0/43370054802-p1/43370054802-p1.jpg?ts=1757585234051",
-   "https://static.zarahome.net/assets/public/4684/a0d4/447449ec99f8/fd287c7c97d5/43370054802-a1/43370054802-a1.jpg?ts=1757585234258",
-   "https://static.zarahome.net/assets/public/ebcb/86de/d3e745d980d1/a616a297cebc/43370054802-a2/43370054802-a2.jpg?ts=1757585239079",
-   "https://static.zarahome.net/assets/public/0b02/38df/f3cf44028a2f/71459c9a5ce3/43370054802-a3/43370054802-a3.jpg?ts=1757585240503",
-   "https://static.zarahome.net/assets/public/255e/673b/96ca40e3b610/08f0c8b9860b/43370054802-f/43370054802-f.jpg?ts=1767783591565",
-   "https://static.zarahome.net/assets/public/f491/3d64/6d724ce2940f/ff35811e16e7/43370054802-r/43370054802-r.jpg?ts=1757585227210",
-   "https://static.zarahome.net/assets/public/6724/417e/2c094062a435/29e8ae894470/43370054802-c/43370054802-c.jpg?ts=1757585234422",
-   "https://static.zarahome.net/assets/public/88ac/3c49/e3e64037a10b/49211f0252f0/43370054802-h/43370054802-h.jpg?ts=1767956023405"
-  ]
- },
- {
   "product_id": 515839974,
   "color_id": "850",
   "ref": "1375/054",
@@ -3525,6 +3432,37 @@
    "https://static.zarahome.net/assets/public/8708/ed24/e7be4a14b28c/e7d908564243/43359054621-c/43359054621-c.jpg?ts=1758712067159",
    "https://static.zarahome.net/assets/public/4874/31f6/98e04b1d83ab/17acbe4bfb95/43359054621-h/43359054621-h.jpg?ts=1767956070872",
    "https://static.zarahome.net/assets/public/9138/669e/090f44f1bc42/bc614d488c6f/43359054621-f/43359054621-f.jpg?ts=1767783583888"
+  ]
+ },
+ {
+  "product_id": 515838649,
+  "color_id": "800",
+  "ref": "1328/054",
+  "name": "КНИГА EIGHTIES - DAVID BAILEY (АНГЛИЙСКИЙ)",
+  "section": "LIFESTYLE",
+  "family": "LIFESTYLE",
+  "subfamily": "BOOKS",
+  "color": "ЧЕРНЫЙ",
+  "price_kzt": 85990.0,
+  "price_old_kzt": null,
+  "price_rub": 21470,
+  "price_old_rub": null,
+  "sizes": [
+   "36 x 28.4 x 2.5 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/70eb/c279/1e6a48fdad50/aebc667e09b8/41328054800-a7/41328054800-a7.jpg?ts=1767783562602",
+  "images": [
+   "https://static.zarahome.net/assets/public/70eb/c279/1e6a48fdad50/aebc667e09b8/41328054800-a7/41328054800-a7.jpg?ts=1767783562602",
+   "https://static.zarahome.net/assets/public/61a7/ba11/3db84c32a772/4266c38c52b3/41328054800-a2/41328054800-a2.jpg?ts=1750326542272",
+   "https://static.zarahome.net/assets/public/259c/f972/1f5c4e1f9855/8fca9200c67a/41328054800-p1/41328054800-p1.jpg?ts=1750326542278",
+   "https://static.zarahome.net/assets/public/fd0b/7d96/930143289f91/c26c09aac535/41328054800-a4/41328054800-a4.jpg?ts=1750326542180",
+   "https://static.zarahome.net/assets/public/3a57/57bc/7c034dc9a38e/9d6b1ada1410/41328054800-a3/41328054800-a3.jpg?ts=1750326542027",
+   "https://static.zarahome.net/assets/public/9c31/969b/21e94574aa8a/09aeb91319ce/41328054800-a1/41328054800-a1.jpg?ts=1751369425200",
+   "https://static.zarahome.net/assets/public/1b09/f2f5/27de4e9788b7/534c2228ae74/41328054800-a5/41328054800-a5.jpg?ts=1750326542518",
+   "https://static.zarahome.net/assets/public/a22a/6e9f/6ff6473b9601/6c0c18da9b47/41328054800-r/41328054800-r.jpg?ts=1750326538595",
+   "https://static.zarahome.net/assets/public/f253/fa28/4bc346c4a1ce/eca8b8302ab0/41328054800-f/41328054800-f.jpg?ts=1767786353406",
+   "https://static.zarahome.net/assets/public/2e66/ddee/502f424e8954/a1946d5ac1dc/41328054800-c/41328054800-c.jpg?ts=1750326544272"
   ]
  },
  {
@@ -4215,34 +4153,6 @@
    "https://static.zarahome.net/assets/public/51ac/0abe/d2d844a78fbf/85e55198e7ae/11043600131-c/11043600131-c.jpg?ts=1762782679978",
    "https://static.zarahome.net/assets/public/a4ca/8cbc/480a446b8662/1cd63cc88e0f/11043600131-r/11043600131-r.jpg?ts=1762782681103",
    "https://static.zarahome.net/assets/public/a5f4/0a49/5fb342359ec5/c5abf2e09e4d/11043600131-f/11043600131-f.jpg?ts=1781795855817"
-  ]
- },
- {
-  "product_id": 508347065,
-  "color_id": "733",
-  "ref": "6254/041",
-  "name": "НАБОР ДЛЯ КОКТЕЙЛЕЙ (5 ПРЕДМЕТОВ)",
-  "section": "КУХНЯ И СТОЛОВАЯ",
-  "family": "КУХОННЫЕ ПРИНАДЛЕЖНОСТИ",
-  "subfamily": "KITCHEN UTENSILS",
-  "color": "КРЕМОВЫЙ",
-  "price_kzt": 25990.0,
-  "price_old_kzt": null,
-  "price_rub": 6990,
-  "price_old_rub": null,
-  "sizes": [
-   "10 x 10 x 10 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/70c8/ebae/7d8b4b65b01b/c6e0005808e3/46254041733-p1/46254041733-p1.jpg?ts=1782208472141",
-  "images": [
-   "https://static.zarahome.net/assets/public/70c8/ebae/7d8b4b65b01b/c6e0005808e3/46254041733-p1/46254041733-p1.jpg?ts=1782208472141",
-   "https://static.zarahome.net/assets/public/9ed3/1089/3de94c59bd85/0848d74cdbe4/46254041733-a1/46254041733-a1.jpg?ts=1782208472691",
-   "https://static.zarahome.net/assets/public/22c4/d60e/10e44ea6a13d/0f1db2b5f50c/46254041733-a2/46254041733-a2.jpg?ts=1782208473069",
-   "https://static.zarahome.net/assets/public/b70c/931c/0f4d4e3298eb/15e70da068f1/46254041733-a3/46254041733-a3.jpg?ts=1782208472443",
-   "https://static.zarahome.net/assets/public/f43f/9ba3/091c4b4195ce/ab69abffd450/46254041733-r/46254041733-r.jpg?ts=1782208467140",
-   "https://static.zarahome.net/assets/public/953d/3af6/40364577aa10/32179ad13282/46254041733-x1/46254041733-x1.jpg?ts=1782208477456",
-   "https://static.zarahome.net/assets/public/c1f9/68b2/140b4d7eb7f6/937551dfbde0/46254041733-c1/46254041733-c1.jpg?ts=1782208484204"
   ]
  },
  {
@@ -5073,6 +4983,39 @@
   ]
  },
  {
+  "product_id": 479903440,
+  "color_id": "250",
+  "ref": "0051/088",
+  "name": "ПОДОДЕЯЛЬНИК ИЗ ХЛОПКА ПЕРКАЛЬ (500 НИТЕЙ)",
+  "section": "СПАЛЬНЯ",
+  "family": "Базовые изделия",
+  "subfamily": "DUVET COVERS",
+  "color": "БЕЛЫЙ",
+  "price_kzt": 29990.0,
+  "price_old_kzt": 49990.0,
+  "price_rub": 7540,
+  "price_old_rub": 12540,
+  "sizes": [
+   "150 x 220 cm",
+   "220 x 220 cm",
+   "200 x 220 cm",
+   "240 x 220 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/39e2/1bfa/544142478588/a575078d9f4c/40051088250-a7/40051088250-a7.jpg?ts=1755782101789",
+  "images": [
+   "https://static.zarahome.net/assets/public/39e2/1bfa/544142478588/a575078d9f4c/40051088250-a7/40051088250-a7.jpg?ts=1755782101789",
+   "https://static.zarahome.net/assets/public/be73/d319/b62f4c84b852/605f00dc259e/40051088250-p1/40051088250-p1.jpg?ts=1756130138516",
+   "https://static.zarahome.net/assets/public/af79/191c/0cfa465a8616/1c07a452de1c/40051088250-a1/40051088250-a1.jpg?ts=1756130139133",
+   "https://static.zarahome.net/assets/public/80e8/2c17/43a741b68593/56753da94bf2/40051088250-a2/40051088250-a2.jpg?ts=1756130138400",
+   "https://static.zarahome.net/assets/public/a6af/e663/f1ee471a9467/43ddbc858109/40051088250-a3/40051088250-a3.jpg?ts=1756130137630",
+   "https://static.zarahome.net/assets/public/10a3/d120/bbc949e6897c/6827f8ac9247/40051088250-a4/40051088250-a4.jpg?ts=1756796320109",
+   "https://static.zarahome.net/assets/public/b4ac/7fda/5e4e40648dd8/04f22cd97590/40051088250-f/40051088250-f.jpg?ts=1755782101628",
+   "https://static.zarahome.net/assets/public/7ba3/7396/49fc403ba89b/2248ebbddd65/40051088250-r/40051088250-r.jpg?ts=1756130136021",
+   "https://static.zarahome.net/assets/public/3859/7197/640741968c61/239741f6071f/40051088250-c/40051088250-c.jpg?ts=1756130139729"
+  ]
+ },
+ {
   "product_id": 479903323,
   "color_id": "250",
   "ref": "0051/091",
@@ -5178,9 +5121,9 @@
   "family": "Базовые изделия",
   "subfamily": "PILLOWCASES",
   "color": "БЕЛЫЙ",
-  "price_kzt": 39990.0,
+  "price_kzt": 29990.0,
   "price_old_kzt": 49990.0,
-  "price_rub": 9990,
+  "price_rub": 7540,
   "price_old_rub": 12540,
   "sizes": [
    "50 x 75 cm",
@@ -5744,8 +5687,9 @@
    "60 x 60 cm"
   ],
   "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/60ed/921b/18d343d19502/620d7aa2c31d/40052091250-p1/40052091250-p1.jpg?ts=1782746159611",
+  "image": "https://static.zarahome.net/assets/public/53e5/367a/20764c0b84a4/29b9c25eb232/40052091250-a7/40052091250-a7.jpg?ts=1782909161235",
   "images": [
+   "https://static.zarahome.net/assets/public/53e5/367a/20764c0b84a4/29b9c25eb232/40052091250-a7/40052091250-a7.jpg?ts=1782909161235",
    "https://static.zarahome.net/assets/public/60ed/921b/18d343d19502/620d7aa2c31d/40052091250-p1/40052091250-p1.jpg?ts=1782746159611",
    "https://static.zarahome.net/assets/public/7ebb/8792/bb054a28b56b/99c81ee8dfd5/40052091250-a1/40052091250-a1.jpg?ts=1782469539907",
    "https://static.zarahome.net/assets/public/26f9/f43c/0a104146808d/3df6a3d4aba5/40052091250-a2/40052091250-a2.jpg?ts=1782469545272",
@@ -5753,7 +5697,8 @@
    "https://static.zarahome.net/assets/public/d7ae/7989/2331430a9393/b1b7ddd21be4/40052091250-a4/40052091250-a4.jpg?ts=1782469539903",
    "https://static.zarahome.net/assets/public/69d8/5390/e38a4859b56f/6608b21941b4/40052091250-r/40052091250-r.jpg?ts=1782469513903",
    "https://static.zarahome.net/assets/public/2f6e/02f8/fb3449539d0d/ae3b3bc33b6a/40052091250-x1/40052091250-x1.jpg?ts=1782746160464",
-   "https://static.zarahome.net/assets/public/d898/e477/5de24485be19/1feff5d47e09/40052091250-c1/40052091250-c1.jpg?ts=1782746164597"
+   "https://static.zarahome.net/assets/public/d898/e477/5de24485be19/1feff5d47e09/40052091250-c1/40052091250-c1.jpg?ts=1782746164597",
+   "https://static.zarahome.net/assets/public/863d/b9d7/dbfe4ae0adf2/b64b7646dafe/40052091250-f/40052091250-f.jpg?ts=1782916435250"
   ]
  },
  {
@@ -5774,15 +5719,17 @@
    "270 x 280 cm"
   ],
   "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/ad9e/008f/202c4fc0a3d7/596b21e045a8/40052089250-p1/40052089250-p1.jpg?ts=1782469542868",
+  "image": "https://static.zarahome.net/assets/public/3e39/ea1f/f0dd45349ac9/fdcf84d2676f/40052089250-a7/40052089250-a7.jpg?ts=1782911156995",
   "images": [
+   "https://static.zarahome.net/assets/public/3e39/ea1f/f0dd45349ac9/fdcf84d2676f/40052089250-a7/40052089250-a7.jpg?ts=1782911156995",
    "https://static.zarahome.net/assets/public/ad9e/008f/202c4fc0a3d7/596b21e045a8/40052089250-p1/40052089250-p1.jpg?ts=1782469542868",
    "https://static.zarahome.net/assets/public/8aca/eb5f/061e4ece9c6d/5d7cbd91466a/40052089250-a1/40052089250-a1.jpg?ts=1782469545372",
    "https://static.zarahome.net/assets/public/487f/c8d3/3d8e454aa191/0370288ca3da/40052089250-a2/40052089250-a2.jpg?ts=1782469546128",
    "https://static.zarahome.net/assets/public/b2d4/ba15/b37a4df9a86f/30c18759f822/40052089250-a3/40052089250-a3.jpg?ts=1782469540083",
    "https://static.zarahome.net/assets/public/13d5/15fe/11e74980a287/2745cec3178c/40052089250-r/40052089250-r.jpg?ts=1782469514702",
    "https://static.zarahome.net/assets/public/2e33/0344/20c74abb916e/17bdc90b8090/40052089250-x1/40052089250-x1.jpg?ts=1782469543724",
-   "https://static.zarahome.net/assets/public/038c/2ab4/53b84f37aa52/73818ddc1ab5/40052089250-c1/40052089250-c1.jpg?ts=1782469559289"
+   "https://static.zarahome.net/assets/public/038c/2ab4/53b84f37aa52/73818ddc1ab5/40052089250-c1/40052089250-c1.jpg?ts=1782469559289",
+   "https://static.zarahome.net/assets/public/3fa4/f2bb/bb6f4413bc72/5caa127f500d/40052089250-f/40052089250-f.jpg?ts=1782916424420"
   ]
  },
  {
@@ -5804,9 +5751,9 @@
    "240 x 220 cm"
   ],
   "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/d952/9d3c/c1c9457faa4d/fecbbc54b8ef/40052088250-a7/40052088250-a7.jpg?ts=1782745391667",
+  "image": "https://static.zarahome.net/assets/public/352c/e291/054f4e1cb3fb/26ac1fe584d6/40052088250-a7/40052088250-a7.jpg?ts=1782920350488",
   "images": [
-   "https://static.zarahome.net/assets/public/d952/9d3c/c1c9457faa4d/fecbbc54b8ef/40052088250-a7/40052088250-a7.jpg?ts=1782745391667",
+   "https://static.zarahome.net/assets/public/352c/e291/054f4e1cb3fb/26ac1fe584d6/40052088250-a7/40052088250-a7.jpg?ts=1782920350488",
    "https://static.zarahome.net/assets/public/3f7f/6da0/9a324d88b174/f53904d321df/40052088250-p1/40052088250-p1.jpg?ts=1782469562158",
    "https://static.zarahome.net/assets/public/dd98/f154/702543d4888e/5cbe63330e6d/40052088250-a2/40052088250-a2.jpg?ts=1782469546488",
    "https://static.zarahome.net/assets/public/041e/6e18/e62045fb97c2/6492317e8fe9/40052088250-a3/40052088250-a3.jpg?ts=1782469561749",
@@ -5815,7 +5762,7 @@
    "https://static.zarahome.net/assets/public/2afe/54df/119148679b5c/7b10ab7557a0/40052088250-a2/40052088250-a2.jpg?ts=1782469546603",
    "https://static.zarahome.net/assets/public/e483/8c3c/1dbc470ebb2e/b22d5d3c019e/40052088250-x1/40052088250-x1.jpg?ts=1782469561809",
    "https://static.zarahome.net/assets/public/f563/754c/f40e4a6da6a5/b13c8a8260cc/40052088250-c1/40052088250-c1.jpg?ts=1782469566618",
-   "https://static.zarahome.net/assets/public/95de/c626/411848e8bdea/6ceaee9e81ea/40052088250-f/40052088250-f.jpg?ts=1782745389422"
+   "https://static.zarahome.net/assets/public/4164/33cb/08194aad8802/119983c3b083/40052088250-f/40052088250-f.jpg?ts=1782920321674"
   ]
  },
  {
@@ -5838,8 +5785,9 @@
    "200 x 200 x 30 cm"
   ],
   "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/186f/326d/307543d38bb2/c2f7a878a4e3/40052900250-p1/40052900250-p1.jpg?ts=1782469545499",
+  "image": "https://static.zarahome.net/assets/public/8e7a/03dc/6e594c358c33/8ab9cc2cc1d2/40052900250-a7/40052900250-a7.jpg?ts=1782900921701",
   "images": [
+   "https://static.zarahome.net/assets/public/8e7a/03dc/6e594c358c33/8ab9cc2cc1d2/40052900250-a7/40052900250-a7.jpg?ts=1782900921701",
    "https://static.zarahome.net/assets/public/186f/326d/307543d38bb2/c2f7a878a4e3/40052900250-p1/40052900250-p1.jpg?ts=1782469545499",
    "https://static.zarahome.net/assets/public/5599/3a68/c8714669a9d9/1133d6da698e/40052900250-a1/40052900250-a1.jpg?ts=1782469545252",
    "https://static.zarahome.net/assets/public/4b6f/81f3/34574457b658/5be09ce60746/40052900250-a3/40052900250-a3.jpg?ts=1782469546383",
@@ -5848,499 +5796,7 @@
    "https://static.zarahome.net/assets/public/9212/80dc/b1b649179668/d6d482cb2224/40052900250-r/40052900250-r.jpg?ts=1782469516381",
    "https://static.zarahome.net/assets/public/753c/d450/c8d1452e8475/bd204e1c0601/40052900250-x1/40052900250-x1.jpg?ts=1782469545529",
    "https://static.zarahome.net/assets/public/8a02/bdc0/82bc4097a1bd/8c0851b0226a/40052900250-a3/40052900250-a3.jpg?ts=1782469546619",
-   "https://static.zarahome.net/assets/public/d88c/9071/b0404323b98d/5691b6d9da8b/40052900250-p1/40052900250-p1.jpg?ts=1782469545828",
-   "https://static.zarahome.net/assets/public/241e/db96/0c4c45eda17e/b1f9572b860f/40052900250-c1/40052900250-c1.jpg?ts=1782469562360"
-  ]
- },
- {
-  "product_id": 507780154,
-  "color_id": "733",
-  "ref": "8252/752",
-  "name": "ЧУГУННАЯ КАСТРЮЛЯ С КРЫШКОЙ",
-  "section": "CULINARY STORIES",
-  "family": "CULINARY STORIES",
-  "subfamily": "COOKING UTENSILS",
-  "color": "КРЕМОВЫЙ",
-  "price_kzt": 59990.0,
-  "price_old_kzt": null,
-  "price_rub": 14990,
-  "price_old_rub": null,
-  "sizes": [
-   "7 x 24 x 10.5 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/41de/d196/4a144600a3f0/b531f20eea12/48252752733-a7/48252752733-a7.jpg?ts=1777468761275",
-  "images": [
-   "https://static.zarahome.net/assets/public/41de/d196/4a144600a3f0/b531f20eea12/48252752733-a7/48252752733-a7.jpg?ts=1777468761275",
-   "https://static.zarahome.net/assets/public/1cba/4ea3/77c04636923e/a676e826bdb1/48252752733-p1/48252752733-p1.jpg?ts=1743032875024",
-   "https://static.zarahome.net/assets/public/335b/f3d3/b7ae4cd6a2c1/fda89784bc6a/48252752733-a1/48252752733-a1.jpg?ts=1741961200912",
-   "https://static.zarahome.net/assets/public/45bf/56bb/6fb74d9dbd7e/e0c904fdd112/48252752733-a2/48252752733-a2.jpg?ts=1741961201105",
-   "https://static.zarahome.net/assets/public/0ff5/4b57/3e864fbc8c2e/38a39198b77c/48252752733-a3/48252752733-a3.jpg?ts=1741961201555",
-   "https://static.zarahome.net/assets/public/8740/7a72/533e4f05a98f/8e4f4bc87213/48252752733-a4/48252752733-a4.jpg?ts=1741961201732",
-   "https://static.zarahome.net/assets/public/b456/b0a0/a75b4301b1b7/17f82603122c/48252752733-r/48252752733-r.jpg?ts=1741961202187",
-   "https://static.zarahome.net/assets/public/b32b/4d69/e90d4a95837d/7ee8f16b9f55/48252752733-f/48252752733-f.jpg?ts=1777468756130"
-  ]
- },
- {
-  "product_id": 509555922,
-  "color_id": "990",
-  "ref": "8222/226",
-  "name": "СОСУД ДЛЯ МАСЛА ИЗ ТЕРМОСТОЙКОГО СТЕКЛА",
-  "section": "CULINARY STORIES",
-  "family": "CULINARY STORIES",
-  "subfamily": "OLIVE OIL BOTTLES",
-  "color": "ПРОЗРАЧНЫЙ",
-  "price_kzt": 5990.0,
-  "price_old_kzt": null,
-  "price_rub": 1500,
-  "price_old_rub": null,
-  "sizes": [
-   "14 x 7 x 14 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/4694/71fd/89d64f098f5a/1cb5760b21e0/48222226990-a7/48222226990-a7.jpg?ts=1776156901550",
-  "images": [
-   "https://static.zarahome.net/assets/public/4694/71fd/89d64f098f5a/1cb5760b21e0/48222226990-a7/48222226990-a7.jpg?ts=1776156901550",
-   "https://static.zarahome.net/assets/public/b3a5/8f8f/0e5a455b951d/d85d93026966/48222226990-p1/48222226990-p1.jpg?ts=1743764058778",
-   "https://static.zarahome.net/assets/public/47c6/d545/b74a4d2aaba0/33b611a390fb/48222226990-a1/48222226990-a1.jpg?ts=1743764058229",
-   "https://static.zarahome.net/assets/public/95df/4714/a2ca4049b999/8b252efae244/48222226990-a2/48222226990-a2.jpg?ts=1743764058407",
-   "https://static.zarahome.net/assets/public/e2d0/3eb0/da764bab851d/5823a91e34bb/48222226990-a3/48222226990-a3.jpg?ts=1743764058146",
-   "https://static.zarahome.net/assets/public/c2c8/7107/aa354699a367/f28da1ecd7c9/48222226990-a4/48222226990-a4.jpg?ts=1743764058545",
-   "https://static.zarahome.net/assets/public/67ab/56b6/bc664b2db4cd/4c6eb1c8fb3c/48222226990-f/48222226990-f.jpg?ts=1776156989224",
-   "https://static.zarahome.net/assets/public/d170/50b9/1f91485090b9/089a5c0f1512/48222226990-a7/48222226990-a7.jpg?ts=1737974769143",
-   "https://static.zarahome.net/assets/public/0e64/a50c/77a74b22ab44/14c0374e8bce/48222226990-f/48222226990-f.jpg?ts=1737975666326"
-  ]
- },
- {
-  "product_id": 507794492,
-  "color_id": "733",
-  "ref": "8220/311",
-  "name": "НАБОР СТОЛОВЫХ ПРИБОРОВ С ЦВЕТНОЙ РУЧКОЙ (4 ПРЕДМЕТА)",
-  "section": "CULINARY STORIES",
-  "family": "CULINARY STORIES",
-  "subfamily": "BOXES WITH 4-PIECE CUTLERY SETS",
-  "color": "КРЕМОВЫЙ",
-  "price_kzt": 9990.0,
-  "price_old_kzt": null,
-  "price_rub": 2390,
-  "price_old_rub": null,
-  "sizes": [
-   "23 x 31 x 15 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/cfb8/399b/c6b74c35a1b3/e14fa626dc5b/48220311733-a7/48220311733-a7.jpg?ts=1761662202497",
-  "images": [
-   "https://static.zarahome.net/assets/public/cfb8/399b/c6b74c35a1b3/e14fa626dc5b/48220311733-a7/48220311733-a7.jpg?ts=1761662202497",
-   "https://static.zarahome.net/assets/public/d038/9dc7/33cc487a96a1/fe2ffd7ac634/48220311733-p1/48220311733-p1.jpg?ts=1747758118556",
-   "https://static.zarahome.net/assets/public/3cdb/8412/11e9404b8580/6124d1f71764/48220311733-a1/48220311733-a1.jpg?ts=1747758118508",
-   "https://static.zarahome.net/assets/public/1cc7/6bd4/d69e420aa9c4/d3fc0ca47fbb/48220311733-a2/48220311733-a2.jpg?ts=1747758118404",
-   "https://static.zarahome.net/assets/public/1a08/ea55/532f4992b6ac/c61b2f003941/48220311733-a3/48220311733-a3.jpg?ts=1747758118453",
-   "https://static.zarahome.net/assets/public/cc93/95c7/bb5a4d5c8b9e/64f3bfa95d7c/48220311733-a4/48220311733-a4.jpg?ts=1747758118661",
-   "https://static.zarahome.net/assets/public/5601/5e25/586a49acb160/8434c19133ad/48220311733-f/48220311733-f.jpg?ts=1761662679804",
-   "https://static.zarahome.net/assets/public/616e/a9d7/e4664c1f97ea/d2e622f68585/48220311733-r1/48220311733-r1.jpg?ts=1743767906768",
-   "https://static.zarahome.net/assets/public/abf2/3cf7/fd90464baf90/6f667873cccc/48220311733-a2/48220311733-a2.jpg?ts=1743697861941",
-   "https://static.zarahome.net/assets/public/9874/6c26/98694157a5e7/5582d7dbf835/48220311733-a4/48220311733-a4.jpg?ts=1743697861608"
-  ]
- },
- {
-  "product_id": 507790753,
-  "color_id": "851",
-  "ref": "7397/073",
-  "name": "СТУЛ С КАРКАСОМ ИЗ НЕРЖАВЕЮЩЕЙ СТАЛИ",
-  "section": "CULINARY STORIES",
-  "family": "CULINARY STORIES",
-  "subfamily": "CHAIRS, ARMCHAIRS AND STOOLS",
-  "color": "СЕРЫЙ",
-  "price_kzt": 129990.0,
-  "price_old_kzt": null,
-  "price_rub": 32490,
-  "price_old_rub": null,
-  "sizes": [
-   "80 x 46 x 46 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/3e8d/a16e/4712488db557/25bbded1db9f/47397073851-a7/47397073851-a7.jpg?ts=1781099032262",
-  "images": [
-   "https://static.zarahome.net/assets/public/3e8d/a16e/4712488db557/25bbded1db9f/47397073851-a7/47397073851-a7.jpg?ts=1781099032262",
-   "https://static.zarahome.net/assets/public/2090/2267/13734c11b247/49937d472ed8/47397073851-p1/47397073851-p1.jpg?ts=1743770301747",
-   "https://static.zarahome.net/assets/public/0b87/e6a9/d46343f2b76a/956e563d4bfb/47397073851-a1/47397073851-a1.jpg?ts=1743770299177",
-   "https://static.zarahome.net/assets/public/b49c/917e/be04465fa969/33c628d47e98/47397073851-a2/47397073851-a2.jpg?ts=1743770301859",
-   "https://static.zarahome.net/assets/public/1a8b/05e6/75594013ad60/84121b91df50/47397073851-a3/47397073851-a3.jpg?ts=1743770303653",
-   "https://static.zarahome.net/assets/public/1e00/475e/26214fad882a/38a2edf384d8/47397073851-a4/47397073851-a4.jpg?ts=1743770299321",
-   "https://static.zarahome.net/assets/public/2b4d/caae/ef994dfeb75f/edd657198353/47397073851-a6/47397073851-a6.jpg?ts=1721746463732",
-   "https://static.zarahome.net/assets/public/80b4/1311/1e334f8fa2e4/fe82dc94559b/47397073851-h1/47397073851-h1.jpg?ts=1743770305443",
-   "https://static.zarahome.net/assets/public/5e83/4f48/48904bb5a744/f297de8697be/47397073851-f/47397073851-f.jpg?ts=1772528433971",
-   "https://static.zarahome.net/assets/public/51fc/ae29/84da40f29fa9/07b5003e4a1c/47397073851-d1/47397073851-d1.jpg?ts=1751619003276"
-  ]
- },
- {
-  "product_id": 507770975,
-  "color_id": "990",
-  "ref": "7315/436",
-  "name": "ДЕКОРАТИВНАЯ ВАЗА-ФОНАРЬ ДЛЯ СВЕЧИ, ИЗ ТЕРМОСТОЙКОГО СТЕКЛА",
-  "section": "CULINARY STORIES",
-  "family": "CULINARY STORIES",
-  "subfamily": "LANTERNS",
-  "color": "ПРОЗРАЧНЫЙ",
-  "price_kzt": 4690.0,
-  "price_old_kzt": null,
-  "price_rub": 1200,
-  "price_old_rub": null,
-  "sizes": [
-   "12 x 9 x 9 cm",
-   "16 x 9 x 9 cm",
-   "20 x 11 x 11 cm",
-   "28 x 11 x 11 cm",
-   "30 x 11 x 11 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/183f/7d4a/8553403a8645/bec9f922af69/47315436990-a7/47315436990-a7.jpg?ts=1771430745218",
-  "images": [
-   "https://static.zarahome.net/assets/public/183f/7d4a/8553403a8645/bec9f922af69/47315436990-a7/47315436990-a7.jpg?ts=1771430745218",
-   "https://static.zarahome.net/assets/public/ce00/0883/120949099669/d5dc99ccb458/47315436990-p1/47315436990-p1.jpg?ts=1740736520996",
-   "https://static.zarahome.net/assets/public/5fc6/1ac0/a8ca4bfa9fb5/94b2d69418ab/47315436990-a1/47315436990-a1.jpg?ts=1740736320330",
-   "https://static.zarahome.net/assets/public/63de/430e/7c8f4627aecd/8df474242025/47315436990-a2/47315436990-a2.jpg?ts=1740736320491",
-   "https://static.zarahome.net/assets/public/6702/6ebc/31e14cc3bfe9/20af20140158/47315436990-a3/47315436990-a3.jpg?ts=1740736320366",
-   "https://static.zarahome.net/assets/public/02b8/eadc/d562424aadd7/8ebee8bd825f/47315436990-a4/47315436990-a4.jpg?ts=1740736320580",
-   "https://static.zarahome.net/assets/public/8983/bf49/0ea04e20b368/a2ce88dc324c/47315436990-a6/47315436990-a6.jpg?ts=1763650725580",
-   "https://static.zarahome.net/assets/public/16c0/9e45/20cf450786b7/b2494c0049f5/47315436990-r1/47315436990-r1.jpg?ts=1743690499425",
-   "https://static.zarahome.net/assets/public/9ec2/9940/458746e6ba35/bb5b59aff544/47315436990-f/47315436990-f.jpg?ts=1771430417499",
-   "https://static.zarahome.net/assets/public/1667/204a/9a964966b42f/bb00ad546c78/47315436990-a4/47315436990-a4.jpg?ts=1743441974452"
-  ]
- },
- {
-  "product_id": 507780194,
-  "color_id": "052",
-  "ref": "7264/754",
-  "name": "РАЗДЕЛОЧНАЯ ДОСКА ИЗ ДУБА",
-  "section": "CULINARY STORIES",
-  "family": "CULINARY STORIES",
-  "subfamily": "CUTTING BOARDS",
-  "color": "СВЕТЛО-БЕЖЕВЫЙ",
-  "price_kzt": 9990.0,
-  "price_old_kzt": null,
-  "price_rub": 2390,
-  "price_old_rub": null,
-  "sizes": [
-   "25 x 14 x 1.5 cm",
-   "36 x 20 x 1.5 cm",
-   "43 x 24.5 x 1.5 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/b9a1/895c/4e2c44cca7e6/0ed180060d12/47264754052-a7/47264754052-a7.jpg?ts=1777277656763",
-  "images": [
-   "https://static.zarahome.net/assets/public/b9a1/895c/4e2c44cca7e6/0ed180060d12/47264754052-a7/47264754052-a7.jpg?ts=1777277656763",
-   "https://static.zarahome.net/assets/public/0d1d/cc50/6ab641d6aecb/2ce038392a7a/47264754052-p1/47264754052-p1.jpg?ts=1770195883052",
-   "https://static.zarahome.net/assets/public/7bea/7467/d1644e4da087/1a12dafea0e0/47264754052-a1/47264754052-a1.jpg?ts=1770195880082",
-   "https://static.zarahome.net/assets/public/43d3/7a1d/47d14ed29dcb/3f8884c19db8/47264754052-a2/47264754052-a2.jpg?ts=1770195884764",
-   "https://static.zarahome.net/assets/public/6599/c32b/a1a4483bb6d7/f4fae18bb577/47264754052-a4/47264754052-a4.jpg?ts=1743018352238",
-   "https://static.zarahome.net/assets/public/cd39/3db5/bc4f401d9ca2/d8773f03b9c3/47264754052-a3/47264754052-a3.jpg?ts=1770195880750",
-   "https://static.zarahome.net/assets/public/d3bf/f519/a23d49b3965b/bf1d15c04de0/47264754052-r/47264754052-r.jpg?ts=1770195844862",
-   "https://static.zarahome.net/assets/public/abc2/2a5e/f93f4e82a816/f77bb1cd1fb9/47264754052-f/47264754052-f.jpg?ts=1777280191021",
-   "https://static.zarahome.net/assets/public/adfd/f9fe/aabc4573b831/997d7ff96ba0/47264754052-c/47264754052-c.jpg?ts=1770195888268"
-  ]
- },
- {
-  "product_id": 507790939,
-  "color_id": "990",
-  "ref": "6297/561",
-  "name": "ВЫСОКИЕ СТАКАНЫ ИЗ СТЕКЛА (НАБОР ИЗ 4 ШТ.)",
-  "section": "CULINARY STORIES",
-  "family": "CULINARY STORIES",
-  "subfamily": "GLASS SETS",
-  "color": "ПРОЗРАЧНЫЙ",
-  "price_kzt": 5990.0,
-  "price_old_kzt": null,
-  "price_rub": 1500,
-  "price_old_rub": null,
-  "sizes": [
-   "9 x 8.6 x 8.6 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/ac71/ef17/3a894cd7a0da/8169bf0c26e0/46297561990-a7/46297561990-a7.jpg?ts=1777361387099",
-  "images": [
-   "https://static.zarahome.net/assets/public/ac71/ef17/3a894cd7a0da/8169bf0c26e0/46297561990-a7/46297561990-a7.jpg?ts=1777361387099",
-   "https://static.zarahome.net/assets/public/355a/8ad7/1b464970be76/8373a58e2c3c/46297561990-p1/46297561990-p1.jpg?ts=1733390414515",
-   "https://static.zarahome.net/assets/public/62ed/ea6b/59c34910ab61/cef9747c9ad4/46297561990-a1/46297561990-a1.jpg?ts=1733390413616",
-   "https://static.zarahome.net/assets/public/6c3d/6a03/bb0c48ba8018/d043a46987c5/46297561990-a2/46297561990-a2.jpg?ts=1733390414095",
-   "https://static.zarahome.net/assets/public/20a6/3a1b/f0da44b99465/84e41b0d295b/46297561990-a3/46297561990-a3.jpg?ts=1733390413664",
-   "https://static.zarahome.net/assets/public/2b43/a64a/2f524320a8cc/c6ad3b1b3679/46297561990-a4/46297561990-a4.jpg?ts=1733390414536",
-   "https://static.zarahome.net/assets/public/f861/4277/fdde46fe9c46/57a1e398faba/46297561990-f/46297561990-f.jpg?ts=1777361387454",
-   "https://static.zarahome.net/assets/public/04e1/2105/67084b2d8c48/0cbca1a544ca/46297561990-r/46297561990-r.jpg?ts=1733390414179",
-   "https://static.zarahome.net/assets/public/c2c1/551e/233847ffb567/a1de22d6f970/4629756199001-a1/4629756199001-a1.jpg?ts=1743438707977",
-   "https://static.zarahome.net/assets/public/57ff/2e42/74b24197ad3f/f6abbd1a7fd5/4629756199001-a5/4629756199001-a5.jpg?ts=1743438708341"
-  ]
- },
- {
-  "product_id": 507790783,
-  "color_id": "990",
-  "ref": "5216/206",
-  "name": "ТАРЕЛКА ДЛЯ ХЛЕБА, ИЗ ТЕРМОСТОЙКОГО СТЕКЛА С КОНТРАСТНОЙ КРОМКОЙ",
-  "section": "CULINARY STORIES",
-  "family": "CULINARY STORIES",
-  "subfamily": "SIDE PLATES",
-  "color": "ПРОЗРАЧНЫЙ",
-  "price_kzt": 2990.0,
-  "price_old_kzt": null,
-  "price_rub": 750,
-  "price_old_rub": null,
-  "sizes": [
-   "1.5 x 13.5 x 13.5 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/fa61/87fd/44174b36afe4/f54a92527375/45216206990-a7/45216206990-a7.jpg?ts=1781604811299",
-  "images": [
-   "https://static.zarahome.net/assets/public/fa61/87fd/44174b36afe4/f54a92527375/45216206990-a7/45216206990-a7.jpg?ts=1781604811299",
-   "https://static.zarahome.net/assets/public/0c72/051b/053a424d94bc/0234ea864b7f/45216206990-p1/45216206990-p1.jpg?ts=1734972595362",
-   "https://static.zarahome.net/assets/public/0be3/8bd4/f34742bdb801/7759bcc9e93e/45216206990-a1/45216206990-a1.jpg?ts=1734972593971",
-   "https://static.zarahome.net/assets/public/9922/114f/75b840c08659/ec2111f9ccc9/45216206990-a2/45216206990-a2.jpg?ts=1734972593763",
-   "https://static.zarahome.net/assets/public/2b85/9322/dfe8490bb59d/7e7d830b5a71/45216206990-a3/45216206990-a3.jpg?ts=1734972594681",
-   "https://static.zarahome.net/assets/public/88db/dc3a/01cb4b8ba10a/06ea385e6a6d/45216206990-a4/45216206990-a4.jpg?ts=1734972595300",
-   "https://static.zarahome.net/assets/public/bc4c/3f43/ea2f47cb920c/db79a5792a0f/45216206990-r/45216206990-r.jpg?ts=1734972524298",
-   "https://static.zarahome.net/assets/public/7628/2444/658e4e1286f1/e6b3d976256d/45216206990-f/45216206990-f.jpg?ts=1781607001527"
-  ]
- },
- {
-  "product_id": 507777633,
-  "color_id": "733",
-  "ref": "3062/041",
-  "name": "КУХОННЫЕ ВЕСЫ В СТИЛЕ РЕТРО",
-  "section": "CULINARY STORIES",
-  "family": "CULINARY STORIES",
-  "subfamily": "KITCHEN UTENSILS",
-  "color": "КРЕМОВЫЙ",
-  "price_kzt": 31990.0,
-  "price_old_kzt": null,
-  "price_rub": 8040,
-  "price_old_rub": null,
-  "sizes": [
-   "26.5 x 21 x 21 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/fd6e/9d79/1b7349019260/70f50842cc07/43062041733-a7/43062041733-a7.jpg?ts=1777456995702",
-  "images": [
-   "https://static.zarahome.net/assets/public/fd6e/9d79/1b7349019260/70f50842cc07/43062041733-a7/43062041733-a7.jpg?ts=1777456995702",
-   "https://static.zarahome.net/assets/public/b089/c664/a3894ffa952e/322a792ef3d8/43062041733-p1/43062041733-p1.jpg?ts=1737725746915",
-   "https://static.zarahome.net/assets/public/6781/f735/d1ca48d8a5b6/e32dc496527f/43062041733-a1/43062041733-a1.jpg?ts=1743038088007",
-   "https://static.zarahome.net/assets/public/f235/7e11/66c5466782db/cf54294e25c3/43062041733-a2/43062041733-a2.jpg?ts=1737725746102",
-   "https://static.zarahome.net/assets/public/1caa/be93/916d49d9a732/c8733b119651/43062041733-a3/43062041733-a3.jpg?ts=1737725746508",
-   "https://static.zarahome.net/assets/public/3817/599c/319c4ed1aa6b/293b15ee8b6d/43062041733-a4/43062041733-a4.jpg?ts=1737725746669",
-   "https://static.zarahome.net/assets/public/28d2/0d1b/df504aa38321/854b11ae7edd/43062041733-f/43062041733-f.jpg?ts=1777457216974",
-   "https://static.zarahome.net/assets/public/476a/047f/7e1f4616854c/c40876bee3ea/43062041733-r/43062041733-r.jpg?ts=1737725746527",
-   "https://static.zarahome.net/assets/public/4f52/8999/1f884e418d02/873a9181148a/4306204173301-a4/4306204173301-a4.jpg?ts=1743708032169",
-   "https://static.zarahome.net/assets/public/624a/0754/6c044e73a7de/17e0037f9fe0/4306204173301-r1/4306204173301-r1.jpg?ts=1743708032575"
-  ]
- },
- {
-  "product_id": 507794178,
-  "color_id": "990",
-  "ref": "0292/439",
-  "name": "БУТЫЛКА С КЕРАМИЧЕСКОЙ ПРОБКОЙ",
-  "section": "CULINARY STORIES",
-  "family": "CULINARY STORIES",
-  "subfamily": "BOTTLES",
-  "color": "ПРОЗРАЧНЫЙ",
-  "price_kzt": 4690.0,
-  "price_old_kzt": null,
-  "price_rub": 1200,
-  "price_old_rub": null,
-  "sizes": [
-   "32.5 x 2.7 x 8.5 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/5e50/d906/ee574a93bf5a/7b3108658198/40292439990-a7/40292439990-a7.jpg?ts=1776425937279",
-  "images": [
-   "https://static.zarahome.net/assets/public/5e50/d906/ee574a93bf5a/7b3108658198/40292439990-a7/40292439990-a7.jpg?ts=1776425937279",
-   "https://static.zarahome.net/assets/public/df82/7a4b/83584c2e9990/3eb08effb7d4/40292439990-p1/40292439990-p1.jpg?ts=1776871098586",
-   "https://static.zarahome.net/assets/public/f0bb/386c/97be4899ad66/b09c05d78854/40292439990-a1/40292439990-a1.jpg?ts=1776871098373",
-   "https://static.zarahome.net/assets/public/b50d/63f4/a6c24af1bebb/1195083b49ca/40292439990-a2/40292439990-a2.jpg?ts=1776871098110",
-   "https://static.zarahome.net/assets/public/6ae6/bab2/a36245c49fb8/9ca466e0d3ba/40292439990-a3/40292439990-a3.jpg?ts=1776871098279",
-   "https://static.zarahome.net/assets/public/a1a8/0465/bac64a7b9438/20e2c5ada642/40292439990-a4/40292439990-a4.jpg?ts=1733244607866",
-   "https://static.zarahome.net/assets/public/7158/7135/f4ce4431b2d3/30b5b0a66e62/40292439990-a6/40292439990-a6.jpg?ts=1724063555584",
-   "https://static.zarahome.net/assets/public/b979/c757/e6874e0cb450/1b035b0763c8/40292439990-c1/40292439990-c1.jpg?ts=1776871112803",
-   "https://static.zarahome.net/assets/public/855b/2b16/bafa4a0fa432/a742e810b810/40292439990-r/40292439990-r.jpg?ts=1776871092774",
-   "https://static.zarahome.net/assets/public/65d0/e872/30154a8f93d6/971a18e17790/40292439990-f/40292439990-f.jpg?ts=1776426824313"
-  ]
- },
- {
-  "product_id": 507790682,
-  "color_id": "990",
-  "ref": "0233/400",
-  "name": "СТАКАН ДЛЯ КОФЕ С РЕЛЬЕФНЫМ УЗОРОМ",
-  "section": "CULINARY STORIES",
-  "family": "CULINARY STORIES",
-  "subfamily": "TUMBLERS",
-  "color": "ПРОЗРАЧНЫЙ",
-  "price_kzt": 1490.0,
-  "price_old_kzt": null,
-  "price_rub": 372,
-  "price_old_rub": null,
-  "sizes": [
-   "7.8 x 6.8 x 6.8 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/aa1b/1f8f/91274ab0a111/92959337185e/40233400990-a7/40233400990-a7.jpg?ts=1777277656857",
-  "images": [
-   "https://static.zarahome.net/assets/public/aa1b/1f8f/91274ab0a111/92959337185e/40233400990-a7/40233400990-a7.jpg?ts=1777277656857",
-   "https://static.zarahome.net/assets/public/bf06/543b/643d430ea2aa/bf33c5411922/40233400990-p1/40233400990-p1.jpg?ts=1776168984340",
-   "https://static.zarahome.net/assets/public/d7f7/a743/56c44780b8ba/2a702278b2a8/40233400990-a1/40233400990-a1.jpg?ts=1775745408252",
-   "https://static.zarahome.net/assets/public/a028/5634/5b404e12acde/dc216a4108bf/40233400990-a2/40233400990-a2.jpg?ts=1775745418658",
-   "https://static.zarahome.net/assets/public/3c95/9b8d/d57444dfa67a/f7d2c540e1ab/40233400990-a3/40233400990-a3.jpg?ts=1775745418419",
-   "https://static.zarahome.net/assets/public/a93d/aa2e/ab3c436d9793/e0b98994bce9/40233400990-a4/40233400990-a4.jpg?ts=1733211379628",
-   "https://static.zarahome.net/assets/public/91de/67fd/acdb449cb0c7/e07d0323a79a/40233400990-a6/40233400990-a6.jpg?ts=1769096138995",
-   "https://static.zarahome.net/assets/public/71f2/50b5/85b04fdfb350/e355605875cb/40233400990-r/40233400990-r.jpg?ts=1775745404906",
-   "https://static.zarahome.net/assets/public/5fe5/f8ee/a74d44a68c92/c0ba8156a78a/40233400990-c1/40233400990-c1.jpg?ts=1776169029668",
-   "https://static.zarahome.net/assets/public/803d/6378/0f484e06ab8b/14e309dff098/40233400990-f/40233400990-f.jpg?ts=1777030547957"
-  ]
- },
- {
-  "product_id": 507790869,
-  "color_id": "990",
-  "ref": "0211/409",
-  "name": "БОКАЛ ДЛЯ ВИНА С РЕЛЬЕФНЫМ УЗОРОМ ПОД ЧЕКАНКУ",
-  "section": "CULINARY STORIES",
-  "family": "CULINARY STORIES",
-  "subfamily": "GLASSES",
-  "color": "ПРОЗРАЧНЫЙ",
-  "price_kzt": 4690.0,
-  "price_old_kzt": null,
-  "price_rub": 1200,
-  "price_old_rub": null,
-  "sizes": [
-   "13 x 8 x 8 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/2a7a/3e9c/94b144dcb19f/28ce63f3e88c/40211409990-a7/40211409990-a7.jpg?ts=1776697733898",
-  "images": [
-   "https://static.zarahome.net/assets/public/2a7a/3e9c/94b144dcb19f/28ce63f3e88c/40211409990-a7/40211409990-a7.jpg?ts=1776697733898",
-   "https://static.zarahome.net/assets/public/0b59/6b13/72ab4469abd5/2854084bb808/40211409990-p1/40211409990-p1.jpg?ts=1776171027167",
-   "https://static.zarahome.net/assets/public/60e2/9693/e1d441daadb8/8dcbc0ad37f5/40211409990-a1/40211409990-a1.jpg?ts=1775745418594",
-   "https://static.zarahome.net/assets/public/3770/f073/5abb476988ee/f3868b124915/40211409990-a2/40211409990-a2.jpg?ts=1775745412415",
-   "https://static.zarahome.net/assets/public/c1db/efdc/e6114a2f89d9/4bd42bc7a6b2/40211409990-a3/40211409990-a3.jpg?ts=1775745409055",
-   "https://static.zarahome.net/assets/public/0d65/697d/1dcc4a8b972d/8986863eafbd/40211409990-a4/40211409990-a4.jpg?ts=1725360218737",
-   "https://static.zarahome.net/assets/public/d7a2/9876/e8f84c9fbbf8/5296f91b8073/40211409990-c1/40211409990-c1.jpg?ts=1776171039981",
-   "https://static.zarahome.net/assets/public/29e5/0f62/45ef4f56867e/3414e63c98cd/40211409990-f/40211409990-f.jpg?ts=1776698348438",
-   "https://static.zarahome.net/assets/public/0914/4f2a/f57f461abe05/7e4583ab34e2/40211409990-r/40211409990-r.jpg?ts=1775745399767"
-  ]
- },
- {
-  "product_id": 507787535,
-  "color_id": "526",
-  "ref": "7604/052",
-  "name": "ДЕТСКАЯ МЯГКАЯ ИГРУШКА-ПОГРЕМУШКА «ЛЯГУШОНОК»",
-  "section": "ДЕТИ И МЛАДЕНЦЫ",
-  "family": "ДЕТСКИЕ АКСЕССУАРЫ",
-  "subfamily": "RATTLES",
-  "color": "ЗЕЛЕНЫЙ",
-  "price_kzt": 9990.0,
-  "price_old_kzt": null,
-  "price_rub": 2390,
-  "price_old_rub": null,
-  "sizes": [
-   "15 x 6 x 2.5 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/0443/02c2/61e342069dd4/6430e27084de/47604052526-a7/47604052526-a7.jpg?ts=1782745172326",
-  "images": [
-   "https://static.zarahome.net/assets/public/0443/02c2/61e342069dd4/6430e27084de/47604052526-a7/47604052526-a7.jpg?ts=1782745172326",
-   "https://static.zarahome.net/assets/public/6f0a/17b7/7c054ca9bac6/ac779b8f49dc/47604052526-p1/47604052526-p1.jpg?ts=1779367727640",
-   "https://static.zarahome.net/assets/public/1562/c752/60d640ef9103/c98a5b096edd/47604052526-a1/47604052526-a1.jpg?ts=1779367727217",
-   "https://static.zarahome.net/assets/public/e24b/72ae/bbdd44638216/22029c0023ce/47604052526-a2/47604052526-a2.jpg?ts=1779367733549",
-   "https://static.zarahome.net/assets/public/d6e4/0326/0e924719b316/a158ed3bfa57/47604052526-a3/47604052526-a3.jpg?ts=1779367727410",
-   "https://static.zarahome.net/assets/public/d025/fabb/740e40b8b08b/909da35d5940/47604052526-r/47604052526-r.jpg?ts=1779367718317",
-   "https://static.zarahome.net/assets/public/9ebf/7977/bc03490891c0/0b1844dee38e/47604052526-x1/47604052526-x1.jpg?ts=1779367733648",
-   "https://static.zarahome.net/assets/public/8fc8/cd9f/df7a499d8087/5c999b1030d0/47604052526-c1/47604052526-c1.jpg?ts=1779367746107",
-   "https://static.zarahome.net/assets/public/9fb0/b598/64004f5cac6a/44a647b21dc6/47604052526-f/47604052526-f.jpg?ts=1782745634746"
-  ]
- },
- {
-  "product_id": 507784174,
-  "color_id": "712",
-  "ref": "1623/004",
-  "name": "ДЕТСКИЙ ПЛЕД ИЗ ШИФОНА И УЗКОГО КРУЖЕВА",
-  "section": "ДЕТИ И МЛАДЕНЦЫ",
-  "family": "ДЕТСКИЕ АКСЕССУАРЫ",
-  "subfamily": "BLANKETS",
-  "color": "ЭКРЮ",
-  "price_kzt": 25990.0,
-  "price_old_kzt": null,
-  "price_rub": 6990,
-  "price_old_rub": null,
-  "sizes": [
-   "90 x 120 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/ccb4/f5f5/9b91455da311/546647024046/41623004712-a7/41623004712-a7.jpg?ts=1777537961763",
-  "images": [
-   "https://static.zarahome.net/assets/public/ccb4/f5f5/9b91455da311/546647024046/41623004712-a7/41623004712-a7.jpg?ts=1777537961763",
-   "https://static.zarahome.net/assets/public/6d5a/0d6a/bc674a079d8f/b6a1636dbf88/41623004712-p1/41623004712-p1.jpg?ts=1769159068146",
-   "https://static.zarahome.net/assets/public/d154/bdc9/1a7e4c4cb97b/bea93beaa0a7/41623004712-a1/41623004712-a1.jpg?ts=1769159067883",
-   "https://static.zarahome.net/assets/public/f653/1888/489945a480c6/4d39d4030a99/41623004712-a2/41623004712-a2.jpg?ts=1769159081660",
-   "https://static.zarahome.net/assets/public/9ea2/c626/b41b4a62930b/8c04fef7fddb/41623004712-a3/41623004712-a3.jpg?ts=1769159074513",
-   "https://static.zarahome.net/assets/public/1717/469a/41114b208d1f/7005aceb6ad3/41623004712-c/41623004712-c.jpg?ts=1769159072099",
-   "https://static.zarahome.net/assets/public/7c1a/4397/f2014053b9a8/795f7b430080/41623004712-f/41623004712-f.jpg?ts=1777538261808"
-  ]
- },
- {
-  "product_id": 507777228,
-  "color_id": "250",
-  "ref": "7611/052",
-  "name": "МЯГКАЯ ИГРУШКА «КРОЛИК»",
-  "section": "ДЕТИ И МЛАДЕНЦЫ",
-  "family": "ДЕТСКИЕ АКСЕССУАРЫ",
-  "subfamily": "RATTLES",
-  "color": "БЕЛЫЙ",
-  "price_kzt": 6590.0,
-  "price_old_kzt": null,
-  "price_rub": 1650,
-  "price_old_rub": null,
-  "sizes": [
-   "13 x 10 x 6 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/7184/f7a8/f8044937b1ac/452410fbb4ce/47611052250-a7/47611052250-a7.jpg?ts=1775743076624",
-  "images": [
-   "https://static.zarahome.net/assets/public/7184/f7a8/f8044937b1ac/452410fbb4ce/47611052250-a7/47611052250-a7.jpg?ts=1775743076624",
-   "https://static.zarahome.net/assets/public/e1f2/6a82/cf6e4f20a94d/1e7ab8dc7c5c/47611052250-p1/47611052250-p1.jpg?ts=1743784193941",
-   "https://static.zarahome.net/assets/public/6ce1/1ee9/67ce4be8a007/28d83d2c70bb/47611052250-a1/47611052250-a1.jpg?ts=1743784191409",
-   "https://static.zarahome.net/assets/public/d177/4bae/ad2142a1b703/30effc89fa3d/47611052250-a2/47611052250-a2.jpg?ts=1743784192841",
-   "https://static.zarahome.net/assets/public/b2cc/202d/e728426bb20f/6c6da8413a02/47611052250-a3/47611052250-a3.jpg?ts=1743784193694",
-   "https://static.zarahome.net/assets/public/ae18/4c14/1fbd4d85aab1/21f6ece55a8b/47611052250-a4/47611052250-a4.jpg?ts=1743784184179",
-   "https://static.zarahome.net/assets/public/50c5/4eac/48e44b66ac62/2e74c68c5e44/47611052250-f/47611052250-f.jpg?ts=1775751774303",
-   "https://static.zarahome.net/assets/public/912c/1da6/ef3642ca91db/b9e44c9245e4/4761105225001-f/4761105225001-f.jpg?ts=1739787018190",
-   "https://static.zarahome.net/assets/public/8354/eded/f8894290bbad/b4d45609ad91/4761105225001-a2/4761105225001-a2.jpg?ts=1744007391936",
-   "https://static.zarahome.net/assets/public/96ff/81cb/f3be48af90f2/87776f6517a7/4761105225001-a3/4761105225001-a3.jpg?ts=1744007391802"
-  ]
- },
- {
-  "product_id": 507774358,
-  "color_id": "712",
-  "ref": "4603/004",
-  "name": "ДЕТСКИЙ ХЛОПКОВЫЙ ПЛЕД POINTELLE",
-  "section": "ДЕТИ И МЛАДЕНЦЫ",
-  "family": "ДЕТСКИЕ АКСЕССУАРЫ",
-  "subfamily": "BLANKETS",
-  "color": "ЭКРЮ",
-  "price_kzt": 21990.0,
-  "price_old_kzt": null,
-  "price_rub": 5490,
-  "price_old_rub": null,
-  "sizes": [
-   "70 x 100 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/4c1b/34c6/0e434b178c94/5a28600c53c1/44603004712-a7/44603004712-a7.jpg?ts=1781864216295",
-  "images": [
-   "https://static.zarahome.net/assets/public/4c1b/34c6/0e434b178c94/5a28600c53c1/44603004712-a7/44603004712-a7.jpg?ts=1781864216295",
-   "https://static.zarahome.net/assets/public/40aa/dbc2/2a20434f995e/a58c4343ba49/44603004712-p1/44603004712-p1.jpg?ts=1781625159478",
-   "https://static.zarahome.net/assets/public/0840/abb6/a4634b859c77/40c160fc5ea1/44603004712-a1/44603004712-a1.jpg?ts=1781625159050",
-   "https://static.zarahome.net/assets/public/9662/204b/dd264d52bcc6/1b9546fde4a2/44603004712-a2/44603004712-a2.jpg?ts=1781625158856",
-   "https://static.zarahome.net/assets/public/bc34/6777/be8a4d83ba27/45648791caab/44603004712-a3/44603004712-a3.jpg?ts=1781625159058",
-   "https://static.zarahome.net/assets/public/5084/464d/746349ab8f1d/e48dc68f534a/44603004712-f/44603004712-f.jpg?ts=1781535834103",
-   "https://static.zarahome.net/assets/public/72aa/81be/d6084cc7a9fc/416442cbb48c/44603004712-r/44603004712-r.jpg?ts=1781625146275",
-   "https://static.zarahome.net/assets/public/50c6/2f9f/3e52416ab25a/a752229d4509/44603004712-c1/44603004712-c1.jpg?ts=1781625163590",
-   "https://static.zarahome.net/assets/public/a5a1/8d3d/de1d458ba9cc/a8d7b71eb7e2/44603004712-x1/44603004712-x1.jpg?ts=1781625159052",
-   "https://static.zarahome.net/assets/public/76ab/7893/c455485c9dcf/be9a1e04f2a6/4460300471201-a7/4460300471201-a7.jpg?ts=1781867347765"
+   "https://static.zarahome.net/assets/public/d88c/9071/b0404323b98d/5691b6d9da8b/40052900250-p1/40052900250-p1.jpg?ts=1782469545828"
   ]
  },
  {
