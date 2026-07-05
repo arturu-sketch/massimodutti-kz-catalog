@@ -1,36 +1,5 @@
 [
  {
-  "product_id": 509371571,
-  "color_id": "916",
-  "ref": "3511/013",
-  "name": "ПЛЯЖНОЕ ПОЛОТЕНЦЕ В ПОЛОСКУ",
-  "section": "ПЛЯЖ",
-  "family": "ПЛЯЖ",
-  "subfamily": "TOWELS",
-  "color": "ЗЕЛЕНЫЙ",
-  "price_kzt": 25990.0,
-  "price_old_kzt": null,
-  "price_rub": 6990,
-  "price_old_rub": null,
-  "sizes": [
-   "100 x 180 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/3436/5574/9a7e462a89d3/cbc257de0b3a/43511013916-a7/43511013916-a7.jpg?ts=1775050832735",
-  "images": [
-   "https://static.zarahome.net/assets/public/3436/5574/9a7e462a89d3/cbc257de0b3a/43511013916-a7/43511013916-a7.jpg?ts=1775050832735",
-   "https://static.zarahome.net/assets/public/59dd/b733/842d40f3b1b0/3bbadfb41e63/43511013916-p1/43511013916-p1.jpg?ts=1772099509475",
-   "https://static.zarahome.net/assets/public/4582/5d70/2bc34aedbd1d/3a954a20e389/43511013916-a1/43511013916-a1.jpg?ts=1772099510636",
-   "https://static.zarahome.net/assets/public/767e/23eb/c21345129dec/489580a98ec2/43511013916-a2/43511013916-a2.jpg?ts=1772099509064",
-   "https://static.zarahome.net/assets/public/2712/550e/17d2446c80aa/12f8bf82e826/43511013916-a3/43511013916-a3.jpg?ts=1772099511563",
-   "https://static.zarahome.net/assets/public/a6bf/c09c/5a0b436c8298/13b489092acf/43511013916-c/43511013916-c.jpg?ts=1772099516016",
-   "https://static.zarahome.net/assets/public/b48b/18a5/99204528a848/2735d39a6e4b/43511013916-r/43511013916-r.jpg?ts=1777360354412",
-   "https://static.zarahome.net/assets/public/8628/c233/a27a46b49213/fa708601160a/43511013916-b1/43511013916-b1.jpg?ts=1775658745850",
-   "https://static.zarahome.net/assets/public/6fac/14cb/676c44d79705/3e243f318cf0/43511013916-f/43511013916-f.jpg?ts=1775556618192",
-   "https://static.zarahome.net/assets/public/9e86/6322/abdc405c9c37/035a1157bfde/4351101391601-f/4351101391601-f.jpg?ts=1775731630091"
-  ]
- },
- {
   "product_id": 507782209,
   "color_id": "250",
   "ref": "9166/088",
@@ -1935,6 +1904,37 @@
   ]
  },
  {
+  "product_id": 507796371,
+  "color_id": "999",
+  "ref": "8614/210",
+  "name": "ДЕТСКАЯ ЧАШКА СОБАКА КЕРАМИКА",
+  "section": "ДЕТИ И МЛАДЕНЦЫ",
+  "family": "ДЕТИ И МЛАДЕНЦЫ",
+  "subfamily": "MUGS",
+  "color": "РАЗНОЦВЕТНЫЙ",
+  "price_kzt": 7990.0,
+  "price_old_kzt": null,
+  "price_rub": 1990,
+  "price_old_rub": null,
+  "sizes": [
+   "9.4 x 8 x 11 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/742e/f8be/bfa4419fb47d/84b00d392e56/48614210999-a7/48614210999-a7.jpg?ts=1778231962230",
+  "images": [
+   "https://static.zarahome.net/assets/public/742e/f8be/bfa4419fb47d/84b00d392e56/48614210999-a7/48614210999-a7.jpg?ts=1778231962230",
+   "https://static.zarahome.net/assets/public/b21c/7e6b/3dea4972ac90/f9bb0015fc83/48614210999-p1/48614210999-p1.jpg?ts=1778238184650",
+   "https://static.zarahome.net/assets/public/9040/7a50/7fa34f20989c/b4b34e45615d/48614210999-a3/48614210999-a3.jpg?ts=1778238184765",
+   "https://static.zarahome.net/assets/public/2dd9/121d/fa5a47d5bcee/44bb4d59f1c6/48614210999-a1/48614210999-a1.jpg?ts=1778238183479",
+   "https://static.zarahome.net/assets/public/79f5/a2bc/21184e1592a6/d47bb2711136/48614210999-a2/48614210999-a2.jpg?ts=1778238187259",
+   "https://static.zarahome.net/assets/public/b7ec/fbf7/b8c44119b2c9/e5ee0e73e2c8/48614210999-f/48614210999-f.jpg?ts=1778232302405",
+   "https://static.zarahome.net/assets/public/8a30/3fcd/ff0a4462b239/0eb5c44096c9/48614210999-r/48614210999-r.jpg?ts=1778238179882",
+   "https://static.zarahome.net/assets/public/e6d8/afa0/7dad4fa29c30/c2a921719bc5/48614210999-c1/48614210999-c1.jpg?ts=1778238204913",
+   "https://static.zarahome.net/assets/public/0e23/e882/c750498da6a4/f9f289953155/4861421099901-a7/4861421099901-a7.jpg?ts=1779982168480",
+   "https://static.zarahome.net/assets/public/dac3/584c/3c1a4e68a245/b94651dfb85d/4861421099901-f/4861421099901-f.jpg?ts=1779982193368"
+  ]
+ },
+ {
   "product_id": 507771236,
   "color_id": "251",
   "ref": "5637/029",
@@ -2605,6 +2605,37 @@
   ]
  },
  {
+  "product_id": 507784241,
+  "color_id": "733",
+  "ref": "7282/592",
+  "name": "АБАЖУР ИЗО ЛЬНА ДЛЯ ПОТОЛОЧНОЙ ЛАМПЫ",
+  "section": "ДЕКОР",
+  "family": "ЛАМПЫ И СВЕТИЛЬНИКИ",
+  "subfamily": "LAMP SHADES",
+  "color": "КРЕМОВЫЙ",
+  "price_kzt": 25990.0,
+  "price_old_kzt": null,
+  "price_rub": 6990,
+  "price_old_rub": null,
+  "sizes": [
+   "26 x 35 x 35 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/efcb/2da0/1f5e42f08a91/c7d15a62ea75/48284047733-a7/48284047733-a7.jpg?ts=1749475790929",
+  "images": [
+   "https://static.zarahome.net/assets/public/efcb/2da0/1f5e42f08a91/c7d15a62ea75/48284047733-a7/48284047733-a7.jpg?ts=1749475790929",
+   "https://static.zarahome.net/assets/public/e680/5d4f/ce454555a6ff/f61b51634c65/48284047733-p1/48284047733-p1.jpg?ts=1720703736080",
+   "https://static.zarahome.net/assets/public/0aa6/4145/50634d8aafd9/b5b73a54f632/48284047733-a1/48284047733-a1.jpg?ts=1720703738454",
+   "https://static.zarahome.net/assets/public/59b6/ecb4/f0f54ca3be91/edbb7be5545f/48284047733-a2/48284047733-a2.jpg?ts=1720703742364",
+   "https://static.zarahome.net/assets/public/8e4a/69b6/c68f4eb79e32/abbd0ddc3e2b/48284047733-a3/48284047733-a3.jpg?ts=1720703743381",
+   "https://static.zarahome.net/assets/public/9dc7/6c45/c4b44d91a452/a7c5e90eb630/48284047733-a4/48284047733-a4.jpg?ts=1720703744292",
+   "https://static.zarahome.net/assets/public/e487/9ee8/084f4a388771/7ba3178025e8/47282592733-d1/47282592733-d1.jpg?ts=1751618994556",
+   "https://static.zarahome.net/assets/public/106d/c81d/09934e829fb5/b445b6e151aa/48284047733-h/48284047733-h.jpg?ts=1739961098012",
+   "https://static.zarahome.net/assets/public/fdf1/ccd6/f7fc42f79a14/cdb87d652b6b/48284047733-f/48284047733-f.jpg?ts=1749475790806",
+   "https://static.zarahome.net/assets/public/acfa/3cb8/b4904c71a571/abb6fe5b5ea5/48284047733-r/48284047733-r.jpg?ts=1720703742180"
+  ]
+ },
+ {
   "product_id": 507783713,
   "color_id": "982",
   "ref": "2357/029",
@@ -3226,6 +3257,37 @@
   ]
  },
  {
+  "product_id": 515839101,
+  "color_id": "802",
+  "ref": "3345/054",
+  "name": "КНИГА LOVE LUCIAN (АНГЛИЙСКИЙ)",
+  "section": "LIFESTYLE",
+  "family": "LIFESTYLE",
+  "subfamily": "BOOKS",
+  "color": "СЕРЫЙ",
+  "price_kzt": 65990.0,
+  "price_old_kzt": null,
+  "price_rub": 16530,
+  "price_old_rub": null,
+  "sizes": [
+   "32 x 22 x 4 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/670a/58df/1a1a4ea58130/ba72b3dc5298/43345054802-a7/43345054802-a7.jpg?ts=1769501691087",
+  "images": [
+   "https://static.zarahome.net/assets/public/670a/58df/1a1a4ea58130/ba72b3dc5298/43345054802-a7/43345054802-a7.jpg?ts=1769501691087",
+   "https://static.zarahome.net/assets/public/0d15/f34a/c83841eea974/abebb7cd81bd/43345054802-p1/43345054802-p1.jpg?ts=1758805271429",
+   "https://static.zarahome.net/assets/public/ba92/b69b/75db4c17bf3e/48bdf46d3daa/43345054802-a1/43345054802-a1.jpg?ts=1758805271130",
+   "https://static.zarahome.net/assets/public/1b59/a888/10224f27aa8b/65801af506b8/43345054802-a2/43345054802-a2.jpg?ts=1758805273150",
+   "https://static.zarahome.net/assets/public/cd37/2748/77b943a49eab/91748942c9a2/43345054802-a3/43345054802-a3.jpg?ts=1758805277649",
+   "https://static.zarahome.net/assets/public/1c26/7657/d7fe4bf08b6c/e946855b1c23/43345054802-f/43345054802-f.jpg?ts=1769501689062",
+   "https://static.zarahome.net/assets/public/c320/598a/9c084b6ab048/1dac84a60ab0/43345054802-r/43345054802-r.jpg?ts=1758805271556",
+   "https://static.zarahome.net/assets/public/1814/adf7/3a9f4818ae86/efd3f03ed2f4/43345054802-c/43345054802-c.jpg?ts=1758805272326",
+   "https://static.zarahome.net/assets/public/3e23/ee53/e4d8480aa92f/094dc2a607e4/43345054802-f/43345054802-f.jpg?ts=1767786371903",
+   "https://static.zarahome.net/assets/public/ed8b/1379/960c4307a28d/161bafb898fe/43345054802-a7/43345054802-a7.jpg?ts=1767783577447"
+  ]
+ },
+ {
   "product_id": 515839285,
   "color_id": "621",
   "ref": "3359/054",
@@ -3533,6 +3595,37 @@
   ]
  },
  {
+  "product_id": 515836370,
+  "color_id": "052",
+  "ref": "9368/054",
+  "name": "КНИГА ROSE UNIACKE AT HOME (АНГЛИЙСКИЙ)",
+  "section": "LIFESTYLE",
+  "family": "LIFESTYLE",
+  "subfamily": "BOOKS",
+  "color": "СВЕТЛО-БЕЖЕВЫЙ",
+  "price_kzt": 149990.0,
+  "price_old_kzt": null,
+  "price_rub": 37490,
+  "price_old_rub": null,
+  "sizes": [
+   "38 x 28 x 4.5 cm"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/0a57/aa26/7e73434da574/c739f4cccba6/49368054052-a7/49368054052-a7.jpg?ts=1767783611224",
+  "images": [
+   "https://static.zarahome.net/assets/public/0a57/aa26/7e73434da574/c739f4cccba6/49368054052-a7/49368054052-a7.jpg?ts=1767783611224",
+   "https://static.zarahome.net/assets/public/c994/ca85/dda34fe28eba/cd2011d68810/49368054052-p1/49368054052-p1.jpg?ts=1735569143311",
+   "https://static.zarahome.net/assets/public/daf1/9df6/7f164b8d970b/ab098a347b99/49368054052-a1/49368054052-a1.jpg?ts=1735569142689",
+   "https://static.zarahome.net/assets/public/51e4/ed25/0d2b432fa5db/25d29cdc8c76/49368054052-a2/49368054052-a2.jpg?ts=1735568762131",
+   "https://static.zarahome.net/assets/public/a124/3092/02654c7883a2/c88845d95643/49368054052-a3/49368054052-a3.jpg?ts=1735568791300",
+   "https://static.zarahome.net/assets/public/da0d/c444/017342808afe/8235b5e317f6/49368054052-a4/49368054052-a4.jpg?ts=1735568767925",
+   "https://static.zarahome.net/assets/public/fe10/9046/0278464c8e96/3f08a3886523/49368054052-a5/49368054052-a5.jpg?ts=1735568821710",
+   "https://static.zarahome.net/assets/public/3d47/cab9/ef924c209fc8/219300651249/49368054052-a4/49368054052-a4.jpg?ts=1735568820609",
+   "https://static.zarahome.net/assets/public/6bd9/8797/dca64f0bb238/ea4e9820ad97/49368054052-a2/49368054052-a2.jpg?ts=1735568818660",
+   "https://static.zarahome.net/assets/public/d8d8/229a/eda440b59fc4/fd981ce70f32/49368054052-f/49368054052-f.jpg?ts=1767783612568"
+  ]
+ },
+ {
   "product_id": 515840047,
   "color_id": "999",
   "ref": "8345/054",
@@ -3765,44 +3858,6 @@
   ]
  },
  {
-  "product_id": 507790969,
-  "color_id": "040",
-  "ref": "1311/700",
-  "name": "ПРОЗРАЧНЫЕ САНДАЛИИ В МИНИМАЛИСТСКОМ СТИЛЕ",
-  "section": "ОДЕЖДА И ОБУВЬ",
-  "family": "Женщины",
-  "subfamily": "",
-  "color": "ЧЕРНЫЙ",
-  "price_kzt": 21990.0,
-  "price_old_kzt": null,
-  "price_rub": 5490,
-  "price_old_rub": null,
-  "sizes": [
-   "35",
-   "36",
-   "37",
-   "38",
-   "39",
-   "40",
-   "41",
-   "42"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/1388/e9c5/7d6c41aab054/b665bd99b397/11311700040-a7/11311700040-a7.jpg?ts=1782122976903",
-  "images": [
-   "https://static.zarahome.net/assets/public/1388/e9c5/7d6c41aab054/b665bd99b397/11311700040-a7/11311700040-a7.jpg?ts=1782122976903",
-   "https://static.zarahome.net/assets/public/37bd/0e9f/b7734254813a/00406c3db664/11311700040-p1/11311700040-p1.jpg?ts=1770381364730",
-   "https://static.zarahome.net/assets/public/d6fe/a80e/bee34bddb670/e6000be7b34a/11311700040-a1/11311700040-a1.jpg?ts=1770381366641",
-   "https://static.zarahome.net/assets/public/2c30/32bd/c439491ca2fa/cc688e1f879f/11311700040-a2/11311700040-a2.jpg?ts=1770381368856",
-   "https://static.zarahome.net/assets/public/1172/c8dd/a6354b378a2e/a6ecab875a70/11311700040-a3/11311700040-a3.jpg?ts=1770381366318",
-   "https://static.zarahome.net/assets/public/9020/5f18/0a0b49e79af9/ed06e5b4639e/11311700040-a4/11311700040-a4.jpg?ts=1770381370586",
-   "https://static.zarahome.net/assets/public/7611/85a5/583a4278b389/5cc584122f88/11311700040-c/11311700040-c.jpg?ts=1770381379955",
-   "https://static.zarahome.net/assets/public/93bc/26fb/1783467f903a/65e747aff33b/11311700040-h/11311700040-h.jpg?ts=1774967996606",
-   "https://static.zarahome.net/assets/public/0f11/611c/62fd43569393/2c144b47288d/11311700040-r/11311700040-r.jpg?ts=1770381364470",
-   "https://static.zarahome.net/assets/public/6a50/f6b3/2e4b45eb8335/40869a7f948c/11311700040-f/11311700040-f.jpg?ts=1782122973706"
-  ]
- },
- {
   "product_id": 507778196,
   "color_id": "100",
   "ref": "1309/800",
@@ -3943,6 +3998,41 @@
    "https://static.zarahome.net/assets/public/3841/b980/4f5b4a4c92be/56c13b4cce3d/11308700040-r/11308700040-r.jpg?ts=1770119776034",
    "https://static.zarahome.net/assets/public/9fb6/932f/982143cbb10c/ea3473fd2a29/11308700040-c/11308700040-c.jpg?ts=1770119778880",
    "https://static.zarahome.net/assets/public/c650/5583/aad24e93a17f/b88a62071065/11308700040-f/11308700040-f.jpg?ts=1782136180201"
+  ]
+ },
+ {
+  "product_id": 507778061,
+  "color_id": "030",
+  "ref": "1210/700",
+  "name": "КОЖАНЫЕ САБО В МИНИМАЛИСТСКОМ СТИЛЕ",
+  "section": "ОДЕЖДА И ОБУВЬ",
+  "family": "Женщины",
+  "subfamily": "",
+  "color": "ЗЕЛЕНЫЙ",
+  "price_kzt": 31990.0,
+  "price_old_kzt": null,
+  "price_rub": 8040,
+  "price_old_rub": null,
+  "sizes": [
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41"
+  ],
+  "in_stock": true,
+  "image": "https://static.zarahome.net/assets/public/e467/07db/3a2c46c4bbe1/91804c9b2359/11210700030-a7/11210700030-a7.jpg?ts=1782124442163",
+  "images": [
+   "https://static.zarahome.net/assets/public/e467/07db/3a2c46c4bbe1/91804c9b2359/11210700030-a7/11210700030-a7.jpg?ts=1782124442163",
+   "https://static.zarahome.net/assets/public/a346/df07/94a24f0e8c9e/a4f5db069695/11210700030-p1/11210700030-p1.jpg?ts=1774367949140",
+   "https://static.zarahome.net/assets/public/8c6c/1a99/26b7476c81ad/0623bc710dc9/11210700030-a1/11210700030-a1.jpg?ts=1774367941590",
+   "https://static.zarahome.net/assets/public/ff6a/8424/c41b402e82fb/19c1640faa5f/11210700030-a2/11210700030-a2.jpg?ts=1774367949871",
+   "https://static.zarahome.net/assets/public/b618/75f5/e0384127b0d9/39188c5719de/11210700030-a3/11210700030-a3.jpg?ts=1774367941845",
+   "https://static.zarahome.net/assets/public/3963/dc55/3f8c445d9f33/db3e2bb8af24/11210700030-a4/11210700030-a4.jpg?ts=1774367949051",
+   "https://static.zarahome.net/assets/public/97a2/d848/a74c42999e7c/0834b23f4b39/11210700030-r1/11210700030-r1.jpg?ts=1774367936589",
+   "https://static.zarahome.net/assets/public/ceba/ed02/a469464a8036/a38e174691e8/11210700030-c1/11210700030-c1.jpg?ts=1774367937716",
+   "https://static.zarahome.net/assets/public/96ec/c42a/2e27400092c1/6699c672d784/11210700030-f/11210700030-f.jpg?ts=1782144421595"
   ]
  },
  {
@@ -4442,37 +4532,6 @@
    "https://static.zarahome.net/assets/public/f23e/d091/22504775bb76/09ec85102b23/45622538606-c/45622538606-c.jpg?ts=1769423128411",
    "https://static.zarahome.net/assets/public/7ddb/d855/f4ee4dc6999d/9005b6fcb746/45622538606-r/45622538606-r.jpg?ts=1769423103300",
    "https://static.zarahome.net/assets/public/767b/fce1/9f2d43b1a2db/b7031c6b1938/4562253860601-a7/4562253860601-a7.jpg?ts=1777537590590"
-  ]
- },
- {
-  "product_id": 517005818,
-  "color_id": "999",
-  "ref": "8614/027",
-  "name": "ДЕТСКИЕ ПЛЯЖНЫЕ ОЧКИ ДЛЯ ДАЙВИНГА «ЗВЕЗДА»",
-  "section": "ДЕТИ И МЛАДЕНЦЫ",
-  "family": "ПЛЯЖ",
-  "subfamily": "TEXTILE STORAGE",
-  "color": "РАЗНОЦВЕТНЫЙ",
-  "price_kzt": 7990.0,
-  "price_old_kzt": null,
-  "price_rub": 1990,
-  "price_old_rub": null,
-  "sizes": [
-   "30 x 80 cm"
-  ],
-  "in_stock": true,
-  "image": "https://static.zarahome.net/assets/public/88e5/f13b/97a0409e8643/dc63259a5200/48614027999-a7/48614027999-a7.jpg?ts=1776941127508",
-  "images": [
-   "https://static.zarahome.net/assets/public/88e5/f13b/97a0409e8643/dc63259a5200/48614027999-a7/48614027999-a7.jpg?ts=1776941127508",
-   "https://static.zarahome.net/assets/public/a8ec/539d/2e284cc280c4/7ad302b30d4b/48614027999-p1/48614027999-p1.jpg?ts=1769176550875",
-   "https://static.zarahome.net/assets/public/dfe3/fff8/91964e73a6c3/cd9783d1d5ff/48614027999-a1/48614027999-a1.jpg?ts=1769176547225",
-   "https://static.zarahome.net/assets/public/414a/7d86/e50747c89f6f/effd63b8519f/48614027999-a2/48614027999-a2.jpg?ts=1769176550299",
-   "https://static.zarahome.net/assets/public/53fe/4591/5cf64ab3aa0f/ba0f07cb6bf1/48614027999-a3/48614027999-a3.jpg?ts=1769176551397",
-   "https://static.zarahome.net/assets/public/0b78/e063/057248a39b38/1741ceed5636/48614027999-f/48614027999-f.jpg?ts=1776941132226",
-   "https://static.zarahome.net/assets/public/2236/54c5/d95249569531/8b7bc24ce9a1/48614027999-c/48614027999-c.jpg?ts=1769176552669",
-   "https://static.zarahome.net/assets/public/aa19/def2/02664e8c953e/fac2cf00090e/48614027999-r/48614027999-r.jpg?ts=1769176546225",
-   "https://static.zarahome.net/assets/public/2cbf/18e0/d47f42068a74/480b9c5840b3/4861402799901-f/4861402799901-f.jpg?ts=1777018708040",
-   "https://static.zarahome.net/assets/public/25c0/c06b/cdaf4ffdb041/af474e2bf687/4861402799901-a7/4861402799901-a7.jpg?ts=1777018735782"
   ]
  },
  {
